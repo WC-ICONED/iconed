@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Football Icons</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,400;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="album">
+    <div class="spine">
+      <a class="spine-top" id="spineTitle" href="#">ICONED</a>
+      <div class="spine-rules"><span></span><span></span><span></span></div>
+      <span class="spine-bottom">VOL · MMXXVI</span>
+    </div>
+    <div class="album-content">
+      <!-- DEBUG spacer: accounts for fixed debug bar — remove before going live -->
+      <div style="height:32px;" id="debugSpacer"></div>
+      <header class="album-header">
+        <div class="wordmark">
+          <a class="wordmark-title" id="wordmarkLink" href="#">FOOTBALL ICONS</a>
+          <span class="wordmark-page" id="pageLabel">PAGE 1</span>
+        </div>
+        <nav class="album-nav">
+          <button class="nav-link" id="rulesToggle" type="button">Rules</button>
+          <button class="nav-link" id="archiveToggle" type="button">Archive</button>
+          <button class="nav-link" id="statsToggle" type="button">Stats</button>
+        </nav>
+      </header>
+
+      <div class="page-title" id="pageTitleBlock">
+        <span class="kicker gold" id="pageKicker">Page 1 · matchday №1</span>
+        <h1>Guess the iconic<br>footballer from<br>the World Cup.</h1>
+        <p class="page-desc">Three clues are on the page. Each wrong guess reveals a new clue.</p>
+      </div>
+
+      <div class="archive-banner hidden" id="archiveBanner">
+        <span id="archiveBannerText">Archive · Page 1</span>
+        <button id="backToToday" type="button">← Back to today</button>
+      </div>
+
+      <div class="sticker-grid" id="stickerGrid">
+        <div class="sticker" id="sticker-year" style="--tilt:-1.4deg">
+          <span class="sticker-notch"></span>
+          <span class="sticker-tape"></span>
+          <span class="label label-year">World Cup</span>
+          <span class="sticker-value big" id="clueYear">—</span>
+          <span class="sticker-locked-text"></span>
+        </div>
+        <div class="sticker" id="sticker-nation" style="--tilt:1.2deg">
+          <span class="sticker-notch"></span>
+          <span class="sticker-tape"></span>
+          <span class="label">Nation</span>
+          <span class="sticker-value" id="clueNationality">—</span>
+          <span class="sticker-locked-text"></span>
+        </div>
+        <div class="sticker" id="sticker-club" style="--tilt:-0.6deg">
+          <span class="sticker-notch"></span>
+          <span class="sticker-tape"></span>
+          <span class="label">Played for</span>
+          <span class="sticker-value" id="clueClub">—</span>
+          <span class="sticker-locked-text"></span>
+        </div>
+        <div class="sticker locked" id="sticker-age" style="--tilt:0.8deg">
+          <span class="sticker-notch"></span>
+          <span class="sticker-tape"></span>
+          <span class="label">Age</span>
+          <span class="sticker-value" id="clueAge">—</span>
+          <span class="sticker-locked-text">unlocks · miss 1</span>
+        </div>
+        <div class="sticker locked" id="sticker-position" style="--tilt:-1.0deg">
+          <span class="sticker-notch"></span>
+          <span class="sticker-tape"></span>
+          <span class="label">Position</span>
+          <span class="sticker-value" id="cluePosition">—</span>
+          <span class="sticker-locked-text">unlocks · miss 2</span>
+        </div>
+        <div class="sticker locked" id="sticker-shirt" style="--tilt:0.4deg">
+          <span class="sticker-notch"></span>
+          <span class="sticker-tape"></span>
+          <span class="label">Shirt no.</span>
+          <span class="sticker-value" id="clueShirt">—</span>
+          <span class="sticker-locked-text">unlocks · miss 3</span>
+        </div>
+        <div class="photo-slot locked" id="photoSlot">
+          <div class="photo-slot-placeholder" id="photoPlaceholder">
+            <span class="label">Photograph · sticker missing</span>
+            <span class="photo-slot-sub">reveals · miss 4</span>
+          </div>
+          <img id="player-image" class="photo-slot-image" alt="Player photo" />
+          <span class="photo-corner tl"></span>
+          <span class="photo-corner tr"></span>
+          <span class="photo-corner bl"></span>
+          <span class="photo-corner br"></span>
+        </div>
+      </div>
+
+      <div class="submit-dock" id="guessArea">
+        <div class="autocomplete-wrap">
+          <input type="text" id="guessInput" placeholder="type a name…" autocomplete="off" spellcheck="false" />
+          <ul class="suggestions" id="suggestions"></ul>
+        </div>
+        <button id="guessButton" type="button">STICK IT</button>
+      </div>
+
+      <div class="guess-log" id="guessLogCard">
+        <div class="guess-log-header">
+          <span class="label">Guess log</span>
+          <span class="label guess-counter" id="guessCount">0 used · 5 left</span>
+        </div>
+        <div id="guessList"></div>
+      </div>
+
+      <section class="result hidden" id="result">
+        <div class="result-header">
+          <div>
+            <span class="kicker gold" id="resultKicker">Page complete</span>
+            <h1 id="resultTitle">Sticker<br>collected.</h1>
+          </div>
+          <div class="stamp stamp-win" id="solvedStamp">SOLVED · 3/5</div>
+        </div>
+        <div class="player-card">
+          <span class="sticker-tape tape-wide"></span>
+          <div class="player-card-grid">
+            <div class="player-portrait">
+              <span class="portrait-number" id="portraitNumber"></span>
+              <span class="portrait-meta" id="portraitMeta"></span>
+              <img id="playerImageResult" alt="Player photo" />
+              <span class="portrait-placeholder">WIKI<br>PORTRAIT</span>
+              <span class="foil-shimmer"></span>
+            </div>
+            <div class="player-info">
+              <span class="kicker gold" id="stickerNumber">Sticker N° 1</span>
+              <h2 id="playerName">PLAYER</h2>
+              <div class="player-tags" id="playerTags"></div>
+            </div>
+          </div>
+        </div>
+        <div class="match-log-section">
+          <span class="label">Match log</span>
+          <div class="match-log" id="matchLogCells"></div>
+          <div class="result-guesses" id="resultGuesses"></div>
+        </div>
+        <pre class="share-preview" id="shareText"></pre>
+        <div class="result-ctas">
+          <button class="cta-primary" id="shareButton" type="button">SHARE PAGE</button>
+          <button class="cta-secondary" id="archiveButton" type="button">OPEN ALBUM</button>
+        </div>
+      </section>
+
+      <!-- Stats Modal -->
+      <div class="modal-overlay hidden" id="statsModal">
+        <div class="modal">
+          <div class="modal-header">
+            <div>
+              <span class="kicker gold">Your collection</span>
+              <h2>Statistics</h2>
+            </div>
+            <button class="modal-close" id="statsClose" type="button">✕</button>
+          </div>
+          <div class="stat-boxes">
+            <div class="stat-box"><span class="stat-num" id="statPlayed">0</span><span class="stat-label-text">Played</span></div>
+            <div class="stat-box"><span class="stat-num" id="statWon">0</span><span class="stat-label-text">Won</span></div>
+            <div class="stat-box"><span class="stat-num" id="statPct">0</span><span class="stat-label-text">Win %</span></div>
+            <div class="stat-box"><span class="stat-num" id="statStreak">0</span><span class="stat-label-text">Streak</span></div>
+            <div class="stat-box"><span class="stat-num" id="statMax">0</span><span class="stat-label-text">Max</span></div>
+          </div>
+          <span class="label">Guess Distribution</span>
+          <div class="dist-chart" id="distChart"></div>
+          <div class="modal-actions">
+            <button class="reset-btn" id="resetStats" type="button">Reset stats</button>
+            <button class="transfer-btn" id="transferToggle" type="button">Transfer Stats</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Transfer Modal -->
+      <div class="modal-overlay hidden" id="transferModal">
+        <div class="modal">
+          <div class="modal-header">
+            <div>
+              <span class="kicker gold">Device sync</span>
+              <h2>Move your album.</h2>
+            </div>
+            <button class="modal-close" id="transferClose" type="button">✕</button>
+          </div>
+          <div class="transfer-section">
+            <span class="label">Export</span>
+            <p class="transfer-hint">Copy this code and paste it on your other device.</p>
+            <div class="transfer-code-wrap">
+              <textarea class="transfer-code" id="exportCode" readonly></textarea>
+              <button class="cta-primary" id="copyExportCode" type="button">COPY CODE</button>
+            </div>
+          </div>
+          <div class="transfer-section">
+            <span class="label">Import</span>
+            <p class="transfer-hint">Paste a transfer code to import stats.</p>
+            <div class="transfer-code-wrap">
+              <textarea class="transfer-code" id="importCode" placeholder="Paste transfer code here…"></textarea>
+              <button class="cta-secondary" id="importStatsBtn" type="button">IMPORT</button>
+            </div>
+            <p class="transfer-msg hidden" id="transferMsg"></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rules Modal -->
+      <div class="modal-overlay hidden" id="rulesModal">
+        <div class="modal">
+          <div class="modal-header">
+            <div>
+              <span class="kicker gold">How to play</span>
+              <h2>Rules</h2>
+            </div>
+            <button class="modal-close" id="rulesClose" type="button">✕</button>
+          </div>
+          <div class="rules-body">
+            <p>Guess the mystery football player in <strong>5 tries</strong>.</p>
+            <p>Every day a new player sticker is missing from the album. Three clues are revealed from the start:</p>
+            <ul>
+              <li><strong>World Cup</strong> — the tournament they played in</li>
+              <li><strong>Nation</strong> — the country they represented</li>
+              <li><strong>Played for</strong> — a club from their career</li>
+            </ul>
+            <p>Each wrong guess peels back another corner, revealing extra clues in order:</p>
+            <ul>
+              <li>Miss 1 — <strong>Age</strong> during that World Cup</li>
+              <li>Miss 2 — <strong>Position</strong></li>
+              <li>Miss 3 — <strong>Shirt number</strong></li>
+              <li>Miss 4 — <strong>Photograph</strong></li>
+            </ul>
+            <p>Guess correctly to collect the sticker. A new page opens every day at midnight.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Archive Modal -->
+      <div class="modal-overlay hidden" id="archiveModal">
+        <div class="modal modal-archive">
+          <div class="modal-header">
+            <div>
+              <span class="kicker gold">Past pages</span>
+              <h2>Album Archive</h2>
+            </div>
+            <button class="modal-close" id="archiveClose" type="button">✕</button>
+          </div>
+          <div class="archive-list" id="archiveList"></div>
+        </div>
+      </div>
+
+      <aside class="ad-slot" id="adBottom"></aside>
+    </div>
+  </div>
+
+  <!-- DEBUG: date override — remove before going live -->
+  <div id="debugBar" style="position:fixed;top:0;left:0;right:0;z-index:9999;background:#181410;color:#f6f1e6;display:flex;align-items:center;gap:8px;padding:4px 12px;font:12px 'JetBrains Mono',monospace;">
+    <span style="opacity:.5">DEBUG</span>
+    <input type="date" id="debugDate" style="background:#2a2520;color:#f6f1e6;border:1px solid #444;border-radius:3px;padding:2px 6px;font:inherit;">
+    <button id="debugGo" style="background:#c8a14a;color:#181410;border:none;border-radius:3px;padding:3px 10px;font:inherit;font-weight:700;cursor:pointer;">GO</button>
+    <button id="debugReset" style="background:transparent;color:#c8412e;border:1px solid #c8412e;border-radius:3px;padding:3px 10px;font:inherit;cursor:pointer;">RESET</button>
+    <span id="debugInfo" style="opacity:.5;margin-left:auto;"></span>
+  </div>
+  <!-- /DEBUG -->
+
+  <script src="data.js"></script>
+  <script src="schedule.js"></script>
+  <script src="stats.js"></script>
+
+  <!-- DEBUG: date override — must run after stats.js but before app.js -->
+  <script>
+  (() => {
+    const LAUNCH = new Date("2026-05-09T00:00:00");
+    const origTodayNumber = Stats.todayNumber.bind(Stats);
+
+    // Restore override from sessionStorage so it survives reload
+    const stored = sessionStorage.getItem("debug-day");
+    let overrideDay = stored !== null ? Number(stored) : null;
+
+    Stats.todayNumber = function() {
+      return overrideDay !== null ? overrideDay : origTodayNumber();
+    };
+
+    const dateInput = document.getElementById("debugDate");
+    const info = document.getElementById("debugInfo");
+
+    function updateInfo() {
+      const day = Stats.todayNumber();
+      info.textContent = `day ${day} · page ${day + 1}`;
+    }
+
+    // If we have an override, set the date picker to match
+    if (overrideDay !== null) {
+      const d = new Date(LAUNCH);
+      d.setDate(d.getDate() + overrideDay);
+      dateInput.value = d.toISOString().split("T")[0];
+    } else {
+      dateInput.value = new Date().toISOString().split("T")[0];
+    }
+
+    document.getElementById("debugGo").addEventListener("click", () => {
+      const val = dateInput.value;
+      if (!val) return;
+      const picked = new Date(val + "T00:00:00");
+      const launch = new Date(LAUNCH);
+      launch.setHours(0,0,0,0);
+      picked.setHours(0,0,0,0);
+      overrideDay = Math.max(0, Math.floor((picked - launch) / 86400000));
+      sessionStorage.setItem("debug-day", overrideDay);
+      localStorage.removeItem("fi-day-state");
+      location.reload();
+    });
+
+    document.getElementById("debugReset").addEventListener("click", () => {
+      overrideDay = null;
+      sessionStorage.removeItem("debug-day");
+      localStorage.removeItem("fi-day-state");
+      location.reload();
+    });
+
+    updateInfo();
+  })();
+  </script>
+
+  <script src="app.js"></script>
+</body>
+</html>
