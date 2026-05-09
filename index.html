@@ -17,8 +17,6 @@
       <span class="spine-bottom">VOL · MMXXVI</span>
     </div>
     <div class="album-content">
-      <!-- DEBUG spacer: accounts for fixed debug bar — remove before going live -->
-      <div style="height:32px;" id="debugSpacer"></div>
       <header class="album-header">
         <div class="wordmark">
           <a class="wordmark-title" id="wordmarkLink" href="#">FOOTBALL ICONS</a>
@@ -255,75 +253,9 @@
     </div>
   </div>
 
-  <!-- DEBUG: date override — remove before going live -->
-  <div id="debugBar" style="position:fixed;top:0;left:0;right:0;z-index:9999;background:#181410;color:#f6f1e6;display:flex;align-items:center;gap:8px;padding:4px 12px;font:12px 'JetBrains Mono',monospace;">
-    <span style="opacity:.5">DEBUG</span>
-    <input type="date" id="debugDate" style="background:#2a2520;color:#f6f1e6;border:1px solid #444;border-radius:3px;padding:2px 6px;font:inherit;">
-    <button id="debugGo" style="background:#c8a14a;color:#181410;border:none;border-radius:3px;padding:3px 10px;font:inherit;font-weight:700;cursor:pointer;">GO</button>
-    <button id="debugReset" style="background:transparent;color:#c8412e;border:1px solid #c8412e;border-radius:3px;padding:3px 10px;font:inherit;cursor:pointer;">RESET</button>
-    <span id="debugInfo" style="opacity:.5;margin-left:auto;"></span>
-  </div>
-  <!-- /DEBUG -->
-
   <script src="data.js"></script>
   <script src="schedule.js"></script>
   <script src="stats.js"></script>
-
-  <!-- DEBUG: date override — must run after stats.js but before app.js -->
-  <script>
-  (() => {
-    const LAUNCH = new Date("2026-05-09T00:00:00");
-    const origTodayNumber = Stats.todayNumber.bind(Stats);
-
-    // Restore override from sessionStorage so it survives reload
-    const stored = sessionStorage.getItem("debug-day");
-    let overrideDay = stored !== null ? Number(stored) : null;
-
-    Stats.todayNumber = function() {
-      return overrideDay !== null ? overrideDay : origTodayNumber();
-    };
-
-    const dateInput = document.getElementById("debugDate");
-    const info = document.getElementById("debugInfo");
-
-    function updateInfo() {
-      const day = Stats.todayNumber();
-      info.textContent = `day ${day} · page ${day + 1}`;
-    }
-
-    // If we have an override, set the date picker to match
-    if (overrideDay !== null) {
-      const d = new Date(LAUNCH);
-      d.setDate(d.getDate() + overrideDay);
-      dateInput.value = d.toISOString().split("T")[0];
-    } else {
-      dateInput.value = new Date().toISOString().split("T")[0];
-    }
-
-    document.getElementById("debugGo").addEventListener("click", () => {
-      const val = dateInput.value;
-      if (!val) return;
-      const picked = new Date(val + "T00:00:00");
-      const launch = new Date(LAUNCH);
-      launch.setHours(0,0,0,0);
-      picked.setHours(0,0,0,0);
-      overrideDay = Math.max(0, Math.floor((picked - launch) / 86400000));
-      sessionStorage.setItem("debug-day", overrideDay);
-      localStorage.removeItem("fi-day-state");
-      location.reload();
-    });
-
-    document.getElementById("debugReset").addEventListener("click", () => {
-      overrideDay = null;
-      sessionStorage.removeItem("debug-day");
-      localStorage.removeItem("fi-day-state");
-      location.reload();
-    });
-
-    updateInfo();
-  })();
-  </script>
-
   <script src="app.js"></script>
 </body>
 </html>
