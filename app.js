@@ -326,7 +326,7 @@
       else if (g.correct) cells.push("✓");
       else cells.push("✕");
     }
-    return `Football·Icons №${puzzleNum} — ${puzzle.worldCupYear} 🏆 ${flag}\n⚽ ${cells.join(" ")}`;
+    return `Football·Icons №${puzzleNum} — ${puzzle.worldCupYear} 🏆 ${flag}\n⚽ ${cells.join(" ")}\nwww.ICONED.wtf`;
   }
 
   function renderSharePreview(puzzleNum) {
@@ -353,9 +353,13 @@
       if (i < MAX_GUESSES - 1) line2.appendChild(document.createTextNode(" "));
     }
 
+    const line3 = document.createElement("div");
+    line3.textContent = "www.ICONED.wtf";
+
     els.shareText.innerHTML = "";
     els.shareText.appendChild(line1);
     els.shareText.appendChild(line2);
+    els.shareText.appendChild(line3);
   }
 
   function renderMatchLog() {
