@@ -713,7 +713,7 @@
       }
     });
 
-    els.archiveButton.addEventListener("click", openAlbumView);
+    els.archiveButton.addEventListener("click", openAlbumComingSoon);
     els.albumBack.addEventListener("click", closeAlbumView);
     els.backToToday.addEventListener("click", goBackToToday);
 
@@ -934,6 +934,33 @@
       const data = await res.json();
       return data.thumbnail?.source || data.originalimage?.source || null;
     } catch { return null; }
+  }
+
+  function openAlbumComingSoon() {
+    els.pageTitleBlock.style.display = "none";
+    els.stickerGrid.style.display = "none";
+    els.guessArea.style.display = "none";
+    els.guessLogCard.style.display = "none";
+    els.result.classList.add("hidden");
+    els.albumView.classList.remove("hidden");
+
+    els.albumGrid.innerHTML = "";
+    els.albumPct.textContent = "";
+    els.albumFill.style.width = "0%";
+
+    const notice = document.createElement("div");
+    notice.className = "album-coming-soon";
+    notice.innerHTML = `<span class="album-coming-soon-icon">📖</span><h2>Album</h2><p>Coming soon</p>`;
+    els.albumGrid.appendChild(notice);
+    window.scrollTo({ top: 0 });
+  }
+
+  function closeAlbumView() {
+    els.albumView.classList.add("hidden");
+    archiveMode = false;
+    archiveDayNum = null;
+    imageFetched = false;
+    restoreOrStart();
   }
 
   function openAlbumView() {

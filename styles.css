@@ -1260,6 +1260,34 @@ body {
   color: var(--ink-soft);
 }
 
+.album-coming-soon {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  text-align: center;
+  background: var(--paper-card);
+  border: 2px dashed var(--page-edge);
+  border-radius: 6px;
+}
+.album-coming-soon-icon {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+.album-coming-soon h2 {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 22px;
+  color: var(--ink);
+}
+.album-coming-soon p {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 14px;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
 /* ─── Cookie Consent ─── */
 .consent-overlay {
   position: fixed;
