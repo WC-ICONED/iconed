@@ -478,15 +478,15 @@ body {
 }
 
 .autocomplete-wrap {
-  flex: 1;
+  flex: 1.2;
   position: relative;
 }
 
 #guessInput {
   width: 100%;
-  padding: 10px 12px;
-  background: var(--paper-card);
-  border: 1px solid var(--page-edge);
+  padding: 14px 12px;
+  background: rgba(31,107,58,.05);
+  border: 2px solid var(--spine);
   border-radius: 3px;
   font-family: "Archivo", system-ui, sans-serif;
   font-size: 14px;
@@ -503,7 +503,7 @@ body {
 }
 
 #guessButton {
-  padding: 11px 14px;
+  padding: 15px 14px;
   background: var(--spine);
   color: var(--spine-ink);
   font-family: "Archivo Black", system-ui, sans-serif;
@@ -1077,6 +1077,135 @@ body {
 
 /* ─── Utility ─── */
 .hidden { display: none !important; }
+
+/* ─── Cookie Consent ─── */
+.consent-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0,0,0,.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.consent-overlay.hidden { display: none !important; }
+
+.consent-card {
+  background: var(--page);
+  border-radius: 6px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 12px 40px rgba(0,0,0,.3);
+  overflow: hidden;
+}
+
+.consent-header {
+  padding: 22px 22px 14px;
+  border-bottom: 1px solid var(--page-edge);
+}
+.consent-header h2 {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 20px;
+  line-height: 1.25;
+  margin-top: 4px;
+}
+.consent-subtitle {
+  font-size: 14px;
+  color: var(--ink-soft);
+  margin-top: 6px;
+}
+
+.consent-body {
+  padding: 16px 22px;
+}
+.consent-body .label {
+  margin-bottom: 8px;
+}
+.consent-list {
+  list-style: disc;
+  padding-left: 18px;
+  margin: 8px 0 14px;
+  font-size: 13px;
+  color: var(--ink);
+  line-height: 1.5;
+}
+.consent-list li + li { margin-top: 4px; }
+
+.consent-faq {
+  margin: 10px 0;
+  font-size: 13px;
+}
+.consent-faq > summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--pitch);
+  font-size: 13px;
+}
+.consent-faq-inner {
+  margin-top: 8px;
+}
+.consent-faq-inner details {
+  border-top: 1px solid var(--page-edge);
+  padding: 8px 0;
+}
+.consent-faq-inner summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 12.5px;
+  color: var(--ink);
+}
+.consent-faq-inner p {
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin-top: 4px;
+  line-height: 1.5;
+}
+
+.consent-legal {
+  font-size: 11px;
+  color: var(--ink-soft);
+  line-height: 1.5;
+  margin-top: 12px;
+}
+
+.consent-actions {
+  display: flex;
+  gap: 8px;
+  padding: 14px 22px 20px;
+}
+
+/* ─── Footer / Cookie Settings ─── */
+.site-footer {
+  padding: 16px 22px;
+  text-align: center;
+}
+.cookie-settings-link {
+  background: none;
+  border: none;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 11px;
+  color: var(--ink-soft);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.cookie-settings-link:hover {
+  color: var(--ink);
+}
+.footer-contact {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 11px;
+  color: var(--ink-soft);
+  margin-top: 6px;
+}
+.footer-contact a {
+  color: var(--ink-soft);
+  text-underline-offset: 2px;
+}
+.footer-contact a:hover {
+  color: var(--ink);
+}
 
 /* ─── Animations ─── */
 @keyframes fadeIn {

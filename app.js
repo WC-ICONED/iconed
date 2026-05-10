@@ -920,7 +920,34 @@
     }
   }
 
+  function initConsent() {
+    const overlay = document.getElementById("consentOverlay");
+    const acceptBtn = document.getElementById("consentAccept");
+    const declineBtn = document.getElementById("consentDecline");
+    const settingsLink = document.getElementById("cookieSettingsLink");
+
+    const consent = localStorage.getItem("fi-consent");
+    if (consent) {
+      overlay.classList.add("hidden");
+    }
+
+    acceptBtn.addEventListener("click", () => {
+      localStorage.setItem("fi-consent", "accepted");
+      overlay.classList.add("hidden");
+    });
+
+    declineBtn.addEventListener("click", () => {
+      localStorage.setItem("fi-consent", "declined");
+      overlay.classList.add("hidden");
+    });
+
+    settingsLink.addEventListener("click", () => {
+      overlay.classList.remove("hidden");
+    });
+  }
+
   async function init() {
+    initConsent();
     if (Array.isArray(window.PUZZLES)) {
       puzzles = window.PUZZLES;
     } else {

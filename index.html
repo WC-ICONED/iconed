@@ -31,7 +31,7 @@
 
       <div class="page-title" id="pageTitleBlock">
         <span class="kicker gold" id="pageKicker">Page 1 · matchday №1</span>
-        <h1>Guess the iconic<br>footballer from<br>the World Cup.</h1>
+        <h1>Guess the iconic<br>player from<br>the World Cup.</h1>
         <p class="page-desc">Three clues are on the page. Each wrong guess reveals a new clue.</p>
       </div>
 
@@ -67,26 +67,26 @@
           <span class="sticker-tape"></span>
           <span class="label">Age</span>
           <span class="sticker-value" id="clueAge">—</span>
-          <span class="sticker-locked-text">unlocks · miss 1</span>
+          <span class="sticker-locked-text">Reveals after miss 1</span>
         </div>
         <div class="sticker locked" id="sticker-position" style="--tilt:-1.0deg">
           <span class="sticker-notch"></span>
           <span class="sticker-tape"></span>
           <span class="label">Position</span>
           <span class="sticker-value" id="cluePosition">—</span>
-          <span class="sticker-locked-text">unlocks · miss 2</span>
+          <span class="sticker-locked-text">Reveals after miss 2</span>
         </div>
         <div class="sticker locked" id="sticker-shirt" style="--tilt:0.4deg">
           <span class="sticker-notch"></span>
           <span class="sticker-tape"></span>
           <span class="label">Shirt no.</span>
           <span class="sticker-value" id="clueShirt">—</span>
-          <span class="sticker-locked-text">unlocks · miss 3</span>
+          <span class="sticker-locked-text">Reveals after miss 3</span>
         </div>
         <div class="photo-slot locked" id="photoSlot">
           <div class="photo-slot-placeholder" id="photoPlaceholder">
-            <span class="label">Photograph · sticker missing</span>
-            <span class="photo-slot-sub">reveals · miss 4</span>
+            <span class="label">Photograph · sticker</span>
+            <span class="photo-slot-sub">Reveals after miss 4</span>
           </div>
           <img id="player-image" class="photo-slot-image" alt="Player photo" />
           <span class="photo-corner tl"></span>
@@ -98,10 +98,10 @@
 
       <div class="submit-dock" id="guessArea">
         <div class="autocomplete-wrap">
-          <input type="text" id="guessInput" placeholder="type a name…" autocomplete="off" spellcheck="false" />
+          <input type="text" id="guessInput" placeholder="Type a name…" autocomplete="off" spellcheck="false" />
           <ul class="suggestions" id="suggestions"></ul>
         </div>
-        <button id="guessButton" type="button">STICK IT</button>
+        <button id="guessButton" type="button">SUBMIT!</button>
       </div>
 
       <div class="guess-log" id="guessLogCard">
@@ -144,7 +144,7 @@
         </div>
         <pre class="share-preview" id="shareText"></pre>
         <div class="result-ctas">
-          <button class="cta-primary" id="shareButton" type="button">SHARE PAGE</button>
+          <button class="cta-primary" id="shareButton" type="button">SHARE RESULT!</button>
           <button class="cta-secondary" id="archiveButton" type="button">OPEN ALBUM</button>
         </div>
       </section>
@@ -250,6 +250,54 @@
       </div>
 
       <aside class="ad-slot" id="adBottom"></aside>
+      <footer class="site-footer">
+        <button class="cookie-settings-link" id="cookieSettingsLink" type="button">Cookie Settings</button>
+        <p class="footer-contact">Feedback or comments? <a href="mailto:trier.boaster.2f@icloud.com">Contact us</a></p>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Cookie Consent -->
+  <div class="consent-overlay" id="consentOverlay">
+    <div class="consent-card">
+      <div class="consent-header">
+        <span class="kicker gold">ICONED.wtf asks:</span>
+        <h2>Do you want to keep<br>your stats and guesses?</h2>
+        <p class="consent-subtitle">We need your consent to do so!</p>
+      </div>
+      <div class="consent-body">
+        <span class="label">Your consent is used to:</span>
+        <ul class="consent-list">
+          <li>Store and/or access information on a device</li>
+          <li>Personalised advertising and content, advertising and content measurement, audience research and services development</li>
+        </ul>
+        <details class="consent-faq">
+          <summary>Learn more</summary>
+          <div class="consent-faq-inner">
+            <details>
+              <summary>How can I change my choice?</summary>
+              <p>You can change your consent choice at any time by clicking the "Cookie Settings" link at the bottom of the page.</p>
+            </details>
+            <details>
+              <summary>What if I don't consent?</summary>
+              <p>If you don't consent, your stats and game progress will not be saved between sessions. You can still play the game, but your data will be lost when you close the browser.</p>
+            </details>
+            <details>
+              <summary>How does legitimate interest work?</summary>
+              <p>Some vendors may process your personal data on the basis of legitimate interest, which you can object to by managing your options. Look for the Cookie Settings link at the bottom of this page to manage or withdraw consent.</p>
+            </details>
+            <details>
+              <summary>Do I have to consent to everything?</summary>
+              <p>No. You can choose to accept or decline. Declining means your game data will not be stored locally on your device.</p>
+            </details>
+          </div>
+        </details>
+        <p class="consent-legal">Your personal data will be processed and information from your device (cookies, unique identifiers and other device data) may be stored by, accessed by and shared with partners or used specifically by this site.</p>
+      </div>
+      <div class="consent-actions">
+        <button class="cta-primary" id="consentAccept" type="button">ACCEPT</button>
+        <button class="cta-secondary" id="consentDecline" type="button">DECLINE</button>
+      </div>
     </div>
   </div>
 
