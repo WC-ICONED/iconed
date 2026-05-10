@@ -110,18 +110,28 @@ body {
 
 .wordmark {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 8px;
   white-space: nowrap;
   min-width: 0;
 }
 .wordmark-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--spine);
+  padding: 6px 14px 6px 10px;
+  border-radius: 100px;
   font-family: "Archivo Black", system-ui, sans-serif;
-  font-size: 11px;
-  letter-spacing: .04em;
-  color: inherit;
+  font-size: 12px;
+  letter-spacing: .06em;
+  color: var(--spine-ink);
   text-decoration: none;
   cursor: pointer;
+}
+.logo-ball {
+  font-size: 13px;
+  line-height: 1;
 }
 .wordmark-page {
   font-family: "Archivo", system-ui, sans-serif;
