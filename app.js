@@ -664,6 +664,7 @@
         finished = !!saved.finished;
         saveState();
         resetStickerStates();
+        showGameUI();
         updatePageNumbers();
         renderCluesFromState();
         renderGuesses();
