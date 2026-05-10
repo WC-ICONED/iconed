@@ -64,7 +64,12 @@
     archiveBannerText: document.getElementById("archiveBannerText"),
     backToToday: document.getElementById("backToToday"),
     stickerGrid: document.getElementById("stickerGrid"),
-    resultGuesses: document.getElementById("resultGuesses")
+    resultGuesses: document.getElementById("resultGuesses"),
+    albumView: document.getElementById("albumView"),
+    albumGrid: document.getElementById("albumGrid"),
+    albumPct: document.getElementById("albumPct"),
+    albumFill: document.getElementById("albumFill"),
+    albumBack: document.getElementById("albumBack")
   };
 
   function normalize(s) {
@@ -645,6 +650,7 @@
     archiveDayNum = null;
     imageFetched = false;
     els.archiveBanner.classList.add("hidden");
+    els.albumView.classList.add("hidden");
     els.shareText.classList.remove("hidden");
     els.shareButton.classList.remove("hidden");
     resetStickerStates();
@@ -707,7 +713,8 @@
       }
     });
 
-    els.archiveButton.addEventListener("click", openArchiveModal);
+    els.archiveButton.addEventListener("click", openAlbumView);
+    els.albumBack.addEventListener("click", closeAlbumView);
     els.backToToday.addEventListener("click", goBackToToday);
 
     document.getElementById("spineTitle").addEventListener("click", (e) => { e.preventDefault(); goBackToToday(); });
@@ -915,6 +922,89 @@
       msg.textContent = "Invalid transfer code. Please check and try again.";
       msg.className = "transfer-msg error";
     }
+  }
+
+  const ALBUM_TOTAL = 150;
+
+  async function fetchAlbumThumb(p) {
+    const title = encodeURIComponent(p.wikipediaTitle || p.answer);
+    try {
+      const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${title}`);
+      if (!res.ok) return null;
+      const data = await res.json();
+      return data.thumbnail?.source || data.originalimage?.source || null;
+    } catch { return null; }
+  }
+
+  function openAlbumView() {
+    const today = Stats.todayNumber();
+    const order = window.PUZZLE_ORDER || [];
+    let collected = 0;
+    const maxDay = Math.min(today, ALBUM_TOTAL - 1);
+
+    els.albumGrid.innerHTML = "";
+
+    for (let d = 0; d < ALBUM_TOTAL; d++) {
+      const num = d + 1;
+      const slot = document.createElement("div");
+      slot.className = "album-slot";
+
+      if (d > today) {
+        slot.classList.add("upcoming");
+        slot.innerHTML = `<span class="album-slot-q">?</span><span class="album-slot-upcoming-day">№${num}</span>`;
+      } else {
+        const state = Stats.getArchiveState(d);
+        if (!state || !state.finished) {
+          slot.classList.add("upcoming");
+          slot.innerHTML = `<span class="album-slot-q">?</span><span class="album-slot-upcoming-day">№${num}</span>`;
+        } else {
+          const won = state.guesses && state.guesses.some(g => g.correct);
+          const p = puzzles.find(pl => pl.id === state.puzzleId);
+          if (won && p) {
+            collected++;
+            const flag = FLAG[p.nationality] || "";
+            slot.classList.add("collected");
+            slot.innerHTML = `
+              <img class="album-slot-img" alt="${p.answer}" />
+              <div class="album-slot-meta">
+                <span class="album-slot-name">${p.answer.toUpperCase()}</span>
+                <span class="album-slot-detail">${flag} WC ${p.worldCupYear}</span>
+              </div>
+              <span class="album-slot-day">№${num}</span>
+              <span class="foil-overlay"></span>`;
+            const img = slot.querySelector(".album-slot-img");
+            fetchAlbumThumb(p).then(src => { if (src) img.src = src; });
+          } else {
+            slot.classList.add("missed");
+            const name = p ? p.answer : "";
+            slot.innerHTML = `
+              <span class="album-slot-missed-day">№${num}</span>
+              <span class="album-slot-missed-icon">👤</span>
+              <span class="album-slot-missed-label">MISSED</span>
+              <span class="album-slot-missed-name">${name}</span>`;
+          }
+        }
+      }
+      els.albumGrid.appendChild(slot);
+    }
+
+    const daysPlayed = Math.min(today + 1, ALBUM_TOTAL);
+    const pct = daysPlayed ? Math.round((collected / daysPlayed) * 100) : 0;
+    els.albumPct.textContent = `${collected} of ${daysPlayed} · ${pct}%`;
+    els.albumFill.style.width = `${pct}%`;
+
+    els.pageTitleBlock.style.display = "none";
+    els.stickerGrid.style.display = "none";
+    els.guessArea.style.display = "none";
+    els.guessLogCard.style.display = "none";
+    els.result.classList.add("hidden");
+    els.albumView.classList.remove("hidden");
+    window.scrollTo({ top: 0 });
+  }
+
+  function closeAlbumView() {
+    els.albumView.classList.add("hidden");
+    restoreOrStart();
   }
 
   function initConsent() {

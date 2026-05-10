@@ -1085,6 +1085,181 @@ body {
 /* ─── Utility ─── */
 .hidden { display: none !important; }
 
+/* ─── Sticker Album View ─── */
+.album-view {
+  padding: 0 22px 20px;
+}
+.album-view-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px 0 0;
+}
+.album-view-header h1 {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 28px;
+  line-height: 1.15;
+  margin-top: 4px;
+}
+.back-btn {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--pitch);
+  background: none;
+  border: none;
+  cursor: pointer;
+  letter-spacing: .04em;
+  margin-top: 6px;
+}
+
+.album-progress {
+  padding: 14px 0 0;
+}
+.album-progress-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.album-progress-pct {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--pitch);
+}
+.album-progress-bar {
+  height: 6px;
+  background: var(--page-edge);
+  border-radius: 3px;
+  margin-top: 6px;
+  overflow: hidden;
+}
+.album-progress-fill {
+  height: 100%;
+  background: var(--pitch);
+  border-radius: 3px;
+  transition: width .4s ease;
+}
+
+.sticker-album-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding-top: 16px;
+}
+
+.album-slot {
+  aspect-ratio: 3/4;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.album-slot.collected {
+  background: var(--paper-card);
+  border: 2px solid var(--gold);
+  box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+.album-slot.collected .album-slot-img {
+  width: 100%;
+  flex: 1;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+  background: #e8e0ce;
+}
+.album-slot.collected .album-slot-meta {
+  padding: 6px 6px 5px;
+  background: var(--paper-card);
+  border-top: 1px solid var(--page-edge);
+}
+.album-slot-name {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 8.5px;
+  letter-spacing: .02em;
+  line-height: 1.2;
+  color: var(--ink);
+  display: block;
+}
+.album-slot-detail {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 7.5px;
+  color: var(--ink-soft);
+  display: block;
+  margin-top: 1px;
+}
+.album-slot-day {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 7px;
+  font-weight: 500;
+  color: #fff;
+  background: var(--gold);
+  padding: 1px 4px;
+  border-radius: 2px;
+}
+.album-slot .foil-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, transparent 40%, rgba(255,255,255,.15) 50%, transparent 60%);
+  pointer-events: none;
+}
+
+.album-slot.missed {
+  background: var(--paper-card);
+  border: 1.5px dashed var(--page-edge);
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.album-slot-missed-icon {
+  font-size: 20px;
+  opacity: .25;
+}
+.album-slot-missed-label {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 7.5px;
+  letter-spacing: .12em;
+  color: var(--red);
+  opacity: .6;
+}
+.album-slot-missed-name {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 8px;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+.album-slot-missed-day {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 7px;
+  color: var(--ink-soft);
+}
+
+.album-slot.upcoming {
+  background: transparent;
+  border: 1.5px dashed var(--page-edge);
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  opacity: .45;
+}
+.album-slot-q {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 22px;
+  color: var(--page-edge);
+}
+.album-slot-upcoming-day {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 7.5px;
+  color: var(--ink-soft);
+}
+
 /* ─── Cookie Consent ─── */
 .consent-overlay {
   position: fixed;
