@@ -322,9 +322,9 @@
     const cells = [];
     for (let i = 0; i < MAX_GUESSES; i++) {
       const g = guesses[i];
-      if (!g) cells.push("·");
-      else if (g.correct) cells.push("✓");
-      else cells.push("✕");
+      if (!g) cells.push("⚪");
+      else if (g.correct) cells.push("✅");
+      else cells.push("❌");
     }
     return `Football·Icons №${puzzleNum} — ${puzzle.worldCupYear} 🏆 ${flag}\n⚽ ${cells.join(" ")}\nwww.ICONED.wtf`;
   }
@@ -340,14 +340,11 @@
       const g = guesses[i];
       const span = document.createElement("span");
       if (!g) {
-        span.textContent = "·";
-        span.style.color = "var(--ink-soft)";
+        span.textContent = "⚪";
       } else if (g.correct) {
-        span.textContent = "✓";
-        span.style.color = "var(--pitch)";
+        span.textContent = "✅";
       } else {
-        span.textContent = "✕";
-        span.style.color = "var(--red)";
+        span.textContent = "❌";
       }
       line2.appendChild(span);
       if (i < MAX_GUESSES - 1) line2.appendChild(document.createTextNode(" "));
@@ -371,14 +368,14 @@
       if (g) {
         if (g.correct) {
           cell.classList.add("hit");
-          cell.textContent = "✓";
+          cell.textContent = "✅";
         } else {
           cell.classList.add("miss");
-          cell.textContent = "✕";
+          cell.textContent = "❌";
         }
       } else {
         cell.classList.add("unused");
-        cell.textContent = "·";
+        cell.textContent = "⚪";
       }
       els.matchLogCells.appendChild(cell);
     }
@@ -704,7 +701,7 @@
       try {
         await navigator.clipboard.writeText(buildShareText(getPuzzleNumber()));
         els.shareButton.textContent = "COPIED!";
-        setTimeout(() => (els.shareButton.textContent = "SHARE PAGE"), 1500);
+        setTimeout(() => (els.shareButton.textContent = "SHARE RESULT!"), 1500);
       } catch {
         els.shareButton.textContent = "COPY FAILED";
       }

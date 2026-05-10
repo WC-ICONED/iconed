@@ -721,31 +721,28 @@ body {
 }
 .match-log {
   display: flex;
-  gap: 6px;
+  gap: 10px;
   margin-top: 8px;
+  justify-content: center;
 }
 .match-cell {
-  flex: 1;
-  height: 28px;
+  width: 40px;
+  height: 40px;
   display: grid;
   place-items: center;
-  font-family: "Archivo Black", system-ui, sans-serif;
-  font-size: 13px;
-  border-radius: 3px;
+  font-size: 18px;
+  line-height: 1;
+  border-radius: 50%;
 }
 .match-cell.hit {
-  background: var(--pitch);
-  color: #fff;
+  border: 2.5px solid var(--pitch);
 }
 .match-cell.miss {
-  background: var(--red);
-  color: #fff;
+  border: 2.5px solid var(--red);
 }
 .match-cell.skip,
 .match-cell.unused {
-  background: transparent;
-  border: 1px dashed var(--page-edge);
-  color: var(--ink-soft);
+  border: 2px dashed var(--page-edge);
 }
 
 /* ─── Result Guesses ─── */
