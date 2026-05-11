@@ -1084,6 +1084,42 @@
     restoreOrStart();
   }
 
+  // One-time cleanup for users who hit the duplicate-closeAlbumView bug:
+  // their localStorage may have fi-archive-{X} entries pointing to a
+  // puzzle ID that doesn't belong to day X. Since the day→puzzleId
+  // mapping is deterministic from PUZZLE_ORDER, any mismatch is corrupted
+  // data we can safely remove. Idempotent and cheap (O(150) reads).
+  function cleanupCorruptedArchive() {
+    const order = window.PUZZLE_ORDER || [];
+    if (!order.length || !puzzles.length) return;
+
+    let cleaned = 0;
+    for (let d = 0; d < ALBUM_TOTAL; d++) {
+      const archived = Stats.getArchiveState(d);
+      if (!archived || !archived.puzzleId) continue;
+
+      const expectedId = order[d % order.length];
+      if (archived.puzzleId !== expectedId) {
+        localStorage.removeItem(`fi-archive-${d}`);
+        cleaned++;
+      }
+    }
+    if (cleaned > 0) {
+      console.info(`[ICONED] Cleaned ${cleaned} corrupted archive entries from a previous bug.`);
+    }
+
+    // Also check fi-day-state — it could point to the wrong puzzle for today
+    const today = Stats.todayNumber();
+    const dayState = Stats.getDayState();
+    if (dayState && dayState.puzzleId) {
+      const expectedToday = order[today % order.length];
+      if (dayState.puzzleId !== expectedToday) {
+        Stats.clearDayState();
+        console.info(`[ICONED] Cleared corrupted today-state.`);
+      }
+    }
+  }
+
   function initConsent() {
     const overlay = document.getElementById("consentOverlay");
     const acceptBtn = document.getElementById("consentAccept");
@@ -1124,6 +1160,7 @@
       }
     }
     suggestionIndex = buildSuggestionIndex();
+    cleanupCorruptedArchive();
     bindEvents();
     restoreOrStart();
   }
