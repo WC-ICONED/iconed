@@ -591,6 +591,10 @@
     resultSaved = false;
     imageFetched = false;
 
+    // Always clear images so we don't show the previous game's photo
+    els.playerImage.removeAttribute("src");
+    els.playerImageResult.removeAttribute("src");
+
     const saved = Stats.getArchiveState(dayNum);
     if (saved && saved.puzzleId) {
       const found = puzzles.find(p => p.id === saved.puzzleId);
@@ -608,8 +612,6 @@
     puzzle = pickPuzzleForDay(dayNum);
     guesses = [];
     finished = false;
-    els.playerImage.removeAttribute("src");
-    els.playerImageResult.removeAttribute("src");
     resetStickerStates();
     renderArchiveUI();
     saveState();
@@ -658,6 +660,15 @@
   }
 
   function restoreOrStart() {
+    // Defensive: ensure we never restore today's game with archive flags set
+    archiveMode = false;
+    archiveDayNum = null;
+    imageFetched = false;
+    els.playerImage.removeAttribute("src");
+    els.playerImageResult.removeAttribute("src");
+    els.archiveBanner.classList.add("hidden");
+    els.albumView.classList.add("hidden");
+
     const saved = loadState();
     if (saved) {
       const found = puzzles.find((p) => p.id === saved.puzzleId);
@@ -682,6 +693,9 @@
           renderResultGuesses();
           maybeFetchImage();
           renderSharePreview(getPuzzleNumber());
+          // Always show share controls for today's game (could be hidden from archive)
+          els.shareText.classList.remove("hidden");
+          els.shareButton.classList.remove("hidden");
           els.result.classList.remove("hidden");
           window.scrollTo({ top: 0 });
         }
@@ -713,7 +727,7 @@
       }
     });
 
-    els.archiveButton.addEventListener("click", openAlbumComingSoon);
+    els.archiveButton.addEventListener("click", openAlbumView);
     els.albumBack.addEventListener("click", closeAlbumView);
     els.backToToday.addEventListener("click", goBackToToday);
 
@@ -924,112 +938,148 @@
     }
   }
 
+  // ─── Sticker Album ───
+  // The album view is intentionally read-only: it never touches the game's
+  // mutable state (`puzzle`, `guesses`, `archiveMode`, etc.) or calls
+  // saveState(). It only reads from localStorage. State cleanup happens in
+  // closeAlbumView() before handing control back to restoreOrStart().
+
   const ALBUM_TOTAL = 150;
 
+  function getCachedThumb(playerId) {
+    return localStorage.getItem(`fi-thumb-${playerId}`);
+  }
+
+  function setCachedThumb(playerId, src) {
+    try { localStorage.setItem(`fi-thumb-${playerId}`, src); } catch {}
+  }
+
   async function fetchAlbumThumb(p) {
+    if (!p) return null;
+    const cached = getCachedThumb(p.id);
+    if (cached) return cached;
+    if (p.imageUrl) {
+      setCachedThumb(p.id, p.imageUrl);
+      return p.imageUrl;
+    }
     const title = encodeURIComponent(p.wikipediaTitle || p.answer);
     try {
       const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${title}`);
       if (!res.ok) return null;
       const data = await res.json();
-      return data.thumbnail?.source || data.originalimage?.source || null;
+      const src = data.thumbnail?.source || data.originalimage?.source || null;
+      if (src) setCachedThumb(p.id, src);
+      return src;
     } catch { return null; }
   }
 
-  function openAlbumComingSoon() {
-    els.pageTitleBlock.style.display = "none";
-    els.stickerGrid.style.display = "none";
-    els.guessArea.style.display = "none";
-    els.guessLogCard.style.display = "none";
-    els.result.classList.add("hidden");
-    els.albumView.classList.remove("hidden");
-
-    els.albumGrid.innerHTML = "";
-    els.albumPct.textContent = "";
-    els.albumFill.style.width = "0%";
-
-    const notice = document.createElement("div");
-    notice.className = "album-coming-soon";
-    notice.innerHTML = `<span class="album-coming-soon-icon">📖</span><h2>Album</h2><p>Coming soon</p>`;
-    els.albumGrid.appendChild(notice);
-    window.scrollTo({ top: 0 });
+  function getDayStatus(dayNum) {
+    // Pure read of localStorage. No side effects, no global state mutation.
+    const today = Stats.todayNumber();
+    if (dayNum > today) {
+      return { state: "upcoming", puzzle: null };
+    }
+    const archived = Stats.getArchiveState(dayNum);
+    if (!archived || !archived.finished) {
+      return { state: "unplayed", puzzle: null };
+    }
+    const p = puzzles.find(pl => pl.id === archived.puzzleId) || null;
+    const won = !!(archived.guesses && archived.guesses.some(g => g && g.correct));
+    return { state: won ? "collected" : "missed", puzzle: p };
   }
 
-  function closeAlbumView() {
-    els.albumView.classList.add("hidden");
-    archiveMode = false;
-    archiveDayNum = null;
-    imageFetched = false;
-    restoreOrStart();
+  function buildAlbumSlot(dayNum, status) {
+    const num = dayNum + 1;
+    const slot = document.createElement("div");
+    slot.className = "album-slot";
+
+    if (status.state === "upcoming" || status.state === "unplayed") {
+      slot.classList.add("upcoming");
+      slot.innerHTML = `<span class="album-slot-q">?</span><span class="album-slot-upcoming-day">№${num}</span>`;
+      return slot;
+    }
+
+    if (status.state === "missed") {
+      slot.classList.add("missed");
+      const name = status.puzzle ? escapeHtml(status.puzzle.answer) : "";
+      slot.innerHTML = `
+        <span class="album-slot-missed-day">№${num}</span>
+        <span class="album-slot-missed-icon">👤</span>
+        <span class="album-slot-missed-label">MISSED</span>
+        <span class="album-slot-missed-name">${name}</span>`;
+      return slot;
+    }
+
+    // collected
+    const p = status.puzzle;
+    if (!p) {
+      // puzzle id no longer exists in dataset — render as missed silently
+      slot.classList.add("missed");
+      slot.innerHTML = `
+        <span class="album-slot-missed-day">№${num}</span>
+        <span class="album-slot-missed-icon">👤</span>
+        <span class="album-slot-missed-label">MISSED</span>`;
+      return slot;
+    }
+    const flag = FLAG[p.nationality] || "";
+    slot.classList.add("collected");
+    slot.innerHTML = `
+      <img class="album-slot-img" alt="${escapeHtml(p.answer)}" />
+      <div class="album-slot-meta">
+        <span class="album-slot-name">${escapeHtml(p.answer.toUpperCase())}</span>
+        <span class="album-slot-detail">${flag} WC ${p.worldCupYear}</span>
+      </div>
+      <span class="album-slot-day">№${num}</span>
+      <span class="foil-overlay"></span>`;
+    const img = slot.querySelector(".album-slot-img");
+    // Use cached thumb instantly if available, otherwise fetch async
+    const cached = getCachedThumb(p.id);
+    if (cached) {
+      img.src = cached;
+    } else {
+      fetchAlbumThumb(p).then(src => { if (src) img.src = src; });
+    }
+    return slot;
   }
 
   function openAlbumView() {
-    const today = Stats.todayNumber();
-    const order = window.PUZZLE_ORDER || [];
-    let collected = 0;
-    const maxDay = Math.min(today, ALBUM_TOTAL - 1);
-
-    els.albumGrid.innerHTML = "";
-
-    for (let d = 0; d < ALBUM_TOTAL; d++) {
-      const num = d + 1;
-      const slot = document.createElement("div");
-      slot.className = "album-slot";
-
-      if (d > today) {
-        slot.classList.add("upcoming");
-        slot.innerHTML = `<span class="album-slot-q">?</span><span class="album-slot-upcoming-day">№${num}</span>`;
-      } else {
-        const state = Stats.getArchiveState(d);
-        if (!state || !state.finished) {
-          slot.classList.add("upcoming");
-          slot.innerHTML = `<span class="album-slot-q">?</span><span class="album-slot-upcoming-day">№${num}</span>`;
-        } else {
-          const won = state.guesses && state.guesses.some(g => g.correct);
-          const p = puzzles.find(pl => pl.id === state.puzzleId);
-          if (won && p) {
-            collected++;
-            const flag = FLAG[p.nationality] || "";
-            slot.classList.add("collected");
-            slot.innerHTML = `
-              <img class="album-slot-img" alt="${p.answer}" />
-              <div class="album-slot-meta">
-                <span class="album-slot-name">${p.answer.toUpperCase()}</span>
-                <span class="album-slot-detail">${flag} WC ${p.worldCupYear}</span>
-              </div>
-              <span class="album-slot-day">№${num}</span>
-              <span class="foil-overlay"></span>`;
-            const img = slot.querySelector(".album-slot-img");
-            fetchAlbumThumb(p).then(src => { if (src) img.src = src; });
-          } else {
-            slot.classList.add("missed");
-            const name = p ? p.answer : "";
-            slot.innerHTML = `
-              <span class="album-slot-missed-day">№${num}</span>
-              <span class="album-slot-missed-icon">👤</span>
-              <span class="album-slot-missed-label">MISSED</span>
-              <span class="album-slot-missed-name">${name}</span>`;
-          }
-        }
-      }
-      els.albumGrid.appendChild(slot);
-    }
-
-    const daysPlayed = Math.min(today + 1, ALBUM_TOTAL);
-    const pct = daysPlayed ? Math.round((collected / daysPlayed) * 100) : 0;
-    els.albumPct.textContent = `${collected} of ${daysPlayed} · ${pct}%`;
-    els.albumFill.style.width = `${pct}%`;
-
+    // Hide all other views first
     els.pageTitleBlock.style.display = "none";
     els.stickerGrid.style.display = "none";
     els.guessArea.style.display = "none";
     els.guessLogCard.style.display = "none";
+    els.archiveBanner.classList.add("hidden");
     els.result.classList.add("hidden");
+
+    // Build album content
+    els.albumGrid.innerHTML = "";
+    let collected = 0;
+    const today = Stats.todayNumber();
+    const daysElapsed = Math.min(today + 1, ALBUM_TOTAL);
+
+    const fragment = document.createDocumentFragment();
+    for (let d = 0; d < ALBUM_TOTAL; d++) {
+      const status = getDayStatus(d);
+      if (status.state === "collected") collected++;
+      fragment.appendChild(buildAlbumSlot(d, status));
+    }
+    els.albumGrid.appendChild(fragment);
+
+    const pct = daysElapsed ? Math.round((collected / daysElapsed) * 100) : 0;
+    els.albumPct.textContent = `${collected} of ${daysElapsed} · ${pct}%`;
+    els.albumFill.style.width = `${pct}%`;
+
     els.albumView.classList.remove("hidden");
     window.scrollTo({ top: 0 });
   }
 
   function closeAlbumView() {
+    // Critical: clear all in-flight game state before restoreOrStart re-saves.
+    // restoreOrStart also has defensive resets, but doing it here keeps the
+    // intent visible at the call site.
+    archiveMode = false;
+    archiveDayNum = null;
+    imageFetched = false;
     els.albumView.classList.add("hidden");
     restoreOrStart();
   }
