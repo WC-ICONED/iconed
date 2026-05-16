@@ -877,6 +877,14 @@ body {
 }
 
 /* Stats modal */
+.stats-note {
+  font-style: italic;
+  font-size: .9rem;
+  color: var(--ink-soft);
+  margin: 12px 0 20px 0;
+  line-height: 1.5;
+}
+
 .stat-boxes {
   display: flex;
   justify-content: space-between;
