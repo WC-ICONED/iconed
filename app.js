@@ -331,7 +331,7 @@
       else if (g.correct) cells.push("✅");
       else cells.push("❌");
     }
-    return `Football·Icons №${puzzleNum} — ${puzzle.worldCupYear} 🏆 ${flag}\n⚽ ${cells.join(" ")}\nwww.ICONED.wtf`;
+    return `Football·Icons №${puzzleNum} — ${puzzle.worldCupYear} 🏆 ${flag}\n⚽ ${cells.join(" ")}\nhttps://www.iconed.wtf`;
   }
 
   function renderSharePreview(puzzleNum) {
@@ -356,7 +356,7 @@
     }
 
     const line3 = document.createElement("div");
-    line3.textContent = "www.ICONED.wtf";
+    line3.textContent = "https://www.iconed.wtf";
 
     els.shareText.innerHTML = "";
     els.shareText.appendChild(line1);
