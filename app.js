@@ -1032,13 +1032,25 @@
       <span class="album-slot-day">№${num}</span>
       <span class="foil-overlay"></span>`;
     const img = slot.querySelector(".album-slot-img");
-    // Use cached thumb instantly if available, otherwise fetch async
-    const cached = getCachedThumb(p.id);
-    if (cached) {
-      img.src = cached;
-    } else {
-      fetchAlbumThumb(p).then(src => { if (src) img.src = src; });
-    }
+
+    // Try local custom sticker first (panini-style with name/country/year baked in).
+    // If it loads, the sticker is full-bleed and we hide the meta overlay.
+    // If it fails, fall back to Wikipedia thumbnail with the meta overlay shown.
+    const localUrl = `stickers/${p.id}.jpg`;
+    img.onload = () => {
+      slot.classList.add("custom-sticker");
+    };
+    img.onerror = () => {
+      // Fall back to Wikipedia
+      img.onerror = null;
+      const cached = getCachedThumb(p.id);
+      if (cached) {
+        img.src = cached;
+      } else {
+        fetchAlbumThumb(p).then(src => { if (src) img.src = src; });
+      }
+    };
+    img.src = localUrl;
     return slot;
   }
 

@@ -1208,6 +1208,25 @@ body {
   pointer-events: none;
 }
 
+/* Custom panini-style sticker: full-bleed, hide meta overlay since
+   name/country/year are already printed on the image. */
+.album-slot.collected.custom-sticker {
+  border: none;
+  background: transparent;
+  padding: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,.12);
+}
+.album-slot.collected.custom-sticker .album-slot-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  background: transparent;
+}
+.album-slot.collected.custom-sticker .album-slot-meta {
+  display: none;
+}
+
 .album-slot.missed {
   background: var(--paper-card);
   border: 1.5px dashed var(--page-edge);
