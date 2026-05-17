@@ -436,7 +436,7 @@
     if (resultEplLink) {
       resultEplLink.textContent = won
         ? "Too easy to guess the World Cup players? Try the EPL here!"
-        : "Tired of the World Cup — try guessing the 🦁 EPL here!";
+        : "Tired of the World Cup? Try guessing the 🦁 EPL here!";
     }
   }
 
