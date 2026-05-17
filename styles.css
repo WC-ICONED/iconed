@@ -1156,6 +1156,30 @@ body {
   padding-top: 16px;
 }
 
+.album-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.album-slot-shots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 0 4px;
+}
+
+.shot-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.shot-dot-hit  { background: var(--pitch); }
+.shot-dot-miss { background: var(--red); }
+.shot-dot-empty { border: 1.5px solid var(--page-edge); }
+
 .album-slot {
   aspect-ratio: 3/4;
   border-radius: 4px;

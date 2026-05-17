@@ -977,26 +977,49 @@
     // Pure read of localStorage. No side effects, no global state mutation.
     const today = Stats.todayNumber();
     if (dayNum > today) {
-      return { state: "upcoming", puzzle: null };
+      return { state: "upcoming", puzzle: null, guesses: [] };
     }
     const archived = Stats.getArchiveState(dayNum);
     if (!archived || !archived.finished) {
-      return { state: "unplayed", puzzle: null };
+      return { state: "unplayed", puzzle: null, guesses: [] };
     }
     const p = puzzles.find(pl => pl.id === archived.puzzleId) || null;
-    const won = !!(archived.guesses && archived.guesses.some(g => g && g.correct));
-    return { state: won ? "collected" : "missed", puzzle: p };
+    const guesses = archived.guesses || [];
+    const won = guesses.some(g => g && g.correct);
+    return { state: won ? "collected" : "missed", puzzle: p, guesses };
+  }
+
+  function buildShotDots(guesses) {
+    const wrap = document.createElement("div");
+    wrap.className = "album-slot-shots";
+    for (let i = 0; i < 5; i++) {
+      const dot = document.createElement("span");
+      const g = guesses[i];
+      if (!g) {
+        dot.className = "shot-dot shot-dot-empty";
+      } else if (g.correct) {
+        dot.className = "shot-dot shot-dot-hit";
+      } else {
+        dot.className = "shot-dot shot-dot-miss";
+      }
+      wrap.appendChild(dot);
+    }
+    return wrap;
   }
 
   function buildAlbumSlot(dayNum, status) {
     const num = dayNum + 1;
+    const cell = document.createElement("div");
+    cell.className = "album-cell";
+
     const slot = document.createElement("div");
     slot.className = "album-slot";
+    cell.appendChild(slot);
 
     if (status.state === "upcoming" || status.state === "unplayed") {
       slot.classList.add("upcoming");
       slot.innerHTML = `<span class="album-slot-q">?</span><span class="album-slot-upcoming-day">№${num}</span>`;
-      return slot;
+      return cell;
     }
 
     if (status.state === "missed") {
@@ -1007,7 +1030,8 @@
         <span class="album-slot-missed-icon">👤</span>
         <span class="album-slot-missed-label">MISSED</span>
         <span class="album-slot-missed-name">${name}</span>`;
-      return slot;
+      cell.appendChild(buildShotDots(status.guesses));
+      return cell;
     }
 
     // collected
@@ -1019,7 +1043,8 @@
         <span class="album-slot-missed-day">№${num}</span>
         <span class="album-slot-missed-icon">👤</span>
         <span class="album-slot-missed-label">MISSED</span>`;
-      return slot;
+      cell.appendChild(buildShotDots(status.guesses));
+      return cell;
     }
     const flag = FLAG[p.nationality] || "";
     slot.classList.add("collected");
@@ -1051,7 +1076,8 @@
       }
     };
     img.src = localUrl;
-    return slot;
+    cell.appendChild(buildShotDots(status.guesses));
+    return cell;
   }
 
   function openAlbumView() {
