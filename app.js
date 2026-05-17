@@ -431,6 +431,13 @@
       els.solvedStamp.textContent = "MISSED";
       els.solvedStamp.className = "stamp stamp-lose";
     }
+
+    const resultEplLink = document.getElementById("resultEplLink");
+    if (resultEplLink) {
+      resultEplLink.textContent = won
+        ? "Too easy to guess the World Cup players? Try the EPL here!"
+        : "Tired of the World Cup — try guessing the 🦁 EPL here!";
+    }
   }
 
   function finish(won) {
