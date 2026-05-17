@@ -11,7 +11,23 @@
     Paraguay: "🇵🇾", Poland: "🇵🇱", Portugal: "🇵🇹", Romania: "🇷🇴",
     Senegal: "🇸🇳", "South Korea": "🇰🇷", Spain: "🇪🇸", Sweden: "🇸🇪",
     "United States": "🇺🇸", Uruguay: "🇺🇾", "West Germany": "🇩🇪",
-    Yugoslavia: "🇷🇸"
+    Yugoslavia: "🇷🇸",
+    // EPL-common extras
+    Scotland: "🏴󠁧󠁢󠁳󠁣󠁴󠁿", Wales: "🏴󠁧󠁢󠁷󠁬󠁳󠁿", Ireland: "🇮🇪", "Northern Ireland": "🇬🇧",
+    Norway: "🇳🇴", Finland: "🇫🇮", Iceland: "🇮🇸", Austria: "🇦🇹",
+    Switzerland: "🇨🇭", "Czech Republic": "🇨🇿", Czechia: "🇨🇿", Slovakia: "🇸🇰",
+    Slovenia: "🇸🇮", Greece: "🇬🇷", Turkey: "🇹🇷", Israel: "🇮🇱",
+    Ukraine: "🇺🇦", Russia: "🇷🇺", Estonia: "🇪🇪", Latvia: "🇱🇻",
+    Bosnia: "🇧🇦", "Bosnia and Herzegovina": "🇧🇦", "North Macedonia": "🇲🇰",
+    Albania: "🇦🇱", Montenegro: "🇲🇪", Kosovo: "🇽🇰", Georgia: "🇬🇪",
+    Algeria: "🇩🇿", Tunisia: "🇹🇳", "DR Congo": "🇨🇩", Mali: "🇲🇱",
+    Gabon: "🇬🇦", Togo: "🇹🇬", Guinea: "🇬🇳", "Burkina Faso": "🇧🇫",
+    Zambia: "🇿🇲", Zimbabwe: "🇿🇼", "South Africa": "🇿🇦", Angola: "🇦🇴",
+    "Sierra Leone": "🇸🇱", Liberia: "🇱🇷", Jamaica: "🇯🇲", "Trinidad and Tobago": "🇹🇹",
+    Canada: "🇨🇦", Honduras: "🇭🇳", "Costa Rica": "🇨🇷", Peru: "🇵🇪",
+    Ecuador: "🇪🇨", Venezuela: "🇻🇪", "New Zealand": "🇳🇿", Philippines: "🇵🇭",
+    China: "🇨🇳", Thailand: "🇹🇭", India: "🇮🇳",
+    Armenia: "🇦🇲", Serbia: "🇷🇸"
   };
 
   let puzzles = [];
@@ -71,7 +87,7 @@
     albumFill: document.getElementById("albumFill"),
     albumBack: document.getElementById("albumBack"),
     funFact: document.getElementById("funFact"),
-    funFactResult: document.getElementById("funFactResult")
+    funFactAboveLog: document.getElementById("funFactAboveLog")
   };
 
   function normalize(s) {
@@ -240,21 +256,8 @@
       setPlayerImage(puzzle.imageUrl);
       return;
     }
-    const title = encodeURIComponent(puzzle.wikipediaTitle || puzzle.answer);
-    const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${title}`;
-    try {
-      const res = await fetch(url);
-      if (!res.ok) throw new Error("wiki fetch failed");
-      const data = await res.json();
-      const src = data.thumbnail?.source || data.originalimage?.source;
-      if (src) {
-        setPlayerImage(src);
-      } else {
-        showImageFallback();
-      }
-    } catch {
-      showImageFallback();
-    }
+    // No imageUrl → use the generic shadow silhouette
+    setPlayerImage("stickers/_shadow.jpg");
   }
 
   function setPlayerImage(src) {
@@ -432,13 +435,13 @@
       els.playerTags.appendChild(span);
     });
 
-    if (els.funFactResult) {
+    if (els.funFactAboveLog) {
       if (puzzle.funFact) {
-        els.funFactResult.textContent = puzzle.funFact;
-        els.funFactResult.classList.remove("hidden");
+        els.funFactAboveLog.textContent = puzzle.funFact;
+        els.funFactAboveLog.classList.remove("hidden");
       } else {
-        els.funFactResult.textContent = "";
-        els.funFactResult.classList.add("hidden");
+        els.funFactAboveLog.textContent = "";
+        els.funFactAboveLog.classList.add("hidden");
       }
     }
 
@@ -597,6 +600,7 @@
     archiveMode = false;
     archiveDayNum = null;
     clearState();
+    if (els.funFactAboveLog) els.funFactAboveLog.classList.add("hidden");
     puzzle = pickPuzzleForDay(Stats.todayNumber());
     guesses = [];
     finished = false;
@@ -761,7 +765,7 @@
     els.albumBack.addEventListener("click", closeAlbumView);
     els.backToToday.addEventListener("click", goBackToToday);
 
-    document.getElementById("spineTitle").addEventListener("click", (e) => { e.preventDefault(); goBackToToday(); });
+    // Spine title links to the main World Cup ICONED (use default href navigation)
     document.getElementById("wordmarkLink").addEventListener("click", (e) => { e.preventDefault(); goBackToToday(); });
     document.getElementById("archiveToggle").addEventListener("click", openArchiveModal);
     document.getElementById("archiveClose").addEventListener("click", closeArchiveModal);

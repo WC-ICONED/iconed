@@ -1474,3 +1474,28 @@ body {
   to   { opacity: 1; transform: translateY(0); }
 }
 .fade-in { animation: fadeIn .35s ease; }
+
+/* ─── Cross-promo link to EPL ICONED ─── */
+.cross-promo {
+  display: inline-block;
+  margin: 10px 22px 0;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 13px;
+  color: var(--spine);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 600;
+}
+.cross-promo:hover {
+  color: var(--spine-deep);
+  text-decoration-thickness: 2px;
+}
+.cross-promo-result {
+  font-style: italic;
+  font-weight: 500;
+  margin: 8px 0 0 0;
+  font-size: 14px;
+  display: block;
+  max-width: 480px;
+  line-height: 1.4;
+}
