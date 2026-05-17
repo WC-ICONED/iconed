@@ -1476,15 +1476,23 @@ body {
 .fade-in { animation: fadeIn .35s ease; }
 
 /* ─── Cross-promo link to EPL ICONED ─── */
+.wordmark-block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  min-width: 0;
+}
 .cross-promo {
   display: inline-block;
-  margin: 10px 22px 0;
+  margin: 0;
   font-family: "Archivo", system-ui, sans-serif;
-  font-size: 13px;
+  font-size: 11px;
   color: var(--spine);
   text-decoration: underline;
   text-underline-offset: 2px;
   font-weight: 600;
+  letter-spacing: .02em;
 }
 .cross-promo:hover {
   color: var(--spine-deep);

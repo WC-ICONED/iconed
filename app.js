@@ -446,6 +446,7 @@
     els.guessLogCard.style.display = "none";
     els.pageTitleBlock.style.display = "none";
     els.stickerGrid.style.display = "none";
+    toggleEplTopLink(false);
     hideSuggestions();
 
     renderPlayerCard();
@@ -562,7 +563,15 @@
     els.guessLogCard.style.display = "";
     els.pageTitleBlock.style.display = "";
     els.stickerGrid.style.display = "";
+    toggleEplTopLink(true);
     els.result.classList.add("hidden");
+  }
+
+  function toggleEplTopLink(show) {
+    const link = document.getElementById("eplTopLink");
+    if (!link) return;
+    if (show) link.classList.remove("hidden");
+    else link.classList.add("hidden");
   }
 
   function startNewGame() {
@@ -632,6 +641,7 @@
       els.guessLogCard.style.display = "none";
       els.pageTitleBlock.style.display = "none";
       els.stickerGrid.style.display = "none";
+      toggleEplTopLink(false);
 
       renderPlayerCard();
       renderMatchLog();
@@ -687,6 +697,7 @@
           els.guessLogCard.style.display = "none";
           els.pageTitleBlock.style.display = "none";
           els.stickerGrid.style.display = "none";
+          toggleEplTopLink(false);
 
           renderPlayerCard();
           renderMatchLog();
@@ -1088,6 +1099,7 @@
     els.guessLogCard.style.display = "none";
     els.archiveBanner.classList.add("hidden");
     els.result.classList.add("hidden");
+    toggleEplTopLink(false);
 
     // Build album content
     els.albumGrid.innerHTML = "";
