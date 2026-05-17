@@ -345,7 +345,7 @@
       else if (g.correct) cells.push("✅");
       else cells.push("❌");
     }
-    return `ICONED·PL №${puzzleNum} — ${puzzle.season} 🦁 ${flag}\n⚽ ${cells.join(" ")}\nhttps://www.iconed.wtf/epl`;
+    return `ICONED·PL №${puzzleNum} — ${puzzle.season} 🦁 ${flag}\n⚽ ${cells.join(" ")}\nhttps://www.iconed.wtf/epl/`;
   }
 
   function renderSharePreview(puzzleNum) {
@@ -370,7 +370,7 @@
     }
 
     const line3 = document.createElement("div");
-    line3.textContent = "https://www.iconed.wtf/epl";
+    line3.textContent = "https://www.iconed.wtf/epl/";
 
     els.shareText.innerHTML = "";
     els.shareText.appendChild(line1);

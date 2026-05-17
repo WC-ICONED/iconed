@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- All relative URLs (scripts, CSS, stickers, images) resolve from /epl/,
+       even if the user arrives at /epl (no trailing slash). Prevents the page
+       from accidentally loading the WC site's data.js / app.js. -->
+  <base href="/epl/">
   <title>ICONED · Premier League</title>
   <meta name="description" content="ICONED · Premier League — Guess the iconic Premier League player from 1995 to 2025. Five shots, new player every day.">
   <link rel="canonical" href="https://www.iconed.wtf/epl/">
