@@ -499,7 +499,9 @@ body {
   border: 2px solid var(--spine);
   border-radius: 3px;
   font-family: "Archivo", system-ui, sans-serif;
-  font-size: 14px;
+  /* 16px prevents iOS Safari from auto-zooming on focus, which otherwise
+     traps the page in a zoomed state after the user submits a guess. */
+  font-size: 16px;
   color: var(--ink);
   outline: none;
 }
@@ -999,7 +1001,8 @@ body {
   border-radius: 3px;
   padding: 10px;
   font-family: "JetBrains Mono", monospace;
-  font-size: .75rem;
+  /* 16px prevents iOS Safari from auto-zooming on focus */
+  font-size: 16px;
   resize: none;
   min-height: 60px;
   word-break: break-all;
