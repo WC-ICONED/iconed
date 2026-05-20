@@ -1,8 +1,8 @@
 :root {
-  /* FCK theme — blue + white instead of green + beige */
-  --page: #f1f5fb;
-  --page-edge: #d3dfee;
-  --paper-card: #ffffff;
+  /* FCK theme — white page with light-blue sticker cards */
+  --page: #ffffff;
+  --page-edge: #c8d5ea;
+  --paper-card: #e7eff9;
   --ink: #0c1530;
   --ink-soft: rgba(12,21,48,.55);
   --spine: #0d2455;
