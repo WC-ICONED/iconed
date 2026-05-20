@@ -1,0 +1,1687 @@
+:root {
+  /* FCK theme — blue + white instead of green + beige */
+  --page: #f1f5fb;
+  --page-edge: #d3dfee;
+  --paper-card: #ffffff;
+  --ink: #0c1530;
+  --ink-soft: rgba(12,21,48,.55);
+  --spine: #0d2455;
+  --spine-deep: #061538;
+  --spine-ink: #f1f5fb;
+  --gold: #c8a14a;
+  --pitch: #2155b0;
+  --red: #c83541;
+  --shadow-card: 0 6px 16px rgba(0,0,0,.10), 0 1px 0 rgba(255,255,255,.6) inset;
+  --radius: 4px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Archivo", system-ui, sans-serif;
+  color: var(--ink);
+  background: #b8c8de;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── Album Shell ─── */
+.album {
+  position: relative;
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100dvh;
+  background-color: var(--page);
+  background-image: radial-gradient(rgba(13,36,85,.06) 1px, transparent 1px);
+  background-size: 10px 10px;
+  display: flex;
+}
+
+/* ─── Spine ─── */
+.spine {
+  position: sticky;
+  top: 0;
+  width: 22px;
+  min-height: 100dvh;
+  flex-shrink: 0;
+  background: linear-gradient(90deg, var(--spine) 0%, var(--spine-deep) 60%, var(--spine) 100%);
+  color: var(--spine-ink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-right: 1px solid rgba(0,0,0,.3);
+  z-index: 10;
+}
+
+.spine-top,
+.spine-bottom {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  letter-spacing: .32em;
+  white-space: nowrap;
+}
+.spine-top {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 12px;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 90px;
+}
+.spine-bottom {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 9px;
+  color: var(--gold);
+}
+
+.spine-rules {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+.spine-rules span {
+  width: 10px;
+  height: 1px;
+  background: var(--gold);
+}
+
+/* ─── Album Content ─── */
+.album-content {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+/* ─── Album Header ─── */
+.album-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 22px 12px;
+  border-bottom: 1px dashed var(--page-edge);
+  gap: 8px;
+  flex-wrap: nowrap;
+}
+
+.wordmark {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  min-width: 0;
+}
+.wordmark-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--spine);
+  padding: 6px 14px 6px 10px;
+  border-radius: 100px;
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 12px;
+  letter-spacing: .06em;
+  color: var(--spine-ink);
+  text-decoration: none;
+  cursor: pointer;
+}
+.logo-ball {
+  font-size: 13px;
+  line-height: 1;
+}
+.wordmark-page {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 9px;
+  color: var(--ink-soft);
+  letter-spacing: .14em;
+}
+
+@media (max-width: 400px) {
+  .wordmark-page { display: none; }
+}
+
+.album-nav {
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+}
+.nav-link {
+  background: none;
+  border: none;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 10px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--ink);
+  cursor: pointer;
+  padding: 0;
+}
+.nav-link:hover { color: var(--pitch); }
+
+/* ─── Label (shared utility) ─── */
+.label {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 9.5px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  font-weight: 700;
+}
+.label-year { color: var(--pitch); }
+
+/* ─── Page Title ─── */
+.page-title {
+  padding: 14px 22px 6px;
+}
+.kicker {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 9.5px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.kicker.gold { color: var(--gold); }
+
+.page-title h1 {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 32px;
+  line-height: 1;
+  margin-top: 4px;
+  letter-spacing: -.02em;
+  text-shadow: none;
+}
+.page-desc {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin-top: 6px;
+  line-height: 1.4;
+}
+
+/* ─── Archive Banner ─── */
+.archive-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 22px 10px;
+  padding: 10px 14px;
+  background: var(--paper-card);
+  border: 1px solid var(--page-edge);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+  font-size: 12px;
+  font-weight: 600;
+}
+.archive-banner.hidden { display: none; }
+.archive-banner button {
+  background: var(--spine);
+  color: var(--spine-ink);
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 10px;
+  letter-spacing: .04em;
+  padding: 6px 12px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+/* ─── Sticker Grid ─── */
+.sticker-grid {
+  padding: 14px 22px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+/* ─── Sticker Card ─── */
+.sticker {
+  position: relative;
+  padding: 10px 12px;
+  background: var(--paper-card);
+  border: 1px solid var(--page-edge);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+  min-height: 64px;
+  transition: transform .3s, box-shadow .3s;
+}
+
+.sticker-value {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 18px;
+  color: var(--ink);
+  margin-top: 4px;
+  letter-spacing: -.01em;
+  line-height: 1.05;
+  display: block;
+}
+.sticker-value.big {
+  font-size: 30px;
+}
+
+/* Corner notch */
+.sticker-notch {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 14px;
+  height: 14px;
+  background: linear-gradient(135deg, var(--page) 50%, transparent 50%);
+  border-right: 1px solid var(--page-edge);
+  border-bottom: 1px solid var(--page-edge);
+}
+
+/* Tape strip */
+.sticker-tape {
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-2deg);
+  width: 36px;
+  height: 12px;
+  background: rgba(200,161,74,.22);
+  border: 1px solid rgba(200,161,74,.35);
+  border-radius: 1px;
+}
+
+.sticker-locked-text {
+  display: none;
+}
+
+/* ─── Locked Sticker ─── */
+.sticker.locked {
+  background: transparent;
+  border: 1.5px dashed var(--page-edge);
+  box-shadow: none;
+}
+.sticker.locked .sticker-notch,
+.sticker.locked .sticker-tape {
+  display: none;
+}
+.sticker.locked .sticker-value {
+  display: none;
+}
+.sticker.locked .sticker-locked-text {
+  display: block;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 11px;
+  color: var(--ink-soft);
+  margin-top: 6px;
+  letter-spacing: .06em;
+}
+
+/* Unlocked animation */
+.sticker.just-unlocked {
+  animation: stickerPeel .5s ease;
+}
+@keyframes stickerPeel {
+  0%   { opacity: 0; transform: rotate(calc(var(--tilt, 0) + 3deg)) scale(.92); }
+  60%  { transform: rotate(calc(var(--tilt, 0) - 1deg)) scale(1.03); }
+  100% { opacity: 1; transform: rotate(var(--tilt, 0)) scale(1); }
+}
+
+/* ─── Photo Slot ─── */
+.photo-slot {
+  grid-column: 1 / span 2;
+  position: relative;
+  border: 1.5px dashed var(--page-edge);
+  border-radius: var(--radius);
+  min-height: 90px;
+  background: rgba(255,255,255,.4);
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.photo-slot.locked .photo-slot-image {
+  display: none;
+}
+
+.photo-slot-placeholder {
+  text-align: center;
+  padding: 16px;
+}
+.photo-slot-sub {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10px;
+  color: var(--ink-soft);
+  margin-top: 4px;
+  letter-spacing: .06em;
+  display: block;
+}
+
+.photo-slot-image {
+  max-width: 140px;
+  max-height: 180px;
+  border-radius: 4px;
+  display: block;
+  object-fit: cover;
+}
+
+.photo-slot.revealed {
+  border-style: solid;
+  border-color: var(--page-edge);
+  background: var(--paper-card);
+  box-shadow: var(--shadow-card);
+}
+.photo-slot.revealed .photo-slot-placeholder {
+  display: none;
+}
+.photo-slot.revealed .photo-slot-image {
+  display: block;
+}
+
+/* Photo corner brackets */
+.photo-corner {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-color: var(--gold);
+  border-style: solid;
+  border-width: 0;
+}
+.photo-corner.tl { top: 6px; left: 6px; border-top-width: 1.5px; border-left-width: 1.5px; }
+.photo-corner.tr { top: 6px; right: 6px; border-top-width: 1.5px; border-right-width: 1.5px; }
+.photo-corner.bl { bottom: 6px; left: 6px; border-bottom-width: 1.5px; border-left-width: 1.5px; }
+.photo-corner.br { bottom: 6px; right: 6px; border-bottom-width: 1.5px; border-right-width: 1.5px; }
+
+/* ─── Guess Log ─── */
+.guess-log {
+  margin: 16px 22px 0;
+  border: 1px solid var(--page-edge);
+  border-radius: var(--radius);
+  background: var(--paper-card);
+  box-shadow: var(--shadow-card);
+}
+.guess-log-header {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--page-edge);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.guess-counter {
+  color: var(--red);
+}
+
+/* Guess rows */
+.guess-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  border-bottom: 1px dashed var(--page-edge);
+}
+.guess-row:last-child { border-bottom: none; }
+
+.guess-pip {
+  width: 22px;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 11px;
+  flex-shrink: 0;
+}
+.guess-pip.correct {
+  background: var(--pitch);
+  color: #fff;
+}
+.guess-pip.wrong {
+  background: var(--red);
+  color: #fff;
+}
+.guess-pip.empty {
+  background: transparent;
+  border: 1.5px dashed var(--page-edge);
+}
+
+.guess-num {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10px;
+  color: var(--ink-soft);
+  flex-shrink: 0;
+}
+
+.guess-name {
+  flex: 1;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.guess-name.skipped {
+  color: var(--ink-soft);
+  font-style: italic;
+  font-weight: 400;
+}
+.guess-name.current {
+  color: var(--ink-soft);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.guess-now {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 9.5px;
+  letter-spacing: .18em;
+  color: var(--pitch);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.guess-row.active-row {
+  background: rgba(31,107,58,.05);
+}
+
+/* ─── Submit Dock ─── */
+.submit-dock {
+  padding: 14px 22px 0;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.autocomplete-wrap {
+  flex: 1.2;
+  position: relative;
+}
+
+#guessInput {
+  width: 100%;
+  padding: 14px 12px;
+  background: rgba(31,107,58,.05);
+  border: 2px solid var(--spine);
+  border-radius: 3px;
+  font-family: "Archivo", system-ui, sans-serif;
+  /* 16px prevents iOS Safari from auto-zooming on focus, which otherwise
+     traps the page in a zoomed state after the user submits a guess. */
+  font-size: 16px;
+  color: var(--ink);
+  outline: none;
+}
+#guessInput::placeholder {
+  color: var(--ink-soft);
+  font-style: italic;
+}
+#guessInput:focus {
+  border-color: var(--pitch);
+  box-shadow: 0 0 0 2px rgba(31,107,58,.12);
+}
+
+#guessButton {
+  padding: 15px 14px;
+  background: var(--spine);
+  color: var(--spine-ink);
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 12px;
+  letter-spacing: .04em;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 2px 0 rgba(0,0,0,.25);
+  white-space: nowrap;
+}
+#guessButton:hover { filter: brightness(1.1); }
+#guessButton:active { transform: translateY(1px); box-shadow: 0 1px 0 rgba(0,0,0,.25); }
+#guessButton:disabled { opacity: .5; cursor: not-allowed; }
+
+/* ─── Suggestions (opens upward from dock) ─── */
+.suggestions {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: var(--paper-card);
+  border: 1px solid var(--page-edge);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 16px rgba(0,0,0,.1);
+  list-style: none;
+  max-height: 220px;
+  overflow-y: auto;
+  z-index: 60;
+}
+.suggestions:empty { display: none; }
+.suggestions li {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  border-bottom: 1px dashed var(--page-edge);
+}
+.suggestions li:last-child { border-bottom: none; }
+.suggestions li:hover,
+.suggestions li.active {
+  background: rgba(31,107,58,.08);
+  color: var(--pitch);
+}
+
+/* ─── Result Section ─── */
+.result {
+  padding: 0 22px 16px;
+  text-align: left;
+  background: transparent;
+  border: none;
+}
+.result.hidden { display: none; }
+
+.result-header {
+  padding: 16px 0 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.result-header h1 {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 36px;
+  line-height: 1;
+  margin-top: 4px;
+  letter-spacing: -.02em;
+}
+
+/* Stamp */
+.stamp {
+  transform: rotate(-8deg);
+  padding: 6px 10px;
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 12px;
+  letter-spacing: .16em;
+  flex-shrink: 0;
+}
+.stamp-win {
+  border: 2px solid var(--pitch);
+  color: var(--pitch);
+  background: rgba(31,107,58,.05);
+}
+.stamp-lose {
+  border: 2px solid var(--red);
+  color: var(--red);
+  background: rgba(200,65,46,.05);
+}
+
+/* ─── Player Card ─── */
+.player-card {
+  position: relative;
+  padding: 12px 14px 16px;
+  background: var(--paper-card);
+  border: 1px solid var(--page-edge);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+  transform: rotate(-0.6deg);
+  margin-top: 14px;
+}
+
+.tape-wide {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-3deg);
+  width: 64px;
+  height: 14px;
+  background: rgba(200,161,74,.28);
+  border: 1px solid rgba(200,161,74,.42);
+  border-radius: 1px;
+  display: block;
+}
+
+.player-card-grid {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 12px;
+  align-items: stretch;
+}
+
+.player-portrait {
+  position: relative;
+  background: linear-gradient(135deg, #2a4f3b 0%, #1a3a26 100%);
+  border: 2px solid var(--gold);
+  border-radius: 3px;
+  height: 160px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.portrait-number {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 22px;
+  color: var(--gold);
+}
+.portrait-meta {
+  position: absolute;
+  bottom: 6px;
+  right: 8px;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 9px;
+  color: rgba(255,255,255,.55);
+  letter-spacing: .18em;
+}
+.portrait-placeholder {
+  color: rgba(255,255,255,.5);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 9px;
+  letter-spacing: .18em;
+  text-align: center;
+  line-height: 1.6;
+}
+.foil-shimmer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(115deg, transparent 30%, rgba(255,255,255,.35) 45%, transparent 60%);
+}
+
+.player-portrait img,
+#playerImageResult {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 2px;
+  position: relative;
+  z-index: 1;
+}
+
+.player-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.player-info h2 {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 24px;
+  line-height: 1;
+  margin-top: 4px;
+  letter-spacing: -.02em;
+}
+.player-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+.player-tag {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 9.5px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  padding: 3px 7px;
+  border: 1px solid var(--page-edge);
+  border-radius: 2px;
+  font-weight: 700;
+}
+
+/* ─── Match Log ─── */
+.match-log-section {
+  padding: 14px 0 0;
+}
+.match-log {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+  justify-content: center;
+}
+.match-cell {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  font-size: 18px;
+  line-height: 1;
+  border-radius: 50%;
+}
+.match-cell.hit {
+  border: 2.5px solid var(--pitch);
+}
+.match-cell.miss {
+  border: 2.5px solid var(--red);
+}
+.match-cell.skip,
+.match-cell.unused {
+  border: 2px dashed var(--page-edge);
+}
+
+/* ─── Result Guesses ─── */
+.result-guesses {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.result-guess-row {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  color: var(--ink-soft);
+  letter-spacing: .04em;
+  line-height: 1.6;
+}
+
+/* ─── Rules Modal ─── */
+.rules-body {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 13px;
+  color: var(--ink);
+  line-height: 1.55;
+}
+.rules-body p {
+  margin: 0 0 10px;
+}
+.rules-body ul {
+  margin: 0 0 10px;
+  padding-left: 20px;
+}
+.rules-body li {
+  margin-bottom: 4px;
+}
+.rules-body strong {
+  color: var(--ink);
+}
+
+/* ─── Share Preview ─── */
+.share-preview {
+  margin: 12px 0 0;
+  padding: 10px 12px;
+  background: var(--paper-card);
+  border: 1px solid var(--page-edge);
+  border-radius: 3px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10.5px;
+  color: var(--ink);
+  line-height: 1.55;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* ─── Result CTAs ─── */
+.result-ctas {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+}
+.cta-primary {
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+  background: var(--spine);
+  color: var(--spine-ink);
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 12px;
+  letter-spacing: .06em;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 2px 0 rgba(0,0,0,.25);
+}
+.cta-primary:hover { filter: brightness(1.1); }
+
+.cta-secondary {
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+  background: var(--paper-card);
+  color: var(--ink);
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 12px;
+  letter-spacing: .06em;
+  border: 1px solid var(--page-edge);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.cta-secondary:hover { background: var(--page); }
+
+/* ─── Modal ─── */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(24,20,16,.6);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.modal-overlay.hidden { display: none; }
+
+.modal {
+  background: var(--page);
+  border: 1px solid var(--page-edge);
+  border-radius: 6px;
+  padding: 24px;
+  width: 100%;
+  max-width: 380px;
+  position: relative;
+  box-shadow: 0 16px 48px rgba(0,0,0,.2);
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+.modal-header h2 {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 1.2rem;
+  margin: 4px 0 0;
+}
+.modal-close {
+  font-size: 1.1rem;
+  color: var(--ink-soft);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+/* Stats modal */
+.stats-note {
+  font-style: italic;
+  font-size: .9rem;
+  color: var(--ink-soft);
+  margin: 12px 0 20px 0;
+  line-height: 1.5;
+}
+
+.stat-boxes {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.stat-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.stat-num {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 1.5rem;
+}
+.stat-label-text {
+  font-size: .7rem;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  font-weight: 700;
+}
+
+.dist-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+.dist-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.dist-label {
+  width: 14px;
+  text-align: right;
+  font-size: .85rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  font-family: "JetBrains Mono", monospace;
+}
+.dist-bar {
+  height: 24px;
+  min-width: 24px;
+  border-radius: 3px;
+  background: var(--page-edge);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 8px;
+  font-size: .8rem;
+  font-weight: 700;
+  transition: width .4s ease;
+  font-family: "JetBrains Mono", monospace;
+}
+.dist-bar.highlight {
+  background: var(--pitch);
+  color: #fff;
+}
+
+.modal-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.reset-btn {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  color: var(--red);
+  border: 1px solid var(--red);
+  border-radius: var(--radius);
+  font-size: .85rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: "Archivo", system-ui, sans-serif;
+}
+.transfer-btn {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  color: var(--ink-soft);
+  border: 1px solid var(--page-edge);
+  border-radius: var(--radius);
+  font-size: .85rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: "Archivo", system-ui, sans-serif;
+}
+
+/* Transfer modal */
+.transfer-section {
+  margin-bottom: 16px;
+}
+.transfer-hint {
+  color: var(--ink-soft);
+  font-size: .8rem;
+  margin: 4px 0 8px;
+}
+.transfer-code-wrap {
+  display: flex;
+  gap: 8px;
+}
+.transfer-code {
+  flex: 1;
+  background: var(--paper-card);
+  border: 1px solid var(--page-edge);
+  color: var(--ink);
+  border-radius: 3px;
+  padding: 10px;
+  font-family: "JetBrains Mono", monospace;
+  /* 16px prevents iOS Safari from auto-zooming on focus */
+  font-size: 16px;
+  resize: none;
+  min-height: 60px;
+  word-break: break-all;
+}
+.transfer-code-wrap button {
+  align-self: flex-end;
+  padding: 8px 14px;
+  font-size: .85rem;
+}
+.transfer-msg {
+  font-size: .85rem;
+  margin: 8px 0 0;
+}
+.transfer-msg.hidden { display: none; }
+.transfer-msg.success { color: var(--pitch); }
+.transfer-msg.error { color: var(--red); }
+
+/* Archive modal */
+.modal-archive {
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.modal-archive .modal-header { flex-shrink: 0; }
+.archive-list {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.archive-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  background: var(--paper-card);
+  border: 1px solid var(--page-edge);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color .2s;
+}
+.archive-item:hover { border-color: var(--pitch); }
+.archive-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.archive-item-num {
+  font-weight: 700;
+  font-size: .95rem;
+}
+.archive-item-date {
+  font-size: .8rem;
+  color: var(--ink-soft);
+}
+
+/* ─── Ad Slot ─── */
+.ad-slot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ad-slot:empty { display: none; }
+.ad-slot:not(:empty) { padding: 10px 22px; }
+
+/* ─── Responsive ─── */
+@media (max-width: 520px) {
+  .album { max-width: 100%; }
+
+  .player-card-grid {
+    grid-template-columns: 100px 1fr;
+    gap: 10px;
+  }
+  .player-portrait { height: 140px; }
+  .player-info h2 { font-size: 20px; }
+
+  .page-title h1 { font-size: 28px; }
+  .result-header h1 { font-size: 30px; }
+}
+
+@media (max-width: 380px) {
+  .sticker-grid { gap: 8px; }
+  .page-title { padding: 10px 16px 4px; }
+  .guess-log { margin: 12px 16px 0; }
+  .submit-dock { padding: 8px 16px; }
+  .result { padding: 0 16px 16px; }
+  .album-header { padding: 12px 16px 10px; }
+}
+
+/* ─── Utility ─── */
+.hidden { display: none !important; }
+
+/* ─── Sticker Album View ─── */
+.album-view {
+  padding: 0 22px 20px;
+}
+.album-view-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px 0 0;
+}
+.album-view-header h1 {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 28px;
+  line-height: 1.15;
+  margin-top: 4px;
+}
+.back-btn {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--pitch);
+  background: none;
+  border: none;
+  cursor: pointer;
+  letter-spacing: .04em;
+  margin-top: 6px;
+}
+
+.album-progress {
+  padding: 14px 0 0;
+}
+.album-progress-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.album-progress-pct {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--pitch);
+}
+.album-progress-bar {
+  height: 6px;
+  background: var(--page-edge);
+  border-radius: 3px;
+  margin-top: 6px;
+  overflow: hidden;
+}
+.album-progress-fill {
+  height: 100%;
+  background: var(--pitch);
+  border-radius: 3px;
+  transition: width .4s ease;
+}
+
+.sticker-album-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding-top: 16px;
+}
+
+.album-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.album-slot-shots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 0 4px;
+}
+
+.shot-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.shot-dot-hit  { background: var(--pitch); }
+.shot-dot-miss { background: var(--red); }
+.shot-dot-empty { border: 1.5px solid var(--page-edge); }
+
+.album-slot {
+  aspect-ratio: 3/4;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.album-slot.collected {
+  background: var(--paper-card);
+  border: 2px solid var(--gold);
+  box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+.album-slot.collected .album-slot-img {
+  width: 100%;
+  flex: 1;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+  background: #e8e0ce;
+}
+.album-slot.collected .album-slot-meta {
+  padding: 6px 6px 5px;
+  background: var(--paper-card);
+  border-top: 1px solid var(--page-edge);
+}
+.album-slot-name {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 8.5px;
+  letter-spacing: .02em;
+  line-height: 1.2;
+  color: var(--ink);
+  display: block;
+}
+.album-slot-detail {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 7.5px;
+  color: var(--ink-soft);
+  display: block;
+  margin-top: 1px;
+}
+.album-slot-day {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 7px;
+  font-weight: 500;
+  color: #fff;
+  background: var(--gold);
+  padding: 1px 4px;
+  border-radius: 2px;
+}
+.album-slot .foil-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, transparent 40%, rgba(255,255,255,.15) 50%, transparent 60%);
+  pointer-events: none;
+}
+
+/* Custom panini-style sticker: full-bleed, hide meta overlay since
+   name/country/year are already printed on the image. */
+.album-slot.collected.custom-sticker {
+  border: none;
+  background: transparent;
+  padding: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,.12);
+}
+.album-slot.collected.custom-sticker .album-slot-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  background: transparent;
+}
+.album-slot.collected.custom-sticker .album-slot-meta {
+  display: none;
+}
+
+.album-slot.missed {
+  background: var(--paper-card);
+  border: 1.5px dashed var(--page-edge);
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.album-slot-missed-icon {
+  font-size: 20px;
+  opacity: .25;
+}
+.album-slot-missed-label {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 7.5px;
+  letter-spacing: .12em;
+  color: var(--red);
+  opacity: .6;
+}
+.album-slot-missed-name {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 8px;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+.album-slot-missed-day {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 7px;
+  color: var(--ink-soft);
+}
+
+.album-slot.upcoming {
+  background: transparent;
+  border: 1.5px dashed var(--page-edge);
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  opacity: .45;
+}
+.album-slot-q {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 22px;
+  color: var(--page-edge);
+}
+.album-slot-upcoming-day {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 7.5px;
+  color: var(--ink-soft);
+}
+
+.album-coming-soon {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  text-align: center;
+  background: var(--paper-card);
+  border: 2px dashed var(--page-edge);
+  border-radius: 6px;
+}
+.album-coming-soon-icon {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+.album-coming-soon h2 {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 22px;
+  color: var(--ink);
+}
+.album-coming-soon p {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 14px;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+/* ─── Cookie Consent ─── */
+.consent-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0,0,0,.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.consent-overlay.hidden { display: none !important; }
+
+.consent-card {
+  background: var(--page);
+  border-radius: 6px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 12px 40px rgba(0,0,0,.3);
+  overflow: hidden;
+}
+
+.consent-header {
+  padding: 22px 22px 14px;
+  border-bottom: 1px solid var(--page-edge);
+}
+.consent-header h2 {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 20px;
+  line-height: 1.25;
+  margin-top: 4px;
+}
+.consent-subtitle {
+  font-size: 14px;
+  color: var(--ink-soft);
+  margin-top: 6px;
+}
+
+.consent-body {
+  padding: 16px 22px;
+}
+.consent-body .label {
+  margin-bottom: 8px;
+}
+.consent-list {
+  list-style: disc;
+  padding-left: 18px;
+  margin: 8px 0 14px;
+  font-size: 13px;
+  color: var(--ink);
+  line-height: 1.5;
+}
+.consent-list li + li { margin-top: 4px; }
+
+.consent-faq {
+  margin: 10px 0;
+  font-size: 13px;
+}
+.consent-faq > summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--pitch);
+  font-size: 13px;
+}
+.consent-faq-inner {
+  margin-top: 8px;
+}
+.consent-faq-inner details {
+  border-top: 1px solid var(--page-edge);
+  padding: 8px 0;
+}
+.consent-faq-inner summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 12.5px;
+  color: var(--ink);
+}
+.consent-faq-inner p {
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin-top: 4px;
+  line-height: 1.5;
+}
+
+.consent-legal {
+  font-size: 11px;
+  color: var(--ink-soft);
+  line-height: 1.5;
+  margin-top: 12px;
+}
+
+.consent-actions {
+  display: flex;
+  gap: 8px;
+  padding: 14px 22px 20px;
+}
+
+/* ─── Footer / Cookie Settings ─── */
+.site-footer {
+  padding: 16px 22px;
+  text-align: center;
+}
+.cookie-settings-link {
+  background: none;
+  border: none;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 11px;
+  color: var(--ink-soft);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.cookie-settings-link:hover {
+  color: var(--ink);
+}
+.footer-contact {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 11px;
+  color: var(--ink-soft);
+  margin-top: 6px;
+}
+.footer-contact a {
+  color: var(--ink-soft);
+  text-underline-offset: 2px;
+}
+.footer-contact a:hover {
+  color: var(--ink);
+}
+
+/* ─── Animations ─── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-in { animation: fadeIn .35s ease; }
+
+/* ─── Fun Fact (EPL) ─── */
+.fun-fact {
+  font-style: italic;
+  font-size: .95rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  text-align: center;
+  margin: 14px 8px 0;
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, .35);
+  border-left: 3px solid var(--gold);
+  border-radius: 3px;
+}
+
+.fun-fact-result {
+  font-style: italic;
+  font-size: .95rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  margin: 14px 14px 4px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, .35);
+  border-left: 3px solid var(--gold);
+  border-radius: 3px;
+}
+
+/* ─── Countdown to midnight ─── */
+.result-kicker {
+  display: block;
+  margin-bottom: 6px;
+}
+.countdown-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 10px 0 12px;
+  margin-bottom: 18px;
+  border-top: 1px dashed var(--page-edge);
+  border-bottom: 1px dashed var(--page-edge);
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 13px;
+  color: var(--ink-soft);
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+.countdown-time {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--pitch);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* Clickable past-day question-mark slots in the album */
+.album-cell-clickable {
+  cursor: pointer;
+}
+.album-cell-clickable .album-slot.upcoming {
+  transition: border-color .15s, background-color .15s;
+}
+.album-cell-clickable:hover .album-slot.upcoming {
+  border-color: var(--pitch);
+  background-color: rgba(31,107,58,.04);
+}
+.album-cell-clickable:hover .album-slot-q {
+  color: var(--pitch);
+}
+
+
+/* Archive prev/next navigation on result page */
+.archive-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 14px 22px 6px;
+}
+.archive-nav.hidden { display: none; }
+.archive-nav-btn {
+  flex: 1;
+  padding: 10px 12px;
+  background: var(--paper-card);
+  border: 1px solid var(--page-edge);
+  border-radius: 3px;
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 11px;
+  letter-spacing: .08em;
+  color: var(--spine);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.archive-nav-btn:hover:not(:disabled) {
+  background: var(--spine);
+  color: var(--spine-ink);
+  border-color: var(--spine);
+}
+.archive-nav-btn:disabled {
+  opacity: .35;
+  cursor: not-allowed;
+}
+
+
+/* Archive modal — green "Open My Album" link box */
+.archive-album-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 16px;
+  padding: 14px 16px;
+  background: var(--spine);
+  border: none;
+  border-radius: 4px;
+  color: var(--spine-ink);
+  font-family: "Archivo", system-ui, sans-serif;
+  text-align: left;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,.12);
+  transition: background .15s, transform .1s;
+}
+.archive-album-link:hover {
+  background: var(--spine-deep);
+}
+.archive-album-link:active {
+  transform: scale(.98);
+}
+.archive-album-link-label {
+  font-size: 10px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-weight: 700;
+  display: block;
+  line-height: 1;
+}
+.archive-album-link-cta {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 14px;
+  letter-spacing: .02em;
+  color: var(--spine-ink);
+  flex-shrink: 0;
+  margin-left: 12px;
+}
+
+/* ─── FCK-specific layout ─── */
+
+/* Position sticker spans both columns to balance the 5-mini-sticker grid */
+.sticker-wide {
+  grid-column: 1 / span 2;
+}
+
+/* Fun fact slot — full-width revealing card, locked until miss 3 */
+.fun-fact-slot {
+  grid-column: 1 / span 2;
+  position: relative;
+  background: var(--paper-card);
+  border: 1px solid var(--page-edge);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+  padding: 14px 16px;
+  min-height: 64px;
+}
+.fun-fact-slot.locked {
+  background: transparent;
+  border: 1.5px dashed var(--page-edge);
+  border-left: 1.5px dashed var(--page-edge);
+  box-shadow: none;
+  text-align: center;
+}
+.fun-fact-slot.locked .fun-fact-slot-text {
+  display: none;
+}
+.fun-fact-slot:not(.locked) .fun-fact-slot-placeholder {
+  display: none;
+}
+.fun-fact-slot-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px 0;
+}
+.fun-fact-slot-sub {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 11px;
+  color: var(--ink-soft);
+  letter-spacing: .06em;
+}
+.fun-fact-slot-text {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--ink);
+  margin: 0;
+}
+
+/* When revealed, peel/unlock animation */
+.fun-fact-slot.just-unlocked {
+  animation: stickerPeel .5s ease;
+}
