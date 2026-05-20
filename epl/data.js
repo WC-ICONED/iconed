@@ -31,7 +31,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 7,
           "age": 29,
-          "fun_fact": "Returned from his ban to inspire United to the Double, winning PFA Player of the Year and scoring the title-winning goal on the final day.",
+          "fun_fact": "Returned from his ban to inspire United to the Double, winning FWA Footballer of the Year and scoring the late FA Cup final winner against Liverpool.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Eric_Cantona_Cannes_2009.jpg/330px-Eric_Cantona_Cannes_2009.jpg"
         },
         {
@@ -39,7 +39,7 @@ window.EPL_DATA = {
           "club": "Newcastle United",
           "nationality": "French",
           "position": "MID",
-          "shirt_number": 11,
+          "shirt_number": 14,
           "age": 28,
           "fun_fact": "Dazzled Premier League defences with his silky dribbling as Newcastle pushed United all the way before their famous title collapse.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/David_Ginola_Deauville_2014_2.jpg/330px-David_Ginola_Deauville_2014_2.jpg"
@@ -50,8 +50,8 @@ window.EPL_DATA = {
           "nationality": "Danish",
           "position": "GK",
           "shirt_number": 1,
-          "age": 32,
-          "fun_fact": "Kept 22 clean sheets as United won the Double, widely regarded as the best goalkeeper in the world at the time.",
+          "age": 31,
+          "fun_fact": "Kept 18 league clean sheets as United won the Double, widely regarded as the best goalkeeper in the world at the time.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Peter_Schmeichel_2012-01-25_001.jpg/330px-Peter_Schmeichel_2012-01-25_001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
         },
         {
@@ -60,8 +60,8 @@ window.EPL_DATA = {
           "nationality": "English",
           "position": "FWD",
           "shirt_number": 9,
-          "age": 29,
-          "fun_fact": "Scored 29 goals in his debut season at St James' Park, forming a lethal partnership with Ginola to power Newcastle's title challenge.",
+          "age": 28,
+          "fun_fact": "Scored 25 Premier League goals, and 29 in all competitions, in his debut season at St James' Park as Newcastle mounted a memorable title challenge.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/LesFerdinandMay2015_%28cropped%29.JPG/330px-LesFerdinandMay2015_%28cropped%29.JPG"
         },
         {
@@ -90,8 +90,8 @@ window.EPL_DATA = {
           "nationality": "English",
           "position": "GK",
           "shirt_number": 1,
-          "age": 29,
-          "fun_fact": "Was Blackburn's dependable last line of defence as they finished runners-up, earning England recognition for his consistent shot-stopping.",
+          "age": 28,
+          "fun_fact": "Was Blackburn's dependable last line of defence as they finished seventh, earning England recognition for his consistent shot-stopping.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Tim_Flowers_December_2020.png/330px-Tim_Flowers_December_2020.png"
         },
         {
@@ -126,7 +126,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 10,
           "age": 27,
-          "fun_fact": "Won both the PFA Players' Player of the Year and FWA Footballer of the Year — a stunning maiden full season at Highbury.",
+          "fun_fact": "Played a key creative role in Arsene Wenger's first Arsenal season, showing the touch, vision and invention that would define his peak years at Highbury.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Dennis_Bergkamp_2014_%28cropped%29.jpg"
         },
         {
@@ -146,7 +146,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 16,
           "age": 25,
-          "fun_fact": "United's engine as they retained the title, his combative leadership and driving runs from midfield were key to their domestic dominance.",
+          "fun_fact": "United's engine as they retained the title, his combative presence and driving runs from midfield were key to their domestic dominance.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Roy_keane_2014.jpg/330px-Roy_keane_2014.jpg"
         },
         {
@@ -154,7 +154,7 @@ window.EPL_DATA = {
           "club": "Manchester United",
           "nationality": "English",
           "position": "MID",
-          "shirt_number": 24,
+          "shirt_number": 10,
           "age": 21,
           "fun_fact": "Announced himself to the world with his halfway-line lob against Wimbledon on the opening day and was named PFA Young Player of the Year.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/David_Beckham_UNICEF_%28cropped2%29.jpg/330px-David_Beckham_UNICEF_%28cropped2%29.jpg"
@@ -166,7 +166,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 8,
           "age": 33,
-          "fun_fact": "Scored 23 league goals and surpassed Cliff Bastin's all-time Arsenal goalscoring record mid-season, a landmark moment at Highbury.",
+          "fun_fact": "Scored 23 league goals and remained Arsenal's main finisher, carrying their attack through Arsene Wenger's first campaign at Highbury.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Ian_Wright_at_SXSW_London_June_2025_%28cropped%29.jpg/330px-Ian_Wright_at_SXSW_London_June_2025_%28cropped%29.jpg"
         },
         {
@@ -176,7 +176,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 9,
           "age": 27,
-          "fun_fact": "Scored a hat-trick on his debut and netted 16 league goals for a Boro side that were relegated despite his extraordinary individual effort.",
+          "fun_fact": "Scored a hat-trick on his debut and netted 17 league goals for a Boro side that were relegated despite his extraordinary individual effort.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Fabrizio_Ravanelli_maggio_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
         },
         {
@@ -205,7 +205,7 @@ window.EPL_DATA = {
           "nationality": "English",
           "position": "MID",
           "shirt_number": 7,
-          "age": 28,
+          "age": 27,
           "fun_fact": "Continued to bewitch Premier League defences with his extraordinary technique, his stunning goals making him the most naturally gifted English player of the era.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Matt_Le_Tissier_2022.png/330px-Matt_Le_Tissier_2022.png"
         },
@@ -216,7 +216,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 9,
           "age": 18,
-          "fun_fact": "Terrified Premier League defenders with his power and pace for Leicester, earning his first England recognition at just 18 years old.",
+          "fun_fact": "Terrified Premier League defenders with his power and pace for Leicester, earning England Under-21 recognition at just 18 years old.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Emile_Heskey_as_a_player_of_England_national_football_team.jpg/330px-Emile_Heskey_as_a_player_of_England_national_football_team.jpg"
         }
       ]
@@ -256,12 +256,12 @@ window.EPL_DATA = {
         },
         {
           "name": "Stuart Pearce",
-          "club": "Nottingham Forest",
+          "club": "Newcastle United",
           "nationality": "English",
           "position": "DEF",
-          "shirt_number": 3,
+          "shirt_number": 12,
           "age": 35,
-          "fun_fact": "The legendary 'Psycho' marshalled Nottingham Forest's defence in their first Premier League campaign back, bringing experience and fierce left-footed defending to the City Ground.",
+          "fun_fact": "Joined Newcastle United from Nottingham Forest in July 1997, bringing veteran left-back experience to a side that reached the FA Cup final.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Stuart_Pearce_%2831651906441%29.jpg/330px-Stuart_Pearce_%2831651906441%29.jpg"
         },
         {
@@ -301,7 +301,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 4,
           "age": 29,
-          "fun_fact": "A combative midfield anchor for Newcastle as they challenged for the title, his uncompromising style the bedrock of their approach.",
+          "fun_fact": "A combative midfield anchor for Newcastle during a difficult league campaign that also included a run to the FA Cup final.",
           "image_url": ""
         },
         {
@@ -354,7 +354,7 @@ window.EPL_DATA = {
           "club": "Arsenal",
           "nationality": "Swedish",
           "position": "MID",
-          "shirt_number": 8,
+          "shirt_number": 11,
           "age": 21,
           "fun_fact": "The flame-haired Swedish midfielder burst onto the Premier League scene at Arsenal, providing creativity and energy in his debut season at Highbury.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Football_against_poverty_2014_-_Fredrik_Ljungberg.jpg/330px-Football_against_poverty_2014_-_Fredrik_Ljungberg.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
@@ -376,7 +376,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 18,
           "age": 24,
-          "fun_fact": "Scored nine league goals from midfield and was an integral part of United's historic Treble, combining tireless running with pinpoint passing.",
+          "fun_fact": "Contributed important goals from midfield and was an integral part of United's historic Treble, combining tireless running with pinpoint passing.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/P_Scholes.jpg/330px-P_Scholes.jpg"
         },
         {
@@ -388,36 +388,6 @@ window.EPL_DATA = {
           "age": 24,
           "fun_fact": "An unsung hero of United's Treble season, his combative midfield displays providing the platform for the more creative players to shine.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Cropped_Butt_by_nyaa_birdies_perch.jpg/330px-Cropped_Butt_by_nyaa_birdies_perch.jpg"
-        },
-        {
-          "name": "Robbie Keane",
-          "club": "Coventry City",
-          "nationality": "Irish",
-          "position": "FWD",
-          "shirt_number": 7,
-          "age": 18,
-          "fun_fact": "Burst onto the scene as a teenager at Coventry, his energy and eye for goal catching the attention of Europe's biggest clubs.",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/2013_Robbie_Keane_%28cropped%29.jpg/330px-2013_Robbie_Keane_%28cropped%29.jpg"
-        },
-        {
-          "name": "Sami Hyypia",
-          "club": "Liverpool",
-          "nationality": "Finnish",
-          "position": "DEF",
-          "shirt_number": 4,
-          "age": 24,
-          "fun_fact": "Arrived from Willem II and immediately became a commanding presence at the heart of Liverpool's defence — a bargain at £2.6m.",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Sami_Hyypia_2012_%28cropped%29.jpg"
-        },
-        {
-          "name": "Richard Wright",
-          "club": "Ipswich Town",
-          "nationality": "English",
-          "position": "GK",
-          "shirt_number": 1,
-          "age": 21,
-          "fun_fact": "The young Ipswich goalkeeper kept clean sheets regularly as Town punched above their weight, earning England Under-21 recognition with his composed displays at Portman Road.",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Richard_Wright_%28Ipswich_goalkeeper%29.jpg/330px-Richard_Wright_%28Ipswich_goalkeeper%29.jpg"
         },
         {
           "name": "Ugo Ehiogu",
@@ -460,7 +430,7 @@ window.EPL_DATA = {
           "nationality": "Australian",
           "position": "MID",
           "shirt_number": 10,
-          "age": 21,
+          "age": 20,
           "fun_fact": "Led Leeds to a surprise third-place finish with his creative brilliance, emerging as one of the most gifted left-sided players in Europe.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/HarryKewell.jpg/330px-HarryKewell.jpg"
         },
@@ -480,7 +450,7 @@ window.EPL_DATA = {
           "nationality": "Welsh",
           "position": "MID",
           "shirt_number": 11,
-          "age": 30,
+          "age": 29,
           "fun_fact": "One of the most consistent midfielders in the division, his box-to-box energy and leadership a constant Premier League presence.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gary_Speed_2011.jpg/330px-Gary_Speed_2011.jpg"
         },
@@ -546,7 +516,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 10,
           "age": 34,
-          "fun_fact": "Won both PFA and FWA Player of the Year at age 34, scoring 15 goals to disprove all his critics after a difficult first season at Old Trafford.",
+          "fun_fact": "Won both PFA and FWA Player of the Year at age 34, scoring 15 goals to disprove the critics and help United retain the title.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Teddy_Sheringham_-_53492983124_%28original%29.jpg/330px-Teddy_Sheringham_-_53492983124_%28original%29.jpg"
         },
         {
@@ -554,7 +524,7 @@ window.EPL_DATA = {
           "club": "Liverpool",
           "nationality": "English",
           "position": "MID",
-          "shirt_number": 17,
+          "shirt_number": 28,
           "age": 20,
           "fun_fact": "Emerged as Liverpool's driving force as they won the cup Treble, his thunderous shooting and infectious energy marking him as England's next great midfielder.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Steven_Gerrard_2018.jpg/330px-Steven_Gerrard_2018.jpg"
@@ -580,26 +550,6 @@ window.EPL_DATA = {
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/MattHolland.jpg/330px-MattHolland.jpg"
         },
         {
-          "name": "Steed Malbranque",
-          "club": "Fulham",
-          "nationality": "French",
-          "position": "MID",
-          "shirt_number": 10,
-          "age": 21,
-          "fun_fact": "Shone for Fulham as they won the First Division title under Jean Tigana, his technical quality a standout as they prepared for Premier League football.",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/SM_Caen_vs_UNFP%2C_July_30th_2016_-_Steed_Malbranque_1.jpg/330px-SM_Caen_vs_UNFP%2C_July_30th_2016_-_Steed_Malbranque_1.jpg"
-        },
-        {
-          "name": "Jermain Defoe",
-          "club": "West Ham United",
-          "nationality": "English",
-          "position": "FWD",
-          "shirt_number": 28,
-          "age": 18,
-          "fun_fact": "Made a stunning impact as a teenager for West Ham, his predatory instincts marking him as one of England's most exciting young strikers.",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Jermain-Defoe_%28cropped%29.jpg/330px-Jermain-Defoe_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-        },
-        {
           "name": "Darius Vassell",
           "club": "Aston Villa",
           "nationality": "English",
@@ -614,9 +564,9 @@ window.EPL_DATA = {
           "club": "Arsenal",
           "nationality": "French",
           "position": "FWD",
-          "shirt_number": 12,
+          "shirt_number": 11,
           "age": 26,
-          "fun_fact": "Scored the title-clinching goal at Old Trafford the following season — his energy and directness were key parts of Arsenal's evolving attack.",
+          "fun_fact": "Added pace, versatility and directness to Arsenal's attack in his first Premier League season after arriving from Bordeaux.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Sylvain_Wiltord_Rennes_081229.jpg"
         },
         {
@@ -624,9 +574,9 @@ window.EPL_DATA = {
           "club": "Sunderland",
           "nationality": "Irish",
           "position": "FWD",
-          "shirt_number": 10,
-          "age": 34,
-          "fun_fact": "The towering Republic of Ireland striker formed a deadly partnership with Kevin Phillips at Sunderland, his intelligent hold-up play helping Town challenge for a top-seven finish.",
+          "shirt_number": 9,
+          "age": 33,
+          "fun_fact": "The towering Republic of Ireland striker formed a deadly partnership with Kevin Phillips at Sunderland, his intelligent hold-up play helping the Black Cats challenge near the top seven.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Niall_Quinn_2011_%28cropped%29.jpg/330px-Niall_Quinn_2011_%28cropped%29.jpg"
         },
         {
@@ -725,16 +675,6 @@ window.EPL_DATA = {
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Ledley_King.jpg"
         },
         {
-          "name": "Steve McManaman",
-          "club": "Real Madrid",
-          "nationality": "English",
-          "position": "MID",
-          "shirt_number": 16,
-          "age": 29,
-          "fun_fact": "Returned to Premier League consciousness with a La Liga winner's medal — his Champions League exploits made him England's most celebrated export.",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/1_steve_mcmanaman_2017_%28cropped%29.jpg/330px-1_steve_mcmanaman_2017_%28cropped%29.jpg"
-        },
-        {
           "name": "David Beckham",
           "club": "Manchester United",
           "nationality": "English",
@@ -756,7 +696,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 20,
           "age": 29,
-          "fun_fact": "The 'Baby-faced Assassin' came off the bench to devastating effect throughout 2002-03, netting crucial goals as United reclaimed the Premier League title from Arsenal.",
+          "fun_fact": "The Baby-faced Assassin came off the bench to devastating effect throughout 2002-03, netting crucial goals as United reclaimed the Premier League title from Arsenal.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Ole_Gunnar_Solskjaer_Trondheim2011-1_crop.jpg/330px-Ole_Gunnar_Solskjaer_Trondheim2011-1_crop.jpg"
         },
         {
@@ -764,9 +704,9 @@ window.EPL_DATA = {
           "club": "Manchester United",
           "nationality": "English",
           "position": "DEF",
-          "shirt_number": 5,
+          "shirt_number": 6,
           "age": 23,
-          "fun_fact": "Joined for a then-British record £29.1m and was imperious in United's title triumph before a missing drugs test led to an eight-month ban.",
+          "fun_fact": "Joined for a then-British record £29.1m and added composure and class as United reclaimed the Premier League title from Arsenal.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Web_Summit_2015_-_Dublin%2C_Ireland_-_22183056474_%28cropped%29.jpg/330px-Web_Summit_2015_-_Dublin%2C_Ireland_-_22183056474_%28cropped%29.jpg"
         },
         {
@@ -824,7 +764,7 @@ window.EPL_DATA = {
           "club": "West Ham United",
           "nationality": "English",
           "position": "MID",
-          "shirt_number": 16,
+          "shirt_number": 6,
           "age": 21,
           "fun_fact": "Caught the eye with composed and intelligent midfield displays for West Ham, his reading of the game already beyond his years.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Michael_Carrick_12042025_%285%29_%28cropped%29.jpg/330px-Michael_Carrick_12042025_%285%29_%28cropped%29.jpg"
@@ -859,7 +799,7 @@ window.EPL_DATA = {
           "club": "Chelsea",
           "nationality": "French",
           "position": "MID",
-          "shirt_number": 11,
+          "shirt_number": 4,
           "age": 30,
           "fun_fact": "The diminutive French midfielder was the unsung hero of Chelsea's Abramovich era, his tireless defensive work earning widespread acclaim and giving rise to the footballing term 'The Makelele Role'.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Claude_Mak%C3%A9l%C3%A9l%C3%A9_%2853557564951%29_%28cropped%29.jpg/330px-Claude_Mak%C3%A9l%C3%A9l%C3%A9_%2853557564951%29_%28cropped%29.jpg"
@@ -871,7 +811,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 18,
           "age": 17,
-          "fun_fact": "Burst onto the scene as the most exciting teenager in Europe, his stunning goal against Arsenal making him the Premier League's hottest property.",
+          "fun_fact": "Continued to develop as one of Europe's most exciting teenagers, combining power, skill and fearlessness in his final full season at Everton.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Wayne_Rooney_%2850121495731%29_%28cropped%29.jpg/330px-Wayne_Rooney_%2850121495731%29_%28cropped%29.jpg"
         },
         {
@@ -909,7 +849,7 @@ window.EPL_DATA = {
           "club": "Chelsea",
           "nationality": "French",
           "position": "DEF",
-          "shirt_number": 17,
+          "shirt_number": 13,
           "age": 26,
           "fun_fact": "The versatile French defender was part of Chelsea's meanest defence that season, his pace and composure across the backline making him one of the best in his position.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/William_Gallas_2018_%282%29.jpg/330px-William_Gallas_2018_%282%29.jpg"
@@ -943,16 +883,6 @@ window.EPL_DATA = {
           "age": 22,
           "fun_fact": "Established himself as England's premier centre-back, his commanding leadership and aerial dominance making Chelsea's defence one of the best in England.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_Terry_at_pro-am_Wentworth_golf_course_September_2023_%28cropped%29.jpg/330px-John_Terry_at_pro-am_Wentworth_golf_course_September_2023_%28cropped%29.jpg"
-        },
-        {
-          "name": "Tim Cahill",
-          "club": "Millwall",
-          "nationality": "Australian",
-          "position": "MID",
-          "shirt_number": 16,
-          "age": 23,
-          "fun_fact": "Starred for Millwall as they reached the FA Cup final, his box-to-box energy and knack for scoring prompting Everton to snap him up that summer.",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Tim_Cahill_%2853557484101%29.jpg/330px-Tim_Cahill_%2853557484101%29.jpg"
         }
       ]
     },
@@ -974,9 +904,9 @@ window.EPL_DATA = {
           "club": "Chelsea",
           "nationality": "Dutch",
           "position": "MID",
-          "shirt_number": 18,
+          "shirt_number": 16,
           "age": 20,
-          "fun_fact": "Dazzled in his debut Premier League season, cutting inside from the right with his trademark move to score stunning goals for the champions.",
+          "fun_fact": "Dazzled in his debut Premier League season, cutting inside from the flank with his trademark move to score stunning goals for the champions.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Arjen_Robben_v_Shakhtar_2015_%28cropped%29.jpg/330px-Arjen_Robben_v_Shakhtar_2015_%28cropped%29.jpg"
         },
         {
@@ -1014,7 +944,7 @@ window.EPL_DATA = {
           "club": "Chelsea",
           "nationality": "Irish",
           "position": "MID",
-          "shirt_number": 15,
+          "shirt_number": 11,
           "age": 25,
           "fun_fact": "A lightning-quick winger whose trickery and delivery from the left were key weapons in Chelsea's record-breaking title-winning armoury.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Damien_Duff_2025.png/330px-Damien_Duff_2025.png"
@@ -1026,7 +956,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 8,
           "age": 30,
-          "fun_fact": "The combative Welsh midfielder was Blackburn's driving force in midfield, his tenacious pressing and reading of the game helping Rovers achieve a competitive mid-table finish.",
+          "fun_fact": "Joined Blackburn from Birmingham in January 2005, adding bite and experience to Rovers' midfield during the second half of the season.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Savage%2C_Robbie.jpg/330px-Savage%2C_Robbie.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
         },
         {
@@ -1036,7 +966,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 10,
           "age": 35,
-          "fun_fact": "The experienced striker brought vital Premier League know-how to West Brom, his goals and leadership helping the Baggies survive in the top flight against the odds.",
+          "fun_fact": "Arrived at West Brom in January and brought vital Premier League know-how, his goals and leadership helping the Baggies complete their famous survival.",
           "image_url": "https://upload.wikimedia.org/wikipedia/en/5/50/Kevin_Campbell.jpeg"
         },
         {
@@ -1048,16 +978,6 @@ window.EPL_DATA = {
           "age": 30,
           "fun_fact": "The Republic of Ireland midfielder was the engine of Everton's impressive fourth-place finish, his tireless running and composed distribution earning him widespread praise from Toffees fans.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Lee_Carsley.png"
-        },
-        {
-          "name": "Nigel Reo-Coker",
-          "club": "West Ham United",
-          "nationality": "English",
-          "position": "MID",
-          "shirt_number": 8,
-          "age": 20,
-          "fun_fact": "The young West Ham captain was one of the most promising midfielders in the division, his leadership and energy helping the Hammers consolidate their Premier League status.",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Nigel_Reo-Coker%2C_Aston_Villa.jpg/330px-Nigel_Reo-Coker%2C_Aston_Villa.jpg"
         }
       ]
     },
@@ -1101,7 +1021,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 9,
           "age": 22,
-          "fun_fact": "The powerful young striker was one of the most exciting forwards in the league, his strength, technique and eye for goal making him one of West Ham's most exciting signings of the era.",
+          "fun_fact": "Joined West Ham from Norwich in January 2006 and quickly added power, touch and goals to Alan Pardew's attack during the run-in.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Dean_ashton_%28cropped%29.jpg/330px-Dean_ashton_%28cropped%29.jpg"
         },
         {
@@ -1140,7 +1060,7 @@ window.EPL_DATA = {
           "nationality": "English",
           "position": "FWD",
           "shirt_number": 11,
-          "age": 19,
+          "age": 18,
           "fun_fact": "Made his senior debut and scored his first Premier League goals, the fleet-footed Brummie announcing himself as a real talent.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Gabriel_Agbonlahor_Aston_Villa-FH_318.jpg/330px-Gabriel_Agbonlahor_Aston_Villa-FH_318.jpg"
         },
@@ -1153,16 +1073,6 @@ window.EPL_DATA = {
           "age": 23,
           "fun_fact": "The powerful Egyptian striker was a fan favourite at Spurs, his strength and finishing ability contributing important goals as Tottenham pushed for European qualification in 2005-06.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Mido_%28Egyptian_Footballer%29.png/330px-Mido_%28Egyptian_Footballer%29.png"
-        },
-        {
-          "name": "Boaz Myhill",
-          "club": "Watford",
-          "nationality": "Welsh",
-          "position": "GK",
-          "shirt_number": 1,
-          "age": 24,
-          "fun_fact": "The Welsh goalkeeper was a key part of Watford's surprise promotion campaign, his consistent performances helping the Hornets win the Championship and earn Premier League football.",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Boazmyhillforwiki.png/330px-Boazmyhillforwiki.png"
         }
       ]
     },
@@ -1206,7 +1116,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 5,
           "age": 23,
-          "fun_fact": "The 'Bison' was a powerhouse in Chelsea's midfield, his strength, stamina and technical ability making him one of the most complete midfielders in Europe.",
+          "fun_fact": "The Bison was a powerhouse in Chelsea's midfield, his strength, stamina and technical ability making him one of the most complete midfielders in Europe.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Chelsea_Legends_1_Inter_Forever_4_%2828453496098%29_%28cropped%29.jpg/330px-Chelsea_Legends_1_Inter_Forever_4_%2828453496098%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
         },
         {
@@ -1244,7 +1154,7 @@ window.EPL_DATA = {
           "club": "Everton",
           "nationality": "English",
           "position": "DEF",
-          "shirt_number": 6,
+          "shirt_number": 16,
           "age": 24,
           "fun_fact": "Emerged as one of the finest young centre-backs in the division, his composure and aerial ability drawing admiring glances from top clubs.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Joleon_Lescott_8696_%2815441498930%29.jpg/330px-Joleon_Lescott_8696_%2815441498930%29.jpg"
@@ -1281,7 +1191,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 7,
           "age": 22,
-          "fun_fact": "The talented Blackburn winger was widely regarded as one of England's brightest prospects in 2007-08, his stunning long-range goal against Arsenal becoming one of the season's most memorable strikes.",
+          "fun_fact": "The talented Blackburn winger was widely regarded as one of England's brightest prospects in 2007-08, his crossing and set-piece delivery making him Rovers' main creative outlet.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/David_Michael_Bentle_16_09_2012_Rostov_on_Don_stadium_Olimp_2.jpg/330px-David_Michael_Bentle_16_09_2012_Rostov_on_Don_stadium_Olimp_2.jpg"
         },
         {
@@ -1325,16 +1235,6 @@ window.EPL_DATA = {
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gareth_Barry_2014_2.jpg/330px-Gareth_Barry_2014_2.jpg"
         },
         {
-          "name": "Luka Modric",
-          "club": "Tottenham Hotspur",
-          "nationality": "Croatian",
-          "position": "MID",
-          "shirt_number": 14,
-          "age": 22,
-          "fun_fact": "Arrived from Dinamo Zagreb and immediately showed his class, his technical excellence hinting at the generational talent the world would later recognise.",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ofrenda_de_la_Liga_y_la_Champions-57-L.Mill%C3%A1n_%2852109310843%29_%28Luka_Modri%C4%87%29.jpg/330px-Ofrenda_de_la_Liga_y_la_Champions-57-L.Mill%C3%A1n_%2852109310843%29_%28Luka_Modri%C4%87%29.jpg"
-        },
-        {
           "name": "Gareth Bale",
           "club": "Tottenham Hotspur",
           "nationality": "Welsh",
@@ -1345,7 +1245,7 @@ window.EPL_DATA = {
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/2022_FIFA_World_Cup_United_States_1%E2%80%931_Wales_-_%2832%29_%28cropped%29.jpg/330px-2022_FIFA_World_Cup_United_States_1%E2%80%931_Wales_-_%2832%29_%28cropped%29.jpg"
         },
         {
-          "name": "Stilian Petrov",
+          "name": "Stiliyan Petrov",
           "club": "Aston Villa",
           "nationality": "Bulgarian",
           "position": "MID",
@@ -1361,7 +1261,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 10,
           "age": 23,
-          "fun_fact": "The silky Croatian midfielder was the creative hub of Portsmouth's midfield, his vision and technique helping Pompey finish eighth and challenge for the FA Cup that season.",
+          "fun_fact": "The silky Croatian midfielder was the creative hub of Portsmouth's midfield, his vision and technique helping Pompey finish eighth and win the FA Cup that season.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Niko_Kranj%C4%8Dar_2012.jpg/330px-Niko_Kranj%C4%8Dar_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
         },
         {
@@ -1371,7 +1271,7 @@ window.EPL_DATA = {
           "position": "DEF",
           "shirt_number": 6,
           "age": 28,
-          "fun_fact": "Produced a reliable campaign in United's Treble-chasing season, his versatility and reading of the game consistently impressive.",
+          "fun_fact": "Produced a reliable campaign in United's Double-winning season, his versatility and reading of the game consistently impressive as United won the Premier League and Champions League.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Wes_Brown_-_53689574832.jpg/330px-Wes_Brown_-_53689574832.jpg"
         }
       ]
@@ -1396,7 +1296,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 39,
           "age": 29,
-          "fun_fact": "Won the Golden Boot jointly with 19 goals, producing the best season of his stop-start Premier League career at Stamford Bridge.",
+          "fun_fact": "Won the Golden Boot outright with 19 goals, producing the best season of his stop-start Premier League career at Stamford Bridge.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Nicolas_Anelka_4720.jpg"
         },
         {
@@ -1406,17 +1306,17 @@ window.EPL_DATA = {
           "position": "DEF",
           "shirt_number": 15,
           "age": 27,
-          "fun_fact": "Won the PFA Players' Player of the Year as United retained the title, his dominant defending and leadership earning him the accolade of best player in England.",
+          "fun_fact": "Won the Premier League Player of the Season award as United retained the title, his dominant defending and leadership making him one of the best players in England.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Vidi%C4%87_%28cropped%29.jpg/330px-Vidi%C4%87_%28cropped%29.jpg"
         },
         {
           "name": "Darren Bent",
-          "club": "Sunderland",
+          "club": "Tottenham Hotspur",
           "nationality": "English",
           "position": "FWD",
-          "shirt_number": 9,
+          "shirt_number": 10,
           "age": 24,
-          "fun_fact": "Scored 16 goals after joining Sunderland from Spurs, proving himself one of England's most reliable goalscorers at the highest level.",
+          "fun_fact": "Finished 2008-09 as Tottenham Hotspur's top scorer, scoring 17 goals in all competitions before moving to Sunderland that summer.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Darren_Bent_26-04-2008_1.jpg/330px-Darren_Bent_26-04-2008_1.jpg"
         },
         {
@@ -1456,7 +1356,7 @@ window.EPL_DATA = {
           "position": "DEF",
           "shirt_number": 3,
           "age": 27,
-          "fun_fact": "Produced a strong campaign at left back for Chelsea under Hiddink, his overlapping runs and defensive solidity contributing to their title challenge.",
+          "fun_fact": "Started the season at Chelsea before moving to Manchester City in January 2009, where he became a regular left-back in the second half of the campaign.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/WayneBridge.jpg/330px-WayneBridge.jpg"
         },
         {
@@ -1466,7 +1366,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 9,
           "age": 27,
-          "fun_fact": "The Paraguayan striker was in devastating form for Blackburn in 2008-09, his clinical finishing and powerful running making him one of the Premier League's most feared centre-forwards.",
+          "fun_fact": "Endured an injury-hit season after his prolific 2007-08 campaign, but his reputation from Blackburn still earned a major move to Manchester City in the summer.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Roque_Luis_Santa_Cruz.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
         },
         {
@@ -1476,7 +1376,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 9,
           "age": 30,
-          "fun_fact": "The powerful Wigan striker used his strength and work-rate to hold up play effectively, his physical presence unsettling Premier League defences throughout the 2008-09 campaign.",
+          "fun_fact": "Started the season as Wigan's powerful focal point before joining Aston Villa in January 2009, using his strength and work-rate to hold up play effectively.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Emile_Heskey_as_a_player_of_England_national_football_team.jpg/330px-Emile_Heskey_as_a_player_of_England_national_football_team.jpg"
         }
       ]
@@ -1499,7 +1399,7 @@ window.EPL_DATA = {
           "club": "West Ham United",
           "nationality": "English",
           "position": "DEF",
-          "shirt_number": 5,
+          "shirt_number": 15,
           "age": 31,
           "fun_fact": "The composed West Ham centre-back was one of the most reliable defenders in the league, his reading of the game and aerial ability earning him a regular England squad place.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Matthew-Upson-2009_%28cropped%29.jpg/330px-Matthew-Upson-2009_%28cropped%29.jpg"
@@ -1511,7 +1411,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 10,
           "age": 24,
-          "fun_fact": "Won the PFA Players' Player of the Year with 26 goals in all competitions, his best individual season cementing him as arguably the world's best striker.",
+          "fun_fact": "Won the PFA Players' Player of the Year with 26 Premier League goals and 34 in all competitions, his best individual season cementing him among the world's best forwards.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Wayne_Rooney_%2850121495731%29_%28cropped%29.jpg/330px-Wayne_Rooney_%2850121495731%29_%28cropped%29.jpg"
         },
         {
@@ -1521,7 +1421,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 8,
           "age": 31,
-          "fun_fact": "Scored 22 goals in all competitions as Chelsea won the Double, his consistency from midfield making him one of the world's best goal-scoring midfielders.",
+          "fun_fact": "Scored 22 Premier League goals and 27 in all competitions as Chelsea won the Double, his consistency from midfield making him one of the world's best goal-scoring midfielders.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Frank_Lampard_2019.jpg/330px-Frank_Lampard_2019.jpg"
         },
         {
@@ -1531,7 +1431,7 @@ window.EPL_DATA = {
           "position": "GK",
           "shirt_number": 25,
           "age": 22,
-          "fun_fact": "Went on loan to Birmingham and produced a sensational season, earning the FWA Young Player of the Year and forcing his way into the England squad.",
+          "fun_fact": "Went on loan to Birmingham and produced a sensational season, earning Premier League Goalkeeper of the Season recognition and forcing his way into the England squad.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Joe_Hart_69775.jpg/330px-Joe_Hart_69775.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
         },
         {
@@ -1549,7 +1449,7 @@ window.EPL_DATA = {
           "club": "Tottenham Hotspur",
           "nationality": "English",
           "position": "DEF",
-          "shirt_number": 5,
+          "shirt_number": 20,
           "age": 26,
           "fun_fact": "Was a rock at the heart of Tottenham's defence as they qualified for the Champions League for the first time, impressing with his authority.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Michael_Dawson_2016-05-28_1.jpg/330px-Michael_Dawson_2016-05-28_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
@@ -1616,7 +1516,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 9,
           "age": 29,
-          "fun_fact": "Won the Golden Boot with 20 goals including five in a single game against Blackburn, his languid elegance disguising clinical finishing of the highest order.",
+          "fun_fact": "Shared the Golden Boot with Carlos Tevez on 20 goals, including five in a single game against Blackburn, his languid elegance disguising clinical finishing of the highest order.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Dimitar_Berbatov_-_53689576017.jpg/330px-Dimitar_Berbatov_-_53689576017.jpg"
         },
         {
@@ -1626,7 +1526,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 10,
           "age": 30,
-          "fun_fact": "The experienced Republic of Ireland captain was a reliable goal threat for Spurs, his intelligent movement and finishing contributing important goals as Tottenham chased a top-four finish.",
+          "fun_fact": "Started the season at Tottenham before joining West Ham on loan in January 2011, making only a limited Premier League contribution for Spurs.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/2013_Robbie_Keane_%28cropped%29.jpg/330px-2013_Robbie_Keane_%28cropped%29.jpg"
         },
         {
@@ -1666,7 +1566,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 19,
           "age": 29,
-          "fun_fact": "The Fulham striker was at his best in 2010-11, his clinical finishing and intelligent link-up play helping Craven Cottage's side achieve a comfortable mid-table finish under Mark Hughes.",
+          "fun_fact": "Broke his leg early in the campaign but returned before the end of the season, showing the link-up play that had made him so valuable to Fulham.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Bobby_Zamora_14092024_%281%29.jpg/330px-Bobby_Zamora_14092024_%281%29.jpg"
         },
         {
@@ -1681,12 +1581,12 @@ window.EPL_DATA = {
         },
         {
           "name": "Nicky Shorey",
-          "club": "Aston Villa",
+          "club": "West Bromwich Albion",
           "nationality": "English",
           "position": "DEF",
           "shirt_number": 3,
           "age": 28,
-          "fun_fact": "A reliable performer for Aston Villa on the left side of defence, his dependability making him a key squad member throughout the campaign.",
+          "fun_fact": "Joined West Brom from Aston Villa in July 2010 and became a regular left-back as the Baggies secured Premier League survival.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Nicky_Shorey.jpg"
         }
       ]
@@ -1735,7 +1635,7 @@ window.EPL_DATA = {
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/David_de_Gea_2017.jpg/330px-David_de_Gea_2017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
         },
         {
-          "name": "Ba Demba",
+          "name": "Demba Ba",
           "club": "Newcastle United",
           "nationality": "Senegalese",
           "position": "FWD",
@@ -1749,7 +1649,7 @@ window.EPL_DATA = {
           "club": "Chelsea",
           "nationality": "English",
           "position": "FWD",
-          "shirt_number": 39,
+          "shirt_number": 23,
           "age": 22,
           "fun_fact": "Made his mark with Chelsea before his move to Liverpool, his pace and directness offering a consistent goal threat in an otherwise turbulent campaign.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/LFC_Parade_2019_01_Daniel_Sturridge.jpg/330px-LFC_Parade_2019_01_Daniel_Sturridge.jpg"
@@ -1826,7 +1726,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 10,
           "age": 24,
-          "fun_fact": "Won both the PFA and FWA Player of the Year awards with a season of intricate creativity, his vision and technique lighting up Stamford Bridge.",
+          "fun_fact": "Produced a brilliant creative season for Chelsea, combining goals, assists and set-piece quality as he became one of the Premier League's most inventive playmakers.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Juan_Mata_2024.png/330px-Juan_Mata_2024.png"
         },
         {
@@ -1856,7 +1756,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 22,
           "age": 26,
-          "fun_fact": "The bargain of the season — signed for £2m — scored 18 goals in all competitions, one of the great Premier League surprise packages.",
+          "fun_fact": "The bargain of the season — signed for £2m — scored 18 Premier League goals and 22 in all competitions, one of the great surprise packages.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Michu_2013.jpg/330px-Michu_2013.jpg"
         },
         {
@@ -1896,7 +1796,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 18,
           "age": 32,
-          "fun_fact": "The experienced City midfielder was the unsung hero of their title challenge, his positional discipline and passing range providing the platform for Silva and Toure to excel around him.",
+          "fun_fact": "The experienced City midfielder was a steady presence during their title defence, his positional discipline and passing range helping City finish as Premier League runners-up.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gareth_Barry_2014_2.jpg/330px-Gareth_Barry_2014_2.jpg"
         }
       ]
@@ -1909,7 +1809,7 @@ window.EPL_DATA = {
           "club": "Everton",
           "nationality": "Belgian",
           "position": "FWD",
-          "shirt_number": 10,
+          "shirt_number": 17,
           "age": 20,
           "fun_fact": "The powerful Belgian striker was on loan at Everton, tearing apart Premier League defences with his strength and pace to score 15 league goals and announce himself as one of Europe's top talents.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Romelu_Lukaku_2021.jpg/330px-Romelu_Lukaku_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
@@ -1941,7 +1841,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 9,
           "age": 24,
-          "fun_fact": "Scored 16 Premier League goals for Swansea — extraordinary for a mid-table side — establishing himself as one of the most effective strikers outside the top six.",
+          "fun_fact": "Scored 17 Premier League goals for Swansea — extraordinary for a mid-table side — establishing himself as one of the most effective strikers outside the top six.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Wilfried_Bony_%282013%29.JPG/330px-Wilfried_Bony_%282013%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
         },
         {
@@ -1991,7 +1891,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 10,
           "age": 21,
-          "fun_fact": "Emerged as Liverpool's creative cornerstone, his dribbling and stunning long-range goals making him a standout performer in the post-Suarez era.",
+          "fun_fact": "Emerged as one of Liverpool's creative sparks during their title challenge, linking with Suarez and Sturridge through his dribbling, passing and long-range shooting.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Philippe_Coutinho_850_1692.jpg/330px-20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Philippe_Coutinho_850_1692.jpg"
         },
         {
@@ -2056,7 +1956,7 @@ window.EPL_DATA = {
           "position": "GK",
           "shirt_number": 1,
           "age": 32,
-          "fun_fact": "Kept 13 clean sheets as Chelsea won the title, his experience and commanding shot-stopping making him a key part of Mourinho's second championship.",
+          "fun_fact": "Served as Chelsea's experienced second-choice goalkeeper behind Thibaut Courtois, contributing when called upon as Mourinho's side won the title.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Arsenal_players_training_before_2019_UEFA_Europa_League_final_07_%28cropped%29.jpg"
         },
         {
@@ -2078,26 +1978,6 @@ window.EPL_DATA = {
           "age": 24,
           "fun_fact": "Was a key component of Leicester's narrow survival from relegation, his crossing and industry proving crucial as they survived on the final day.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Marc_Albrighton_Spartak_Moscow_vs._Leicester_City%2C_2021-10-20_134_4_%28cropped%29.jpg"
-        },
-        {
-          "name": "Matt Ritchie",
-          "club": "Bournemouth",
-          "nationality": "Scottish",
-          "position": "MID",
-          "shirt_number": 11,
-          "age": 25,
-          "fun_fact": "Was a key creative force in Bournemouth's historic Championship promotion, his goals and assists driving their remarkable top-flight ascent.",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Chelsea_0_Bournemouth_1_%281%29.jpg/330px-Chelsea_0_Bournemouth_1_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-        },
-        {
-          "name": "Odion Ighalo",
-          "club": "Watford",
-          "nationality": "Nigerian",
-          "position": "FWD",
-          "shirt_number": 24,
-          "age": 25,
-          "fun_fact": "Scored 20 Championship goals as Watford won promotion, announcing himself as one of the most prolific strikers outside the Premier League.",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Odion_Ighalo_24.jpeg/330px-Odion_Ighalo_24.jpeg"
         },
         {
           "name": "Saido Berahino",
@@ -2139,7 +2019,7 @@ window.EPL_DATA = {
           "club": "Leicester City",
           "nationality": "French",
           "position": "MID",
-          "shirt_number": 7,
+          "shirt_number": 14,
           "age": 24,
           "fun_fact": "The unsung hero of Leicester's miracle, his ability to cover every blade of grass single-handedly was central to their extraordinary title triumph.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/N%27Golo_Kant%C3%A9_%28cropped%29.jpg"
@@ -2155,7 +2035,7 @@ window.EPL_DATA = {
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Wes_Morgan_Warming_up_vs_Leamington_Spa.jpg/330px-Wes_Morgan_Warming_up_vs_Leamington_Spa.jpg"
         },
         {
-          "name": "Dmitri Payet",
+          "name": "Dimitri Payet",
           "club": "West Ham United",
           "nationality": "French",
           "position": "MID",
@@ -2179,7 +2059,7 @@ window.EPL_DATA = {
           "club": "Leicester City",
           "nationality": "German",
           "position": "DEF",
-          "shirt_number": 4,
+          "shirt_number": 6,
           "age": 31,
           "fun_fact": "The uncompromising German centre-back was a cult hero in Leicester's title-winning season, his aggressive defending and partnership with Morgan key to their success.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Robert_Huth_Middlesbrough_relegation_day.jpg/330px-Robert_Huth_Middlesbrough_relegation_day.jpg"
@@ -2191,7 +2071,7 @@ window.EPL_DATA = {
           "position": "GK",
           "shirt_number": 1,
           "age": 34,
-          "fun_fact": "Kept 13 clean sheets for newly-promoted Watford, his consistent performances helping them to a comfortable 13th-place finish on their return to the top flight.",
+          "fun_fact": "Was a key figure for newly-promoted Watford, his consistent performances helping them to a comfortable 13th-place finish on their return to the top flight.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Watford_v_Norwich_%282%29.jpg/330px-Watford_v_Norwich_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
         },
         {
@@ -2209,7 +2089,7 @@ window.EPL_DATA = {
           "club": "Leicester City",
           "nationality": "English",
           "position": "MID",
-          "shirt_number": 6,
+          "shirt_number": 4,
           "age": 26,
           "fun_fact": "The combative Leicester midfielder was one of the unsung heroes of their historic title win, his driving runs from midfield and crisp passing complementing N'Golo Kante's tireless energy.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Danny_Drinkwater_20170114_%28cropped%29.jpg/330px-Danny_Drinkwater_20170114_%28cropped%29.jpg"
@@ -2286,7 +2166,7 @@ window.EPL_DATA = {
           "position": "GK",
           "shirt_number": 1,
           "age": 30,
-          "fun_fact": "Was superb for Burnley in their return to the Premier League, his consistent performances earning him England recognition and helping them finish seventh.",
+          "fun_fact": "Was superb for Burnley in their return to the Premier League, his consistent performances earning him England recognition and helping them stay up in 16th place.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tom_Heaton_playing_for_Burnley_%28cropped%29.jpg/330px-Tom_Heaton_playing_for_Burnley_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
         },
         {
@@ -2436,7 +2316,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 7,
           "age": 23,
-          "fun_fact": "Won PFA Players' Player of the Year with 17 goals and 10 assists as City won the title with 98 points — his transformation into a world-class attacker complete.",
+          "fun_fact": "Won the FWA Footballer of the Year and PFA Young Player of the Year with 17 goals and 10 assists as City won the title with 98 points.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Raheem_Sterling_2018.jpg/330px-Raheem_Sterling_2018.jpg"
         },
         {
@@ -2474,7 +2354,7 @@ window.EPL_DATA = {
           "club": "Liverpool",
           "nationality": "Brazilian",
           "position": "GK",
-          "shirt_number": 1,
+          "shirt_number": 13,
           "age": 25,
           "fun_fact": "Arrived for a then world-record goalkeeper fee and won the Golden Glove with 21 clean sheets, completing Liverpool's remarkable defensive transformation.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_850_1625.jpg/330px-20180610_FIFA_Friendly_Match_Austria_vs._Brazil_850_1625.jpg"
@@ -2514,9 +2394,9 @@ window.EPL_DATA = {
           "club": "Everton",
           "nationality": "Brazilian",
           "position": "FWD",
-          "shirt_number": 7,
+          "shirt_number": 30,
           "age": 21,
-          "fun_fact": "Moved from Watford for £40m and immediately justified the fee with outstanding performances for Everton, his direct running and pressing energy a constant threat.",
+          "fun_fact": "Moved from Watford for £35m plus potential add-ons and immediately justified the fee with outstanding performances for Everton, his direct running and pressing energy a constant threat.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Richarlison_%C3%A9_homenageado_na_ALES_%2810.July.2019%29_01_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
         },
         {
@@ -2541,7 +2421,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 14,
           "age": 29,
-          "fun_fact": "Won the PFA Players' Player of the Year as he captained Liverpool to their first league title in 30 years, his leadership finally earning the recognition he deserved.",
+          "fun_fact": "Won the FWA Footballer of the Year as he captained Liverpool to their first league title in 30 years, his leadership finally earning the recognition he deserved.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Jordan_Henderson_29112025_%284%29.jpg/330px-Jordan_Henderson_29112025_%284%29.jpg"
         },
         {
@@ -2611,7 +2491,7 @@ window.EPL_DATA = {
           "position": "DEF",
           "shirt_number": 4,
           "age": 23,
-          "fun_fact": "Stepped up to replace the injured Maguire and excelled, his aggressive defending and composure making him one of the revelations of the season.",
+          "fun_fact": "Stepped up after Maguire's sale to Manchester United and excelled, his aggressive defending and composure making him one of the revelations of the season.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/AUT_vs._TUR_2016-03-29_%28381%29_%28cropped%29.jpg/330px-AUT_vs._TUR_2016-03-29_%28381%29_%28cropped%29.jpg"
         },
         {
@@ -2629,9 +2509,9 @@ window.EPL_DATA = {
           "club": "Manchester United",
           "nationality": "French",
           "position": "FWD",
-          "shirt_number": 11,
+          "shirt_number": 9,
           "age": 24,
-          "fun_fact": "The French winger was in top form for Manchester United in 2019-20, his goals and assists during the restart period helping Ole Gunnar Solskjaer's side secure Champions League qualification.",
+          "fun_fact": "The French forward was in top form for Manchester United in 2019-20, his goals and assists during the restart period helping Ole Gunnar Solskjaer's side secure Champions League qualification.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Anthony_Martial_27_September_2017_cropped.jpg/330px-Anthony_Martial_27_September_2017_cropped.jpg"
         }
       ]
@@ -2646,7 +2526,7 @@ window.EPL_DATA = {
           "position": "DEF",
           "shirt_number": 3,
           "age": 23,
-          "fun_fact": "Won PFA Players' Player of the Year in his debut season, transforming City's defence after his £65m arrival and anchoring their title-winning campaign.",
+          "fun_fact": "Won the Premier League Player of the Season and FWA Footballer of the Year in his debut campaign, transforming City's defence after his £65m arrival.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Portugal_national_football_team_0866_%28R%C3%BAben_Dias%29.jpg"
         },
         {
@@ -2666,7 +2546,7 @@ window.EPL_DATA = {
           "position": "GK",
           "shirt_number": 1,
           "age": 28,
-          "fun_fact": "Left Arsenal to become Villa's first-choice keeper and was outstanding all season, winning the Golden Glove in a remarkable debut campaign at his new club.",
+          "fun_fact": "Left Arsenal to become Villa's first-choice keeper and was outstanding all season, recording 15 league clean sheets in a remarkable debut campaign at his new club.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/St._Louis_City_vs_Aston_Villa_%28Jul_2025%29_14_%28Emiliano_Mart%C3%ADnez%29.jpg/330px-St._Louis_City_vs_Aston_Villa_%28Jul_2025%29_14_%28Emiliano_Mart%C3%ADnez%29.jpg"
         },
         {
@@ -2706,7 +2586,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 19,
           "age": 21,
-          "fun_fact": "Won the PFA Young Player of the Year in an excellent season, his pressing and goals central to Chelsea's Champions League triumph under Tuchel.",
+          "fun_fact": "Played a central role in Chelsea's pressing and creativity, contributing key goals and assists as they won the Champions League under Thomas Tuchel.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Mountbrightonoct3_2019_%28cropped%29.jpg/330px-Mountbrightonoct3_2019_%28cropped%29.jpg"
         },
         {
@@ -2726,7 +2606,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 15,
           "age": 22,
-          "fun_fact": "Had a brilliant first half to the season with seven goals before injury struck, his directness from the left wing attracting big-club interest.",
+          "fun_fact": "Finished the season with 9 Premier League goals despite injury disruption, his directness from the left wing showing why he was one of Leicester's brightest attackers.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Harvey_Barnes_2022_%28cropped%29.jpg/330px-Harvey_Barnes_2022_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
         },
         {
@@ -2771,7 +2651,7 @@ window.EPL_DATA = {
           "position": "DEF",
           "shirt_number": 23,
           "age": 26,
-          "fun_fact": "The Manchester United left-back was in his finest personal form, his attacking prowess and defensive solidity earning him a PFA Team of the Year nomination and national team recognition.",
+          "fun_fact": "Endured an injury-affected campaign for Manchester United after his excellent 2020-21 season, still offering quality on the left when available.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Luke_Shaw%2C_Manchester_United_v_Newcastle_United%2C_11_September_2021_%2844%29_%28cropped%29.jpg/330px-Luke_Shaw%2C_Manchester_United_v_Newcastle_United%2C_11_September_2021_%2844%29_%28cropped%29.jpg"
         },
         {
@@ -2811,7 +2691,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 10,
           "age": 21,
-          "fun_fact": "Broke into Arsenal's first team and was a revelation, his creative play from the left of midfield providing a glimpse of a very bright future.",
+          "fun_fact": "Built on his breakthrough with a strong consolidation season for Arsenal, adding Premier League goals and creativity from attacking midfield.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Emile_Smith_Rowe_14092024_%28cropped2%29.jpg/330px-Emile_Smith_Rowe_14092024_%28cropped2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
         },
         {
@@ -2999,7 +2879,7 @@ window.EPL_DATA = {
           "club": "Brighton & Hove Albion",
           "nationality": "Ecuadorian",
           "position": "DEF",
-          "shirt_number": 21,
+          "shirt_number": 30,
           "age": 26,
           "fun_fact": "The dynamic Ecuadorian left-back was one of the league's most effective wing-backs, his overlapping runs, defensive work and goal contributions making him one of Brighton's standout players.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Pervis_Estupinan_00-00-54.40.png/330px-Pervis_Estupinan_00-00-54.40.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
@@ -3031,7 +2911,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 41,
           "age": 25,
-          "fun_fact": "Produced an outstanding debut season for Arsenal after his £105m move from West Ham, winning the FA Cup and excelling in both defensive and attacking phases.",
+          "fun_fact": "Produced an outstanding debut season for Arsenal after his £105m move from West Ham, helping drive a title challenge and excelling in both defensive and attacking phases.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/1_declan_rice_arsenal_2025_%28cropped%29.jpg/330px-1_declan_rice_arsenal_2025_%28cropped%29.jpg"
         },
         {
@@ -3041,7 +2921,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 20,
           "age": 27,
-          "fun_fact": "Scored 13 league goals and was one of West Ham's standout performers in their final season at the London Stadium, earning him regular England caps.",
+          "fun_fact": "Scored 16 league goals and was one of West Ham's standout performers at the London Stadium, earning regular England recognition.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/JarrodBowen2023_%28cropped%29.jpeg/330px-JarrodBowen2023_%28cropped%29.jpeg"
         },
         {
@@ -3051,7 +2931,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 37,
           "age": 18,
-          "fun_fact": "The teenage Manchester United midfielder burst onto the scene with composure beyond his years, his assured performances in Wembley finals and league games marking him as one of England's most exciting talents.",
+          "fun_fact": "The teenage Manchester United midfielder burst onto the scene with composure beyond his years, scoring in the FA Cup final and marking himself as one of England's most exciting talents.",
           "image_url": "player_images/kobbie_mainoo.jpg"
         }
       ]
@@ -3066,7 +2946,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 11,
           "age": 32,
-          "fun_fact": "Won a record third PFA Men's Player of the Year award with 29 goals and 18 assists as Liverpool won the title under Arne Slot — a historic final Anfield chapter.",
+          "fun_fact": "Won a record third PFA Men's Player of the Year award with 29 goals and 18 assists as Liverpool won the title under Arne Slot, then committed his future beyond 2024-25.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mohamed_Salah_2018.jpg/330px-Mohamed_Salah_2018.jpg"
         },
         {
@@ -3086,7 +2966,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 11,
           "age": 32,
-          "fun_fact": "Named in the PFA Team of the Year after an extraordinary season for Forest, his clinical finishing helping them to a stunning top-four finish.",
+          "fun_fact": "Named in the PFA Team of the Year after an extraordinary season for Forest, his 20 league goals helping them finish seventh and qualify for Europe.",
           "image_url": "player_images/chris_wood.jpg"
         },
         {
@@ -3126,7 +3006,7 @@ window.EPL_DATA = {
           "position": "DEF",
           "shirt_number": 3,
           "age": 20,
-          "fun_fact": "Named in the PFA Team of the Year as the surprise inclusion of the season — the young Hungarian left back's attacking quality making him the best in his position.",
+          "fun_fact": "Named in the PFA Team of the Year after starting all 38 league games and helping Bournemouth reach a club-record Premier League points total.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Milot_Kerkez_%28cropped%29.png/330px-Milot_Kerkez_%28cropped%29.png"
         },
         {
@@ -3134,9 +3014,9 @@ window.EPL_DATA = {
           "club": "Aston Villa",
           "nationality": "English",
           "position": "MID",
-          "shirt_number": 10,
+          "shirt_number": 27,
           "age": 22,
-          "fun_fact": "Won the PFA Young Player of the Year in a breakthrough season at Villa, his direct running and goals establishing him as one of England's most exciting talents.",
+          "fun_fact": "Won the PFA Young Player of the Year in a breakthrough season at Villa, his direct running, goals and assists establishing him as one of England's most exciting talents.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Morgan_Rogers_April_2026_%28cropped%29.jpg/330px-Morgan_Rogers_April_2026_%28cropped%29.jpg"
         },
         {
@@ -3144,9 +3024,9 @@ window.EPL_DATA = {
           "club": "Ipswich Town",
           "nationality": "English",
           "position": "FWD",
-          "shirt_number": 9,
+          "shirt_number": 19,
           "age": 21,
-          "fun_fact": "The powerful Ipswich striker led the line with maturity beyond his years, his goals helping the promoted Tractor Boys defy expectations and compete in the Premier League in 2024-25.",
+          "fun_fact": "The powerful Ipswich striker led the line with maturity beyond his years, emerging as one of the bright spots in a difficult Premier League return for the promoted Tractor Boys.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Liam_Delap_in_2025.jpg"
         },
         {
