@@ -142,9 +142,13 @@
       </div>
 
       <section class="result hidden" id="result">
+        <span class="kicker gold result-kicker" id="resultKicker">Page complete</span>
+        <div class="countdown-line" id="countdownLine">
+          <span class="countdown-label">Time until new player</span>
+          <span class="countdown-time" id="countdownTime">--:--:--</span>
+        </div>
         <div class="result-header">
           <div>
-            <span class="kicker gold" id="resultKicker">Page complete</span>
             <h1 id="resultTitle">Sticker<br>collected.</h1>
             <a class="cross-promo cross-promo-result" id="resultEplLink" href="/epl/">Too easy to guess the World Cup players? Try the EPL here!</a>
           </div>
@@ -176,6 +180,10 @@
         <div class="result-ctas">
           <button class="cta-primary" id="shareButton" type="button">SHARE RESULT!</button>
           <button class="cta-secondary" id="archiveButton" type="button">OPEN MY ALBUM</button>
+        </div>
+        <div class="archive-nav hidden" id="archiveNav">
+          <button class="archive-nav-btn" id="archivePrev" type="button">← Previous day</button>
+          <button class="archive-nav-btn" id="archiveNext" type="button">Next day →</button>
         </div>
       </section>
 

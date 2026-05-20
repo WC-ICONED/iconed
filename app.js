@@ -467,6 +467,8 @@
     els.shareButton.classList.toggle("hidden", archiveMode);
 
     els.result.classList.remove("hidden");
+    startCountdown();
+    updateArchiveNav();
     window.scrollTo({ top: 0 });
   }
 
@@ -483,6 +485,9 @@
     renderClues();
     els.guessInput.value = "";
     hideSuggestions();
+    // Blur on iOS dismisses the keyboard so the newly-revealed clue is
+    // visible without the keyboard cropping the viewport.
+    els.guessInput.blur();
 
     if (correct) {
       finish(true);
@@ -566,6 +571,9 @@
   }
 
   function showGameUI() {
+    stopCountdown();
+    const navEl = document.getElementById("archiveNav");
+    if (navEl) navEl.classList.add("hidden");
     els.guessArea.style.display = "";
     els.guessLogCard.style.display = "";
     els.pageTitleBlock.style.display = "";
@@ -658,9 +666,12 @@
       els.shareText.classList.add("hidden");
       els.shareButton.classList.add("hidden");
       els.result.classList.remove("hidden");
+      startCountdown();
+      updateArchiveNav();
       window.scrollTo({ top: 0 });
     } else {
       showGameUI();
+      updateArchiveNav();
     }
   }
 
@@ -715,12 +726,31 @@
           els.shareText.classList.remove("hidden");
           els.shareButton.classList.remove("hidden");
           els.result.classList.remove("hidden");
+          startCountdown();
+          updateArchiveNav();
           window.scrollTo({ top: 0 });
         }
         return;
       }
     }
     startNewGame();
+  }
+
+  function updateArchiveNav() {
+    const navEl = document.getElementById("archiveNav");
+    const prevBtn = document.getElementById("archivePrev");
+    const nextBtn = document.getElementById("archiveNext");
+    if (!navEl || !prevBtn || !nextBtn) return;
+    // Only show after the user has finished an archive day's puzzle.
+    if (!archiveMode || !finished) {
+      navEl.classList.add("hidden");
+      return;
+    }
+    navEl.classList.remove("hidden");
+    const today = Stats.todayNumber();
+    prevBtn.disabled = archiveDayNum <= 0;
+    nextBtn.disabled = archiveDayNum >= today;
+    nextBtn.textContent = (archiveDayNum === today - 1) ? "Today →" : "Next day →";
   }
 
   function bindEvents() {
@@ -776,6 +806,23 @@
       if (confirm("Reset all stats? This cannot be undone.")) {
         Stats.resetStats();
         renderStatsModal();
+      }
+    });
+
+    document.getElementById("archivePrev").addEventListener("click", () => {
+      if (archiveDayNum > 0) {
+        els.albumView.classList.add("hidden");
+        loadArchiveGame(archiveDayNum - 1);
+      }
+    });
+    document.getElementById("archiveNext").addEventListener("click", () => {
+      const today = Stats.todayNumber();
+      if (archiveDayNum < today - 1) {
+        els.albumView.classList.add("hidden");
+        loadArchiveGame(archiveDayNum + 1);
+      } else if (archiveDayNum === today - 1) {
+        // Next day is today → switch from archive to today's regular game
+        goBackToToday();
       }
     });
 
@@ -1037,6 +1084,21 @@
     if (status.state === "upcoming" || status.state === "unplayed") {
       slot.classList.add("upcoming");
       slot.innerHTML = `<span class="album-slot-q">?</span><span class="album-slot-upcoming-day">№${num}</span>`;
+      // Past unplayed days are clickable → opens that day in the game.
+      // Today's day → returns user to today's regular game.
+      // Future days remain non-interactive.
+      if (status.state === "unplayed") {
+        cell.classList.add("album-cell-clickable");
+        cell.addEventListener("click", () => {
+          const today = Stats.todayNumber();
+          if (dayNum === today) {
+            closeAlbumView();
+          } else {
+            els.albumView.classList.add("hidden");
+            loadArchiveGame(dayNum);
+          }
+        });
+      }
       return cell;
     }
 
@@ -1174,6 +1236,37 @@
         Stats.clearDayState();
         console.info(`[ICONED] Cleared corrupted today-state.`);
       }
+    }
+  }
+
+  // ─── Countdown to midnight (user's local timezone) ───
+  let countdownInterval = null;
+
+  function tickCountdown() {
+    const el = document.getElementById("countdownTime");
+    if (!el) return;
+    const now = new Date();
+    const tomorrow = new Date(now);
+    tomorrow.setHours(24, 0, 0, 0); // next midnight in user's local TZ
+    let ms = tomorrow - now;
+    if (ms < 0) ms = 0;
+    const h = Math.floor(ms / 3600000);
+    const m = Math.floor((ms % 3600000) / 60000);
+    const s = Math.floor((ms % 60000) / 1000);
+    const fmt = (n) => String(n).padStart(2, "0");
+    el.textContent = `${fmt(h)}:${fmt(m)}:${fmt(s)}`;
+  }
+
+  function startCountdown() {
+    stopCountdown();
+    tickCountdown();
+    countdownInterval = setInterval(tickCountdown, 1000);
+  }
+
+  function stopCountdown() {
+    if (countdownInterval) {
+      clearInterval(countdownInterval);
+      countdownInterval = null;
     }
   }
 

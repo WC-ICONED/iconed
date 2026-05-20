@@ -1503,3 +1503,81 @@ body {
   border-left: 3px solid var(--gold);
   border-radius: 3px;
 }
+
+/* ─── Countdown to midnight ─── */
+.result-kicker {
+  display: block;
+  margin-bottom: 6px;
+}
+.countdown-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 10px 0 12px;
+  margin-bottom: 18px;
+  border-top: 1px dashed var(--page-edge);
+  border-bottom: 1px dashed var(--page-edge);
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 13px;
+  color: var(--ink-soft);
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+.countdown-time {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--pitch);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* Clickable past-day question-mark slots in the album */
+.album-cell-clickable {
+  cursor: pointer;
+}
+.album-cell-clickable .album-slot.upcoming {
+  transition: border-color .15s, background-color .15s;
+}
+.album-cell-clickable:hover .album-slot.upcoming {
+  border-color: var(--pitch);
+  background-color: rgba(31,107,58,.04);
+}
+.album-cell-clickable:hover .album-slot-q {
+  color: var(--pitch);
+}
+
+
+/* Archive prev/next navigation on result page */
+.archive-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 14px 22px 6px;
+}
+.archive-nav.hidden { display: none; }
+.archive-nav-btn {
+  flex: 1;
+  padding: 10px 12px;
+  background: var(--paper-card);
+  border: 1px solid var(--page-edge);
+  border-radius: 3px;
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 11px;
+  letter-spacing: .08em;
+  color: var(--spine);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.archive-nav-btn:hover:not(:disabled) {
+  background: var(--spine);
+  color: var(--spine-ink);
+  border-color: var(--spine);
+}
+.archive-nav-btn:disabled {
+  opacity: .35;
+  cursor: not-allowed;
+}
