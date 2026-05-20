@@ -1581,3 +1581,46 @@ body {
   opacity: .35;
   cursor: not-allowed;
 }
+
+
+/* Archive modal — green "Open My Album" link box */
+.archive-album-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 16px;
+  padding: 14px 16px;
+  background: var(--spine);
+  border: none;
+  border-radius: 4px;
+  color: var(--spine-ink);
+  font-family: "Archivo", system-ui, sans-serif;
+  text-align: left;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,.12);
+  transition: background .15s, transform .1s;
+}
+.archive-album-link:hover {
+  background: var(--spine-deep);
+}
+.archive-album-link:active {
+  transform: scale(.98);
+}
+.archive-album-link-label {
+  font-size: 10px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-weight: 700;
+  display: block;
+  line-height: 1;
+}
+.archive-album-link-cta {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 14px;
+  letter-spacing: .02em;
+  color: var(--spine-ink);
+  flex-shrink: 0;
+  margin-left: 12px;
+}

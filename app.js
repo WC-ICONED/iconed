@@ -783,6 +783,10 @@
     document.getElementById("wordmarkLink").addEventListener("click", (e) => { e.preventDefault(); goBackToToday(); });
     document.getElementById("archiveToggle").addEventListener("click", openArchiveModal);
     document.getElementById("archiveClose").addEventListener("click", closeArchiveModal);
+    document.getElementById("archiveOpenAlbum").addEventListener("click", () => {
+      closeArchiveModal();
+      openAlbumView();
+    });
     document.getElementById("archiveModal").addEventListener("click", (e) => {
       if (e.target.id === "archiveModal") closeArchiveModal();
     });
