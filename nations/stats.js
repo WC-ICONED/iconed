@@ -2,8 +2,8 @@
 // so each country's stats are fully independent.
 // Unlike the main ICONED, stats count for EVERY game — today's and archive.
 window.Stats = (() => {
-  // WC 2026 kicks off June 11, 2026 — nation pages launch the same day.
-  const LAUNCH_DATE = new Date("2026-06-11T00:00:00");
+  // Nation pages launched May 16, 2026 — 26 days before WC kick-off (June 11).
+  const LAUNCH_DATE = new Date("2026-05-16T00:00:00");
   const MAX_GUESSES = 5;
 
   function slug() {

@@ -1,3 +1,15 @@
+// ─── Domain guard — deter unauthorized hosting ────────────────────────────
+(function() {
+  const _allow = ["iconed.wtf", "www.iconed.wtf", "localhost", "127.0.0.1", ""];
+  const _host  = (typeof location !== "undefined" ? location.hostname : "").toLowerCase();
+  if (_allow.indexOf(_host) === -1) {
+    document.addEventListener("DOMContentLoaded", function() {
+      document.body.style.cssText = "margin:0;padding:0;background:#0a0a0a;color:#f6f1e6;font-family:system-ui,sans-serif;display:flex;align-items:center;justify-content:center;min-height:100dvh;text-align:center";
+      document.body.innerHTML = '<div style="padding:32px;max-width:360px"><div style="font-size:3rem;margin-bottom:16px">⚽</div><p style="font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;opacity:.45;margin-bottom:8px">ICONED · WC26</p><h1 style="font-size:1.4rem;font-weight:900;margin-bottom:14px;line-height:1.15">This game only runs on the official site.</h1><p style="opacity:.6;margin-bottom:24px;line-height:1.5;font-size:.9rem">Find the real ICONED Nations game at iconed.wtf</p><a href="https://www.iconed.wtf/nations/" style="display:inline-block;background:#1F6B3A;color:#fff;text-decoration:none;padding:12px 28px;border-radius:100px;font-weight:700;font-size:.85rem;letter-spacing:.1em">PLAY AT ICONED.WTF →</a></div>';
+    });
+  }
+})();
+
 // ICONED · Nations — 2026 World Cup squad guessing game.
 // Clue structure:
 //   Always shown : WC Squad (2026) · Country (nationality) · Caps (by Jun 1 2026) · Club Country
@@ -1099,6 +1111,28 @@
     if (countdownInterval) { clearInterval(countdownInterval); countdownInterval = null; }
   }
 
+  // ─── Copy stats ───────────────────────────────────────────────────────────
+
+  async function copyStats() {
+    const s    = Stats.getStats();
+    const slug = cfg.slug || "nation";
+    const dist = s.guesses.map((n, i) => `${i + 1}✕${n}`).join("  ");
+    const text = [
+      `${cfg.flag || ""} ${cfg.name.toUpperCase()} · ICONED WC26`,
+      `Played ${s.gamesPlayed} · Won ${s.gamesWon} · ${s.winPercentage}%`,
+      `Streak ${s.currentStreak} · Best ${s.maxStreak}`,
+      `Guesses: ${dist}`,
+      `https://www.iconed.wtf/nations/${slug}/`,
+    ].join("\n");
+    const btn = document.getElementById("copyStatsBtn");
+    try {
+      await navigator.clipboard.writeText(text);
+      if (btn) { btn.textContent = "COPIED!"; setTimeout(() => { btn.textContent = "COPY STATS"; }, 1500); }
+    } catch {
+      if (btn) { btn.textContent = "FAILED"; setTimeout(() => { btn.textContent = "COPY STATS"; }, 1500); }
+    }
+  }
+
   // ─── Transfer (export / import) ────────────────────────────────────────
 
   function toBase64(str) {
@@ -1278,6 +1312,9 @@
     const importBtn     = document.getElementById("importStatsBtn");
     if (copyExportBtn) copyExportBtn.addEventListener("click", copyExportCode);
     if (importBtn)     importBtn.addEventListener("click", importStats);
+
+    const copyStatsBtn = document.getElementById("copyStatsBtn");
+    if (copyStatsBtn) copyStatsBtn.addEventListener("click", copyStats);
   }
 
   // ─── Init ──────────────────────────────────────────────────────────────

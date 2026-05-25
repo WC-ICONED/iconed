@@ -152,6 +152,19 @@ body {
   .wordmark-page { display: none; }
 }
 
+/* ─── Mobile header — prevent wordmark / nav overlap on narrow phones ─── */
+@media (max-width: 380px) {
+  .album-header { padding-left: 12px; padding-right: 12px; gap: 6px; }
+  .wordmark-title { font-size: 11px; padding: 5px 10px 5px 8px; }
+  .logo-ball { font-size: 12px; }
+  .album-nav { gap: 7px; }
+  .nav-link { font-size: 9px; letter-spacing: .10em; }
+}
+@media (max-width: 340px) {
+  .album-header { flex-wrap: wrap; }
+  .album-nav { width: 100%; justify-content: flex-end; padding-bottom: 4px; }
+}
+
 .album-nav {
   display: flex;
   gap: 12px;
