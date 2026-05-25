@@ -1,20 +1,204 @@
-// Player data for this nation's 2026 World Cup squad.
-// Format:
-// {
-//   id:            "brazil-vinicius-jr",     // unique id (no spaces/accents)
-//   answer:        "Vinícius Júnior",        // display name
-//   aliases:       ["Vinicius Jr", "Vini"],  // accepted alternate spellings
-//   nationality:   "Brazil",
-//   caps:          87,                       // caps by June 1, 2026
-//   position:      "Forward",               // Goalkeeper | Defender | Midfielder | Forward
-//   age:           25,                       // age as of June 11, 2026 (WC start)
-//   shirtNumber:   7,
-//   wikipediaTitle:"Vinícius Júnior",        // exact Wikipedia article title for photo fetch
-//   imageUrl:      null                      // optional direct image URL (overrides Wikipedia)
-// }
+// Tunisia — 2026 World Cup squad
+// Source: pasted from https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads
+// Status: CONFIRMED FINAL — 26 players announced May 15, 2026
 
 window.PUZZLES = [
-  // TODO: add squad players here
+  // ── Goalkeepers ───────────────────────────────────────────────────────────
+  {
+    id: "tun-dahmen", answer: "Aymen Dahmen",
+    aliases: ["Dahmen"], nationality: "Tunisia",
+    caps: 37, clubCountry: "Tunisia", position: "Goalkeeper",
+    goals: 0, age: 29, shirtNumber: null, club: "CS Sfaxien",
+    wikipediaTitle: "Aymen Dahmen"
+  },
+  {
+    id: "tun-ben-hessen", answer: "Sabri Ben Hessen",
+    aliases: ["Ben Hessen"], nationality: "Tunisia",
+    caps: 2, clubCountry: "Tunisia", position: "Goalkeeper",
+    goals: 0, age: 29, shirtNumber: null, club: "Étoile du Sahel",
+    wikipediaTitle: "Sabri Ben Hessen"
+  },
+  {
+    id: "tun-chamakh", answer: "Mouhib Chamakh",
+    aliases: ["Chamakh"], nationality: "Tunisia",
+    caps: 1, clubCountry: "Tunisia", position: "Goalkeeper",
+    goals: 0, age: 24, shirtNumber: null, club: "Club Africain",
+    wikipediaTitle: "Mouhib Chamakh"
+  },
+
+  // ── Defenders ─────────────────────────────────────────────────────────────
+  {
+    id: "tun-talbi", answer: "Montassar Talbi",
+    aliases: ["Talbi"], nationality: "Tunisia",
+    caps: 62, clubCountry: "France", position: "Defender",
+    goals: 4, age: 28, shirtNumber: null, club: "Lorient",
+    wikipediaTitle: "Montassar Talbi"
+  },
+  {
+    id: "tun-bronn", answer: "Dylan Bronn",
+    aliases: ["Bronn"], nationality: "Tunisia",
+    caps: 52, clubCountry: "Switzerland", position: "Defender",
+    goals: 2, age: 30, shirtNumber: null, club: "Servette",
+    wikipediaTitle: "Dylan Bronn"
+  },
+  {
+    id: "tun-abdi", answer: "Ali Abdi",
+    aliases: ["Abdi"], nationality: "Tunisia",
+    caps: 45, clubCountry: "France", position: "Defender",
+    goals: 7, age: 32, shirtNumber: null, club: "Nice",
+    wikipediaTitle: "Ali Abdi (Tunisian footballer)"
+  },
+  {
+    id: "tun-valery", answer: "Yan Valery",
+    aliases: ["Valery"], nationality: "Tunisia",
+    caps: 21, clubCountry: "Switzerland", position: "Defender",
+    goals: 0, age: 27, shirtNumber: null, club: "Young Boys",
+    wikipediaTitle: "Yan Valery"
+  },
+  {
+    id: "tun-ben-hamida", answer: "Mohamed Amine Ben Hamida",
+    aliases: ["Ben Hamida"], nationality: "Tunisia",
+    caps: 12, clubCountry: "Tunisia", position: "Defender",
+    goals: 0, age: 30, shirtNumber: null, club: "Espérance de Tunis",
+    wikipediaTitle: "Mohamed Amine Ben Hamida"
+  },
+  {
+    id: "tun-neffati", answer: "Moutaz Neffati",
+    aliases: ["Neffati"], nationality: "Tunisia",
+    caps: 5, clubCountry: "Sweden", position: "Defender",
+    goals: 0, age: 21, shirtNumber: null, club: "IFK Norrköping",
+    wikipediaTitle: "Moutaz Neffati"
+  },
+  {
+    id: "tun-rekik", answer: "Omar Rekik",
+    aliases: ["Rekik"], nationality: "Tunisia",
+    caps: 4, clubCountry: "Slovenia", position: "Defender",
+    goals: 0, age: 24, shirtNumber: null, club: "Maribor",
+    wikipediaTitle: "Omar Rekik"
+  },
+  {
+    id: "tun-arous", answer: "Adem Arous",
+    aliases: ["Arous"], nationality: "Tunisia",
+    caps: 1, clubCountry: "Turkey", position: "Defender",
+    goals: 0, age: 21, shirtNumber: null, club: "Kasımpaşa",
+    wikipediaTitle: "Adem Arous"
+  },
+  {
+    id: "tun-chikhaoui", answer: "Raed Chikhaoui",
+    aliases: ["Chikhaoui"], nationality: "Tunisia",
+    caps: 0, clubCountry: "Tunisia", position: "Defender",
+    goals: 0, age: 22, shirtNumber: null, club: "US Monastir",
+    wikipediaTitle: "Raed Chikhaoui"
+  },
+
+  // ── Midfielders ───────────────────────────────────────────────────────────
+  {
+    id: "tun-skhiri", answer: "Ellyes Skhiri",
+    aliases: ["Skhiri"], nationality: "Tunisia",
+    caps: 81, clubCountry: "Germany", position: "Midfielder",
+    goals: 4, age: 31, shirtNumber: null, club: "Eintracht Frankfurt",
+    wikipediaTitle: "Ellyes Skhiri"
+  },
+  {
+    id: "tun-mejbri", answer: "Hannibal Mejbri",
+    aliases: ["Hannibal", "Mejbri"], nationality: "Tunisia",
+    caps: 44, clubCountry: "England", position: "Midfielder",
+    goals: 1, age: 23, shirtNumber: null, club: "Burnley",
+    wikipediaTitle: "Hannibal Mejbri"
+  },
+  {
+    id: "tun-ben-slimane", answer: "Anis Ben Slimane",
+    aliases: ["Ben Slimane"], nationality: "Tunisia",
+    caps: 39, clubCountry: "England", position: "Midfielder",
+    goals: 4, age: 25, shirtNumber: null, club: "Norwich City",
+    wikipediaTitle: "Anis Ben Slimane"
+  },
+  {
+    id: "tun-ben-ouanes", answer: "Mortadha Ben Ouanes",
+    aliases: ["Ben Ouanes"], nationality: "Tunisia",
+    caps: 17, clubCountry: "Turkey", position: "Midfielder",
+    goals: 0, age: 31, shirtNumber: null, club: "Kasımpaşa",
+    wikipediaTitle: "Mortadha Ben Ouanes"
+  },
+  {
+    id: "tun-gharbi", answer: "Ismaël Gharbi",
+    aliases: ["Gharbi"], nationality: "Tunisia",
+    caps: 15, clubCountry: "Germany", position: "Midfielder",
+    goals: 2, age: 22, shirtNumber: null, club: "FC Augsburg",
+    wikipediaTitle: "Ismaël Gharbi"
+  },
+  {
+    id: "tun-mahmoud", answer: "Hadj Mahmoud",
+    aliases: ["Mahmoud"], nationality: "Tunisia",
+    caps: 7, clubCountry: "Switzerland", position: "Midfielder",
+    goals: 0, age: 26, shirtNumber: null, club: "Lugano",
+    wikipediaTitle: "Hadj Mahmoud (footballer)"
+  },
+  {
+    id: "tun-khedira", answer: "Rani Khedira",
+    aliases: ["Khedira"], nationality: "Tunisia",
+    caps: 2, clubCountry: "Germany", position: "Midfielder",
+    goals: 0, age: 32, shirtNumber: null, club: "Union Berlin",
+    wikipediaTitle: "Rani Khedira"
+  },
+
+  // ── Forwards ──────────────────────────────────────────────────────────────
+  {
+    id: "tun-achouri", answer: "Elias Achouri",
+    aliases: ["Achouri"], nationality: "Tunisia",
+    caps: 29, clubCountry: "Denmark", position: "Forward",
+    goals: 4, age: 27, shirtNumber: null, club: "Copenhagen",
+    wikipediaTitle: "Elias Achouri"
+  },
+  {
+    id: "tun-chaouat", answer: "Firas Chaouat",
+    aliases: ["Chaouat"], nationality: "Tunisia",
+    caps: 28, clubCountry: "Tunisia", position: "Forward",
+    goals: 6, age: 30, shirtNumber: null, club: "Club Africain",
+    wikipediaTitle: "Firas Chaouat"
+  },
+  {
+    id: "tun-mastouri", answer: "Hazem Mastouri",
+    aliases: ["Mastouri"], nationality: "Tunisia",
+    caps: 18, clubCountry: "Russia", position: "Forward",
+    goals: 4, age: 28, shirtNumber: null, club: "Dynamo Makhachkala",
+    wikipediaTitle: "Hazem Mastouri"
+  },
+  {
+    id: "tun-saad", answer: "Elias Saad",
+    aliases: ["Saad"], nationality: "Tunisia",
+    caps: 14, clubCountry: "Germany", position: "Forward",
+    goals: 4, age: 26, shirtNumber: null, club: "Hannover 96",
+    wikipediaTitle: "Elias Saad"
+  },
+  {
+    id: "tun-tounekti", answer: "Sebastian Tounekti",
+    aliases: ["Tounekti"], nationality: "Tunisia",
+    caps: 10, clubCountry: "Scotland", position: "Forward",
+    goals: 1, age: 23, shirtNumber: null, club: "Celtic",
+    wikipediaTitle: "Sebastian Tounekti"
+  },
+  {
+    id: "tun-ayari", answer: "Khalil Ayari",
+    aliases: ["Ayari"], nationality: "Tunisia",
+    caps: 2, clubCountry: "France", position: "Forward",
+    goals: 0, age: 21, shirtNumber: null, club: "Paris Saint-Germain",
+    wikipediaTitle: "Khalil Ayari"
+  },
+  {
+    id: "tun-elloumi", answer: "Rayan Elloumi",
+    aliases: ["Elloumi"], nationality: "Tunisia",
+    caps: 2, clubCountry: "Canada", position: "Forward",
+    goals: 0, age: 18, shirtNumber: null, club: "Vancouver Whitecaps FC",
+    wikipediaTitle: "Rayan Elloumi"
+  },
 ];
 
-window.PUZZLE_ORDER = []; // will be auto-generated when squad is added
+window.PUZZLE_ORDER = [
+  "tun-skhiri", "tun-mejbri", "tun-talbi", "tun-bronn", "tun-ben-slimane",
+  "tun-dahmen", "tun-abdi", "tun-achouri", "tun-chaouat", "tun-saad",
+  "tun-mastouri", "tun-gharbi", "tun-valery", "tun-tounekti", "tun-ben-ouanes",
+  "tun-ben-hamida", "tun-khedira", "tun-neffati", "tun-rekik", "tun-mahmoud",
+  "tun-ayari", "tun-elloumi", "tun-ben-hessen", "tun-chamakh", "tun-arous",
+  "tun-chikhaoui",
+];

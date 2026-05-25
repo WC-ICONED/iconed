@@ -1,20 +1,205 @@
-// Player data for this nation's 2026 World Cup squad.
-// Format:
-// {
-//   id:            "brazil-vinicius-jr",     // unique id (no spaces/accents)
-//   answer:        "Vinícius Júnior",        // display name
-//   aliases:       ["Vinicius Jr", "Vini"],  // accepted alternate spellings
-//   nationality:   "Brazil",
-//   caps:          87,                       // caps by June 1, 2026
-//   position:      "Forward",               // Goalkeeper | Defender | Midfielder | Forward
-//   age:           25,                       // age as of June 11, 2026 (WC start)
-//   shirtNumber:   7,
-//   wikipediaTitle:"Vinícius Júnior",        // exact Wikipedia article title for photo fetch
-//   imageUrl:      null                      // optional direct image URL (overrides Wikipedia)
-// }
+// Sweden — 2026 World Cup squad
+// Source: pasted from https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads
+// Status: CONFIRMED FINAL — 26 players announced May 12, 2026
 
 window.PUZZLES = [
-  // TODO: add squad players here
+  // ── Goalkeepers ───────────────────────────────────────────────────────────
+  {
+    id: "swe-zetterstrom", answer: "Jacob Widell Zetterström",
+    aliases: ["Zetterström", "Zetterstrom"], nationality: "Sweden",
+    caps: 2, clubCountry: "England", position: "Goalkeeper",
+    goals: 0, age: 27, shirtNumber: 1, club: "Derby County",
+    wikipediaTitle: "Jacob Widell Zetterström"
+  },
+  {
+    id: "swe-v-johansson", answer: "Viktor Johansson",
+    aliases: ["Johansson"], nationality: "Sweden",
+    caps: 12, clubCountry: "England", position: "Goalkeeper",
+    goals: 0, age: 27, shirtNumber: 12, club: "Stoke City",
+    wikipediaTitle: "Viktor Johansson (goalkeeper)"
+  },
+  {
+    id: "swe-nordfeldt", answer: "Kristoffer Nordfeldt",
+    aliases: ["Nordfeldt"], nationality: "Sweden",
+    caps: 20, clubCountry: "Sweden", position: "Goalkeeper",
+    goals: 0, age: 36, shirtNumber: 23, club: "AIK",
+    wikipediaTitle: "Kristoffer Nordfeldt"
+  },
+
+  // ── Defenders ─────────────────────────────────────────────────────────────
+  {
+    id: "swe-lagerbielke", answer: "Gustaf Lagerbielke",
+    aliases: ["Lagerbielke"], nationality: "Sweden",
+    caps: 9, clubCountry: "Portugal", position: "Defender",
+    goals: 2, age: 26, shirtNumber: 2, club: "Braga",
+    wikipediaTitle: "Gustaf Lagerbielke"
+  },
+  {
+    id: "swe-lindelof", answer: "Victor Lindelöf",
+    aliases: ["Lindelöf", "Lindelof"], nationality: "Sweden",
+    caps: 75, clubCountry: "England", position: "Defender",
+    goals: 3, age: 31, shirtNumber: 3, club: "Aston Villa",
+    wikipediaTitle: "Victor Lindelöf"
+  },
+  {
+    id: "swe-hien", answer: "Isak Hien",
+    aliases: ["Hien"], nationality: "Sweden",
+    caps: 27, clubCountry: "Italy", position: "Defender",
+    goals: 0, age: 27, shirtNumber: 4, club: "Atalanta",
+    wikipediaTitle: "Isak Hien"
+  },
+  {
+    id: "swe-gudmundsson", answer: "Gabriel Gudmundsson",
+    aliases: ["Gudmundsson"], nationality: "Sweden",
+    caps: 23, clubCountry: "England", position: "Defender",
+    goals: 0, age: 27, shirtNumber: 5, club: "Leeds United",
+    wikipediaTitle: "Gabriel Gudmundsson"
+  },
+  {
+    id: "swe-holm", answer: "Emil Holm",
+    aliases: ["Holm"], nationality: "Sweden",
+    caps: 16, clubCountry: "Italy", position: "Defender",
+    goals: 2, age: 26, shirtNumber: 6, club: "Juventus",
+    wikipediaTitle: "Emil Holm (footballer)"
+  },
+  {
+    id: "swe-d-svensson", answer: "Daniel Svensson",
+    aliases: ["Svensson"], nationality: "Sweden",
+    caps: 11, clubCountry: "Germany", position: "Defender",
+    goals: 0, age: 24, shirtNumber: 8, club: "Borussia Dortmund",
+    wikipediaTitle: "Daniel Svensson (Swedish footballer)"
+  },
+  {
+    id: "swe-ekdal", answer: "Hjalmar Ekdal",
+    aliases: ["Ekdal"], nationality: "Sweden",
+    caps: 11, clubCountry: "England", position: "Defender",
+    goals: 0, age: 27, shirtNumber: 14, club: "Burnley",
+    wikipediaTitle: "Hjalmar Ekdal"
+  },
+  {
+    id: "swe-starfelt", answer: "Carl Starfelt",
+    aliases: ["Starfelt"], nationality: "Sweden",
+    caps: 17, clubCountry: "Spain", position: "Defender",
+    goals: 0, age: 31, shirtNumber: 15, club: "Celta Vigo",
+    wikipediaTitle: "Carl Starfelt"
+  },
+  {
+    id: "swe-e-smith", answer: "Eric Smith",
+    aliases: ["Smith"], nationality: "Sweden",
+    caps: 0, clubCountry: "Germany", position: "Defender",
+    goals: 0, age: 29, shirtNumber: 20, club: "FC St. Pauli",
+    wikipediaTitle: "Eric Smith (Swedish footballer)"
+  },
+  {
+    id: "swe-stroud", answer: "Elliot Stroud",
+    aliases: ["Stroud"], nationality: "Sweden",
+    caps: 0, clubCountry: "Sweden", position: "Defender",
+    goals: 0, age: 23, shirtNumber: 24, club: "Mjällby AIF",
+    wikipediaTitle: "Elliot Stroud"
+  },
+
+  // ── Midfielders ───────────────────────────────────────────────────────────
+  {
+    id: "swe-bergvall", answer: "Lucas Bergvall",
+    aliases: ["Bergvall"], nationality: "Sweden",
+    caps: 8, clubCountry: "England", position: "Midfielder",
+    goals: 0, age: 20, shirtNumber: 7, club: "Tottenham Hotspur",
+    wikipediaTitle: "Lucas Bergvall"
+  },
+  {
+    id: "swe-sema", answer: "Ken Sema",
+    aliases: ["Sema"], nationality: "Sweden",
+    caps: 32, clubCountry: "Cyprus", position: "Midfielder",
+    goals: 5, age: 32, shirtNumber: 13, club: "Pafos",
+    wikipediaTitle: "Ken Sema"
+  },
+  {
+    id: "swe-karlstrom", answer: "Jesper Karlström",
+    aliases: ["Karlström", "Karlstrom"], nationality: "Sweden",
+    caps: 23, clubCountry: "Italy", position: "Midfielder",
+    goals: 0, age: 30, shirtNumber: 16, club: "Udinese",
+    wikipediaTitle: "Jesper Karlström"
+  },
+  {
+    id: "swe-ayari", answer: "Yasin Ayari",
+    aliases: ["Ayari"], nationality: "Sweden",
+    caps: 19, clubCountry: "England", position: "Midfielder",
+    goals: 3, age: 22, shirtNumber: 18, club: "Brighton & Hove Albion",
+    wikipediaTitle: "Yasin Ayari"
+  },
+  {
+    id: "swe-svanberg", answer: "Mattias Svanberg",
+    aliases: ["Svanberg"], nationality: "Sweden",
+    caps: 39, clubCountry: "Germany", position: "Midfielder",
+    goals: 2, age: 27, shirtNumber: 19, club: "VfL Wolfsburg",
+    wikipediaTitle: "Mattias Svanberg"
+  },
+  {
+    id: "swe-zeneli", answer: "Besfort Zeneli",
+    aliases: ["Zeneli"], nationality: "Sweden",
+    caps: 6, clubCountry: "Belgium", position: "Midfielder",
+    goals: 0, age: 23, shirtNumber: 22, club: "Union Saint-Gilloise",
+    wikipediaTitle: "Besfort Zeneli"
+  },
+
+  // ── Forwards ──────────────────────────────────────────────────────────────
+  {
+    id: "swe-isak", answer: "Alexander Isak",
+    aliases: ["Isak"], nationality: "Sweden",
+    caps: 56, clubCountry: "England", position: "Forward",
+    goals: 16, age: 26, shirtNumber: 9, club: "Liverpool",
+    wikipediaTitle: "Alexander Isak"
+  },
+  {
+    id: "swe-nygren", answer: "Benjamin Nygren",
+    aliases: ["Nygren"], nationality: "Sweden",
+    caps: 9, clubCountry: "Scotland", position: "Forward",
+    goals: 3, age: 24, shirtNumber: 10, club: "Celtic",
+    wikipediaTitle: "Benjamin Nygren"
+  },
+  {
+    id: "swe-elanga", answer: "Anthony Elanga",
+    aliases: ["Elanga"], nationality: "Sweden",
+    caps: 28, clubCountry: "England", position: "Forward",
+    goals: 6, age: 24, shirtNumber: 11, club: "Newcastle United",
+    wikipediaTitle: "Anthony Elanga"
+  },
+  {
+    id: "swe-gyokeres", answer: "Viktor Gyökeres",
+    aliases: ["Gyökeres", "Gyokeres"], nationality: "Sweden",
+    caps: 32, clubCountry: "England", position: "Forward",
+    goals: 19, age: 28, shirtNumber: 17, club: "Arsenal",
+    wikipediaTitle: "Viktor Gyökeres"
+  },
+  {
+    id: "swe-bernhardsson", answer: "Alexander Bernhardsson",
+    aliases: ["Bernhardsson"], nationality: "Sweden",
+    caps: 9, clubCountry: "Germany", position: "Forward",
+    goals: 0, age: 27, shirtNumber: 21, club: "Holstein Kiel",
+    wikipediaTitle: "Alexander Bernhardsson"
+  },
+  {
+    id: "swe-g-nilsson", answer: "Gustaf Nilsson",
+    aliases: ["Nilsson"], nationality: "Sweden",
+    caps: 8, clubCountry: "Belgium", position: "Forward",
+    goals: 3, age: 29, shirtNumber: 25, club: "Club Brugge",
+    wikipediaTitle: "Gustaf Nilsson (footballer)"
+  },
+  {
+    id: "swe-ali", answer: "Taha Ali",
+    aliases: ["Ali"], nationality: "Sweden",
+    caps: 1, clubCountry: "Sweden", position: "Forward",
+    goals: 0, age: 27, shirtNumber: 26, club: "Malmö FF",
+    wikipediaTitle: "Taha Ali (footballer)"
+  },
 ];
 
-window.PUZZLE_ORDER = []; // will be auto-generated when squad is added
+window.PUZZLE_ORDER = [
+  "swe-isak", "swe-gyokeres", "swe-lindelof", "swe-elanga",
+  "swe-svanberg", "swe-bergvall", "swe-hien", "swe-gudmundsson",
+  "swe-starfelt", "swe-sema", "swe-nordfeldt", "swe-ayari",
+  "swe-karlstrom", "swe-ekdal", "swe-nygren", "swe-holm",
+  "swe-d-svensson", "swe-lagerbielke", "swe-bernhardsson", "swe-v-johansson",
+  "swe-zeneli", "swe-g-nilsson", "swe-zetterstrom", "swe-stroud",
+  "swe-e-smith", "swe-ali"
+];
