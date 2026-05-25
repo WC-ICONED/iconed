@@ -443,10 +443,13 @@
 
   function finish(won) {
     finished = true;
-    if (!resultSaved && !archiveMode) {
-      resultSaved = true;
+    // Count stats for EVERY game (today + archive), but only once per day.
+    const gameDay = archiveMode ? archiveDayNum : Stats.todayNumber();
+    if (!Stats.isCountedDay(gameDay)) {
+      Stats.markCountedDay(gameDay);
       Stats.updateStats({ won, attempts: guesses.length });
     }
+    resultSaved = true;
     saveState();
 
     if (els.guessArea)    els.guessArea.style.display    = "none";

@@ -1,5 +1,6 @@
 // Nations stats — storage keys are namespaced by window.NATION_CONFIG.slug
 // so each country's stats are fully independent.
+// Unlike the main ICONED, stats count for EVERY game — today's and archive.
 window.Stats = (() => {
   // WC 2026 kicks off June 11, 2026 — nation pages launch the same day.
   const LAUNCH_DATE = new Date("2026-06-11T00:00:00");
@@ -66,6 +67,28 @@ window.Stats = (() => {
 
   function resetStats() {
     localStorage.removeItem(`wc26-${slug()}-stats`);
+    localStorage.removeItem(`wc26-${slug()}-counted`);
+  }
+
+  // Track which day-numbers have already had their result counted in stats,
+  // so replaying an archive game doesn't double-count.
+  function isCountedDay(dayNum) {
+    const raw = localStorage.getItem(`wc26-${slug()}-counted`);
+    if (!raw) return false;
+    try {
+      const days = JSON.parse(raw);
+      return Array.isArray(days) && days.includes(dayNum);
+    } catch { return false; }
+  }
+
+  function markCountedDay(dayNum) {
+    const key = `wc26-${slug()}-counted`;
+    let days = [];
+    try { days = JSON.parse(localStorage.getItem(key)) || []; } catch {}
+    if (!days.includes(dayNum)) {
+      days.push(dayNum);
+      try { localStorage.setItem(key, JSON.stringify(days)); } catch {}
+    }
   }
 
   function getDayState() {
@@ -110,6 +133,8 @@ window.Stats = (() => {
     setArchiveState,
     dateForDay,
     emptyStats,
+    isCountedDay,
+    markCountedDay,
     MAX_GUESSES
   };
 })();
