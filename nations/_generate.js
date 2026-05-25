@@ -139,7 +139,7 @@ function makeNationIndexHtml(n) {
       <header class="album-header">
         <div class="wordmark-block">
           <div class="wordmark">
-            <a class="wordmark-title" id="wordmarkLink" href="#"><span class="logo-ball">⚽</span> ICONED · ${n.flag}</a>
+            <a class="wordmark-title" id="wordmarkLink" href="/nations/"><span class="logo-ball">⚽</span> ICONED · WC26 🏆</a>
             <span class="wordmark-page" id="pageLabel">PAGE 1</span>
           </div>
         </div>

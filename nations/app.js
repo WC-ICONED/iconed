@@ -1156,7 +1156,7 @@
     if (els.backToToday)   els.backToToday.addEventListener("click", goBackToToday);
 
     const wordmarkLink = document.getElementById("wordmarkLink");
-    if (wordmarkLink) wordmarkLink.addEventListener("click", e => { e.preventDefault(); goBackToToday(); });
+    if (wordmarkLink) wordmarkLink.addEventListener("click", () => { window.location.href = "/nations/"; });
 
     const archiveToggle = document.getElementById("archiveToggle");
     if (archiveToggle) archiveToggle.addEventListener("click", openArchiveModal);
