@@ -1,20 +1,455 @@
-// Player data for this nation's 2026 World Cup squad.
-// Format:
-// {
-//   id:            "brazil-vinicius-jr",     // unique id (no spaces/accents)
-//   answer:        "Vinícius Júnior",        // display name
-//   aliases:       ["Vinicius Jr", "Vini"],  // accepted alternate spellings
-//   nationality:   "Brazil",
-//   caps:          87,                       // caps by June 1, 2026
-//   position:      "Forward",               // Goalkeeper | Defender | Midfielder | Forward
-//   age:           25,                       // age as of June 11, 2026 (WC start)
-//   shirtNumber:   7,
-//   wikipediaTitle:"Vinícius Júnior",        // exact Wikipedia article title for photo fetch
-//   imageUrl:      null                      // optional direct image URL (overrides Wikipedia)
-// }
+// Czech Republic — 2026 World Cup squad
+// Source: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads
+// Last updated: May 25, 2026 (preliminary 29-man squad — final 26 announced May 31)
+// TODO: fill in shirtNumber for all players after final squad announcement
+// TODO: trim PUZZLE_ORDER to the final 26 IDs after May 31
 
 window.PUZZLES = [
-  // TODO: add squad players here
+
+  // ── Goalkeepers ──────────────────────────────────────────────────────────
+  {
+    id: "cze-kovar",
+    answer: "Matěj Kovář",
+    aliases: ["Matej Kovar", "Kovar"],
+    nationality: "Czech Republic",
+    caps: 19,
+    clubCountry: "Netherlands",
+    position: "Goalkeeper",
+    goals: 0,
+    age: 26,
+    shirtNumber: null,
+    club: "PSV Eindhoven",
+    wikipediaTitle: "Matěj Kovář"
+  },
+  {
+    id: "cze-stanek",
+    answer: "Jindřich Staněk",
+    aliases: ["Jindrich Stanek", "Stanek"],
+    nationality: "Czech Republic",
+    caps: 14,
+    clubCountry: "Czech Republic",
+    position: "Goalkeeper",
+    goals: 0,
+    age: 30,
+    shirtNumber: null,
+    club: "Slavia Prague",
+    wikipediaTitle: "Jindřich Staněk"
+  },
+  {
+    id: "cze-hornicek",
+    answer: "Lukáš Horníček",
+    aliases: ["Lukas Hornicek"],
+    nationality: "Czech Republic",
+    caps: 0,
+    clubCountry: "Portugal",
+    position: "Goalkeeper",
+    goals: 0,
+    age: 23,
+    shirtNumber: null,
+    club: "Braga",
+    wikipediaTitle: "Lukáš Horníček"
+  },
+
+  // ── Defenders ─────────────────────────────────────────────────────────────
+  {
+    id: "cze-coufal",
+    answer: "Vladimír Coufal",
+    aliases: ["Vladimir Coufal", "Coufal"],
+    nationality: "Czech Republic",
+    caps: 61,
+    clubCountry: "Germany",
+    position: "Defender",
+    goals: 2,
+    age: 33,
+    shirtNumber: null,
+    club: "TSG Hoffenheim",
+    wikipediaTitle: "Vladimír Coufal"
+  },
+  {
+    id: "cze-holes",
+    answer: "Tomáš Holeš",
+    aliases: ["Tomas Holes"],
+    nationality: "Czech Republic",
+    caps: 39,
+    clubCountry: "Czech Republic",
+    position: "Defender",
+    goals: 2,
+    age: 33,
+    shirtNumber: null,
+    club: "Slavia Prague",
+    wikipediaTitle: "Tomáš Holeš"
+  },
+  {
+    id: "cze-krejci",
+    answer: "Ladislav Krejčí",
+    aliases: ["Ladislav Krejci"],
+    nationality: "Czech Republic",
+    caps: 25,
+    clubCountry: "England",
+    position: "Defender",
+    goals: 5,
+    age: 27,
+    shirtNumber: null,
+    club: "Wolverhampton Wanderers",
+    wikipediaTitle: "Ladislav Krejčí (footballer, born 1999)"
+  },
+  {
+    id: "cze-zima",
+    answer: "David Zima",
+    aliases: [],
+    nationality: "Czech Republic",
+    caps: 24,
+    clubCountry: "Czech Republic",
+    position: "Defender",
+    goals: 1,
+    age: 25,
+    shirtNumber: null,
+    club: "Slavia Prague",
+    wikipediaTitle: "David Zima"
+  },
+  {
+    id: "cze-zeleny",
+    answer: "Jaroslav Zelený",
+    aliases: ["Jaroslav Zeleny"],
+    nationality: "Czech Republic",
+    caps: 21,
+    clubCountry: "Czech Republic",
+    position: "Defender",
+    goals: 0,
+    age: 33,
+    shirtNumber: null,
+    club: "Sparta Prague",
+    wikipediaTitle: "Jaroslav Zelený"
+  },
+  {
+    id: "cze-jurasek",
+    answer: "David Jurásek",
+    aliases: ["David Jurasek"],
+    nationality: "Czech Republic",
+    caps: 16,
+    clubCountry: "Czech Republic",
+    position: "Defender",
+    goals: 1,
+    age: 25,
+    shirtNumber: null,
+    club: "Slavia Prague",
+    wikipediaTitle: "David Jurásek"
+  },
+  {
+    id: "cze-doudera",
+    answer: "David Douděra",
+    aliases: ["David Doudera"],
+    nationality: "Czech Republic",
+    caps: 15,
+    clubCountry: "Czech Republic",
+    position: "Defender",
+    goals: 2,
+    age: 28,
+    shirtNumber: null,
+    club: "Slavia Prague",
+    wikipediaTitle: "David Douděra"
+  },
+  {
+    id: "cze-hranac",
+    answer: "Robin Hranáč",
+    aliases: ["Robin Hranac"],
+    nationality: "Czech Republic",
+    caps: 12,
+    clubCountry: "Germany",
+    position: "Defender",
+    goals: 1,
+    age: 26,
+    shirtNumber: null,
+    club: "TSG Hoffenheim",
+    wikipediaTitle: "Robin Hranáč"
+  },
+  {
+    id: "cze-chaloupek",
+    answer: "Štěpán Chaloupek",
+    aliases: ["Stepan Chaloupek"],
+    nationality: "Czech Republic",
+    caps: 3,
+    clubCountry: "Czech Republic",
+    position: "Defender",
+    goals: 0,
+    age: 23,
+    shirtNumber: null,
+    club: "Slavia Prague",
+    wikipediaTitle: "Štěpán Chaloupek"
+  },
+
+  // ── Midfielders ───────────────────────────────────────────────────────────
+  {
+    id: "cze-soucek",
+    answer: "Tomáš Souček",
+    aliases: ["Tomas Soucek", "Soucek"],
+    nationality: "Czech Republic",
+    caps: 89,
+    clubCountry: "England",
+    position: "Midfielder",
+    goals: 17,
+    age: 31,
+    shirtNumber: null,
+    club: "West Ham United",
+    wikipediaTitle: "Tomáš Souček"
+  },
+  {
+    id: "cze-darida",
+    answer: "Vladimír Darida",
+    aliases: ["Vladimir Darida", "Darida"],
+    nationality: "Czech Republic",
+    caps: 78,
+    clubCountry: "Czech Republic",
+    position: "Midfielder",
+    goals: 8,
+    age: 35,
+    shirtNumber: null,
+    club: "Hradec Králové",
+    wikipediaTitle: "Vladimír Darida"
+  },
+  {
+    id: "cze-provod",
+    answer: "Lukáš Provod",
+    aliases: ["Lukas Provod"],
+    nationality: "Czech Republic",
+    caps: 37,
+    clubCountry: "Czech Republic",
+    position: "Midfielder",
+    goals: 3,
+    age: 29,
+    shirtNumber: null,
+    club: "Slavia Prague",
+    wikipediaTitle: "Lukáš Provod"
+  },
+  {
+    id: "cze-sadilek",
+    answer: "Michal Sadílek",
+    aliases: ["Michal Sadilek"],
+    nationality: "Czech Republic",
+    caps: 33,
+    clubCountry: "Czech Republic",
+    position: "Midfielder",
+    goals: 1,
+    age: 27,
+    shirtNumber: null,
+    club: "Slavia Prague",
+    wikipediaTitle: "Michal Sadílek"
+  },
+  {
+    id: "cze-sulc",
+    answer: "Pavel Šulc",
+    aliases: ["Pavel Sulc"],
+    nationality: "Czech Republic",
+    caps: 20,
+    clubCountry: "France",
+    position: "Midfielder",
+    goals: 5,
+    age: 25,
+    shirtNumber: null,
+    club: "Lyon",
+    wikipediaTitle: "Pavel Šulc"
+  },
+  {
+    id: "cze-cerv",
+    answer: "Lukáš Červ",
+    aliases: ["Lukas Cerv"],
+    nationality: "Czech Republic",
+    caps: 15,
+    clubCountry: "Czech Republic",
+    position: "Midfielder",
+    goals: 2,
+    age: 25,
+    shirtNumber: null,
+    club: "Viktoria Plzeň",
+    wikipediaTitle: "Lukáš Červ"
+  },
+  {
+    id: "cze-ladra",
+    answer: "Tomáš Ladra",
+    aliases: ["Tomas Ladra"],
+    nationality: "Czech Republic",
+    caps: 1,
+    clubCountry: "Czech Republic",
+    position: "Midfielder",
+    goals: 0,
+    age: 29,
+    shirtNumber: null,
+    club: "Viktoria Plzeň",
+    wikipediaTitle: "Tomáš Ladra"
+  },
+  {
+    id: "cze-bucha",
+    answer: "Pavel Bucha",
+    aliases: [],
+    nationality: "Czech Republic",
+    caps: 0,
+    clubCountry: "United States",
+    position: "Midfielder",
+    goals: 0,
+    age: 28,
+    shirtNumber: null,
+    club: "FC Cincinnati",
+    wikipediaTitle: "Pavel Bucha"
+  },
+  {
+    id: "cze-sochurek",
+    answer: "Hugo Sochůrek",
+    aliases: ["Hugo Sochurek"],
+    nationality: "Czech Republic",
+    caps: 0,
+    clubCountry: "Czech Republic",
+    position: "Midfielder",
+    goals: 0,
+    age: 18,
+    shirtNumber: null,
+    club: "Sparta Prague",
+    wikipediaTitle: "Hugo Sochůrek"
+  },
+  {
+    id: "cze-sojka",
+    answer: "Alexandr Sojka",
+    aliases: [],
+    nationality: "Czech Republic",
+    caps: 0,
+    clubCountry: "Czech Republic",
+    position: "Midfielder",
+    goals: 0,
+    age: 23,
+    shirtNumber: null,
+    club: "Viktoria Plzeň",
+    wikipediaTitle: "Alexandr Sojka"
+  },
+  {
+    id: "cze-visinsky",
+    answer: "Denis Višinský",
+    aliases: ["Denis Visinsky"],
+    nationality: "Czech Republic",
+    caps: 0,
+    clubCountry: "Czech Republic",
+    position: "Midfielder",
+    goals: 0,
+    age: 23,
+    shirtNumber: null,
+    club: "Viktoria Plzeň",
+    wikipediaTitle: "Denis Višinský"
+  },
+
+  // ── Forwards ──────────────────────────────────────────────────────────────
+  {
+    id: "cze-schick",
+    answer: "Patrik Schick",
+    aliases: ["Schick"],
+    nationality: "Czech Republic",
+    caps: 52,
+    clubCountry: "Germany",
+    position: "Forward",
+    goals: 25,
+    age: 30,
+    shirtNumber: null,
+    club: "Bayer Leverkusen",
+    wikipediaTitle: "Patrik Schick"
+  },
+  {
+    id: "cze-hlozek",
+    answer: "Adam Hložek",
+    aliases: ["Adam Hlozek"],
+    nationality: "Czech Republic",
+    caps: 41,
+    clubCountry: "Germany",
+    position: "Forward",
+    goals: 4,
+    age: 23,
+    shirtNumber: null,
+    club: "TSG Hoffenheim",
+    wikipediaTitle: "Adam Hložek"
+  },
+  {
+    id: "cze-kuchta",
+    answer: "Jan Kuchta",
+    aliases: [],
+    nationality: "Czech Republic",
+    caps: 30,
+    clubCountry: "Czech Republic",
+    position: "Forward",
+    goals: 3,
+    age: 29,
+    shirtNumber: null,
+    club: "Sparta Prague",
+    wikipediaTitle: "Jan Kuchta"
+  },
+  {
+    id: "cze-chory",
+    answer: "Tomáš Chorý",
+    aliases: ["Tomas Chory"],
+    nationality: "Czech Republic",
+    caps: 21,
+    clubCountry: "Czech Republic",
+    position: "Forward",
+    goals: 6,
+    age: 31,
+    shirtNumber: null,
+    club: "Slavia Prague",
+    wikipediaTitle: "Tomáš Chorý"
+  },
+  {
+    id: "cze-chytil",
+    answer: "Mojmír Chytil",
+    aliases: ["Mojmir Chytil"],
+    nationality: "Czech Republic",
+    caps: 21,
+    clubCountry: "Czech Republic",
+    position: "Forward",
+    goals: 6,
+    age: 27,
+    shirtNumber: null,
+    club: "Slavia Prague",
+    wikipediaTitle: "Mojmír Chytil"
+  },
+  {
+    id: "cze-kabongo",
+    answer: "Christophe Kabongo",
+    aliases: [],
+    nationality: "Czech Republic",
+    caps: 0,
+    clubCountry: "Czech Republic",
+    position: "Forward",
+    goals: 0,
+    age: 22,
+    shirtNumber: null,
+    club: "Mladá Boleslav",
+    wikipediaTitle: "Christophe Kabongo"
+  },
+
 ];
 
-window.PUZZLE_ORDER = []; // will be auto-generated when squad is added
+// Set this to the final 26 IDs (in preferred game order) after May 31 squad announcement.
+// Suggested: lead with the biggest names so day 1 is a good player.
+window.PUZZLE_ORDER = [
+  "cze-schick",
+  "cze-soucek",
+  "cze-hlozek",
+  "cze-darida",
+  "cze-kovar",
+  "cze-coufal",
+  "cze-krejci",
+  "cze-provod",
+  "cze-sulc",
+  "cze-sadilek",
+  "cze-zima",
+  "cze-stanek",
+  "cze-jurasek",
+  "cze-holes",
+  "cze-hranac",
+  "cze-doudera",
+  "cze-cerv",
+  "cze-chory",
+  "cze-chytil",
+  "cze-kuchta",
+  "cze-zeleny",
+  "cze-bucha",
+  "cze-sulc",
+  "cze-ladra",
+  "cze-provod",
+  "cze-chaloupek",
+  // ↑ 26 entries — trim the 3 players cut from preliminary squad after May 31
+];
