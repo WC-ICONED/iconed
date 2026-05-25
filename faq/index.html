@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQ — ICONED</title>
+  <meta name="description" content="Frequently asked questions about ICONED — the daily World Cup player guessing game.">
+  <link rel="canonical" href="https://iconed.wtf/faq/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>" type="image/svg+xml">
+  <meta name="theme-color" content="#1F6B3A">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,400;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css" />
+  <script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","wv2p0tvb5i");</script>
+  <style>
+    .faq-page {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 40px 22px 60px;
+    }
+    .faq-back {
+      display: inline-block;
+      font-family: "Archivo", system-ui, sans-serif;
+      font-size: 12px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      text-decoration: none;
+      margin-bottom: 32px;
+    }
+    .faq-back:hover { color: var(--ink); }
+    .faq-page-heading {
+      font-family: "Archivo Black", system-ui, sans-serif;
+      font-size: 2rem;
+      color: var(--ink);
+      margin: 6px 0 32px;
+      line-height: 1.1;
+    }
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+    }
+    .faq-item {
+      border-top: 1px solid var(--page-edge);
+      padding: 16px 0;
+    }
+    .faq-item:last-child {
+      border-bottom: 1px solid var(--page-edge);
+    }
+    .faq-item > summary {
+      cursor: pointer;
+      font-family: "Archivo", system-ui, sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      color: var(--ink);
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      user-select: none;
+    }
+    .faq-item > summary::-webkit-details-marker { display: none; }
+    .faq-item > summary::after {
+      content: "+";
+      font-size: 20px;
+      font-weight: 300;
+      color: var(--pitch);
+      flex-shrink: 0;
+      transition: transform .2s ease;
+    }
+    .faq-item[open] > summary::after { transform: rotate(45deg); }
+    .faq-item > p {
+      font-size: 14px;
+      color: var(--ink-soft);
+      line-height: 1.65;
+      margin: 12px 0 2px;
+    }
+    .faq-item > p a {
+      color: var(--pitch);
+      text-underline-offset: 2px;
+    }
+    .faq-item > p a:hover { opacity: .8; }
+    .faq-footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px dashed var(--page-edge);
+      font-family: "Archivo", system-ui, sans-serif;
+      font-size: 13px;
+      color: var(--ink-soft);
+    }
+    .faq-footer a { color: var(--pitch); text-underline-offset: 2px; }
+    .faq-footer a:hover { opacity: .8; }
+  </style>
+</head>
+<body>
+  <div class="faq-page">
+    <a class="faq-back" href="/">← Back to ICONED</a>
+    <span class="kicker gold">Questions</span>
+    <h1 class="faq-page-heading">FAQ</h1>
+
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>Where do the player photos come from?</summary>
+        <p>All photos are sourced from Wikipedia (Wikimedia Commons) under Creative Commons licences.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How often does a new player appear?</summary>
+        <p>Every day at midnight, local time. Come back daily to collect your sticker.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Does my progress save if I close the page?</summary>
+        <p>Yes — everything is stored locally on your device. No account or login needed.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Can I play players I missed from previous days?</summary>
+        <p>Yes. Tap <strong>Archive</strong> to browse and replay any past player. Archive games don't count towards your streak, but the players still appear in your sticker album.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How many editions of ICONED are there?</summary>
+        <p>We continuously update with new editions. Have a suggestion? <a href="mailto:trier.boaster.2f@icloud.com">Let us know!</a></p>
+      </details>
+      <details class="faq-item">
+        <summary>A player name I typed isn't being accepted — why?</summary>
+        <p>Try without accents or special characters — for example, type <em>Mane</em> instead of <em>Mané</em>.</p>
+      </details>
+    </div>
+
+    <div class="faq-footer">
+      Still have a question? <a href="mailto:trier.boaster.2f@icloud.com">Contact us</a>
+    </div>
+  </div>
+</body>
+</html>
