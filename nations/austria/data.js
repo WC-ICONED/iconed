@@ -9,7 +9,8 @@ window.PUZZLES = [
     aliases: ["Schlager"], nationality: "Austria",
     caps: 25, clubCountry: "Austria", position: "Goalkeeper",
     goals: 0, age: 30, shirtNumber: 1, club: "Red Bull Salzburg",
-    wikipediaTitle: "Alexander Schlager"
+    wikipediaTitle: "Alexander Schlager",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/55/FC_Salzburg_vs._Atletico_Madrid_%282025-01-29_UEFA_Championsleague%29_47.jpg"
   },
   {
     id: "aut-wiegele", answer: "Florian Wiegele",
@@ -23,7 +24,8 @@ window.PUZZLES = [
     aliases: ["Pentz"], nationality: "Austria",
     caps: 18, clubCountry: "Denmark", position: "Goalkeeper",
     goals: 0, age: 29, shirtNumber: 13, club: "Brøndby",
-    wikipediaTitle: "Patrick Pentz"
+    wikipediaTitle: "Patrick Pentz",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Pentz_%282024%29.png"
   },
 
   // ── Defenders ─────────────────────────────────────────────────────────────
@@ -39,35 +41,40 @@ window.PUZZLES = [
     aliases: ["Danso"], nationality: "Austria",
     caps: 31, clubCountry: "England", position: "Defender",
     goals: 0, age: 27, shirtNumber: 3, club: "Tottenham Hotspur",
-    wikipediaTitle: "Kevin Danso"
+    wikipediaTitle: "Kevin Danso",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Kevin_Danso_ASSE_RCL_2425.jpg"
   },
   {
     id: "aut-posch", answer: "Stefan Posch",
     aliases: ["Posch"], nationality: "Austria",
     caps: 51, clubCountry: "Germany", position: "Defender",
     goals: 5, age: 29, shirtNumber: 5, club: "Mainz 05",
-    wikipediaTitle: "Stefan Posch"
+    wikipediaTitle: "Stefan Posch",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a6/Austria_national_under-21_football_team_-_Teamcamp_June_2017_%28110%29.jpg"
   },
   {
     id: "aut-alaba", answer: "David Alaba",
     aliases: ["Alaba"], nationality: "Austria",
     caps: 112, clubCountry: "Spain", position: "Defender",
     goals: 15, age: 33, shirtNumber: 8, club: "Real Madrid",
-    wikipediaTitle: "David Alaba"
+    wikipediaTitle: "David Alaba",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f4/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_David_Alaba_850_1632.jpg"
   },
   {
     id: "aut-lienhart", answer: "Philipp Lienhart",
     aliases: ["Lienhart"], nationality: "Austria",
     caps: 40, clubCountry: "Germany", position: "Defender",
     goals: 3, age: 29, shirtNumber: 15, club: "SC Freiburg",
-    wikipediaTitle: "Philipp Lienhart"
+    wikipediaTitle: "Philipp Lienhart",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Austria_national_under-21_football_team_-_Teamcamp_June_2017_%28057%29.jpg"
   },
   {
     id: "aut-mwene", answer: "Phillipp Mwene",
     aliases: ["Mwene"], nationality: "Austria",
     caps: 29, clubCountry: "Germany", position: "Defender",
     goals: 0, age: 32, shirtNumber: 16, club: "Mainz 05",
-    wikipediaTitle: "Phillipp Mwene"
+    wikipediaTitle: "Phillipp Mwene",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Phillipp-mwene.jpg"
   },
   {
     id: "aut-prass", answer: "Alexander Prass",
@@ -97,28 +104,32 @@ window.PUZZLES = [
     aliases: ["Schlager"], nationality: "Austria",
     caps: 50, clubCountry: "Germany", position: "Midfielder",
     goals: 4, age: 28, shirtNumber: 4, club: "RB Leipzig",
-    wikipediaTitle: "Xaver Schlager"
+    wikipediaTitle: "Xaver Schlager",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9a/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Xaver_Schlager_850_1680.jpg"
   },
   {
     id: "aut-seiwald", answer: "Nicolas Seiwald",
     aliases: ["Seiwald"], nationality: "Austria",
     caps: 46, clubCountry: "Germany", position: "Midfielder",
     goals: 1, age: 25, shirtNumber: 6, club: "RB Leipzig",
-    wikipediaTitle: "Nicolas Seiwald"
+    wikipediaTitle: "Nicolas Seiwald",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/35/Meisterteller%C3%BCbergabe_Saison_2021-22_%282022-05-21%29_49.jpg"
   },
   {
     id: "aut-sabitzer", answer: "Marcel Sabitzer",
     aliases: ["Sabitzer"], nationality: "Austria",
     caps: 97, clubCountry: "Germany", position: "Midfielder",
     goals: 25, age: 32, shirtNumber: 9, club: "Borussia Dortmund",
-    wikipediaTitle: "Marcel Sabitzer"
+    wikipediaTitle: "Marcel Sabitzer",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Marcel_Sabitzer_2020_%28cropped%29.jpg"
   },
   {
     id: "aut-grillitsch", answer: "Florian Grillitsch",
     aliases: ["Grillitsch"], nationality: "Austria",
     caps: 58, clubCountry: "Portugal", position: "Midfielder",
     goals: 1, age: 30, shirtNumber: 10, club: "Braga",
-    wikipediaTitle: "Florian Grillitsch"
+    wikipediaTitle: "Florian Grillitsch",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a0/20180602_AUTGER_4687_%28cropped%29_Florian_Grillitsch.jpg"
   },
   {
     id: "aut-chukwuemeka", answer: "Carney Chukwuemeka",
@@ -132,21 +143,24 @@ window.PUZZLES = [
     aliases: ["Schmid"], nationality: "Austria",
     caps: 33, clubCountry: "Germany", position: "Midfielder",
     goals: 3, age: 26, shirtNumber: 18, club: "Werder Bremen",
-    wikipediaTitle: "Romano Schmid"
+    wikipediaTitle: "Romano Schmid",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/48/UEFA_Euro_2023_Qualifiers_Austria_vs._Finland_%282022-06-03%29_30.jpg"
   },
   {
     id: "aut-baumgartner", answer: "Christoph Baumgartner",
     aliases: ["Baumgartner"], nationality: "Austria",
     caps: 58, clubCountry: "Germany", position: "Midfielder",
     goals: 19, age: 26, shirtNumber: 19, club: "RB Leipzig",
-    wikipediaTitle: "Christoph Baumgartner"
+    wikipediaTitle: "Christoph Baumgartner",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Austria_national_under-21_football_team_-_Teamcamp_October_2019_%2861%29_%28cropped%29.jpg"
   },
   {
     id: "aut-laimer", answer: "Konrad Laimer",
     aliases: ["Laimer"], nationality: "Austria",
     caps: 56, clubCountry: "Germany", position: "Midfielder",
     goals: 7, age: 29, shirtNumber: 20, club: "Bayern Munich",
-    wikipediaTitle: "Konrad Laimer"
+    wikipediaTitle: "Konrad Laimer",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3d/2022-07-21_Fu%C3%9Fball%2C_M%C3%A4nner%2CFreundschaftsspiel%2C_RB_Leipzig_-_FC_Liverpool_1DX_2137_by_Stepro_%28cropped%29.jpg"
   },
   {
     id: "aut-wimmer", answer: "Patrick Wimmer",
@@ -176,21 +190,24 @@ window.PUZZLES = [
     aliases: ["Arnautović", "Arnautovic"], nationality: "Austria",
     caps: 132, clubCountry: "Serbia", position: "Forward",
     goals: 47, age: 37, shirtNumber: 7, club: "Red Star Belgrade",
-    wikipediaTitle: "Marko Arnautović"
+    wikipediaTitle: "Marko Arnautović",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f6/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Marko_Arnautovi%C4%87_850_1633.jpg"
   },
   {
     id: "aut-gregoritsch", answer: "Michael Gregoritsch",
     aliases: ["Gregoritsch"], nationality: "Austria",
     caps: 74, clubCountry: "Germany", position: "Forward",
     goals: 24, age: 32, shirtNumber: 11, club: "FC Augsburg",
-    wikipediaTitle: "Michael Gregoritsch"
+    wikipediaTitle: "Michael Gregoritsch",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Michael_Gregoritsch_U21_Austria_vs._Albania_2014-03-05_01.jpg"
   },
   {
     id: "aut-kalajdzic", answer: "Saša Kalajdžić",
     aliases: ["Kalajdžić", "Kalajdzic"], nationality: "Austria",
     caps: 21, clubCountry: "Austria", position: "Forward",
     goals: 4, age: 28, shirtNumber: 14, club: "LASK",
-    wikipediaTitle: "Saša Kalajdžić"
+    wikipediaTitle: "Saša Kalajdžić",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8c/Sasa_kalajdzic.jpg"
   },
 ];
 

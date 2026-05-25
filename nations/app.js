@@ -283,16 +283,17 @@
     if (imageFetched) return;
     imageFetched = true;
 
-    // 1. Check localStorage cache first — instant display, no network
-    const cached = getCachedThumb(puzzle.id);
-    if (cached) { setPlayerImage(cached); return; }
-
-    // 2. Use explicit imageUrl if provided in data
+    // 1. Explicit imageUrl in data is the ground truth — always wins
     if (puzzle.imageUrl) {
       setPlayerImage(puzzle.imageUrl);
       setCachedThumb(puzzle.id, puzzle.imageUrl);
       return;
     }
+
+    // 2. Check localStorage cache — instant display, no network
+    //    Guard against stale "null" strings written by older code versions
+    const cached = getCachedThumb(puzzle.id);
+    if (cached && cached !== "null") { setPlayerImage(cached); return; }
 
     // 3. Fetch from Wikipedia REST API
     setPhotoLoading(true);

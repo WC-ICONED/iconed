@@ -12,35 +12,40 @@ window.PUZZLES = [
     aliases: ["Emiliano Martinez", "Dibu Martinez", "Dibu"], nationality: "Argentina",
     caps: 59, clubCountry: "England", position: "Goalkeeper",
     goals: 0, age: 33, shirtNumber: null, club: "Aston Villa",
-    wikipediaTitle: "Emiliano Martínez"
+    wikipediaTitle: "Emiliano Martínez",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/41/St._Louis_City_vs_Aston_Villa_%28Jul_2025%29_14_%28Emiliano_Mart%C3%ADnez%29.jpg"
   },
   {
     id: "arg-rulli", answer: "Gerónimo Rulli",
     aliases: ["Geronimo Rulli", "Rulli"], nationality: "Argentina",
     caps: 7, clubCountry: "France", position: "Goalkeeper",
     goals: 0, age: 33, shirtNumber: null, club: "Marseille",
-    wikipediaTitle: "Gerónimo Rulli"
+    wikipediaTitle: "Gerónimo Rulli",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/19/Rulli_asse_om_2425.png"
   },
   {
     id: "arg-musso", answer: "Juan Musso",
     aliases: ["Musso"], nationality: "Argentina",
     caps: 3, clubCountry: "Spain", position: "Goalkeeper",
     goals: 0, age: 31, shirtNumber: null, club: "Atlético Madrid",
-    wikipediaTitle: "Juan Musso"
+    wikipediaTitle: "Juan Musso",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Musso_Udinese.png"
   },
   {
     id: "arg-w-benitez", answer: "Walter Benítez",
     aliases: ["Walter Benitez", "Benítez"], nationality: "Argentina",
     caps: 1, clubCountry: "England", position: "Goalkeeper",
     goals: 0, age: 32, shirtNumber: null, club: "Crystal Palace",
-    wikipediaTitle: "Walter Benítez (footballer)"
+    wikipediaTitle: "Walter Benítez (footballer)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/31/RC_Lens_-_OGC_Nice_%2810-04-2022%29_1.jpg"
   },
   {
     id: "arg-cambeses", answer: "Facundo Cambeses",
     aliases: ["Cambeses"], nationality: "Argentina",
     caps: 1, clubCountry: "Argentina", position: "Goalkeeper",
     goals: 0, age: 28, shirtNumber: null, club: "Racing",
-    wikipediaTitle: "Facundo Cambeses"
+    wikipediaTitle: "Facundo Cambeses",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/27/Facundo_Cambeses_%28cropped%29.jpg"
   },
   {
     id: "arg-beltran", answer: "Santiago Beltrán",
@@ -56,119 +61,136 @@ window.PUZZLES = [
     aliases: ["Nicolas Otamendi", "Otamendi"], nationality: "Argentina",
     caps: 130, clubCountry: "Portugal", position: "Defender",
     goals: 8, age: 37, shirtNumber: null, club: "Benfica",
-    wikipediaTitle: "Nicolás Otamendi"
+    wikipediaTitle: "Nicolás Otamendi",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/de/Argentina_team_in_St._Petersburg_%28cropped%29_Otamendi.jpg"
   },
   {
     id: "arg-tagliafico", answer: "Nicolás Tagliafico",
     aliases: ["Nicolas Tagliafico", "Tagliafico"], nationality: "Argentina",
     caps: 75, clubCountry: "France", position: "Defender",
     goals: 1, age: 33, shirtNumber: null, club: "Lyon",
-    wikipediaTitle: "Nicolás Tagliafico"
+    wikipediaTitle: "Nicolás Tagliafico",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Tagliafico_asse_ol_2425.png"
   },
   {
     id: "arg-acuna", answer: "Marcos Acuña",
     aliases: ["Marcos Acuna", "Acuña"], nationality: "Argentina",
     caps: 62, clubCountry: "Argentina", position: "Defender",
     goals: 0, age: 34, shirtNumber: null, club: "River Plate",
-    wikipediaTitle: "Marcos Acuña"
+    wikipediaTitle: "Marcos Acuña",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Marcos_acuna_vs_mexico_2022.jpg"
   },
   {
     id: "arg-molina", answer: "Nahuel Molina",
     aliases: ["Molina"], nationality: "Argentina",
     caps: 58, clubCountry: "Spain", position: "Defender",
     goals: 1, age: 27, shirtNumber: null, club: "Atlético Madrid",
-    wikipediaTitle: "Nahuel Molina"
+    wikipediaTitle: "Nahuel Molina",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f8/Universidad_Cat%C3%B3lica_-_Rosario_Central_20190313_04.jpg"
   },
   {
     id: "arg-c-romero", answer: "Cristian Romero",
     aliases: ["Cuti Romero", "Romero"], nationality: "Argentina",
     caps: 49, clubCountry: "England", position: "Defender",
     goals: 3, age: 27, shirtNumber: null, club: "Tottenham Hotspur",
-    wikipediaTitle: "Cristian Romero"
+    wikipediaTitle: "Cristian Romero",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Cristian_Romero_WC2022.jpg"
   },
   {
     id: "arg-pezzella", answer: "Germán Pezzella",
     aliases: ["German Pezzella", "Pezzella"], nationality: "Argentina",
     caps: 42, clubCountry: "Argentina", position: "Defender",
     goals: 3, age: 34, shirtNumber: null, club: "River Plate",
-    wikipediaTitle: "Germán Pezzella"
+    wikipediaTitle: "Germán Pezzella",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Germ%C3%A1n_Pezzella_%28cropped%29.jpg"
   },
   {
     id: "arg-g-montiel", answer: "Gonzalo Montiel",
     aliases: ["Montiel"], nationality: "Argentina",
     caps: 38, clubCountry: "Argentina", position: "Defender",
     goals: 2, age: 28, shirtNumber: null, club: "River Plate",
-    wikipediaTitle: "Gonzalo Montiel"
+    wikipediaTitle: "Gonzalo Montiel",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/df/Argentina_national_football_team_-_2_-_2022_%28Gonzalo_Montiel%29_%28cropped%29.jpg"
   },
   {
     id: "arg-l-martinez", answer: "Lisandro Martínez",
     aliases: ["Lisandro Martinez", "Licha Martinez"], nationality: "Argentina",
     caps: 26, clubCountry: "England", position: "Defender",
     goals: 1, age: 27, shirtNumber: null, club: "Manchester United",
-    wikipediaTitle: "Lisandro Martínez"
+    wikipediaTitle: "Lisandro Martínez",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/61/Lisandro_Martinez_2022.jpg"
   },
   {
     id: "arg-lmq", answer: "Lucas Martínez Quarta",
     aliases: ["Lucas Martinez Quarta"], nationality: "Argentina",
     caps: 16, clubCountry: "Argentina", position: "Defender",
     goals: 0, age: 29, shirtNumber: null, club: "River Plate",
-    wikipediaTitle: "Lucas Martínez Quarta"
+    wikipediaTitle: "Lucas Martínez Quarta",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Palestino_-_River_Plate_20190424_28_%28cropped%29.jpg"
   },
   {
     id: "arg-balerdi", answer: "Leonardo Balerdi",
     aliases: ["Balerdi"], nationality: "Argentina",
     caps: 11, clubCountry: "France", position: "Defender",
     goals: 0, age: 26, shirtNumber: null, club: "Marseille",
-    wikipediaTitle: "Leonardo Balerdi"
+    wikipediaTitle: "Leonardo Balerdi",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Balerdi_asse_om_2425.png"
   },
   {
     id: "arg-medina", answer: "Facundo Medina",
     aliases: ["Medina"], nationality: "Argentina",
     caps: 7, clubCountry: "France", position: "Defender",
     goals: 0, age: 26, shirtNumber: null, club: "Marseille",
-    wikipediaTitle: "Facundo Medina"
+    wikipediaTitle: "Facundo Medina",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/eb/Facundo_M%C3%A9dina_ASSE_RCL_2425.jpg"
   },
   {
     id: "arg-senesi", answer: "Marcos Senesi",
     aliases: ["Senesi"], nationality: "Argentina",
     caps: 3, clubCountry: "England", position: "Defender",
     goals: 0, age: 28, shirtNumber: null, club: "Bournemouth",
-    wikipediaTitle: "Marcos Senesi"
+    wikipediaTitle: "Marcos Senesi",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/d3/Marcos_Senesi_2022.jpg"
   },
   {
     id: "arg-giay", answer: "Agustín Giay",
     aliases: ["Agustin Giay", "Giay"], nationality: "Argentina",
     caps: 1, clubCountry: "Brazil", position: "Defender",
     goals: 0, age: 21, shirtNumber: null, club: "Palmeiras",
-    wikipediaTitle: "Agustín Giay"
+    wikipediaTitle: "Agustín Giay",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/67/Entrenamiento_Argentina_Sub20_previo_al_mundial_-_BugWarp_%2836%29_%28cropped%29.jpg"
   },
   {
     id: "arg-k-mac-allister", answer: "Kevin Mac Allister",
     aliases: ["Mac Allister"], nationality: "Argentina",
     caps: 1, clubCountry: "Belgium", position: "Defender",
     goals: 0, age: 28, shirtNumber: null, club: "Union Saint-Gilloise",
-    wikipediaTitle: "Kevin Mac Allister"
+    wikipediaTitle: "Kevin Mac Allister",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/31/Go_Ahead_Eagles_-_Royale_Union_Saint-Gillloise_-_53852891619_%28Kevin_Mac_Allister%29.jpg"
   },
   {
     id: "arg-g-rojas", answer: "Gabriel Rojas",
     aliases: ["Rojas"], nationality: "Argentina",
     caps: 1, clubCountry: "Argentina", position: "Defender",
     goals: 0, age: 28, shirtNumber: null, club: "Racing",
-    wikipediaTitle: "Gabriel Rojas (footballer, born 1997)"
+    wikipediaTitle: "Gabriel Rojas (footballer, born 1997)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Gabriel_Rojas_2017.jpg"
   },
   {
     id: "arg-capaldo", answer: "Nicolás Capaldo",
     aliases: ["Nicolas Capaldo", "Capaldo"], nationality: "Argentina",
     caps: 0, clubCountry: "Germany", position: "Defender",
     goals: 0, age: 27, shirtNumber: null, club: "Hamburger SV",
-    wikipediaTitle: "Nicolás Capaldo"
+    wikipediaTitle: "Nicolás Capaldo",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/cc/FC_Red_Bull_Salzburg_gegen_Bayern_M%C3%BCnchen_%282025-01-06_Testspiel%29_47.jpg"
   },
   {
     id: "arg-di-lollo", answer: "Lautaro Di Lollo",
     aliases: ["Di Lollo"], nationality: "Argentina",
     caps: 0, clubCountry: "Argentina", position: "Defender",
     goals: 0, age: 21, shirtNumber: null, club: "Boca Juniors",
-    wikipediaTitle: "Lautaro Di Lollo"
+    wikipediaTitle: "Lautaro Di Lollo",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Lautaro_Di_Lollo_%28cropped%29.jpg"
   },
   {
     id: "arg-z-romero", answer: "Zaid Romero",
@@ -184,56 +206,64 @@ window.PUZZLES = [
     aliases: ["De Paul"], nationality: "Argentina",
     caps: 85, clubCountry: "United States", position: "Midfielder",
     goals: 2, age: 31, shirtNumber: null, club: "Inter Miami",
-    wikipediaTitle: "Rodrigo De Paul"
+    wikipediaTitle: "Rodrigo De Paul",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/df/Rodrigo_De_Paul_NYCFC_Miami_24_Sep_2025-018_%28cropped%29.jpg"
   },
   {
     id: "arg-paredes", answer: "Leandro Paredes",
     aliases: ["Paredes"], nationality: "Argentina",
     caps: 77, clubCountry: "Argentina", position: "Midfielder",
     goals: 5, age: 31, shirtNumber: null, club: "Boca Juniors",
-    wikipediaTitle: "Leandro Paredes"
+    wikipediaTitle: "Leandro Paredes",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/13/Leandro_Paredes_2018_%28cropped%29.jpg"
   },
   {
     id: "arg-lo-celso", answer: "Giovani Lo Celso",
     aliases: ["Lo Celso"], nationality: "Argentina",
     caps: 65, clubCountry: "Spain", position: "Midfielder",
     goals: 4, age: 29, shirtNumber: null, club: "Real Betis",
-    wikipediaTitle: "Giovani Lo Celso"
+    wikipediaTitle: "Giovani Lo Celso",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/25/2020-03-10_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League_Achtelfinale%2C_RB_Leipzig_-_Tottenham_Hotspur_1DX_3705_by_Stepro.jpg"
   },
   {
     id: "arg-a-mac-allister", answer: "Alexis Mac Allister",
     aliases: ["Mac Allister", "Alexis MacAllister"], nationality: "Argentina",
     caps: 44, clubCountry: "England", position: "Midfielder",
     goals: 6, age: 27, shirtNumber: null, club: "Liverpool",
-    wikipediaTitle: "Alexis Mac Allister"
+    wikipediaTitle: "Alexis Mac Allister",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/49/Alexis_Mac_Allister_WC_2022.jpg"
   },
   {
     id: "arg-enzo", answer: "Enzo Fernández",
     aliases: ["Enzo Fernandez", "Enzo"], nationality: "Argentina",
     caps: 40, clubCountry: "England", position: "Midfielder",
     goals: 6, age: 24, shirtNumber: null, club: "Chelsea",
-    wikipediaTitle: "Enzo Fernández"
+    wikipediaTitle: "Enzo Fernández",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/0a/Enzo_Fern%C3%A1ndez_2025_FIFA_Club_World_Cup_Final.jpg"
   },
   {
     id: "arg-palacios", answer: "Exequiel Palacios",
     aliases: ["Palacios"], nationality: "Argentina",
     caps: 38, clubCountry: "Germany", position: "Midfielder",
     goals: 0, age: 27, shirtNumber: null, club: "Bayer Leverkusen",
-    wikipediaTitle: "Exequiel Palacios"
+    wikipediaTitle: "Exequiel Palacios",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Exequiel_Palacios%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%281%29.jpg"
   },
   {
     id: "arg-g-rodriguez", answer: "Guido Rodríguez",
     aliases: ["Guido Rodriguez", "Rodríguez"], nationality: "Argentina",
     caps: 30, clubCountry: "Spain", position: "Midfielder",
     goals: 1, age: 31, shirtNumber: null, club: "Valencia",
-    wikipediaTitle: "Guido Rodríguez"
+    wikipediaTitle: "Guido Rodríguez",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9c/Argentina_national_football_team_-_2_-_2022_%28Guido_Rodr%C3%ADguez%29.jpg"
   },
   {
     id: "arg-almada", answer: "Thiago Almada",
     aliases: ["Almada"], nationality: "Argentina",
     caps: 14, clubCountry: "Spain", position: "Midfielder",
     goals: 4, age: 24, shirtNumber: null, club: "Atlético Madrid",
-    wikipediaTitle: "Thiago Almada"
+    wikipediaTitle: "Thiago Almada",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/68/Almada_asse_ol_2425.png"
   },
   {
     id: "arg-n-dominguez", answer: "Nicolás Domínguez",
@@ -247,42 +277,48 @@ window.PUZZLES = [
     aliases: ["Simeone"], nationality: "Argentina",
     caps: 11, clubCountry: "Spain", position: "Midfielder",
     goals: 1, age: 23, shirtNumber: null, club: "Atlético Madrid",
-    wikipediaTitle: "Giuliano Simeone"
+    wikipediaTitle: "Giuliano Simeone",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/db/Giuliano_Simeone%2C_FC_Salzburg_vs._Atletico_Madrid_%282025-01-29_UEFA_Championsleague%29_53_%28cropped%29.jpg"
   },
   {
     id: "arg-nico-paz", answer: "Nico Paz",
     aliases: ["Paz"], nationality: "Argentina",
     caps: 8, clubCountry: "Italy", position: "Midfielder",
     goals: 1, age: 21, shirtNumber: null, club: "Como",
-    wikipediaTitle: "Nico Paz"
+    wikipediaTitle: "Nico Paz",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/12/Nico_Paz_Como_2025.jpg"
   },
   {
     id: "arg-barco", answer: "Valentín Barco",
     aliases: ["Valentin Barco", "Barco"], nationality: "Argentina",
     caps: 2, clubCountry: "France", position: "Midfielder",
     goals: 1, age: 21, shirtNumber: null, club: "Strasbourg",
-    wikipediaTitle: "Valentín Barco"
+    wikipediaTitle: "Valentín Barco",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/ad/Entrenamiento_Argentina_Sub20_previo_al_mundial_-_BugWarp_%2813%29_%28cropped%29_%28cropped%29.jpg"
   },
   {
     id: "arg-buendia", answer: "Emiliano Buendía",
     aliases: ["Emiliano Buendia", "Buendía"], nationality: "Argentina",
     caps: 2, clubCountry: "England", position: "Midfielder",
     goals: 0, age: 29, shirtNumber: null, club: "Aston Villa",
-    wikipediaTitle: "Emiliano Buendía"
+    wikipediaTitle: "Emiliano Buendía",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Emilano_Buendia_April_2026_%28cropped%29.jpg"
   },
   {
     id: "arg-perrone", answer: "Máximo Perrone",
     aliases: ["Maximo Perrone", "Perrone"], nationality: "Argentina",
     caps: 2, clubCountry: "Italy", position: "Midfielder",
     goals: 0, age: 22, shirtNumber: null, club: "Como",
-    wikipediaTitle: "Máximo Perrone"
+    wikipediaTitle: "Máximo Perrone",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/99/Maximo_Perrone_%28cropped%29.jpg"
   },
   {
     id: "arg-moreno", answer: "Aníbal Moreno",
     aliases: ["Anibal Moreno", "Moreno"], nationality: "Argentina",
     caps: 1, clubCountry: "Argentina", position: "Midfielder",
     goals: 0, age: 26, shirtNumber: null, club: "River Plate",
-    wikipediaTitle: "Aníbal Moreno"
+    wikipediaTitle: "Aníbal Moreno",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/89/Anibal-Moreno-Palmeiras-Liverpool-abr24-2.jpg"
   },
   {
     id: "arg-delgado", answer: "Milton Delgado",
@@ -296,7 +332,8 @@ window.PUZZLES = [
     aliases: ["Equi Fernandez"], nationality: "Argentina",
     caps: 0, clubCountry: "Germany", position: "Midfielder",
     goals: 0, age: 23, shirtNumber: null, club: "Bayer Leverkusen",
-    wikipediaTitle: "Equi Fernández"
+    wikipediaTitle: "Equi Fernández",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/63/Equi-Fern%C3%A1ndez-2025.jpg"
   },
   {
     id: "arg-varela", answer: "Alan Varela",
@@ -312,49 +349,56 @@ window.PUZZLES = [
     aliases: ["Messi", "Leo Messi"], nationality: "Argentina",
     caps: 198, clubCountry: "United States", position: "Forward",
     goals: 116, age: 38, shirtNumber: null, club: "Inter Miami",
-    wikipediaTitle: "Lionel Messi"
+    wikipediaTitle: "Lionel Messi",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Lionel_Messi_White_House_2026_%283x4_cropped%29.jpg"
   },
   {
     id: "arg-lautaro", answer: "Lautaro Martínez",
     aliases: ["Lautaro Martinez", "Lautaro"], nationality: "Argentina",
     caps: 75, clubCountry: "Italy", position: "Forward",
     goals: 36, age: 28, shirtNumber: null, club: "Inter Milan",
-    wikipediaTitle: "Lautaro Martínez"
+    wikipediaTitle: "Lautaro Martínez",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/2e/Lautaro_Martinez_ARGENTINA_VS_VENEZUELA_2017.jpg"
   },
   {
     id: "arg-j-alvarez", answer: "Julián Álvarez",
     aliases: ["Julian Alvarez", "Álvarez"], nationality: "Argentina",
     caps: 51, clubCountry: "Spain", position: "Forward",
     goals: 14, age: 25, shirtNumber: null, club: "Atlético Madrid",
-    wikipediaTitle: "Julián Alvarez"
+    wikipediaTitle: "Julián Alvarez",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/03/Argentina_national_football_team_-_2_-_2022_%28Juli%C3%A1n_%C3%81lvarez%29.jpg"
   },
   {
     id: "arg-n-gonzalez", answer: "Nicolás González",
     aliases: ["Nicolas Gonzalez", "Nico González"], nationality: "Argentina",
     caps: 50, clubCountry: "Spain", position: "Forward",
     goals: 6, age: 27, shirtNumber: null, club: "Atlético Madrid",
-    wikipediaTitle: "Nicolás González (footballer, born 1998)"
+    wikipediaTitle: "Nicolás González (footballer, born 1998)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4b/NicolasGonzalez_%28cropped%29.jpg"
   },
   {
     id: "arg-garnacho", answer: "Alejandro Garnacho",
     aliases: ["Garnacho"], nationality: "Argentina",
     caps: 8, clubCountry: "England", position: "Forward",
     goals: 0, age: 21, shirtNumber: null, club: "Chelsea",
-    wikipediaTitle: "Alejandro Garnacho"
+    wikipediaTitle: "Alejandro Garnacho",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Alejandro_Garnacho_7_August_2022_%28cropped%29.jpg"
   },
   {
     id: "arg-mastantuono", answer: "Franco Mastantuono",
     aliases: ["Mastantuono"], nationality: "Argentina",
     caps: 4, clubCountry: "Spain", position: "Forward",
     goals: 0, age: 18, shirtNumber: null, club: "Real Madrid",
-    wikipediaTitle: "Franco Mastantuono"
+    wikipediaTitle: "Franco Mastantuono",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/00/Franco_Mastantuono_in_2025_%28cropped%29.jpg"
   },
   {
     id: "arg-jm-lopez", answer: "José Manuel López",
     aliases: ["Jose Manuel Lopez"], nationality: "Argentina",
     caps: 3, clubCountry: "Brazil", position: "Forward",
     goals: 0, age: 25, shirtNumber: null, club: "Palmeiras",
-    wikipediaTitle: "José Manuel López (footballer)"
+    wikipediaTitle: "José Manuel López (footballer)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/16/Flaco-Lopez-Palmeiras-Juventude-jun24.jpg"
   },
   {
     id: "arg-prestianni", answer: "Gianluca Prestianni",
@@ -375,7 +419,8 @@ window.PUZZLES = [
     aliases: ["Castro"], nationality: "Argentina",
     caps: 0, clubCountry: "Italy", position: "Forward",
     goals: 0, age: 21, shirtNumber: null, club: "Bologna",
-    wikipediaTitle: "Santiago Castro (footballer, born 2004)"
+    wikipediaTitle: "Santiago Castro (footballer, born 2004)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Santiago_Castro.jpg"
   },
   {
     id: "arg-echeverri", answer: "Claudio Echeverri",
@@ -396,7 +441,8 @@ window.PUZZLES = [
     aliases: ["Matias Soule", "Soulé"], nationality: "Argentina",
     caps: 0, clubCountry: "Italy", position: "Forward",
     goals: 0, age: 22, shirtNumber: null, club: "Roma",
-    wikipediaTitle: "Matías Soulé"
+    wikipediaTitle: "Matías Soulé",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/cb/Soul%C3%A9_ASRoma_2025_%28cropped%29.jpeg"
   },
 
 ];

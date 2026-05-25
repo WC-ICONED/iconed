@@ -12,14 +12,16 @@ window.PUZZLES = [
     aliases: ["Gatito Fernandez", "Gatito"], nationality: "Paraguay",
     caps: 30, clubCountry: "Paraguay", position: "Goalkeeper",
     goals: 0, age: 38, shirtNumber: null, club: "Cerro Porteño",
-    wikipediaTitle: "Gatito Fernández"
+    wikipediaTitle: "Gatito Fernández",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/48/Gatito_Fern%C3%A1ndez_%28Cerro_Porte%C3%B1o%29.png"
   },
   {
     id: "par-coronel", answer: "Carlos Coronel",
     aliases: ["Coronel"], nationality: "Paraguay",
     caps: 9, clubCountry: "Brazil", position: "Goalkeeper",
     goals: 0, age: 29, shirtNumber: null, club: "São Paulo",
-    wikipediaTitle: "Carlos Coronel"
+    wikipediaTitle: "Carlos Coronel",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Carlos_Coronel_Red_Bull_Atlanta_5.31.25-05_%28cropped%29.jpg"
   },
   {
     id: "par-gill", answer: "Orlando Gill",
@@ -56,42 +58,48 @@ window.PUZZLES = [
     aliases: ["Gustavo Gomez", "Gómez"], nationality: "Paraguay",
     caps: 88, clubCountry: "Brazil", position: "Defender",
     goals: 4, age: 33, shirtNumber: null, club: "Palmeiras",
-    wikipediaTitle: "Gustavo Gómez"
+    wikipediaTitle: "Gustavo Gómez",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/87/Gustavo-Gomez-Palmeiras-Athletico-jul-2022-2.jpg"
   },
   {
     id: "par-j-alonso", answer: "Júnior Alonso",
     aliases: ["Junior Alonso", "Alonso"], nationality: "Paraguay",
     caps: 70, clubCountry: "Brazil", position: "Defender",
     goals: 3, age: 33, shirtNumber: null, club: "Atlético Mineiro",
-    wikipediaTitle: "Júnior Alonso"
+    wikipediaTitle: "Júnior Alonso",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/c4/J%C3%BAnior_Alonso_20180612_%28cropped%29.jpg"
   },
   {
     id: "par-balbuena", answer: "Fabián Balbuena",
     aliases: ["Fabian Balbuena", "Balbuena"], nationality: "Paraguay",
     caps: 47, clubCountry: "Brazil", position: "Defender",
     goals: 2, age: 34, shirtNumber: null, club: "Grêmio",
-    wikipediaTitle: "Fabián Balbuena"
+    wikipediaTitle: "Fabián Balbuena",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Fabi%C3%A1n_Balbuena_2021.jpg"
   },
   {
     id: "par-alderete", answer: "Omar Alderete",
     aliases: ["Alderete"], nationality: "Paraguay",
     caps: 35, clubCountry: "England", position: "Defender",
     goals: 3, age: 29, shirtNumber: null, club: "Sunderland",
-    wikipediaTitle: "Omar Alderete"
+    wikipediaTitle: "Omar Alderete",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/43/Omar_Alderete_2019_%28cropped%29.jpg"
   },
   {
     id: "par-jj-caceres", answer: "Juan José Cáceres",
     aliases: ["Juan Jose Caceres", "Cáceres"], nationality: "Paraguay",
     caps: 16, clubCountry: "Russia", position: "Defender",
     goals: 0, age: 25, shirtNumber: null, club: "Dynamo Moscow",
-    wikipediaTitle: "Juan José Cáceres"
+    wikipediaTitle: "Juan José Cáceres",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/77/Juan_Jos%C3%A9_C%C3%A1ceres_2025.jpg"
   },
   {
     id: "par-riveros", answer: "Blas Riveros",
     aliases: ["Riveros"], nationality: "Paraguay",
     caps: 15, clubCountry: "Paraguay", position: "Defender",
     goals: 0, age: 28, shirtNumber: null, club: "Cerro Porteño",
-    wikipediaTitle: "Blas Riveros"
+    wikipediaTitle: "Blas Riveros",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/6d/Bl%C3%A1s_Riveros_2019.jpg"
   },
   {
     id: "par-velazquez", answer: "Gustavo Velázquez",
@@ -177,7 +185,8 @@ window.PUZZLES = [
     aliases: ["Miguel Almiron", "Almirón"], nationality: "Paraguay",
     caps: 75, clubCountry: "United States", position: "Midfielder",
     goals: 9, age: 32, shirtNumber: null, club: "Atlanta United",
-    wikipediaTitle: "Miguel Almirón"
+    wikipediaTitle: "Miguel Almirón",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/19/Miguel_Almir%C3%B3n_Red_Bull_Atlanta_5.31.25-069_%28cropped%29.jpg"
   },
   {
     id: "par-villasanti", answer: "Mathías Villasanti",
@@ -191,28 +200,32 @@ window.PUZZLES = [
     aliases: [], nationality: "Paraguay",
     caps: 32, clubCountry: "United Arab Emirates", position: "Midfielder",
     goals: 5, age: 31, shirtNumber: null, club: "Al Ain",
-    wikipediaTitle: "Kaku (footballer)"
+    wikipediaTitle: "Kaku (footballer)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/14/Alejandro_Romero_20180612_%28cropped%29.jpg"
   },
   {
     id: "par-cubas", answer: "Andrés Cubas",
     aliases: ["Andres Cubas", "Cubas"], nationality: "Paraguay",
     caps: 32, clubCountry: "Canada", position: "Midfielder",
     goals: 0, age: 30, shirtNumber: null, club: "Vancouver Whitecaps",
-    wikipediaTitle: "Andrés Cubas"
+    wikipediaTitle: "Andrés Cubas",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/ed/InddelVal-Boca_%283%29.jpg"
   },
   {
     id: "par-r-sosa", answer: "Ramón Sosa",
     aliases: ["Ramon Sosa", "Sosa"], nationality: "Paraguay",
     caps: 28, clubCountry: "Brazil", position: "Midfielder",
     goals: 1, age: 26, shirtNumber: null, club: "Palmeiras",
-    wikipediaTitle: "Ramón Sosa"
+    wikipediaTitle: "Ramón Sosa",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/86/Ramon-sosa-palmeiras-sport-ago-25-4_%28cropped%29.jpg"
   },
   {
     id: "par-d-gomez", answer: "Diego Gómez",
     aliases: ["Diego Gomez"], nationality: "Paraguay",
     caps: 23, clubCountry: "England", position: "Midfielder",
     goals: 3, age: 23, shirtNumber: null, club: "Brighton & Hove Albion",
-    wikipediaTitle: "Diego Gómez (Paraguayan footballer)"
+    wikipediaTitle: "Diego Gómez (Paraguayan footballer)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Inter_Miami_vs_Real_Salt_Lake_02_%28cropped%29.jpg"
   },
   {
     id: "par-bobadilla", answer: "Damián Bobadilla",
@@ -226,21 +239,24 @@ window.PUZZLES = [
     aliases: ["Ojeda"], nationality: "Paraguay",
     caps: 16, clubCountry: "United States", position: "Midfielder",
     goals: 0, age: 26, shirtNumber: null, club: "Orlando City",
-    wikipediaTitle: "Braian Ojeda"
+    wikipediaTitle: "Braian Ojeda",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/40/Dynamo_vs_Real_Salt_Lake_%28Mar_2025%29_16_%28cropped%29.jpg"
   },
   {
     id: "par-galarza", answer: "Matías Galarza",
     aliases: ["Matias Galarza", "Galarza"], nationality: "Paraguay",
     caps: 14, clubCountry: "United States", position: "Midfielder",
     goals: 2, age: 24, shirtNumber: null, club: "Atlanta United",
-    wikipediaTitle: "Matías Galarza (Paraguayan footballer)"
+    wikipediaTitle: "Matías Galarza (Paraguayan footballer)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mat%C3%ADas_Galarza_-_Brasileir%C3%A3o_S%C3%A9rie_A-_Bragantino_4_x_2_Coritiba_-_52150854647_%28cropped%29.jpg"
   },
   {
     id: "par-piris", answer: "Robert Piris Da Motta",
     aliases: ["Piris Da Motta"], nationality: "Paraguay",
     caps: 9, clubCountry: "Paraguay", position: "Midfielder",
     goals: 0, age: 32, shirtNumber: null, club: "Cerro Porteño",
-    wikipediaTitle: "Robert Piris Da Motta"
+    wikipediaTitle: "Robert Piris Da Motta",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/d8/Flamengo_v_Vasco_September_2018_IMG_4439_Robert_Piris_Da_Motta.jpg"
   },
   {
     id: "par-campuzano", answer: "Álvaro Campuzano",
@@ -268,7 +284,8 @@ window.PUZZLES = [
     aliases: ["Mauricio"], nationality: "Paraguay",
     caps: 2, clubCountry: "Brazil", position: "Midfielder",
     goals: 0, age: 25, shirtNumber: null, club: "Palmeiras",
-    wikipediaTitle: "Maurício (footballer, born 2001)"
+    wikipediaTitle: "Maurício (footballer, born 2001)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Mauricio-palmeiras-sport-ago-25_%28cropped%29.jpg"
   },
   {
     id: "par-l-romero", answer: "Lucas Romero",
@@ -298,28 +315,32 @@ window.PUZZLES = [
     aliases: ["Oscar Romero", "Romero"], nationality: "Paraguay",
     caps: 55, clubCountry: "Argentina", position: "Forward",
     goals: 4, age: 34, shirtNumber: null, club: "Huracán",
-    wikipediaTitle: "Óscar Romero (footballer)"
+    wikipediaTitle: "Óscar Romero (footballer)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/04/%C3%93scar_Romero_20180612_%28cropped%29.jpg"
   },
   {
     id: "par-a-romero", answer: "Ángel Romero",
     aliases: ["Angel Romero", "Romero"], nationality: "Paraguay",
     caps: 51, clubCountry: "Argentina", position: "Forward",
     goals: 8, age: 34, shirtNumber: null, club: "Boca Juniors",
-    wikipediaTitle: "Ángel Romero (footballer)"
+    wikipediaTitle: "Ángel Romero (footballer)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b9/RomeroCorinthians2018A.jpg"
   },
   {
     id: "par-sanabria", answer: "Antonio Sanabria",
     aliases: ["Sanabria"], nationality: "Paraguay",
     caps: 47, clubCountry: "Italy", position: "Forward",
     goals: 7, age: 30, shirtNumber: null, club: "Cremonese",
-    wikipediaTitle: "Antonio Sanabria"
+    wikipediaTitle: "Antonio Sanabria",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/23/Antonio_Sanabria%2C_2025_%28cropped%29.jpg"
   },
   {
     id: "par-enciso", answer: "Julio Enciso",
     aliases: ["Enciso"], nationality: "Paraguay",
     caps: 31, clubCountry: "France", position: "Forward",
     goals: 4, age: 22, shirtNumber: null, club: "Strasbourg",
-    wikipediaTitle: "Julio Enciso (footballer, born 2004)"
+    wikipediaTitle: "Julio Enciso (footballer, born 2004)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/40/Enciso_2022.jpg"
   },
   {
     id: "par-g-avalos", answer: "Gabriel Ávalos",
@@ -333,7 +354,8 @@ window.PUZZLES = [
     aliases: ["Carlos Gonzalez"], nationality: "Paraguay",
     caps: 15, clubCountry: "Ecuador", position: "Forward",
     goals: 0, age: 33, shirtNumber: null, club: "Independiente del Valle",
-    wikipediaTitle: "Carlos González (footballer, born 1993)"
+    wikipediaTitle: "Carlos González (footballer, born 1993)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/53/Carlos_Gonzalez_xolos.jpg"
   },
   {
     id: "par-arce", answer: "Álex Arce",
@@ -354,14 +376,16 @@ window.PUZZLES = [
     aliases: ["Melgarejo"], nationality: "Paraguay",
     caps: 5, clubCountry: "Paraguay", position: "Forward",
     goals: 0, age: 36, shirtNumber: null, club: "Libertad",
-    wikipediaTitle: "Lorenzo Melgarejo"
+    wikipediaTitle: "Lorenzo Melgarejo",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8b/SM-AB_2018_%282%29.jpg"
   },
   {
     id: "par-pitta", answer: "Isidro Pitta",
     aliases: ["Pitta"], nationality: "Paraguay",
     caps: 5, clubCountry: "Brazil", position: "Forward",
     goals: 0, age: 26, shirtNumber: null, club: "Red Bull Bragantino",
-    wikipediaTitle: "Isidro Pitta"
+    wikipediaTitle: "Isidro Pitta",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/47/Isidro-Pitta-Juventude-Corinthians-jun-2022.jpg"
   },
   {
     id: "par-r-martinez", answer: "Ronaldo Martínez",

@@ -19,7 +19,8 @@ window.PUZZLES = [
     age: 26,
     shirtNumber: null,
     club: "PSV Eindhoven",
-    wikipediaTitle: "Matěj Kovář"
+    wikipediaTitle: "Matěj Kovář",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Matj_kova-1772635856_%28cropped%29.JPG"
   },
   {
     id: "cze-stanek",
@@ -33,7 +34,8 @@ window.PUZZLES = [
     age: 30,
     shirtNumber: null,
     club: "Slavia Prague",
-    wikipediaTitle: "Jindřich Staněk"
+    wikipediaTitle: "Jindřich Staněk",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Jind%C5%99ich_Stan%C4%9Bk_brank%C3%A1%C5%99_FK_Viktorie_Plze%C5%88_%28r._2023%29_%28cropped%29.jpg"
   },
   {
     id: "cze-hornicek",
@@ -63,7 +65,8 @@ window.PUZZLES = [
     age: 33,
     shirtNumber: null,
     club: "TSG Hoffenheim",
-    wikipediaTitle: "Vladimír Coufal"
+    wikipediaTitle: "Vladimír Coufal",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Vladim%C3%ADr_Coufal_with_West_Ham_United.jpeg"
   },
   {
     id: "cze-holes",
@@ -77,7 +80,8 @@ window.PUZZLES = [
     age: 33,
     shirtNumber: null,
     club: "Slavia Prague",
-    wikipediaTitle: "Tomáš Holeš"
+    wikipediaTitle: "Tomáš Holeš",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/59/Tom%C3%A1%C5%A1_Hole%C5%A1_Jablonec-Ostrava.jpg"
   },
   {
     id: "cze-krejci",
@@ -91,7 +95,8 @@ window.PUZZLES = [
     age: 27,
     shirtNumber: null,
     club: "Wolverhampton Wanderers",
-    wikipediaTitle: "Ladislav Krejčí (footballer, born 1999)"
+    wikipediaTitle: "Ladislav Krejčí (footballer, born 1999)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ladislav_Krej%C4%8D%C3%AD_01112025_%281%29.jpg"
   },
   {
     id: "cze-zima",
@@ -105,7 +110,8 @@ window.PUZZLES = [
     age: 25,
     shirtNumber: null,
     club: "Slavia Prague",
-    wikipediaTitle: "David Zima"
+    wikipediaTitle: "David Zima",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e6/David_Zima_CZE-KUW_2021-11-11_%28cropped%29.jpg"
   },
   {
     id: "cze-zeleny",
@@ -119,7 +125,8 @@ window.PUZZLES = [
     age: 33,
     shirtNumber: null,
     club: "Sparta Prague",
-    wikipediaTitle: "Jaroslav Zelený"
+    wikipediaTitle: "Jaroslav Zelený",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Jaroslav_Zelen%C3%BD%2C_FCB-SLAVIA_30092018.jpg"
   },
   {
     id: "cze-jurasek",
@@ -147,7 +154,8 @@ window.PUZZLES = [
     age: 28,
     shirtNumber: null,
     club: "Slavia Prague",
-    wikipediaTitle: "David Douděra"
+    wikipediaTitle: "David Douděra",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/cc/David_Doud%C4%9Bra%2C_U21_CZE-GRE_2019-10-10.jpg"
   },
   {
     id: "cze-hranac",
@@ -191,7 +199,8 @@ window.PUZZLES = [
     age: 31,
     shirtNumber: null,
     club: "West Ham United",
-    wikipediaTitle: "Tomáš Souček"
+    wikipediaTitle: "Tomáš Souček",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/d6/Tom%C3%A1%C5%A1_Sou%C4%8Dek_WHU.jpeg"
   },
   {
     id: "cze-darida",
@@ -205,7 +214,8 @@ window.PUZZLES = [
     age: 35,
     shirtNumber: null,
     club: "Hradec Králové",
-    wikipediaTitle: "Vladimír Darida"
+    wikipediaTitle: "Vladimír Darida",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/52/Vladim%C3%ADr_Darida_20180601_AUSCZE_3910_%28cropped%29.jpg"
   },
   {
     id: "cze-provod",
@@ -233,7 +243,8 @@ window.PUZZLES = [
     age: 27,
     shirtNumber: null,
     club: "Slavia Prague",
-    wikipediaTitle: "Michal Sadílek"
+    wikipediaTitle: "Michal Sadílek",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/98/Michal_Sad%C3%ADlek%2C_U21_CZE-GRE_2019-10-10_%282%29.jpg"
   },
   {
     id: "cze-sulc",
@@ -247,7 +258,8 @@ window.PUZZLES = [
     age: 25,
     shirtNumber: null,
     club: "Lyon",
-    wikipediaTitle: "Pavel Šulc"
+    wikipediaTitle: "Pavel Šulc",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9b/Pavel_%C5%A0ulc_%28cropped%29.jpg"
   },
   {
     id: "cze-cerv",
@@ -289,7 +301,8 @@ window.PUZZLES = [
     age: 28,
     shirtNumber: null,
     club: "FC Cincinnati",
-    wikipediaTitle: "Pavel Bucha"
+    wikipediaTitle: "Pavel Bucha",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/19/Pavel_Bucha_NYCFC_v_Cincinnati_22_Apr_26-167_%28cropped%29.jpg"
   },
   {
     id: "cze-sochurek",
@@ -347,7 +360,8 @@ window.PUZZLES = [
     age: 30,
     shirtNumber: null,
     club: "Bayer Leverkusen",
-    wikipediaTitle: "Patrik Schick"
+    wikipediaTitle: "Patrik Schick",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/71/2020-03-10_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League_Achtelfinale%2C_RB_Leipzig_-_Tottenham_Hotspur_1DX_3672_by_Stepro.jpg"
   },
   {
     id: "cze-hlozek",
@@ -361,7 +375,8 @@ window.PUZZLES = [
     age: 23,
     shirtNumber: null,
     club: "TSG Hoffenheim",
-    wikipediaTitle: "Adam Hložek"
+    wikipediaTitle: "Adam Hložek",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/25/Adam_Hlo%C5%BEek%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%282%29_%28cropped%29.jpg"
   },
   {
     id: "cze-kuchta",
@@ -375,7 +390,8 @@ window.PUZZLES = [
     age: 29,
     shirtNumber: null,
     club: "Sparta Prague",
-    wikipediaTitle: "Jan Kuchta"
+    wikipediaTitle: "Jan Kuchta",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Jan_Kuchta_2022.jpg"
   },
   {
     id: "cze-chory",
@@ -389,7 +405,8 @@ window.PUZZLES = [
     age: 31,
     shirtNumber: null,
     club: "Slavia Prague",
-    wikipediaTitle: "Tomáš Chorý"
+    wikipediaTitle: "Tomáš Chorý",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/03/Tom%C3%A1%C5%A1_Chor%C3%BD_%28cropped%29.jpg"
   },
   {
     id: "cze-chytil",

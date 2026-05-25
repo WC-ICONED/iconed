@@ -11,14 +11,16 @@ window.PUZZLES = [
     aliases: ["Al-Owais", "Al Owais"], nationality: "Saudi Arabia",
     caps: 62, clubCountry: "Saudi Arabia", position: "Goalkeeper",
     goals: 0, age: 34, shirtNumber: null, club: "Al-Ula",
-    wikipediaTitle: "Mohammed Al-Owais"
+    wikipediaTitle: "Mohammed Al-Owais",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Mohammed_Al-Owais_2018.jpg"
   },
   {
     id: "ksa-al-aqidi", answer: "Nawaf Al-Aqidi",
     aliases: ["Al-Aqidi", "Al Aqidi"], nationality: "Saudi Arabia",
     caps: 22, clubCountry: "Saudi Arabia", position: "Goalkeeper",
     goals: 0, age: 26, shirtNumber: null, club: "Al-Nassr",
-    wikipediaTitle: "Nawaf Al-Aqidi"
+    wikipediaTitle: "Nawaf Al-Aqidi",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Nawaf_Al-Aqidi_2023_%28cropped%29.jpg"
   },
   {
     id: "ksa-al-kassar", answer: "Ahmed Al-Kassar",
@@ -41,7 +43,8 @@ window.PUZZLES = [
     aliases: ["Abdulhamid"], nationality: "Saudi Arabia",
     caps: 53, clubCountry: "France", position: "Defender",
     goals: 1, age: 26, shirtNumber: null, club: "Lens",
-    wikipediaTitle: "Saud Abdulhamid"
+    wikipediaTitle: "Saud Abdulhamid",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/16/Saudi_Arabia_v_Oman_%282%29_%28cropped%29.jpg"
   },
   {
     id: "ksa-al-tambakti", answer: "Hassan Al-Tambakti",
@@ -55,28 +58,32 @@ window.PUZZLES = [
     aliases: ["Al-Amri", "Al Amri"], nationality: "Saudi Arabia",
     caps: 40, clubCountry: "Saudi Arabia", position: "Defender",
     goals: 1, age: 29, shirtNumber: null, club: "Al-Nassr",
-    wikipediaTitle: "Abdulelah Al-Amri"
+    wikipediaTitle: "Abdulelah Al-Amri",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/09/Abdulelah_Al-Amri_2023_%28cropped%29.jpg"
   },
   {
     id: "ksa-boushal", answer: "Nawaf Boushal",
     aliases: ["Boushal"], nationality: "Saudi Arabia",
     caps: 23, clubCountry: "Saudi Arabia", position: "Defender",
     goals: 0, age: 26, shirtNumber: null, club: "Al-Nassr",
-    wikipediaTitle: "Nawaf Boushal"
+    wikipediaTitle: "Nawaf Boushal",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/19/Esteghlal_0_-_0_Al_Nassr%2C_round_of_16_of_the_AFC_Elite_League%2C_Azadi_Stadium%2C_3_March_2025%2C_Nawaf_Boushal.jpg"
   },
   {
     id: "ksa-majrashi", answer: "Ali Majrashi",
     aliases: ["Majrashi"], nationality: "Saudi Arabia",
     caps: 20, clubCountry: "Saudi Arabia", position: "Defender",
     goals: 0, age: 26, shirtNumber: null, club: "Al-Ahli",
-    wikipediaTitle: "Ali Majrashi"
+    wikipediaTitle: "Ali Majrashi",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/aa/Ali_Majrashi%2C_2025_CONCACAF_Gold_Cup_%28cropped%29.jpg"
   },
   {
     id: "ksa-lajami", answer: "Ali Lajami",
     aliases: ["Lajami"], nationality: "Saudi Arabia",
     caps: 19, clubCountry: "Saudi Arabia", position: "Defender",
     goals: 1, age: 30, shirtNumber: null, club: "Al-Hilal",
-    wikipediaTitle: "Ali Lajami"
+    wikipediaTitle: "Ali Lajami",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/7f/AFC_Elite_League_Western%2C_Azadi_Stadium%2C_Persepolis_0-0_Al_Nassr%2C_17_February_2025%2C_Ali_Lajami.jpg"
   },
   {
     id: "ksa-kadesh", answer: "Hassan Kadesh",
@@ -111,7 +118,8 @@ window.PUZZLES = [
     aliases: ["Hawsawi"], nationality: "Saudi Arabia",
     caps: 1, clubCountry: "Saudi Arabia", position: "Defender",
     goals: 0, age: 25, shirtNumber: null, club: "Al-Ahli",
-    wikipediaTitle: "Zakaria Hawsawi"
+    wikipediaTitle: "Zakaria Hawsawi",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/df/Zakaria_Hawsawi.png"
   },
 
   // ── Midfielders ───────────────────────────────────────────────
@@ -120,28 +128,32 @@ window.PUZZLES = [
     aliases: ["Al-Dawsari", "Al Dawsari", "Salem"], nationality: "Saudi Arabia",
     caps: 107, clubCountry: "Saudi Arabia", position: "Midfielder",
     goals: 26, age: 34, shirtNumber: null, club: "Al-Hilal",
-    wikipediaTitle: "Salem Al-Dawsari"
+    wikipediaTitle: "Salem Al-Dawsari",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/6d/Salem_Al-Dawsari_2018.jpg"
   },
   {
     id: "ksa-kanno", answer: "Mohamed Kanno",
     aliases: ["Kanno"], nationality: "Saudi Arabia",
     caps: 74, clubCountry: "Saudi Arabia", position: "Midfielder",
     goals: 8, age: 31, shirtNumber: null, club: "Al-Hilal",
-    wikipediaTitle: "Mohamed Kanno"
+    wikipediaTitle: "Mohamed Kanno",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/0c/Group_photographs_of_Al_Hilal%2C_Al_Hilal_SFC_vs_Chelsea_F.C.%2C_9_February_2022_%28cropped%29.jpg"
   },
   {
     id: "ksa-n-dawsari", answer: "Nasser Al-Dawsari",
     aliases: ["Nasser", "N. Al-Dawsari"], nationality: "Saudi Arabia",
     caps: 41, clubCountry: "Saudi Arabia", position: "Midfielder",
     goals: 0, age: 27, shirtNumber: null, club: "Al-Hilal",
-    wikipediaTitle: "Nasser Al-Dawsari"
+    wikipediaTitle: "Nasser Al-Dawsari",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/15/Saudi_Arabia_v_Oman_%289%29_%28cropped%29.jpg"
   },
   {
     id: "ksa-al-khaibari", answer: "Abdullah Al-Khaibari",
     aliases: ["Al-Khaibari", "Al Khaibari"], nationality: "Saudi Arabia",
     caps: 37, clubCountry: "Saudi Arabia", position: "Midfielder",
     goals: 0, age: 29, shirtNumber: null, club: "Al-Nassr",
-    wikipediaTitle: "Abdullah Al-Khaibari"
+    wikipediaTitle: "Abdullah Al-Khaibari",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/13/Abdullah_Al-Khaibari_2023_%28cropped%29.jpg"
   },
   {
     id: "ksa-al-juwayr", answer: "Musab Al-Juwayr",
@@ -155,14 +167,16 @@ window.PUZZLES = [
     aliases: ["Yahya"], nationality: "Saudi Arabia",
     caps: 25, clubCountry: "Saudi Arabia", position: "Midfielder",
     goals: 0, age: 25, shirtNumber: null, club: "Al-Nassr",
-    wikipediaTitle: "Ayman Yahya"
+    wikipediaTitle: "Ayman Yahya",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/29/Esteghlal_0_-_0_Al_Nassr%2C_round_of_16_of_the_AFC_Elite_League%2C_Azadi_Stadium%2C_3_March_2025%2C_Ayman_Yahya_lineup.jpg"
   },
   {
     id: "ksa-al-johani", answer: "Ziyad Al-Johani",
     aliases: ["Al-Johani", "Al Johani"], nationality: "Saudi Arabia",
     caps: 11, clubCountry: "Saudi Arabia", position: "Midfielder",
     goals: 0, age: 24, shirtNumber: null, club: "Al-Ahli",
-    wikipediaTitle: "Ziyad Al-Johani"
+    wikipediaTitle: "Ziyad Al-Johani",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/ec/Ziyad_Al-Johani.jpg"
   },
   {
     id: "ksa-s-abu-shamat", answer: "Saleh Abu Al-Shamat",
@@ -192,7 +206,8 @@ window.PUZZLES = [
     aliases: ["Al-Buraikan", "Al Buraikan"], nationality: "Saudi Arabia",
     caps: 68, clubCountry: "Saudi Arabia", position: "Forward",
     goals: 15, age: 26, shirtNumber: null, club: "Al-Ahli",
-    wikipediaTitle: "Firas Al-Buraikan"
+    wikipediaTitle: "Firas Al-Buraikan",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/06/Firas_Al-Buraikan_2026.jpg"
   },
   {
     id: "ksa-al-shehri", answer: "Saleh Al-Shehri",

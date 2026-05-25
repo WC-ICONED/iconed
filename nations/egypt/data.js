@@ -11,7 +11,8 @@ window.PUZZLES = [
     aliases: ["El Shenawy", "El-Shenawy"], nationality: "Egypt",
     caps: 75, clubCountry: "Egypt", position: "Goalkeeper",
     goals: 0, age: 37, shirtNumber: null, club: "Al Ahly",
-    wikipediaTitle: "Mohamed El-Shenawy"
+    wikipediaTitle: "Mohamed El-Shenawy",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/46/Mohamed_El_Shenawy.jpg"
   },
   {
     id: "egy-shobeir", answer: "Mostafa Shobeir",
@@ -41,21 +42,24 @@ window.PUZZLES = [
     aliases: ["Fathy"], nationality: "Egypt",
     caps: 62, clubCountry: "Qatar", position: "Defender",
     goals: 3, age: 31, shirtNumber: null, club: "Al-Wakrah",
-    wikipediaTitle: "Hamdy Fathy"
+    wikipediaTitle: "Hamdy Fathy",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Hamdy_Fathy_2.jpg"
   },
   {
     id: "egy-rabia", answer: "Ramy Rabia",
     aliases: ["Rabia"], nationality: "Egypt",
     caps: 43, clubCountry: "UAE", position: "Defender",
     goals: 5, age: 33, shirtNumber: null, club: "Al Ain",
-    wikipediaTitle: "Ramy Rabia"
+    wikipediaTitle: "Ramy Rabia",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Ramy_Rabia_in_2021_FIFA_Club_World_Cup.jpg"
   },
   {
     id: "egy-hany", answer: "Mohamed Hany",
     aliases: ["Hany"], nationality: "Egypt",
     caps: 40, clubCountry: "Egypt", position: "Defender",
     goals: 0, age: 30, shirtNumber: null, club: "Al Ahly",
-    wikipediaTitle: "Mohamed Hany"
+    wikipediaTitle: "Mohamed Hany",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8b/Mohamed_Hany_in_2021_FIFA_Club_World_Cup.jpg"
   },
   {
     id: "egy-abou-el-fotouh", answer: "Ahmed Abou El Fotouh",
@@ -69,28 +73,32 @@ window.PUZZLES = [
     aliases: ["Abdelmonem"], nationality: "Egypt",
     caps: 34, clubCountry: "France", position: "Defender",
     goals: 3, age: 27, shirtNumber: null, club: "Nice",
-    wikipediaTitle: "Mohamed Abdelmonem"
+    wikipediaTitle: "Mohamed Abdelmonem",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/13/Abdelmonem_asse_ogcn_2425.png"
   },
   {
     id: "egy-ibrahim", answer: "Yasser Ibrahim",
     aliases: ["Ibrahim"], nationality: "Egypt",
     caps: 15, clubCountry: "Egypt", position: "Defender",
     goals: 1, age: 33, shirtNumber: null, club: "Al Ahly",
-    wikipediaTitle: "Yasser Ibrahim (Egyptian footballer)"
+    wikipediaTitle: "Yasser Ibrahim (Egyptian footballer)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/23/Yasser_Ibrahim_in_FIFA_Club_World_Cup.jpg"
   },
   {
     id: "egy-abdelmaguid", answer: "Hossam Abdelmaguid",
     aliases: ["Abdelmaguid"], nationality: "Egypt",
     caps: 12, clubCountry: "Egypt", position: "Defender",
     goals: 0, age: 25, shirtNumber: null, club: "Zamalek",
-    wikipediaTitle: "Hossam Abdelmaguid"
+    wikipediaTitle: "Hossam Abdelmaguid",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/63/Hossam_Abdel_Maguid.jpg"
   },
   {
     id: "egy-hafez", answer: "Karim Hafez",
     aliases: ["Hafez"], nationality: "Egypt",
     caps: 7, clubCountry: "Egypt", position: "Defender",
     goals: 0, age: 30, shirtNumber: null, club: "Pyramids",
-    wikipediaTitle: "Karim Hafez"
+    wikipediaTitle: "Karim Hafez",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Karim_Hafez_%28RC_Lens%29.jpg"
   },
   {
     id: "egy-t-alaa", answer: "Tarek Alaa",
@@ -106,14 +114,16 @@ window.PUZZLES = [
     aliases: ["Attia"], nationality: "Egypt",
     caps: 32, clubCountry: "Egypt", position: "Midfielder",
     goals: 1, age: 27, shirtNumber: null, club: "Al Ahly",
-    wikipediaTitle: "Marwan Attia"
+    wikipediaTitle: "Marwan Attia",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/ac/Marwan_Attia.jpg"
   },
   {
     id: "egy-ashour", answer: "Emam Ashour",
     aliases: ["Ashour"], nationality: "Egypt",
     caps: 27, clubCountry: "Egypt", position: "Midfielder",
     goals: 0, age: 28, shirtNumber: null, club: "Al Ahly",
-    wikipediaTitle: "Emam Ashour"
+    wikipediaTitle: "Emam Ashour",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/96/Emam22.jpg"
   },
   {
     id: "egy-lasheen", answer: "Mohanad Lasheen",
@@ -150,35 +160,40 @@ window.PUZZLES = [
     aliases: ["Salah", "Mo Salah"], nationality: "Egypt",
     caps: 116, clubCountry: "England", position: "Forward",
     goals: 67, age: 33, shirtNumber: null, club: "Liverpool",
-    wikipediaTitle: "Mohamed Salah"
+    wikipediaTitle: "Mohamed Salah",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mohamed_Salah_2018.jpg"
   },
   {
     id: "egy-trezeguet", answer: "Trézéguet",
     aliases: ["Trezeguet", "Mahmoud Trezeguet"], nationality: "Egypt",
     caps: 94, clubCountry: "Egypt", position: "Forward",
     goals: 23, age: 29, shirtNumber: null, club: "Al Ahly",
-    wikipediaTitle: "Trézéguet (Egyptian footballer)"
+    wikipediaTitle: "Trézéguet (Egyptian footballer)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Mahmoud_Tr%C3%A9z%C3%A9guet_in_world_cup_2018.jpg"
   },
   {
     id: "egy-zizo", answer: "Zizo",
     aliases: ["Kahraba"], nationality: "Egypt",
     caps: 61, clubCountry: "Egypt", position: "Forward",
     goals: 5, age: 30, shirtNumber: null, club: "Al Ahly",
-    wikipediaTitle: "Zizo (footballer)"
+    wikipediaTitle: "Zizo (footballer)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/32/Zizo_zsc.jpg"
   },
   {
     id: "egy-marmoush", answer: "Omar Marmoush",
     aliases: ["Marmoush"], nationality: "Egypt",
     caps: 47, clubCountry: "England", position: "Forward",
     goals: 11, age: 27, shirtNumber: null, club: "Manchester City",
-    wikipediaTitle: "Omar Marmoush"
+    wikipediaTitle: "Omar Marmoush",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/09/OmarMarmoush.png"
   },
   {
     id: "egy-adel", answer: "Ibrahim Adel",
     aliases: ["Adel"], nationality: "Egypt",
     caps: 22, clubCountry: "Denmark", position: "Forward",
     goals: 3, age: 25, shirtNumber: null, club: "Nordsjælland",
-    wikipediaTitle: "Ibrahim Adel"
+    wikipediaTitle: "Ibrahim Adel",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Ibrahim_Adel_2025.jpg"
   },
   {
     id: "egy-haissem", answer: "Haissem Hassan",

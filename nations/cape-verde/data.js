@@ -16,14 +16,16 @@ window.PUZZLES = [
     aliases: ["Rosa"], nationality: "Cape Verde",
     caps: 10, clubCountry: "Bulgaria", position: "Goalkeeper",
     goals: 0, age: 29, shirtNumber: null, club: "Montana",
-    wikipediaTitle: "Márcio Rosa (footballer)"
+    wikipediaTitle: "Márcio Rosa (footballer)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/32/Phase_de_match_Ethiopie_-_Cape_verde_%28cropped%29.jpg"
   },
   {
     id: "cpv-dos-santos", answer: "CJ dos Santos",
     aliases: ["dos Santos"], nationality: "Cape Verde",
     caps: 0, clubCountry: "United States", position: "Goalkeeper",
     goals: 0, age: 25, shirtNumber: null, club: "San Diego",
-    wikipediaTitle: "CJ dos Santos"
+    wikipediaTitle: "CJ dos Santos",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8c/C.J._dos_Santos_%28cropped%29.jpg"
   },
 
   // ── Defenders ─────────────────────────────────────────────────────────────
@@ -32,7 +34,8 @@ window.PUZZLES = [
     aliases: [], nationality: "Cape Verde",
     caps: 60, clubCountry: "Portugal", position: "Defender",
     goals: 4, age: 38, shirtNumber: null, club: "Torreense",
-    wikipediaTitle: "Stopira"
+    wikipediaTitle: "Stopira",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/0d/Cap-vert_vs_Ethiopi_%2825%29.jpg"
   },
   {
     id: "cpv-r-lopes", answer: "Roberto Lopes",
@@ -60,14 +63,16 @@ window.PUZZLES = [
     aliases: ["Costa"], nationality: "Cape Verde",
     caps: 26, clubCountry: "Spain", position: "Defender",
     goals: 0, age: 25, shirtNumber: null, club: "Villarreal",
-    wikipediaTitle: "Logan Costa"
+    wikipediaTitle: "Logan Costa",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Logan_Costa_-_2023-02-01_%28cropped_medium_shot%29.jpg"
   },
   {
     id: "cpv-moreira", answer: "Steven Moreira",
     aliases: ["Moreira"], nationality: "Cape Verde",
     caps: 18, clubCountry: "United States", position: "Defender",
     goals: 0, age: 31, shirtNumber: null, club: "Columbus Crew",
-    wikipediaTitle: "Steven Moreira"
+    wikipediaTitle: "Steven Moreira",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Steven_Moreira_NYCFC_v_Columbus_10_May_2026-67_%28cropped%29.jpg"
   },
   {
     id: "cpv-w-pina", answer: "Wagner Pina",
@@ -97,7 +102,8 @@ window.PUZZLES = [
     aliases: ["Monteiro"], nationality: "Cape Verde",
     caps: 53, clubCountry: "Netherlands", position: "Midfielder",
     goals: 5, age: 32, shirtNumber: null, club: "PEC Zwolle",
-    wikipediaTitle: "Jamiro Monteiro"
+    wikipediaTitle: "Jamiro Monteiro",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/93/Jamiro_Monteiro_Philadelphia_Union_2019.jpg"
   },
   {
     id: "cpv-k-pina", answer: "Kevin Pina",
@@ -111,7 +117,8 @@ window.PUZZLES = [
     aliases: ["D. Duarte"], nationality: "Cape Verde",
     caps: 30, clubCountry: "Bulgaria", position: "Midfielder",
     goals: 0, age: 26, shirtNumber: null, club: "Ludogorets Razgrad",
-    wikipediaTitle: "Deroy Duarte"
+    wikipediaTitle: "Deroy Duarte",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Deroy_Duarte_2026.jpg"
   },
   {
     id: "cpv-arcanjo", answer: "Telmo Arcanjo",
@@ -141,35 +148,40 @@ window.PUZZLES = [
     aliases: ["Mendes"], nationality: "Cape Verde",
     caps: 94, clubCountry: "Turkey", position: "Forward",
     goals: 22, age: 36, shirtNumber: null, club: "Iğdır",
-    wikipediaTitle: "Ryan Mendes"
+    wikipediaTitle: "Ryan Mendes",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Ryan_Mendes_%28LOSC_Lille%29.JPG"
   },
   {
     id: "cpv-rodrigues", answer: "Garry Rodrigues",
     aliases: ["Rodrigues"], nationality: "Cape Verde",
     caps: 59, clubCountry: "Cyprus", position: "Forward",
     goals: 9, age: 35, shirtNumber: null, club: "Apollon Limassol",
-    wikipediaTitle: "Garry Rodrigues"
+    wikipediaTitle: "Garry Rodrigues",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Cap-vert_vs_Ethiopi_%2824%29.jpg"
   },
   {
     id: "cpv-w-semedo", answer: "Willy Semedo",
     aliases: ["W. Semedo"], nationality: "Cape Verde",
     caps: 36, clubCountry: "Cyprus", position: "Forward",
     goals: 2, age: 32, shirtNumber: null, club: "Omonia",
-    wikipediaTitle: "Willy Semedo"
+    wikipediaTitle: "Willy Semedo",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b2/RC_Lens_-_Grenoble_Foot_38_%2810-02-2020%29_70.jpg"
   },
   {
     id: "cpv-j-cabral", answer: "Jovane Cabral",
     aliases: ["Jovane"], nationality: "Cape Verde",
     caps: 25, clubCountry: "Portugal", position: "Forward",
     goals: 2, age: 27, shirtNumber: null, club: "Estrela Amadora",
-    wikipediaTitle: "Jovane Cabral"
+    wikipediaTitle: "Jovane Cabral",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/11/JovaneCabral_2021.jpg"
   },
   {
     id: "cpv-benchimol", answer: "Gilson Benchimol",
     aliases: ["Benchimol"], nationality: "Cape Verde",
     caps: 21, clubCountry: "Russia", position: "Forward",
     goals: 5, age: 24, shirtNumber: null, club: "Akron Tolyatti",
-    wikipediaTitle: "Gilson Benchimol"
+    wikipediaTitle: "Gilson Benchimol",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8b/Benchimol_2024.jpg"
   },
   {
     id: "cpv-livramento", answer: "Dailon Livramento",
@@ -190,7 +202,8 @@ window.PUZZLES = [
     aliases: ["da Costa"], nationality: "Cape Verde",
     caps: 7, clubCountry: "Turkey", position: "Forward",
     goals: 1, age: 35, shirtNumber: null, club: "İstanbul Başakşehir",
-    wikipediaTitle: "Nuno Da Costa"
+    wikipediaTitle: "Nuno Da Costa",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Nuno_da_Costa_10_%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_FK_20250731_%2810%29.jpg"
   },
 ];
 

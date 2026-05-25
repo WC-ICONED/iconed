@@ -9,7 +9,8 @@ window.PUZZLES = [
     aliases: ["Mpasi"], nationality: "DR Congo",
     caps: 27, clubCountry: "France", position: "Goalkeeper",
     goals: 0, age: 31, shirtNumber: null, club: "Le Havre",
-    wikipediaTitle: "Lionel Mpasi"
+    wikipediaTitle: "Lionel Mpasi",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Lionel_Mpasi_%28cropped%29.jpg"
   },
   {
     id: "cod-fayulu", answer: "Timothy Fayulu",
@@ -31,21 +32,24 @@ window.PUZZLES = [
     aliases: ["Mbemba"], nationality: "DR Congo",
     caps: 107, clubCountry: "France", position: "Defender",
     goals: 7, age: 31, shirtNumber: null, club: "Lille",
-    wikipediaTitle: "Chancel Mbemba"
+    wikipediaTitle: "Chancel Mbemba",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/60/24BBRW_-_53535940590_%28cropped%29.jpg"
   },
   {
     id: "cod-masuaku", answer: "Arthur Masuaku",
     aliases: ["Masuaku"], nationality: "DR Congo",
     caps: 44, clubCountry: "France", position: "Defender",
     goals: 4, age: 32, shirtNumber: null, club: "Lens",
-    wikipediaTitle: "Arthur Masuaku"
+    wikipediaTitle: "Arthur Masuaku",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/db/Arthur_Masuaku%2C_2023_%28cropped%29.jpg"
   },
   {
     id: "cod-g-kalulu", answer: "Gédéon Kalulu",
     aliases: ["Kalulu", "Gédéon Kalulu"], nationality: "DR Congo",
     caps: 27, clubCountry: "Cyprus", position: "Defender",
     goals: 0, age: 28, shirtNumber: null, club: "Aris Limassol",
-    wikipediaTitle: "Gédéon Kalulu"
+    wikipediaTitle: "Gédéon Kalulu",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/74/G%C3%A9d%C3%A9on_Kalulu_%28cropped%29.jpg"
   },
   {
     id: "cod-j-kayembe", answer: "Joris Kayembe",
@@ -59,21 +63,24 @@ window.PUZZLES = [
     aliases: ["Batubinsika"], nationality: "DR Congo",
     caps: 14, clubCountry: "Greece", position: "Defender",
     goals: 1, age: 30, shirtNumber: null, club: "AEL",
-    wikipediaTitle: "Dylan Batubinsika"
+    wikipediaTitle: "Dylan Batubinsika",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/96/Batubinsika_asse_fcn_2425.png"
   },
   {
     id: "cod-tuanzebe", answer: "Axel Tuanzebe",
     aliases: ["Tuanzebe"], nationality: "DR Congo",
     caps: 12, clubCountry: "England", position: "Defender",
     goals: 1, age: 28, shirtNumber: null, club: "Burnley",
-    wikipediaTitle: "Axel Tuanzebe"
+    wikipediaTitle: "Axel Tuanzebe",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Manchester_United_v_Everton%2C_7_August_2021_%2836%29.jpg"
   },
   {
     id: "cod-wan-bissaka", answer: "Aaron Wan-Bissaka",
     aliases: ["Wan-Bissaka"], nationality: "DR Congo",
     caps: 10, clubCountry: "England", position: "Defender",
     goals: 0, age: 28, shirtNumber: null, club: "West Ham United",
-    wikipediaTitle: "Aaron Wan-Bissaka"
+    wikipediaTitle: "Aaron Wan-Bissaka",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/55/Aaron_Wan-Bissaka_of_West_Ham_United.jpeg"
   },
   {
     id: "cod-kapuadi", answer: "Steve Kapuadi",
@@ -88,42 +95,48 @@ window.PUZZLES = [
     aliases: ["Moutoussamy"], nationality: "DR Congo",
     caps: 56, clubCountry: "Greece", position: "Midfielder",
     goals: 0, age: 29, shirtNumber: null, club: "Atromitos",
-    wikipediaTitle: "Samuel Moutoussamy"
+    wikipediaTitle: "Samuel Moutoussamy",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Samuel_Moutoussamy_%28cropped%29.jpg"
   },
   {
     id: "cod-e-kayembe", answer: "Edo Kayembe",
     aliases: ["Edo Kayembe", "E. Kayembe"], nationality: "DR Congo",
     caps: 41, clubCountry: "England", position: "Midfielder",
     goals: 2, age: 28, shirtNumber: null, club: "Watford",
-    wikipediaTitle: "Edo Kayembe"
+    wikipediaTitle: "Edo Kayembe",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b0/Edo_Kayembe_2025_%28cropped%29.jpg"
   },
   {
     id: "cod-pickel", answer: "Charles Pickel",
     aliases: ["Pickel"], nationality: "DR Congo",
     caps: 33, clubCountry: "Spain", position: "Midfielder",
     goals: 1, age: 29, shirtNumber: null, club: "Espanyol",
-    wikipediaTitle: "Charles Pickel"
+    wikipediaTitle: "Charles Pickel",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/75/Charles_Pickel_2023_Africa_Cup_of_Nations_%28cropped%29.jpg"
   },
   {
     id: "cod-kakuta", answer: "Gaël Kakuta",
     aliases: ["Kakuta"], nationality: "DR Congo",
     caps: 30, clubCountry: "Greece", position: "Midfielder",
     goals: 5, age: 34, shirtNumber: null, club: "AEL",
-    wikipediaTitle: "Gaël Kakuta"
+    wikipediaTitle: "Gaël Kakuta",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Entra%C3%AEnement_du_RC_Lens_-_15_juillet_2020_24.jpg"
   },
   {
     id: "cod-sadiki", answer: "Noah Sadiki",
     aliases: ["Sadiki"], nationality: "DR Congo",
     caps: 18, clubCountry: "England", position: "Midfielder",
     goals: 0, age: 21, shirtNumber: null, club: "Sunderland",
-    wikipediaTitle: "Noah Sadiki"
+    wikipediaTitle: "Noah Sadiki",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Noah_Sadiki_versus_Real_Betis_2nd_August_2025.jpg"
   },
   {
     id: "cod-tshibola", answer: "Aaron Tshibola",
     aliases: ["Tshibola"], nationality: "DR Congo",
     caps: 16, clubCountry: "Scotland", position: "Midfielder",
     goals: 1, age: 31, shirtNumber: null, club: "Kilmarnock",
-    wikipediaTitle: "Aaron Tshibola"
+    wikipediaTitle: "Aaron Tshibola",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a1/Aaron_Tshibola_%28cropped%29.jpg"
   },
   {
     id: "cod-mukau", answer: "Ngal'ayel Mukau",
@@ -145,21 +158,24 @@ window.PUZZLES = [
     aliases: ["Bakambu"], nationality: "DR Congo",
     caps: 68, clubCountry: "Spain", position: "Forward",
     goals: 21, age: 35, shirtNumber: null, club: "Real Betis",
-    wikipediaTitle: "Cédric Bakambu"
+    wikipediaTitle: "Cédric Bakambu",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4b/C%C3%A9dric_Bakambu_2016_%28cropped%29.jpg"
   },
   {
     id: "cod-elia", answer: "Meschak Elia",
     aliases: ["Elia"], nationality: "DR Congo",
     caps: 68, clubCountry: "Turkey", position: "Forward",
     goals: 12, age: 28, shirtNumber: null, club: "Alanyaspor",
-    wikipediaTitle: "Meschak Elia"
+    wikipediaTitle: "Meschak Elia",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/db/Meschack_Elia_%28cropped%29.jpg"
   },
   {
     id: "cod-bongonda", answer: "Théo Bongonda",
     aliases: ["Bongonda"], nationality: "DR Congo",
     caps: 37, clubCountry: "Russia", position: "Forward",
     goals: 7, age: 30, shirtNumber: null, club: "Spartak Moscow",
-    wikipediaTitle: "Théo Bongonda"
+    wikipediaTitle: "Théo Bongonda",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/12/Bongonda_in_DR_Congo_national_football_team_%28cropped%29.jpg"
   },
   {
     id: "cod-mayele", answer: "Fiston Mayele",
@@ -173,7 +189,8 @@ window.PUZZLES = [
     aliases: ["Wissa"], nationality: "DR Congo",
     caps: 36, clubCountry: "England", position: "Forward",
     goals: 9, age: 29, shirtNumber: null, club: "Newcastle United",
-    wikipediaTitle: "Yoane Wissa"
+    wikipediaTitle: "Yoane Wissa",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9b/CAN_2023RD_Congo_2-1_Guin%C3%A9e_9939_%28cropped%29.jpg"
   },
   {
     id: "cod-mbuku", answer: "Nathanaël Mbuku",
@@ -187,7 +204,8 @@ window.PUZZLES = [
     aliases: ["Banza"], nationality: "DR Congo",
     caps: 14, clubCountry: "United Arab Emirates", position: "Forward",
     goals: 2, age: 29, shirtNumber: null, club: "Al Jazira",
-    wikipediaTitle: "Simon Banza (footballer)"
+    wikipediaTitle: "Simon Banza (footballer)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/78/Lens_-_Sochaux_%2823-11-2019%29_99_%28cropped%29.jpg"
   },
 ];
 

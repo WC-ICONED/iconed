@@ -9,7 +9,8 @@ window.PUZZLES = [
     aliases: ["Vasilj"], nationality: "Bosnia and Herzegovina",
     caps: 25, clubCountry: "Germany", position: "Goalkeeper",
     goals: 0, age: 30, shirtNumber: null, club: "FC St. Pauli",
-    wikipediaTitle: "Nikola Vasilj"
+    wikipediaTitle: "Nikola Vasilj",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/7a/2025-04-23_-_FC_St_Pauli_-_Nikola_Vasilj.jpg"
   },
   {
     id: "bih-zlomslic", answer: "Martin Zlomislić",
@@ -23,7 +24,8 @@ window.PUZZLES = [
     aliases: ["Hadžikić", "Hadzikic", "O. Hadžikić"], nationality: "Bosnia and Herzegovina",
     caps: 0, clubCountry: "Croatia", position: "Goalkeeper",
     goals: 0, age: 30, shirtNumber: null, club: "Slaven Belupo",
-    wikipediaTitle: "Osman Hadžikić"
+    wikipediaTitle: "Osman Hadžikić",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/61/Austria_national_under-21_football_team_-_Teamcamp_June_2017_%28Osman%29.jpg"
   },
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
@@ -31,28 +33,32 @@ window.PUZZLES = [
     aliases: ["Kolašinac", "Kolasinac"], nationality: "Bosnia and Herzegovina",
     caps: 64, clubCountry: "Italy", position: "Defender",
     goals: 0, age: 32, shirtNumber: null, club: "Atalanta",
-    wikipediaTitle: "Sead Kolašinac"
+    wikipediaTitle: "Sead Kolašinac",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/06/Kolasinac_2015.jpg"
   },
   {
     id: "bih-hadzikadunc", answer: "Dennis Hadžikadunić",
     aliases: ["Hadžikadunić", "Hadzikadunić", "Hadzikadunc"], nationality: "Bosnia and Herzegovina",
     caps: 30, clubCountry: "Italy", position: "Defender",
     goals: 0, age: 27, shirtNumber: null, club: "Sampdoria",
-    wikipediaTitle: "Dennis Hadžikadunić"
+    wikipediaTitle: "Dennis Hadžikadunić",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a7/Dennis_Had%C5%BEikaduni%C4%87_2021.jpg"
   },
   {
     id: "bih-dedic", answer: "Amar Dedić",
     aliases: ["Dedić", "Dedic"], nationality: "Bosnia and Herzegovina",
     caps: 26, clubCountry: "Portugal", position: "Defender",
     goals: 1, age: 23, shirtNumber: null, club: "Benfica",
-    wikipediaTitle: "Amar Dedić"
+    wikipediaTitle: "Amar Dedić",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3e/%282024-09-10_%29_FC_RB_Salzburg_gegen_SCR_Altach_24.jpg"
   },
   {
     id: "bih-katic", answer: "Nikola Katić",
     aliases: ["Katić", "Katic"], nationality: "Bosnia and Herzegovina",
     caps: 15, clubCountry: "Germany", position: "Defender",
     goals: 1, age: 29, shirtNumber: null, club: "Schalke 04",
-    wikipediaTitle: "Nikola Katić (footballer)"
+    wikipediaTitle: "Nikola Katić (footballer)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/84/SM-Rangers18_%2816%29.jpg"
   },
   {
     id: "bih-muharemovic", answer: "Tarik Muharemović",
@@ -80,7 +86,8 @@ window.PUZZLES = [
     aliases: ["Čelik", "Celik"], nationality: "Bosnia and Herzegovina",
     caps: 0, clubCountry: "France", position: "Defender",
     goals: 0, age: 19, shirtNumber: null, club: "Lens",
-    wikipediaTitle: "Nidal Čelik"
+    wikipediaTitle: "Nidal Čelik",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/94/%C4%8Celik_rcl_asse_2425.png"
   },
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
@@ -88,35 +95,40 @@ window.PUZZLES = [
     aliases: ["Hadžiahmetović", "Hadziahmeto"], nationality: "Bosnia and Herzegovina",
     caps: 34, clubCountry: "England", position: "Midfielder",
     goals: 0, age: 29, shirtNumber: null, club: "Hull City",
-    wikipediaTitle: "Amir Hadžiahmetović"
+    wikipediaTitle: "Amir Hadžiahmetović",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Amir_Had%C5%BEiahmetovi%C4%87_playing_for_Be%C5%9Fikta%C5%9F.jpg"
   },
   {
     id: "bih-tahirovic", answer: "Benjamin Tahirović",
     aliases: ["Tahirović", "Tahirovic"], nationality: "Bosnia and Herzegovina",
     caps: 26, clubCountry: "Denmark", position: "Midfielder",
     goals: 2, age: 23, shirtNumber: null, club: "Brøndby",
-    wikipediaTitle: "Benjamin Tahirović"
+    wikipediaTitle: "Benjamin Tahirović",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/83/Benjamin_Tahirovic_for_Br%C3%B8ndby.jpg"
   },
   {
     id: "bih-gigovic", answer: "Armin Gigović",
     aliases: ["Gigović", "Gigovic"], nationality: "Bosnia and Herzegovina",
     caps: 18, clubCountry: "Switzerland", position: "Midfielder",
     goals: 1, age: 24, shirtNumber: null, club: "Young Boys",
-    wikipediaTitle: "Armin Gigović"
+    wikipediaTitle: "Armin Gigović",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9e/2025-03-05_Armin_Gigovic_Holstein_Kiel_pic1.jpg"
   },
   {
     id: "bih-burnic", answer: "Dženis Burnić",
     aliases: ["Burnić", "Burnic"], nationality: "Bosnia and Herzegovina",
     caps: 18, clubCountry: "Germany", position: "Midfielder",
     goals: 0, age: 28, shirtNumber: null, club: "Karlsruher SC",
-    wikipediaTitle: "Dženis Burnić"
+    wikipediaTitle: "Dženis Burnić",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f8/2019-08-10_TuS_Dassendorf_vs._SG_Dynamo_Dresden_%28DFB-Pokal%29_by_Sandro_Halank%E2%80%93151.jpg"
   },
   {
     id: "bih-basic", answer: "Ivan Bašić",
     aliases: ["Bašić", "Basic"], nationality: "Bosnia and Herzegovina",
     caps: 15, clubCountry: "Kazakhstan", position: "Midfielder",
     goals: 0, age: 24, shirtNumber: null, club: "Astana",
-    wikipediaTitle: "Ivan Bašić (footballer)"
+    wikipediaTitle: "Ivan Bašić (footballer)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/98/Ivan_Ba%C5%A1i%C4%87_2022.jpg"
   },
   {
     id: "bih-bajraktarevi", answer: "Esmir Bajraktarević",
@@ -137,14 +149,16 @@ window.PUZZLES = [
     aliases: ["Šunjić", "Sunjic"], nationality: "Bosnia and Herzegovina",
     caps: 11, clubCountry: "Cyprus", position: "Midfielder",
     goals: 0, age: 29, shirtNumber: null, club: "Pafos",
-    wikipediaTitle: "Ivan Šunjić"
+    wikipediaTitle: "Ivan Šunjić",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/de/Ivan_%C5%A0unji%C4%87_2022.jpg"
   },
   {
     id: "bih-alajbegovic", answer: "Kerim Alajbegović",
     aliases: ["Alajbegović", "Alajbegovic"], nationality: "Bosnia and Herzegovina",
     caps: 8, clubCountry: "Austria", position: "Midfielder",
     goals: 1, age: 18, shirtNumber: null, club: "Red Bull Salzburg",
-    wikipediaTitle: "Kerim Alajbegović"
+    wikipediaTitle: "Kerim Alajbegović",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3a/FC_Red_Bull_Salzburg_gegen_WSG_Tirol_%282025-10-30_%C3%96FB_Cup%29_19.jpg"
   },
   {
     id: "bih-mahmic", answer: "Ermin Mahmić",
@@ -159,7 +173,8 @@ window.PUZZLES = [
     aliases: ["Džeko", "Dzeko"], nationality: "Bosnia and Herzegovina",
     caps: 148, clubCountry: "Germany", position: "Forward",
     goals: 73, age: 40, shirtNumber: null, club: "Schalke 04",
-    wikipediaTitle: "Edin Džeko"
+    wikipediaTitle: "Edin Džeko",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/2c/20150331_2026_AUT_BIH_2177_Edin_D%C5%BEeko_%28cropped%29.jpg"
   },
   {
     id: "bih-demirovic", answer: "Ermedin Demirović",

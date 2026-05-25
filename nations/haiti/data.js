@@ -11,7 +11,8 @@ window.PUZZLES = [
     aliases: ["Placide"], nationality: "Haiti",
     caps: 79, clubCountry: "France", position: "Goalkeeper",
     goals: 0, age: 38, shirtNumber: null, club: "Bastia",
-    wikipediaTitle: "Johny Placide"
+    wikipediaTitle: "Johny Placide",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/55/Johny_Placide_in_Tsarsko_selo.jpg"
   },
   {
     id: "hai-a-pierre", answer: "Alexandre Pierre",
@@ -41,7 +42,8 @@ window.PUZZLES = [
     aliases: ["Arcus"], nationality: "Haiti",
     caps: 51, clubCountry: "France", position: "Defender",
     goals: 1, age: 29, shirtNumber: null, club: "Angers",
-    wikipediaTitle: "Carlens Arcus"
+    wikipediaTitle: "Carlens Arcus",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/83/RC_Lens_-_AJ_Auxerre_%2809-03-2019%29_96.jpg"
   },
   {
     id: "hai-experience", answer: "Martin Expérience",
@@ -55,7 +57,8 @@ window.PUZZLES = [
     aliases: ["Jean-Kevin Duverne", "Duverne"], nationality: "Haiti",
     caps: 15, clubCountry: "Belgium", position: "Defender",
     goals: 1, age: 28, shirtNumber: null, club: "Gent",
-    wikipediaTitle: "Jean-Kévin Duverne"
+    wikipediaTitle: "Jean-Kévin Duverne",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e1/RC_Lens_-_FC_Nantes_%2828-10-2023%29_17.jpg"
   },
   {
     id: "hai-lacroix", answer: "Duke Lacroix",
@@ -76,7 +79,8 @@ window.PUZZLES = [
     aliases: ["Delcroix"], nationality: "Haiti",
     caps: 5, clubCountry: "Switzerland", position: "Defender",
     goals: 0, age: 27, shirtNumber: null, club: "Lugano",
-    wikipediaTitle: "Hannes Delcroix"
+    wikipediaTitle: "Hannes Delcroix",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9c/FC_Red_Bull_Salzburg_gegen_RSC_Anderlecht_%28Testspiel_7._Juli_2017%29_50.jpg"
   },
   {
     id: "hai-thermoncy", answer: "Keeto Thermoncy",
@@ -99,7 +103,8 @@ window.PUZZLES = [
     aliases: ["Jean Jacques"], nationality: "Haiti",
     caps: 28, clubCountry: "United States", position: "Midfielder",
     goals: 6, age: 26, shirtNumber: null, club: "Philadelphia Union",
-    wikipediaTitle: "Danley Jean Jacques"
+    wikipediaTitle: "Danley Jean Jacques",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/bf/Danley_Jean_Jacques_Philadelphia_Union_New_York_City_FC_Nov_23_2025-062_%28cropped%29.jpg"
   },
   {
     id: "hai-sainte", answer: "Carl Sainté",
@@ -113,7 +118,8 @@ window.PUZZLES = [
     aliases: ["Bellegarde"], nationality: "Haiti",
     caps: 8, clubCountry: "England", position: "Midfielder",
     goals: 0, age: 27, shirtNumber: null, club: "Wolverhampton Wanderers",
-    wikipediaTitle: "Jean-Ricner Bellegarde"
+    wikipediaTitle: "Jean-Ricner Bellegarde",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/09/Lens_B_-_AC_Amiens_%2812-09-2015%29_64_%28cropped%29.JPG"
   },
   {
     id: "hai-w-pierre", answer: "Woodensky Pierre",
@@ -136,7 +142,8 @@ window.PUZZLES = [
     aliases: ["Nazon"], nationality: "Haiti",
     caps: 76, clubCountry: "Iran", position: "Forward",
     goals: 44, age: 32, shirtNumber: null, club: "Esteghlal",
-    wikipediaTitle: "Duckens Nazon"
+    wikipediaTitle: "Duckens Nazon",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/89/2025_Iran_Football_Premier_League_Esteghlal_and_Zob_Ahan_football_match_3_Mehr_%28cropped%29.jpg"
   },
   {
     id: "hai-pierrot", answer: "Frantzdy Pierrot",
@@ -150,7 +157,8 @@ window.PUZZLES = [
     aliases: ["Derrick Etienne", "Etienne"], nationality: "Haiti",
     caps: 46, clubCountry: "Canada", position: "Forward",
     goals: 8, age: 29, shirtNumber: null, club: "Toronto FC",
-    wikipediaTitle: "Derrick Etienne Jr."
+    wikipediaTitle: "Derrick Etienne Jr.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/00/Derrick_Etienne_%2828411015376%29_%28cropped2%29.jpg"
   },
   {
     id: "hai-deedson", answer: "Louicius Deedson",
@@ -185,7 +193,8 @@ window.PUZZLES = [
     aliases: ["Isidor"], nationality: "Haiti",
     caps: 2, clubCountry: "England", position: "Forward",
     goals: 1, age: 25, shirtNumber: null, club: "Sunderland",
-    wikipediaTitle: "Wilson Isidor"
+    wikipediaTitle: "Wilson Isidor",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/38/Wilson_Isidor_2022.jpg"
   },
   {
     id: "hai-joseph", answer: "Lenny Joseph",

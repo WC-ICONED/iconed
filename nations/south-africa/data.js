@@ -40,7 +40,8 @@ window.PUZZLES = [
     aliases: ["Modiba"], nationality: "South Africa",
     caps: 44, clubCountry: "South Africa", position: "Defender",
     goals: 3, age: 30, shirtNumber: null, club: "Mamelodi Sundowns",
-    wikipediaTitle: "Aubrey Modiba"
+    wikipediaTitle: "Aubrey Modiba",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Aubrey_Modiba_%28cropped%29.jpg"
   },
   {
     id: "rsa-mudau", answer: "Khuliso Mudau",
@@ -110,7 +111,8 @@ window.PUZZLES = [
     aliases: ["Makhanya"], nationality: "South Africa",
     caps: 0, clubCountry: "United States", position: "Defender",
     goals: 0, age: 22, shirtNumber: null, club: "Philadelphia Union",
-    wikipediaTitle: "Olwethu Makhanya"
+    wikipediaTitle: "Olwethu Makhanya",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/11/Olwethu_Makhanya_Philadelphia_Union_New_York_City_FC_Nov_23_2025-027_%28cropped%29.jpg"
   },
 
   // ── Midfielders ───────────────────────────────────────────────────────────
@@ -170,14 +172,16 @@ window.PUZZLES = [
     aliases: ["Morena"], nationality: "South Africa",
     caps: 33, clubCountry: "South Africa", position: "Forward",
     goals: 3, age: 32, shirtNumber: null, club: "Mamelodi Sundowns",
-    wikipediaTitle: "Thapelo Morena"
+    wikipediaTitle: "Thapelo Morena",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Go_Ahead_Eagles_-_Mamelodi_Sundowns_FC_-_53066146134.jpg"
   },
   {
     id: "rsa-foster", answer: "Lyle Foster",
     aliases: ["Foster"], nationality: "South Africa",
     caps: 26, clubCountry: "England", position: "Forward",
     goals: 10, age: 26, shirtNumber: null, club: "Burnley",
-    wikipediaTitle: "Lyle Foster"
+    wikipediaTitle: "Lyle Foster",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/fc/Lyle_Foster_29112025_%286%29.jpg"
   },
   {
     id: "rsa-makgopa", answer: "Evidence Makgopa",
@@ -212,7 +216,8 @@ window.PUZZLES = [
     aliases: ["Maseko"], nationality: "South Africa",
     caps: 9, clubCountry: "Cyprus", position: "Forward",
     goals: 1, age: 22, shirtNumber: null, club: "AEL Limassol",
-    wikipediaTitle: "Thapelo Maseko"
+    wikipediaTitle: "Thapelo Maseko",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/c6/Go_Ahead_Eagles_-_Mamelodi_Sundowns_FC_-_53066145739.jpg"
   },
   {
     id: "rsa-moremi", answer: "Tshepang Moremi",

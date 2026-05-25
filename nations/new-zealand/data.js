@@ -10,21 +10,24 @@ window.PUZZLES = [
     aliases: [], nationality: "New Zealand",
     caps: 22, clubCountry: "England", position: "Goalkeeper",
     goals: 0, age: 32, shirtNumber: 1, club: "Millwall",
-    wikipediaTitle: "Max Crocombe"
+    wikipediaTitle: "Max Crocombe",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/43/Max_Crocombe_290425.jpg"
   },
   {
     id: "nzl-paulsen", answer: "Alex Paulsen",
     aliases: [], nationality: "New Zealand",
     caps: 6, clubCountry: "Poland", position: "Goalkeeper",
     goals: 0, age: 23, shirtNumber: 12, club: "Lechia Gdańsk",
-    wikipediaTitle: "Alex Paulsen (goalkeeper)"
+    wikipediaTitle: "Alex Paulsen (goalkeeper)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/af/Alex_Paulsen.jpg"
   },
   {
     id: "nzl-woud", answer: "Michael Woud",
     aliases: [], nationality: "New Zealand",
     caps: 6, clubCountry: "New Zealand", position: "Goalkeeper",
     goals: 0, age: 27, shirtNumber: 22, club: "Auckland FC",
-    wikipediaTitle: "Michael Woud"
+    wikipediaTitle: "Michael Woud",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/33/Michael_Woud.jpg"
   },
 
   // ── Defenders ─────────────────────────────────────────────────────────────
@@ -40,7 +43,8 @@ window.PUZZLES = [
     aliases: [], nationality: "New Zealand",
     caps: 18, clubCountry: "New Zealand", position: "Defender",
     goals: 1, age: 31, shirtNumber: 3, club: "Auckland FC",
-    wikipediaTitle: "Francis de Vries (footballer)"
+    wikipediaTitle: "Francis de Vries (footballer)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Francis_de_Vries.jpg"
   },
   {
     id: "nzl-bindon", answer: "Tyler Bindon",
@@ -54,14 +58,16 @@ window.PUZZLES = [
     aliases: [], nationality: "New Zealand",
     caps: 61, clubCountry: "United States", position: "Defender",
     goals: 1, age: 37, shirtNumber: 5, club: "Minnesota United FC",
-    wikipediaTitle: "Michael Boxall"
+    wikipediaTitle: "Michael Boxall",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Michael_Boxall_-_MNUFC_-_MLS_-_new_zealand_-_%2852125271279%29.jpg"
   },
   {
     id: "nzl-cacace", answer: "Liberato Cacace",
     aliases: [], nationality: "New Zealand",
     caps: 35, clubCountry: "Wales", position: "Defender",
     goals: 1, age: 25, shirtNumber: 13, club: "Wrexham",
-    wikipediaTitle: "Liberato Cacace"
+    wikipediaTitle: "Liberato Cacace",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/c2/Liberato_Cacace_30082025_%281%29.jpg"
   },
   {
     id: "nzl-pijnaker", answer: "Nando Pijnaker",
@@ -75,14 +81,16 @@ window.PUZZLES = [
     aliases: [], nationality: "New Zealand",
     caps: 17, clubCountry: "United States", position: "Defender",
     goals: 2, age: 22, shirtNumber: 16, club: "Portland Timbers",
-    wikipediaTitle: "Finn Surman"
+    wikipediaTitle: "Finn Surman",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Finn_Surman.jpg"
   },
   {
     id: "nzl-elliot", answer: "Callan Elliot",
     aliases: [], nationality: "New Zealand",
     caps: 9, clubCountry: "New Zealand", position: "Defender",
     goals: 0, age: 26, shirtNumber: 24, club: "Auckland FC",
-    wikipediaTitle: "Callan Elliot"
+    wikipediaTitle: "Callan Elliot",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Callan_Elliot.jpg"
   },
   {
     id: "nzl-t-smith", answer: "Tommy Smith",
@@ -112,42 +120,48 @@ window.PUZZLES = [
     aliases: ["Marko Stamenic"], nationality: "New Zealand",
     caps: 37, clubCountry: "Wales", position: "Midfielder",
     goals: 3, age: 24, shirtNumber: 8, club: "Swansea City",
-    wikipediaTitle: "Marko Stamenić"
+    wikipediaTitle: "Marko Stamenić",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/47/FC_Zenit_Saint_Petersburg_vs._Red_Star_Belgrade%2C_4_July_2023_%2850%29.jpg"
   },
   {
     id: "nzl-singh", answer: "Sarpreet Singh",
     aliases: [], nationality: "New Zealand",
     caps: 26, clubCountry: "New Zealand", position: "Midfielder",
     goals: 3, age: 27, shirtNumber: 10, club: "Wellington Phoenix",
-    wikipediaTitle: "Sarpreet Singh"
+    wikipediaTitle: "Sarpreet Singh",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Sarpreet_Singh_Training_2019-07-28_FC_Bayern_Munich.png"
   },
   {
     id: "nzl-just", answer: "Elijah Just",
     aliases: [], nationality: "New Zealand",
     caps: 42, clubCountry: "Scotland", position: "Midfielder",
     goals: 9, age: 26, shirtNumber: 11, club: "Motherwell",
-    wikipediaTitle: "Elijah Just"
+    wikipediaTitle: "Elijah Just",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Elijah_Just.jpg"
   },
   {
     id: "nzl-rufer", answer: "Alex Rufer",
     aliases: [], nationality: "New Zealand",
     caps: 24, clubCountry: "New Zealand", position: "Midfielder",
     goals: 0, age: 29, shirtNumber: 14, club: "Wellington Phoenix",
-    wikipediaTitle: "Alex Rufer"
+    wikipediaTitle: "Alex Rufer",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/d3/Alex_Rufer.jpg"
   },
   {
     id: "nzl-mccowatt", answer: "Callum McCowatt",
     aliases: [], nationality: "New Zealand",
     caps: 30, clubCountry: "Denmark", position: "Midfielder",
     goals: 4, age: 27, shirtNumber: 20, club: "Silkeborg",
-    wikipediaTitle: "Callum McCowatt"
+    wikipediaTitle: "Callum McCowatt",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a6/Callum_McCowatt_playing_for_New_Zealand%2C_26_March_2023_%282%29_%28cropped%29.jpg"
   },
   {
     id: "nzl-old", answer: "Ben Old",
     aliases: [], nationality: "New Zealand",
     caps: 22, clubCountry: "France", position: "Midfielder",
     goals: 2, age: 23, shirtNumber: 19, club: "Saint-Étienne",
-    wikipediaTitle: "Ben Old (footballer)"
+    wikipediaTitle: "Ben Old (footballer)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Old_asse_psg_2425.png"
   },
   {
     id: "nzl-thomas", answer: "Ryan Thomas",
@@ -161,7 +175,8 @@ window.PUZZLES = [
     aliases: [], nationality: "New Zealand",
     caps: 2, clubCountry: "Australia", position: "Midfielder",
     goals: 0, age: 23, shirtNumber: 25, club: "Newcastle Jets",
-    wikipediaTitle: "Lachlan Bayliss"
+    wikipediaTitle: "Lachlan Bayliss",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Lachlan_Bayliss.jpg"
   },
 
   // ── Forwards ──────────────────────────────────────────────────────────────
@@ -170,21 +185,24 @@ window.PUZZLES = [
     aliases: [], nationality: "New Zealand",
     caps: 88, clubCountry: "England", position: "Forward",
     goals: 45, age: 34, shirtNumber: 9, club: "Nottingham Forest",
-    wikipediaTitle: "Chris Wood (footballer, born 1991)"
+    wikipediaTitle: "Chris Wood (footballer, born 1991)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/67/Chris_Wood_%28cropped%29.jpg"
   },
   {
     id: "nzl-barbarouses", answer: "Kosta Barbarouses",
     aliases: [], nationality: "New Zealand",
     caps: 74, clubCountry: "Australia", position: "Forward",
     goals: 10, age: 36, shirtNumber: 17, club: "Western Sydney Wanderers",
-    wikipediaTitle: "Kosta Barbarouses"
+    wikipediaTitle: "Kosta Barbarouses",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/61/Kosta_Barbarousas_Training.JPG"
   },
   {
     id: "nzl-waine", answer: "Ben Waine",
     aliases: [], nationality: "New Zealand",
     caps: 30, clubCountry: "England", position: "Forward",
     goals: 9, age: 25, shirtNumber: 18, club: "Port Vale",
-    wikipediaTitle: "Ben Waine"
+    wikipediaTitle: "Ben Waine",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b0/Ben_Waine.jpg"
   },
   {
     id: "nzl-randall", answer: "Jesse Randall",
