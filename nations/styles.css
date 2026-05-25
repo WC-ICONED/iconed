@@ -352,20 +352,46 @@ body {
   display: block;
 }
 .photo-slot-image {
-  max-width: 140px;
-  max-height: 180px;
-  border-radius: 4px;
   display: block;
-  object-fit: cover;
+  width: auto;
+  max-width: 100%;
+  max-height: 260px;
+  object-fit: contain;
+  border-radius: 3px;
 }
 .photo-slot.revealed {
   border-style: solid;
   border-color: var(--page-edge);
   background: var(--paper-card);
   box-shadow: var(--shadow-card);
+  min-height: 180px;
 }
 .photo-slot.revealed .photo-slot-placeholder { display: none; }
 .photo-slot.revealed .photo-slot-image { display: block; }
+
+/* Loading state — keep placeholder visible with shimmer tint */
+.photo-slot.revealed.img-loading .photo-slot-placeholder { display: block; }
+.photo-slot.img-loading {
+  animation: photo-pulse 1.1s ease-in-out infinite;
+}
+@keyframes photo-pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.55; }
+}
+.photo-loading-text {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10px;
+  color: var(--ink-soft);
+  letter-spacing: .1em;
+}
+
+/* No photo available */
+.photo-no-img {
+  display: block;
+  font-size: 36px;
+  opacity: .3;
+  margin-bottom: 6px;
+}
 
 /* Photo corner brackets */
 .photo-corner {

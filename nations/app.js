@@ -270,27 +270,91 @@
   async function maybeFetchImage() {
     if (imageFetched) return;
     imageFetched = true;
-    if (puzzle.imageUrl) { setPlayerImage(puzzle.imageUrl); return; }
+
+    // 1. Check localStorage cache first — instant display, no network
+    const cached = getCachedThumb(puzzle.id);
+    if (cached) { setPlayerImage(cached); return; }
+
+    // 2. Use explicit imageUrl if provided in data
+    if (puzzle.imageUrl) {
+      setPlayerImage(puzzle.imageUrl);
+      setCachedThumb(puzzle.id, puzzle.imageUrl);
+      return;
+    }
+
+    // 3. Fetch from Wikipedia REST API
+    setPhotoLoading(true);
     const title = encodeURIComponent(puzzle.wikipediaTitle || puzzle.answer);
     try {
       const res  = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${title}`);
       if (!res.ok) throw new Error("wiki fail");
       const data = await res.json();
-      const src  = data.thumbnail?.source || data.originalimage?.source;
-      setPlayerImage(src || "../stickers/_shadow.jpg");
+      let src = data.thumbnail?.source || data.originalimage?.source || null;
+      if (src) {
+        // Upscale: Wikipedia returns ~330px thumbnails — request 600px for portrait quality
+        src = src.replace(/\/\d+px-/, "/600px-");
+        setCachedThumb(puzzle.id, src);
+      }
+      setPlayerImage(src);
     } catch {
-      setPlayerImage("../stickers/_shadow.jpg");
+      setPlayerImage(null);
+    } finally {
+      setPhotoLoading(false);
+    }
+  }
+
+  function setPhotoLoading(on) {
+    if (!els.photoSlot) return;
+    els.photoSlot.classList.toggle("img-loading", on);
+    // Keep the placeholder visible while loading so slot isn't blank
+    if (els.photoPlaceholder) {
+      if (on) {
+        els.photoPlaceholder.dataset.orig = els.photoPlaceholder.innerHTML;
+        els.photoPlaceholder.innerHTML = '<span class="photo-loading-text">Loading…</span>';
+        els.photoPlaceholder.style.display = "";
+      } else if (els.photoPlaceholder.dataset.orig !== undefined) {
+        els.photoPlaceholder.innerHTML = els.photoPlaceholder.dataset.orig;
+        delete els.photoPlaceholder.dataset.orig;
+      }
     }
   }
 
   function setPlayerImage(src) {
-    if (els.playerImage) els.playerImage.src = src;
+    // ── In-game photo slot ──
+    if (src) {
+      if (els.photoPlaceholder) els.photoPlaceholder.style.display = "none";
+      if (els.playerImage) {
+        els.playerImage.src = src;
+        els.playerImage.style.display = "";
+        els.playerImage.onerror = () => setPlayerImage(null); // fallback if URL breaks
+      }
+    } else {
+      // No photo available — show a silhouette placeholder
+      if (els.playerImage) { els.playerImage.removeAttribute("src"); els.playerImage.style.display = "none"; }
+      if (els.photoPlaceholder) {
+        els.photoPlaceholder.innerHTML =
+          '<span class="photo-no-img">👤</span><span class="photo-slot-sub">No photo on Wikipedia</span>';
+        els.photoPlaceholder.style.display = "";
+      }
+    }
+
+    // ── Result card portrait ──
     if (els.playerImageResult) {
-      els.playerImageResult.src = src;
-      els.playerImageResult.onload = () => {
-        const ph = document.querySelector(".portrait-placeholder");
-        if (ph) ph.style.display = "none";
-      };
+      if (src) {
+        els.playerImageResult.src = src;
+        els.playerImageResult.style.display = "";
+        els.playerImageResult.onload = () => {
+          const ph = document.querySelector(".portrait-placeholder");
+          if (ph) ph.style.display = "none";
+        };
+        els.playerImageResult.onerror = () => {
+          els.playerImageResult.style.display = "none";
+        };
+      } else {
+        els.playerImageResult.removeAttribute("src");
+        els.playerImageResult.style.display = "none";
+        // portrait-placeholder stays visible with its "WIKI PORTRAIT" fallback text
+      }
     }
   }
 
@@ -872,8 +936,11 @@
       const res  = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${title}`);
       if (!res.ok) return null;
       const data = await res.json();
-      const src  = data.thumbnail?.source || data.originalimage?.source || null;
-      if (src) setCachedThumb(p.id, src);
+      let src = data.thumbnail?.source || data.originalimage?.source || null;
+      if (src) {
+        src = src.replace(/\/\d+px-/, "/600px-");
+        setCachedThumb(p.id, src);
+      }
       return src;
     } catch { return null; }
   }
