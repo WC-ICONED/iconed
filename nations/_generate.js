@@ -153,7 +153,7 @@ function makeNationIndexHtml(n) {
       <div class="page-title" id="pageTitleBlock">
         <span class="kicker gold" id="pageKicker">Page 1 · matchday №1</span>
         <h1>Guess the ${n.flag}<br>${n.name}<br>WC 2026 squad player.</h1>
-        <p class="page-desc">Three clues are on the page.<br>Five shots to guess the player. Each miss reveals a new clue.</p>
+        <p class="page-desc">Four clues are on the page.<br>Five shots to guess the player. Each miss reveals a new clue.</p>
       </div>
 
       <div class="archive-banner hidden" id="archiveBanner">
@@ -178,12 +178,20 @@ function makeNationIndexHtml(n) {
           <span class="sticker-value" id="clueNationality">${n.flag} ${n.name}</span>
           <span class="sticker-locked-text"></span>
         </div>
-        <!-- Always visible: Caps (full width) -->
-        <div class="sticker sticker-wide" id="sticker-caps" style="--tilt:-0.4deg">
+        <!-- Always visible: Caps -->
+        <div class="sticker" id="sticker-caps" style="--tilt:-0.4deg">
           <span class="sticker-notch"></span>
           <span class="sticker-tape"></span>
           <span class="label">Caps by June 1, 2026</span>
           <span class="sticker-value big" id="clueCaps">—</span>
+          <span class="sticker-locked-text"></span>
+        </div>
+        <!-- Always visible: Club Country -->
+        <div class="sticker" id="sticker-club-country" style="--tilt:0.9deg">
+          <span class="sticker-notch"></span>
+          <span class="sticker-tape"></span>
+          <span class="label">Plays in</span>
+          <span class="sticker-value" id="clueClubCountry">—</span>
           <span class="sticker-locked-text"></span>
         </div>
         <!-- Miss 1: Position -->
@@ -194,12 +202,20 @@ function makeNationIndexHtml(n) {
           <span class="sticker-value" id="cluePosition">—</span>
           <span class="sticker-locked-text">Reveals after miss 1</span>
         </div>
-        <!-- Miss 2: Age -->
-        <div class="sticker locked" id="sticker-age" style="--tilt:-0.6deg">
+        <!-- Miss 1: Goals -->
+        <div class="sticker locked" id="sticker-goals" style="--tilt:-0.7deg">
+          <span class="sticker-notch"></span>
+          <span class="sticker-tape"></span>
+          <span class="label">Goals</span>
+          <span class="sticker-value big" id="clueGoals">—</span>
+          <span class="sticker-locked-text">Reveals after miss 1</span>
+        </div>
+        <!-- Miss 2: Age (full width) -->
+        <div class="sticker sticker-wide locked" id="sticker-age" style="--tilt:-0.6deg">
           <span class="sticker-notch"></span>
           <span class="sticker-tape"></span>
           <span class="label">Age</span>
-          <span class="sticker-value" id="clueAge">—</span>
+          <span class="sticker-value big" id="clueAge">—</span>
           <span class="sticker-locked-text">Reveals after miss 2</span>
         </div>
         <!-- Miss 3: Shirt number (full width) -->
@@ -221,6 +237,14 @@ function makeNationIndexHtml(n) {
           <span class="photo-corner tr"></span>
           <span class="photo-corner bl"></span>
           <span class="photo-corner br"></span>
+        </div>
+        <!-- Miss 4: Current club (full width, unlocks with photo) -->
+        <div class="sticker sticker-wide locked" id="sticker-club" style="--tilt:-0.3deg">
+          <span class="sticker-notch"></span>
+          <span class="sticker-tape"></span>
+          <span class="label">Current club</span>
+          <span class="sticker-value" id="clueClub">—</span>
+          <span class="sticker-locked-text">Reveals after miss 4</span>
         </div>
       </div>
 
@@ -344,18 +368,19 @@ function makeNationIndexHtml(n) {
           </div>
           <div class="rules-body">
             <p>Guess the <strong>${n.name} ${n.flag}</strong> player from the 2026 World Cup squad.</p>
-            <p>You start with three clues:</p>
+            <p>You start with four clues:</p>
             <ul>
               <li><strong>WC Squad</strong> — always 2026</li>
               <li><strong>Country</strong> — always ${n.name}</li>
               <li><strong>Caps</strong> — international appearances by June 1, 2026</li>
+              <li><strong>Plays in</strong> — country where their club is based</li>
             </ul>
             <p>Each wrong guess reveals an extra clue:</p>
             <ul>
-              <li>Miss 1 → <strong>Position</strong></li>
+              <li>Miss 1 → <strong>Position</strong> &amp; <strong>Goals scored</strong></li>
               <li>Miss 2 → <strong>Age</strong></li>
               <li>Miss 3 → <strong>Shirt number</strong></li>
-              <li>Miss 4 → <strong>Wikipedia photo</strong></li>
+              <li>Miss 4 → <strong>Wikipedia photo</strong> &amp; <strong>Current club</strong></li>
             </ul>
             <p>You have <strong>5 shots</strong> to guess the player. A new player appears every day at midnight.</p>
           </div>
@@ -435,18 +460,21 @@ function makeNationIndexHtml(n) {
 }
 
 function makeDataJs() {
-  return `// ${" ".repeat(0)}Player data for this nation's 2026 World Cup squad.
+  return `// Player data for this nation's 2026 World Cup squad.
 // Format:
 // {
 //   id:            "brazil-vinicius-jr",     // unique id (no spaces/accents)
 //   answer:        "Vinícius Júnior",        // display name
 //   aliases:       ["Vinicius Jr", "Vini"],  // accepted alternate spellings
 //   nationality:   "Brazil",
-//   caps:          87,                       // caps by June 1, 2026
-//   position:      "Forward",               // Goalkeeper | Defender | Midfielder | Forward
-//   age:           25,                       // age as of June 11, 2026 (WC start)
-//   shirtNumber:   7,
-//   wikipediaTitle:"Vinícius Júnior",        // exact Wikipedia article title for photo fetch
+//   caps:          87,                       // caps by June 1, 2026 (always shown)
+//   clubCountry:   "Spain",                  // country where club is based (always shown)
+//   position:      "Forward",               // Goalkeeper | Defender | Midfielder | Forward (miss 1)
+//   goals:         36,                       // international goals (miss 1)
+//   age:           25,                       // age as of June 11, 2026 (miss 2)
+//   shirtNumber:   7,                        // shirt number (miss 3)
+//   club:          "Real Madrid",            // current club name (miss 4)
+//   wikipediaTitle:"Vinícius Júnior",        // exact Wikipedia article title for photo fetch (miss 4)
 //   imageUrl:      null                      // optional direct image URL (overrides Wikipedia)
 // }
 

@@ -1,15 +1,16 @@
 // ICONED · Nations — 2026 World Cup squad guessing game.
 // Clue structure:
-//   Always shown : WC Squad (2026) · Country (nationality) · Caps (by Jun 1 2026)
-//   Miss 1       : Position
+//   Always shown : WC Squad (2026) · Country (nationality) · Caps (by Jun 1 2026) · Club Country
+//   Miss 1       : Position + Goals scored
 //   Miss 2       : Age
 //   Miss 3       : Shirt number
-//   Miss 4       : Wikipedia photo
+//   Miss 4       : Wikipedia photo + Current club name
 //
 // Player data format (window.PUZZLES):
 // {
 //   id, answer, aliases, nationality,
-//   caps, position, age, shirtNumber,
+//   caps, clubCountry,
+//   position, goals, age, shirtNumber, club,
 //   wikipediaTitle?, imageUrl?
 // }
 //
@@ -38,13 +39,18 @@
     clueSquad:       document.getElementById("clueSquad"),
     clueNationality: document.getElementById("clueNationality"),
     clueCaps:        document.getElementById("clueCaps"),
+    clueClubCountry: document.getElementById("clueClubCountry"),
     stickerPosition: document.getElementById("sticker-position"),
     cluePosition:    document.getElementById("cluePosition"),
+    stickerGoals:    document.getElementById("sticker-goals"),
+    clueGoals:       document.getElementById("clueGoals"),
     stickerAge:      document.getElementById("sticker-age"),
     clueAge:         document.getElementById("clueAge"),
     stickerShirt:    document.getElementById("sticker-shirt"),
     clueShirt:       document.getElementById("clueShirt"),
     photoSlot:       document.getElementById("photoSlot"),
+    stickerClub:     document.getElementById("sticker-club"),
+    clueClub:        document.getElementById("clueClub"),
     photoPlaceholder:document.getElementById("photoPlaceholder"),
     playerImage:     document.getElementById("player-image"),
     guessInput:      document.getElementById("guessInput"),
@@ -172,6 +178,9 @@
     if (els.clueCaps) {
       els.clueCaps.textContent = puzzle.caps != null ? puzzle.caps : "—";
     }
+    if (els.clueClubCountry) {
+      els.clueClubCountry.textContent = puzzle.clubCountry || "—";
+    }
 
     const wrong = guesses.filter(g => !g.correct).length;
 
@@ -179,7 +188,11 @@
       if (els.stickerPosition && els.stickerPosition.classList.contains("locked")) {
         unlockSticker(els.stickerPosition);
       }
+      if (els.stickerGoals && els.stickerGoals.classList.contains("locked")) {
+        unlockSticker(els.stickerGoals);
+      }
       if (els.cluePosition) els.cluePosition.textContent = puzzle.position || "Unknown";
+      if (els.clueGoals) els.clueGoals.textContent = puzzle.goals != null ? puzzle.goals : "—";
     }
 
     if (wrong >= 2) {
@@ -203,6 +216,10 @@
         els.photoSlot.classList.remove("locked");
         els.photoSlot.classList.add("revealed");
       }
+      if (els.stickerClub && els.stickerClub.classList.contains("locked")) {
+        unlockSticker(els.stickerClub);
+      }
+      if (els.clueClub) els.clueClub.textContent = puzzle.club || "Unknown";
       maybeFetchImage();
     }
   }
@@ -215,12 +232,17 @@
     if (els.clueCaps) {
       els.clueCaps.textContent = puzzle.caps != null ? puzzle.caps : "—";
     }
+    if (els.clueClubCountry) {
+      els.clueClubCountry.textContent = puzzle.clubCountry || "—";
+    }
 
     const wrong = guesses.filter(g => !g.correct).length;
 
     if (wrong >= 1) {
       if (els.stickerPosition) els.stickerPosition.classList.remove("locked");
+      if (els.stickerGoals) els.stickerGoals.classList.remove("locked");
       if (els.cluePosition) els.cluePosition.textContent = puzzle.position || "Unknown";
+      if (els.clueGoals) els.clueGoals.textContent = puzzle.goals != null ? puzzle.goals : "—";
     }
     if (wrong >= 2) {
       if (els.stickerAge) els.stickerAge.classList.remove("locked");
@@ -237,6 +259,8 @@
         els.photoSlot.classList.remove("locked");
         els.photoSlot.classList.add("revealed");
       }
+      if (els.stickerClub) els.stickerClub.classList.remove("locked");
+      if (els.clueClub) els.clueClub.textContent = puzzle.club || "Unknown";
       maybeFetchImage();
     }
   }
@@ -353,9 +377,11 @@
       els.playerTags.innerHTML = "";
       const tags = [];
       if (puzzle.position) tags.push(POS_ABBR[puzzle.position] || puzzle.position);
-      if (puzzle.caps  != null) tags.push(`${puzzle.caps} caps`);
-      if (puzzle.age   != null) tags.push(`Age ${puzzle.age}`);
+      if (puzzle.caps    != null) tags.push(`${puzzle.caps} caps`);
+      if (puzzle.goals   != null) tags.push(`${puzzle.goals} goals`);
+      if (puzzle.age     != null) tags.push(`Age ${puzzle.age}`);
       if (puzzle.shirtNumber != null) tags.push(`#${puzzle.shirtNumber}`);
+      if (puzzle.club)             tags.push(puzzle.club);
       tags.forEach(t => {
         const span = document.createElement("span");
         span.className = "player-tag";
@@ -557,15 +583,20 @@
 
   function resetStickerStates() {
     if (els.stickerPosition) els.stickerPosition.classList.add("locked");
+    if (els.stickerGoals)    els.stickerGoals.classList.add("locked");
     if (els.stickerAge)      els.stickerAge.classList.add("locked");
     if (els.stickerShirt)    els.stickerShirt.classList.add("locked");
     if (els.photoSlot) {
       els.photoSlot.classList.add("locked");
       els.photoSlot.classList.remove("revealed");
     }
-    if (els.cluePosition) els.cluePosition.textContent = "—";
-    if (els.clueAge)      els.clueAge.textContent      = "—";
-    if (els.clueShirt)    els.clueShirt.textContent    = "—";
+    if (els.stickerClub) els.stickerClub.classList.add("locked");
+    if (els.cluePosition)    els.cluePosition.textContent    = "—";
+    if (els.clueGoals)       els.clueGoals.textContent       = "—";
+    if (els.clueAge)         els.clueAge.textContent         = "—";
+    if (els.clueShirt)       els.clueShirt.textContent       = "—";
+    if (els.clueClubCountry) els.clueClubCountry.textContent = "—";
+    if (els.clueClub)        els.clueClub.textContent        = "—";
     const ph = document.querySelector(".portrait-placeholder");
     if (ph) ph.style.display = "";
   }
