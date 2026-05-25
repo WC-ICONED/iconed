@@ -84,13 +84,13 @@ function makeNationIndexHtml(n) {
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="ICONED">
-  <meta property="og:title" content="ICONED · ${n.name} — Guess the 2026 World Cup squad player">
+  <meta property="og:title" content="ICONED · ${n.name} — Guess the 2026 World Cup player">
   <meta property="og:description" content="Guess the iconic ${n.name} player from the 2026 World Cup squad.">
   <meta property="og:url" content="https://www.iconed.wtf/nations/${n.slug}/">
   <meta property="og:image" content="https://www.iconed.wtf/og-image.png">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="ICONED · ${n.name} — Guess the 2026 WC squad player">
+  <meta name="twitter:title" content="ICONED · ${n.name} — Guess the 2026 WC player">
   <meta name="twitter:image" content="https://www.iconed.wtf/og-image.png">
   <meta name="theme-color" content="${n.spine}">
 
@@ -152,7 +152,7 @@ function makeNationIndexHtml(n) {
 
       <div class="page-title" id="pageTitleBlock">
         <span class="kicker gold" id="pageKicker">Page 1 · matchday №1</span>
-        <h1>Guess the ${n.flag}<br>${n.name}<br>WC 2026 squad player.</h1>
+        <h1>Guess the ${n.flag}<br>${n.name}<br>WC 2026 player.</h1>
         <p class="page-desc">Four clues are on the page.<br>Five shots to guess the player. Each miss reveals a new clue.</p>
       </div>
 
