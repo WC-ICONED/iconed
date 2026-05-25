@@ -148,21 +148,27 @@ body {
   min-width: 0;
 }
 
-@media (max-width: 400px) {
+/* ─── Mobile header — two-row layout so wordmark and nav never overlap ─── */
+@media (max-width: 480px) {
+  .album-header {
+    flex-wrap: wrap;
+    padding: 10px 16px 0;
+    gap: 0;
+    align-items: flex-start;
+  }
+  .wordmark-block {
+    flex: 0 0 100%;
+    padding-bottom: 8px;
+  }
   .wordmark-page { display: none; }
-}
-
-/* ─── Mobile header — prevent wordmark / nav overlap on narrow phones ─── */
-@media (max-width: 380px) {
-  .album-header { padding-left: 12px; padding-right: 12px; gap: 6px; }
-  .wordmark-title { font-size: 11px; padding: 5px 10px 5px 8px; }
-  .logo-ball { font-size: 12px; }
-  .album-nav { gap: 7px; }
-  .nav-link { font-size: 9px; letter-spacing: .10em; }
-}
-@media (max-width: 340px) {
-  .album-header { flex-wrap: wrap; }
-  .album-nav { width: 100%; justify-content: flex-end; padding-bottom: 4px; }
+  .album-nav {
+    flex: 0 0 100%;
+    border-top: 1px dashed var(--page-edge);
+    padding: 7px 0;
+    gap: 0;
+    justify-content: space-around;
+  }
+  .nav-link { font-size: 9.5px; letter-spacing: .12em; }
 }
 
 .album-nav {
