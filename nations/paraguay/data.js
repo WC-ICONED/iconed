@@ -1,20 +1,413 @@
-// Player data for this nation's 2026 World Cup squad.
-// Format:
-// {
-//   id:            "brazil-vinicius-jr",     // unique id (no spaces/accents)
-//   answer:        "Vinícius Júnior",        // display name
-//   aliases:       ["Vinicius Jr", "Vini"],  // accepted alternate spellings
-//   nationality:   "Brazil",
-//   caps:          87,                       // caps by June 1, 2026
-//   position:      "Forward",               // Goalkeeper | Defender | Midfielder | Forward
-//   age:           25,                       // age as of June 11, 2026 (WC start)
-//   shirtNumber:   7,
-//   wikipediaTitle:"Vinícius Júnior",        // exact Wikipedia article title for photo fetch
-//   imageUrl:      null                      // optional direct image URL (overrides Wikipedia)
-// }
+// Paraguay — 2026 World Cup squad
+// Source: https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads
+// Status: PRELIMINARY 55-man squad (announced May 12). Final 26 TBC before June 1.
+// TODO: trim PUZZLE_ORDER to final 26 after announcement
+// TODO: fill in shirtNumber after final squad announcement
 
 window.PUZZLES = [
-  // TODO: add squad players here
+
+  // ── Goalkeepers ───────────────────────────────────────────────────────────
+  {
+    id: "par-gatito", answer: "Gatito Fernández",
+    aliases: ["Gatito Fernandez", "Gatito"], nationality: "Paraguay",
+    caps: 30, clubCountry: "Paraguay", position: "Goalkeeper",
+    goals: 0, age: 38, shirtNumber: null, club: "Cerro Porteño",
+    wikipediaTitle: "Gatito Fernández"
+  },
+  {
+    id: "par-coronel", answer: "Carlos Coronel",
+    aliases: ["Coronel"], nationality: "Paraguay",
+    caps: 9, clubCountry: "Brazil", position: "Goalkeeper",
+    goals: 0, age: 29, shirtNumber: null, club: "São Paulo",
+    wikipediaTitle: "Carlos Coronel"
+  },
+  {
+    id: "par-gill", answer: "Orlando Gill",
+    aliases: ["Gill"], nationality: "Paraguay",
+    caps: 5, clubCountry: "Argentina", position: "Goalkeeper",
+    goals: 0, age: 26, shirtNumber: null, club: "San Lorenzo",
+    wikipediaTitle: "Orlando Gill"
+  },
+  {
+    id: "par-s-rojas", answer: "Santiago Rojas",
+    aliases: ["S. Rojas"], nationality: "Paraguay",
+    caps: 2, clubCountry: "Paraguay", position: "Goalkeeper",
+    goals: 0, age: 30, shirtNumber: null, club: "Nacional",
+    wikipediaTitle: "Santiago Rojas"
+  },
+  {
+    id: "par-espinola", answer: "Juan Espínola",
+    aliases: ["Juan Espinola", "Espínola"], nationality: "Paraguay",
+    caps: 1, clubCountry: "Argentina", position: "Goalkeeper",
+    goals: 0, age: 31, shirtNumber: null, club: "Barracas Central",
+    wikipediaTitle: "Juan Espínola (footballer, born 1994)"
+  },
+  {
+    id: "par-olveira", answer: "Gastón Olveira",
+    aliases: ["Gaston Olveira", "Olveira"], nationality: "Paraguay",
+    caps: 1, clubCountry: "Paraguay", position: "Goalkeeper",
+    goals: 0, age: 33, shirtNumber: null, club: "Olimpia",
+    wikipediaTitle: "Gastón Olveira"
+  },
+
+  // ── Defenders ─────────────────────────────────────────────────────────────
+  {
+    id: "par-g-gomez", answer: "Gustavo Gómez",
+    aliases: ["Gustavo Gomez", "Gómez"], nationality: "Paraguay",
+    caps: 88, clubCountry: "Brazil", position: "Defender",
+    goals: 4, age: 33, shirtNumber: null, club: "Palmeiras",
+    wikipediaTitle: "Gustavo Gómez"
+  },
+  {
+    id: "par-j-alonso", answer: "Júnior Alonso",
+    aliases: ["Junior Alonso", "Alonso"], nationality: "Paraguay",
+    caps: 70, clubCountry: "Brazil", position: "Defender",
+    goals: 3, age: 33, shirtNumber: null, club: "Atlético Mineiro",
+    wikipediaTitle: "Júnior Alonso"
+  },
+  {
+    id: "par-balbuena", answer: "Fabián Balbuena",
+    aliases: ["Fabian Balbuena", "Balbuena"], nationality: "Paraguay",
+    caps: 47, clubCountry: "Brazil", position: "Defender",
+    goals: 2, age: 34, shirtNumber: null, club: "Grêmio",
+    wikipediaTitle: "Fabián Balbuena"
+  },
+  {
+    id: "par-alderete", answer: "Omar Alderete",
+    aliases: ["Alderete"], nationality: "Paraguay",
+    caps: 35, clubCountry: "England", position: "Defender",
+    goals: 3, age: 29, shirtNumber: null, club: "Sunderland",
+    wikipediaTitle: "Omar Alderete"
+  },
+  {
+    id: "par-jj-caceres", answer: "Juan José Cáceres",
+    aliases: ["Juan Jose Caceres", "Cáceres"], nationality: "Paraguay",
+    caps: 16, clubCountry: "Russia", position: "Defender",
+    goals: 0, age: 25, shirtNumber: null, club: "Dynamo Moscow",
+    wikipediaTitle: "Juan José Cáceres"
+  },
+  {
+    id: "par-riveros", answer: "Blas Riveros",
+    aliases: ["Riveros"], nationality: "Paraguay",
+    caps: 15, clubCountry: "Paraguay", position: "Defender",
+    goals: 0, age: 28, shirtNumber: null, club: "Cerro Porteño",
+    wikipediaTitle: "Blas Riveros"
+  },
+  {
+    id: "par-velazquez", answer: "Gustavo Velázquez",
+    aliases: ["Gustavo Velazquez", "Velázquez"], nationality: "Paraguay",
+    caps: 12, clubCountry: "Paraguay", position: "Defender",
+    goals: 1, age: 35, shirtNumber: null, club: "Cerro Porteño",
+    wikipediaTitle: "Gustavo Velázquez"
+  },
+  {
+    id: "par-a-benitez", answer: "Alan Benítez",
+    aliases: ["Alan Benitez"], nationality: "Paraguay",
+    caps: 8, clubCountry: "Paraguay", position: "Defender",
+    goals: 0, age: 32, shirtNumber: null, club: "Libertad",
+    wikipediaTitle: "Alan Benítez"
+  },
+  {
+    id: "par-sandez", answer: "Agustín Sández",
+    aliases: ["Agustin Sandez"], nationality: "Paraguay",
+    caps: 5, clubCountry: "Argentina", position: "Defender",
+    goals: 0, age: 25, shirtNumber: null, club: "Rosario Central",
+    wikipediaTitle: "Agustín Sández"
+  },
+  {
+    id: "par-gamarra", answer: "Mateo Gamarra",
+    aliases: ["Gamarra"], nationality: "Paraguay",
+    caps: 3, clubCountry: "Brazil", position: "Defender",
+    goals: 0, age: 25, shirtNumber: null, club: "Cruzeiro",
+    wikipediaTitle: "Mateo Gamarra"
+  },
+  {
+    id: "par-salcedo", answer: "Saúl Salcedo",
+    aliases: ["Saul Salcedo", "Salcedo"], nationality: "Paraguay",
+    caps: 2, clubCountry: "Argentina", position: "Defender",
+    goals: 0, age: 28, shirtNumber: null, club: "Newell's Old Boys",
+    wikipediaTitle: "Saúl Salcedo"
+  },
+  {
+    id: "par-canale", answer: "José Canale",
+    aliases: ["Jose Canale", "Canale"], nationality: "Paraguay",
+    caps: 1, clubCountry: "Argentina", position: "Defender",
+    goals: 0, age: 29, shirtNumber: null, club: "Lanús",
+    wikipediaTitle: "José Canale"
+  },
+  {
+    id: "par-d-leon", answer: "Diego León",
+    aliases: ["Diego Leon"], nationality: "Paraguay",
+    caps: 1, clubCountry: "England", position: "Defender",
+    goals: 0, age: 19, shirtNumber: null, club: "Manchester United",
+    wikipediaTitle: "Diego León (footballer, born 2007)"
+  },
+  {
+    id: "par-maidana", answer: "Alexandro Maidana",
+    aliases: ["Maidana"], nationality: "Paraguay",
+    caps: 1, clubCountry: "Argentina", position: "Defender",
+    goals: 0, age: 20, shirtNumber: null, club: "Talleres",
+    wikipediaTitle: "Alexandro Maidana"
+  },
+  {
+    id: "par-alc-benitez", answer: "Alcides Benítez",
+    aliases: ["Alcides Benitez"], nationality: "Paraguay",
+    caps: 0, clubCountry: "Argentina", position: "Defender",
+    goals: 0, age: 23, shirtNumber: null, club: "Belgrano",
+    wikipediaTitle: "Alcides Benítez"
+  },
+  {
+    id: "par-dejesus", answer: "Ronaldo Dejesús",
+    aliases: ["Ronaldo Dejesus"], nationality: "Paraguay",
+    caps: 0, clubCountry: "Argentina", position: "Defender",
+    goals: 0, age: 25, shirtNumber: null, club: "Lanús",
+    wikipediaTitle: "Ronaldo Dejesús"
+  },
+  {
+    id: "par-a-nunez", answer: "Alan Núñez",
+    aliases: ["Alan Nunez"], nationality: "Paraguay",
+    caps: 0, clubCountry: "Paraguay", position: "Defender",
+    goals: 0, age: 21, shirtNumber: null, club: "Nacional",
+    wikipediaTitle: "Alan Núñez"
+  },
+
+  // ── Midfielders ───────────────────────────────────────────────────────────
+  {
+    id: "par-almiron", answer: "Miguel Almirón",
+    aliases: ["Miguel Almiron", "Almirón"], nationality: "Paraguay",
+    caps: 75, clubCountry: "United States", position: "Midfielder",
+    goals: 9, age: 32, shirtNumber: null, club: "Atlanta United",
+    wikipediaTitle: "Miguel Almirón"
+  },
+  {
+    id: "par-villasanti", answer: "Mathías Villasanti",
+    aliases: ["Mathias Villasanti", "Villasanti"], nationality: "Paraguay",
+    caps: 51, clubCountry: "Brazil", position: "Midfielder",
+    goals: 0, age: 29, shirtNumber: null, club: "Grêmio",
+    wikipediaTitle: "Mathías Villasanti"
+  },
+  {
+    id: "par-kaku", answer: "Kaku",
+    aliases: [], nationality: "Paraguay",
+    caps: 32, clubCountry: "United Arab Emirates", position: "Midfielder",
+    goals: 5, age: 31, shirtNumber: null, club: "Al Ain",
+    wikipediaTitle: "Kaku (footballer)"
+  },
+  {
+    id: "par-cubas", answer: "Andrés Cubas",
+    aliases: ["Andres Cubas", "Cubas"], nationality: "Paraguay",
+    caps: 32, clubCountry: "Canada", position: "Midfielder",
+    goals: 0, age: 30, shirtNumber: null, club: "Vancouver Whitecaps",
+    wikipediaTitle: "Andrés Cubas"
+  },
+  {
+    id: "par-r-sosa", answer: "Ramón Sosa",
+    aliases: ["Ramon Sosa", "Sosa"], nationality: "Paraguay",
+    caps: 28, clubCountry: "Brazil", position: "Midfielder",
+    goals: 1, age: 26, shirtNumber: null, club: "Palmeiras",
+    wikipediaTitle: "Ramón Sosa"
+  },
+  {
+    id: "par-d-gomez", answer: "Diego Gómez",
+    aliases: ["Diego Gomez"], nationality: "Paraguay",
+    caps: 23, clubCountry: "England", position: "Midfielder",
+    goals: 3, age: 23, shirtNumber: null, club: "Brighton & Hove Albion",
+    wikipediaTitle: "Diego Gómez (Paraguayan footballer)"
+  },
+  {
+    id: "par-bobadilla", answer: "Damián Bobadilla",
+    aliases: ["Damian Bobadilla", "Bobadilla"], nationality: "Paraguay",
+    caps: 19, clubCountry: "Brazil", position: "Midfielder",
+    goals: 1, age: 25, shirtNumber: null, club: "São Paulo",
+    wikipediaTitle: "Damián Bobadilla"
+  },
+  {
+    id: "par-ojeda", answer: "Braian Ojeda",
+    aliases: ["Ojeda"], nationality: "Paraguay",
+    caps: 16, clubCountry: "United States", position: "Midfielder",
+    goals: 0, age: 26, shirtNumber: null, club: "Orlando City",
+    wikipediaTitle: "Braian Ojeda"
+  },
+  {
+    id: "par-galarza", answer: "Matías Galarza",
+    aliases: ["Matias Galarza", "Galarza"], nationality: "Paraguay",
+    caps: 14, clubCountry: "United States", position: "Midfielder",
+    goals: 2, age: 24, shirtNumber: null, club: "Atlanta United",
+    wikipediaTitle: "Matías Galarza (Paraguayan footballer)"
+  },
+  {
+    id: "par-piris", answer: "Robert Piris Da Motta",
+    aliases: ["Piris Da Motta"], nationality: "Paraguay",
+    caps: 9, clubCountry: "Paraguay", position: "Midfielder",
+    goals: 0, age: 32, shirtNumber: null, club: "Cerro Porteño",
+    wikipediaTitle: "Robert Piris Da Motta"
+  },
+  {
+    id: "par-campuzano", answer: "Álvaro Campuzano",
+    aliases: ["Alvaro Campuzano", "Campuzano"], nationality: "Paraguay",
+    caps: 4, clubCountry: "Paraguay", position: "Midfielder",
+    goals: 0, age: 31, shirtNumber: null, club: "Libertad",
+    wikipediaTitle: "Álvaro Campuzano"
+  },
+  {
+    id: "par-d-gonzalez", answer: "Diego González",
+    aliases: ["Diego Gonzalez"], nationality: "Paraguay",
+    caps: 4, clubCountry: "Mexico", position: "Midfielder",
+    goals: 0, age: 23, shirtNumber: null, club: "Atlas",
+    wikipediaTitle: "Diego González (footballer, born 2003)"
+  },
+  {
+    id: "par-cuenca", answer: "Hugo Cuenca",
+    aliases: ["Cuenca"], nationality: "Paraguay",
+    caps: 3, clubCountry: "Spain", position: "Midfielder",
+    goals: 0, age: 21, shirtNumber: null, club: "Burgos",
+    wikipediaTitle: "Hugo Cuenca (footballer)"
+  },
+  {
+    id: "par-mauricio", answer: "Maurício",
+    aliases: ["Mauricio"], nationality: "Paraguay",
+    caps: 2, clubCountry: "Brazil", position: "Midfielder",
+    goals: 0, age: 25, shirtNumber: null, club: "Palmeiras",
+    wikipediaTitle: "Maurício (footballer, born 2001)"
+  },
+  {
+    id: "par-l-romero", answer: "Lucas Romero",
+    aliases: ["Romero"], nationality: "Paraguay",
+    caps: 2, clubCountry: "Chile", position: "Midfielder",
+    goals: 0, age: 23, shirtNumber: null, club: "Universidad de Chile",
+    wikipediaTitle: "Lucas Romero (Paraguayan footballer)"
+  },
+  {
+    id: "par-enso", answer: "Enso González",
+    aliases: ["Enso Gonzalez"], nationality: "Paraguay",
+    caps: 0, clubCountry: "England", position: "Midfielder",
+    goals: 0, age: 21, shirtNumber: null, club: "Wolverhampton Wanderers",
+    wikipediaTitle: "Enso González"
+  },
+  {
+    id: "par-lezcano", answer: "Rubén Lezcano",
+    aliases: ["Ruben Lezcano", "Lezcano"], nationality: "Paraguay",
+    caps: 0, clubCountry: "Paraguay", position: "Midfielder",
+    goals: 0, age: 22, shirtNumber: null, club: "Olimpia",
+    wikipediaTitle: "Rubén Lezcano"
+  },
+
+  // ── Forwards ──────────────────────────────────────────────────────────────
+  {
+    id: "par-o-romero", answer: "Óscar Romero",
+    aliases: ["Oscar Romero", "Romero"], nationality: "Paraguay",
+    caps: 55, clubCountry: "Argentina", position: "Forward",
+    goals: 4, age: 34, shirtNumber: null, club: "Huracán",
+    wikipediaTitle: "Óscar Romero (footballer)"
+  },
+  {
+    id: "par-a-romero", answer: "Ángel Romero",
+    aliases: ["Angel Romero", "Romero"], nationality: "Paraguay",
+    caps: 51, clubCountry: "Argentina", position: "Forward",
+    goals: 8, age: 34, shirtNumber: null, club: "Boca Juniors",
+    wikipediaTitle: "Ángel Romero (footballer)"
+  },
+  {
+    id: "par-sanabria", answer: "Antonio Sanabria",
+    aliases: ["Sanabria"], nationality: "Paraguay",
+    caps: 47, clubCountry: "Italy", position: "Forward",
+    goals: 7, age: 30, shirtNumber: null, club: "Cremonese",
+    wikipediaTitle: "Antonio Sanabria"
+  },
+  {
+    id: "par-enciso", answer: "Julio Enciso",
+    aliases: ["Enciso"], nationality: "Paraguay",
+    caps: 31, clubCountry: "France", position: "Forward",
+    goals: 4, age: 22, shirtNumber: null, club: "Strasbourg",
+    wikipediaTitle: "Julio Enciso (footballer, born 2004)"
+  },
+  {
+    id: "par-g-avalos", answer: "Gabriel Ávalos",
+    aliases: ["Gabriel Avalos", "Ávalos"], nationality: "Paraguay",
+    caps: 22, clubCountry: "Argentina", position: "Forward",
+    goals: 2, age: 35, shirtNumber: null, club: "Independiente",
+    wikipediaTitle: "Gabriel Ávalos"
+  },
+  {
+    id: "par-c-gonzalez", answer: "Carlos González",
+    aliases: ["Carlos Gonzalez"], nationality: "Paraguay",
+    caps: 15, clubCountry: "Ecuador", position: "Forward",
+    goals: 0, age: 33, shirtNumber: null, club: "Independiente del Valle",
+    wikipediaTitle: "Carlos González (footballer, born 1993)"
+  },
+  {
+    id: "par-arce", answer: "Álex Arce",
+    aliases: ["Alex Arce", "Arce"], nationality: "Paraguay",
+    caps: 14, clubCountry: "Argentina", position: "Forward",
+    goals: 1, age: 31, shirtNumber: null, club: "Independiente Rivadavia",
+    wikipediaTitle: "Álex Arce"
+  },
+  {
+    id: "par-bareiro", answer: "Adam Bareiro",
+    aliases: ["Bareiro"], nationality: "Paraguay",
+    caps: 8, clubCountry: "Argentina", position: "Forward",
+    goals: 0, age: 30, shirtNumber: null, club: "Boca Juniors",
+    wikipediaTitle: "Adam Bareiro"
+  },
+  {
+    id: "par-melgarejo", answer: "Lorenzo Melgarejo",
+    aliases: ["Melgarejo"], nationality: "Paraguay",
+    caps: 5, clubCountry: "Paraguay", position: "Forward",
+    goals: 0, age: 36, shirtNumber: null, club: "Libertad",
+    wikipediaTitle: "Lorenzo Melgarejo"
+  },
+  {
+    id: "par-pitta", answer: "Isidro Pitta",
+    aliases: ["Pitta"], nationality: "Paraguay",
+    caps: 5, clubCountry: "Brazil", position: "Forward",
+    goals: 0, age: 26, shirtNumber: null, club: "Red Bull Bragantino",
+    wikipediaTitle: "Isidro Pitta"
+  },
+  {
+    id: "par-r-martinez", answer: "Ronaldo Martínez",
+    aliases: ["Ronaldo Martinez"], nationality: "Paraguay",
+    caps: 4, clubCountry: "Argentina", position: "Forward",
+    goals: 0, age: 30, shirtNumber: null, club: "Talleres",
+    wikipediaTitle: "Ronaldo Martínez (footballer)"
+  },
+  {
+    id: "par-caballero", answer: "Gustavo Caballero",
+    aliases: ["Caballero"], nationality: "Paraguay",
+    caps: 2, clubCountry: "England", position: "Forward",
+    goals: 1, age: 25, shirtNumber: null, club: "Portsmouth",
+    wikipediaTitle: "Gustavo Caballero"
+  },
+  {
+    id: "par-r-morales", answer: "Robert Morales",
+    aliases: ["Morales"], nationality: "Paraguay",
+    caps: 2, clubCountry: "Mexico", position: "Forward",
+    goals: 1, age: 27, shirtNumber: null, club: "UNAM",
+    wikipediaTitle: "Robert Morales (footballer)"
+  },
+  {
+    id: "par-alcaraz", answer: "Adrián Alcaraz",
+    aliases: ["Adrian Alcaraz", "Alcaraz"], nationality: "Paraguay",
+    caps: 0, clubCountry: "Paraguay", position: "Forward",
+    goals: 0, age: 27, shirtNumber: null, club: "Olimpia",
+    wikipediaTitle: "Adrián Alcaraz"
+  },
+  {
+    id: "par-redes", answer: "Rodney Redes",
+    aliases: ["Redes"], nationality: "Paraguay",
+    caps: 0, clubCountry: "Ecuador", position: "Forward",
+    goals: 0, age: 26, shirtNumber: null, club: "LDU Quito",
+    wikipediaTitle: "Rodney Redes"
+  },
+
 ];
 
-window.PUZZLE_ORDER = []; // will be auto-generated when squad is added
+// Stars first — trim to final 26 after announcement
+window.PUZZLE_ORDER = [
+  "par-almiron", "par-enciso", "par-sanabria", "par-g-gomez",
+  "par-a-romero", "par-o-romero", "par-j-alonso", "par-d-gomez",
+  "par-villasanti", "par-balbuena", "par-alderete", "par-r-sosa",
+  "par-cubas", "par-gatito", "par-kaku", "par-galarza",
+  "par-ojeda", "par-j-alonso", "par-g-avalos", "par-pitta",
+  "par-bareiro", "par-arce", "par-bobadilla", "par-piris",
+  "par-coronel", "par-enso",
+];
