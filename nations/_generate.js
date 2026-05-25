@@ -326,7 +326,7 @@ function makeNationIndexHtml(n) {
           </div>
           <div class="dist-chart" id="distChart"></div>
           <div class="modal-actions">
-            <button class="cta-secondary" id="copyStatsBtn" type="button">COPY STATS</button>
+            <button class="cta-secondary" id="copyStatsBtn" type="button">SHARE YOUR SCORE</button>
             <button class="transfer-btn" id="transferToggle" type="button">Transfer stats to another device</button>
             <button class="reset-btn" id="resetStats" type="button">Reset stats</button>
           </div>

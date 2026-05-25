@@ -1127,9 +1127,9 @@
     const btn = document.getElementById("copyStatsBtn");
     try {
       await navigator.clipboard.writeText(text);
-      if (btn) { btn.textContent = "COPIED!"; setTimeout(() => { btn.textContent = "COPY STATS"; }, 1500); }
+      if (btn) { btn.textContent = "COPIED!"; setTimeout(() => { btn.textContent = "SHARE YOUR SCORE"; }, 1500); }
     } catch {
-      if (btn) { btn.textContent = "FAILED"; setTimeout(() => { btn.textContent = "COPY STATS"; }, 1500); }
+      if (btn) { btn.textContent = "FAILED"; setTimeout(() => { btn.textContent = "SHARE YOUR SCORE"; }, 1500); }
     }
   }
 
