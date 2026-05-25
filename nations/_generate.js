@@ -131,7 +131,7 @@ function makeNationIndexHtml(n) {
 
   <div class="album">
     <div class="spine">
-      <a class="spine-top" id="spineTitle" href="/" title="Back to ICONED">ICONED</a>
+      <a class="spine-top" id="spineTitle" href="/" title="Back to ICONED Home">ICONED HOME</a>
       <div class="spine-rules"><span></span><span></span><span></span></div>
       <span class="spine-bottom">WC26 · ${n.flag}</span>
     </div>

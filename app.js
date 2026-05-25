@@ -112,7 +112,7 @@
     const dayNum = archiveMode ? archiveDayNum : Stats.todayNumber();
     els.pageLabel.textContent = `PAGE ${num}`;
     els.pageKicker.textContent = `Page ${num} · matchday №${dayNum + 1}`;
-    els.spineTitle.textContent = "ICONED";
+    els.spineTitle.textContent = "ICONED HOME";
   }
 
   function saveState() {
