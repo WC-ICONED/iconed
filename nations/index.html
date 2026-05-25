@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ICONED · 2026 World Cup Nations</title>
+  <meta name="description" content="ICONED — Guess players from all 48 nations at the 2026 World Cup.">
+  <link rel="canonical" href="https://www.iconed.wtf/nations/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>" type="image/svg+xml">
+  <meta name="theme-color" content="#1F6B3A">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,400;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --pitch: #1F6B3A;
+      --gold:  #c8a14a;
+      --ink:   #181410;
+      --ink-soft: rgba(24,20,16,.55);
+      --page:  #f6f1e6;
+      --page-edge: #e3d9c4;
+      --radius: 4px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Archivo", system-ui, sans-serif;
+      background: #d9d0be;
+      color: var(--ink);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .hub {
+      max-width: 480px;
+      margin: 0 auto;
+      min-height: 100dvh;
+      background: var(--page);
+    }
+
+    .hub-header {
+      background: var(--pitch);
+      padding: 24px 22px 20px;
+      color: #fff;
+    }
+    .hub-header a.back {
+      font-family: "Archivo", system-ui, sans-serif;
+      font-size: 10px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: rgba(255,255,255,.7);
+      text-decoration: none;
+    }
+    .hub-header a.back:hover { color: #fff; }
+    .hub-header h1 {
+      font-family: "Archivo Black", system-ui, sans-serif;
+      font-size: 32px;
+      line-height: 1;
+      margin-top: 10px;
+      letter-spacing: -.02em;
+    }
+    .hub-header p {
+      font-size: 13px;
+      color: rgba(255,255,255,.75);
+      margin-top: 6px;
+      line-height: 1.4;
+    }
+    .hub-header .kicker {
+      font-family: "Archivo", system-ui, sans-serif;
+      font-size: 9.5px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: var(--gold);
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .hub-body { padding: 20px 16px 32px; }
+
+    .conf-section { margin-bottom: 24px; }
+    .conf-title {
+      font-family: "Archivo", system-ui, sans-serif;
+      font-size: 9.5px;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: var(--ink-soft);
+      margin-bottom: 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--page-edge);
+    }
+
+    .nations-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .nation-card {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 12px;
+      border-radius: var(--radius);
+      text-decoration: none;
+      color: var(--ink);
+      transition: transform .15s, box-shadow .15s;
+      border: 1px solid transparent;
+      position: relative;
+      overflow: hidden;
+    }
+    .nation-card:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0,0,0,.12);
+    }
+    .nation-card .flag {
+      font-size: 22px;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+    .nation-card .name {
+      font-family: "Archivo Black", system-ui, sans-serif;
+      font-size: 12px;
+      letter-spacing: .01em;
+      line-height: 1.2;
+    }
+    .nation-card .coming-soon {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 8px;
+      letter-spacing: .06em;
+      opacity: .55;
+      margin-top: 2px;
+      display: block;
+    }
+    .nation-card::after {
+      content: "→";
+      position: absolute;
+      right: 10px;
+      font-size: 12px;
+      opacity: .4;
+    }
+
+    .hub-footer {
+      text-align: center;
+      padding: 20px;
+      font-family: "Archivo", system-ui, sans-serif;
+      font-size: 11px;
+      color: var(--ink-soft);
+      border-top: 1px dashed var(--page-edge);
+    }
+    .hub-footer a { color: var(--ink-soft); }
+    .hub-footer a:hover { color: var(--ink); }
+  </style>
+</head>
+<body>
+<div class="hub">
+  <header class="hub-header">
+    <a class="back" href="/">← ICONED Home</a>
+    <span class="kicker">2026 World Cup</span>
+    <h1>Pick your nation.</h1>
+    <p>Guess iconic players from each of the 48 nations at the 2026 World Cup. A new player every day.</p>
+  </header>
+
+  <div class="hub-body">
+
+    <div class="conf-section">
+      <p class="conf-title">CONCACAF</p>
+      <div class="nations-grid">
+        <a class="nation-card" href="/nations/canada/"      style="background:#fff0f0;border-color:#f0d0d0;color:#181410"><span class="flag">🇨🇦</span><div><span class="name">Canada</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/mexico/"      style="background:#f0fff4;border-color:#c8ddd2;color:#181410"><span class="flag">🇲🇽</span><div><span class="name">Mexico</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/usa/"         style="background:#f0f0ff;border-color:#c8c8e0;color:#181410"><span class="flag">🇺🇸</span><div><span class="name">United States</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/panama/"      style="background:#fff0f0;border-color:#f0d0d0;color:#181410"><span class="flag">🇵🇦</span><div><span class="name">Panama</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/curacao/"     style="background:#f0f0ff;border-color:#c0cce8;color:#181410"><span class="flag">🇨🇼</span><div><span class="name">Curaçao</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/haiti/"       style="background:#f0f0ff;border-color:#c0cae8;color:#181410"><span class="flag">🇭🇹</span><div><span class="name">Haiti</span><span class="coming-soon">Squad coming soon</span></div></a>
+      </div>
+    </div>
+
+    <div class="conf-section">
+      <p class="conf-title">CONMEBOL</p>
+      <div class="nations-grid">
+        <a class="nation-card" href="/nations/argentina/"   style="background:#f0f8ff;border-color:#c0d8ee;color:#181410"><span class="flag">🇦🇷</span><div><span class="name">Argentina</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/brazil/"      style="background:#f0fff4;border-color:#b8dfc8;color:#181410"><span class="flag">🇧🇷</span><div><span class="name">Brazil</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/colombia/"    style="background:#f0f0ff;border-color:#b8c5e8;color:#181410"><span class="flag">🇨🇴</span><div><span class="name">Colombia</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/ecuador/"     style="background:#f0f0ff;border-color:#b8c8e8;color:#181410"><span class="flag">🇪🇨</span><div><span class="name">Ecuador</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/paraguay/"    style="background:#fff0f0;border-color:#edd0cc;color:#181410"><span class="flag">🇵🇾</span><div><span class="name">Paraguay</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/uruguay/"     style="background:#f0f0ff;border-color:#b8c8e8;color:#181410"><span class="flag">🇺🇾</span><div><span class="name">Uruguay</span><span class="coming-soon">Squad coming soon</span></div></a>
+      </div>
+    </div>
+
+    <div class="conf-section">
+      <p class="conf-title">AFC</p>
+      <div class="nations-grid">
+        <a class="nation-card" href="/nations/australia/"   style="background:#f0f0ff;border-color:#b8c0e0;color:#181410"><span class="flag">🇦🇺</span><div><span class="name">Australia</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/iran/"        style="background:#f0fff4;border-color:#b8dfc5;color:#181410"><span class="flag">🇮🇷</span><div><span class="name">Iran</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/japan/"       style="background:#fff0f4;border-color:#f0c0cc;color:#181410"><span class="flag">🇯🇵</span><div><span class="name">Japan</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/jordan/"      style="background:#f0fff4;border-color:#b8d8c8;color:#181410"><span class="flag">🇯🇴</span><div><span class="name">Jordan</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/new-zealand/" style="background:#f0f0ff;border-color:#b8c0e0;color:#181410"><span class="flag">🇳🇿</span><div><span class="name">New Zealand</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/qatar/"       style="background:#fff0f5;border-color:#e8c8d4;color:#181410"><span class="flag">🇶🇦</span><div><span class="name">Qatar</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/saudi-arabia/"style="background:#f0fff4;border-color:#b8d8c8;color:#181410"><span class="flag">🇸🇦</span><div><span class="name">Saudi Arabia</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/south-korea/" style="background:#fff0f4;border-color:#f0c0cc;color:#181410"><span class="flag">🇰🇷</span><div><span class="name">South Korea</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/uzbekistan/"  style="background:#f0fff4;border-color:#b8ddc5;color:#181410"><span class="flag">🇺🇿</span><div><span class="name">Uzbekistan</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/iraq/"        style="background:#fff0f0;border-color:#edccc8;color:#181410"><span class="flag">🇮🇶</span><div><span class="name">Iraq</span><span class="coming-soon">Squad coming soon</span></div></a>
+      </div>
+    </div>
+
+    <div class="conf-section">
+      <p class="conf-title">CAF</p>
+      <div class="nations-grid">
+        <a class="nation-card" href="/nations/algeria/"     style="background:#f0fff4;border-color:#b8d8c8;color:#181410"><span class="flag">🇩🇿</span><div><span class="name">Algeria</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/cape-verde/"  style="background:#f0f0ff;border-color:#b8c0e0;color:#181410"><span class="flag">🇨🇻</span><div><span class="name">Cape Verde</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/dr-congo/"    style="background:#f0f4ff;border-color:#b8d0f0;color:#181410"><span class="flag">🇨🇩</span><div><span class="name">DR Congo</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/egypt/"       style="background:#fff0f0;border-color:#edccc8;color:#181410"><span class="flag">🇪🇬</span><div><span class="name">Egypt</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/ghana/"       style="background:#f0fff4;border-color:#b8d8c5;color:#181410"><span class="flag">🇬🇭</span><div><span class="name">Ghana</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/ivory-coast/" style="background:#fff8f0;border-color:#edddc5;color:#181410"><span class="flag">🇨🇮</span><div><span class="name">Ivory Coast</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/morocco/"     style="background:#fff0f0;border-color:#edccc8;color:#181410"><span class="flag">🇲🇦</span><div><span class="name">Morocco</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/senegal/"     style="background:#f0fff4;border-color:#b8ddc8;color:#181410"><span class="flag">🇸🇳</span><div><span class="name">Senegal</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/south-africa/"style="background:#f0fff4;border-color:#b8d8c8;color:#181410"><span class="flag">🇿🇦</span><div><span class="name">South Africa</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/tunisia/"     style="background:#fff0f0;border-color:#f0c8c8;color:#181410"><span class="flag">🇹🇳</span><div><span class="name">Tunisia</span><span class="coming-soon">Squad coming soon</span></div></a>
+      </div>
+    </div>
+
+    <div class="conf-section">
+      <p class="conf-title">UEFA</p>
+      <div class="nations-grid">
+        <a class="nation-card" href="/nations/austria/"     style="background:#fff0f0;border-color:#eec8c8;color:#181410"><span class="flag">🇦🇹</span><div><span class="name">Austria</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/belgium/"     style="background:#f5f5f0;border-color:#cccccc;color:#181410"><span class="flag">🇧🇪</span><div><span class="name">Belgium</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/bosnia/"      style="background:#f0f0ff;border-color:#b8c0e0;color:#181410"><span class="flag">🇧🇦</span><div><span class="name">Bosnia &amp; Herz.</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/croatia/"     style="background:#f0f0ff;border-color:#c0c0e0;color:#181410"><span class="flag">🇭🇷</span><div><span class="name">Croatia</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/czech-republic/"style="background:#fff0f0;border-color:#edccc8;color:#181410"><span class="flag">🇨🇿</span><div><span class="name">Czech Republic</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/england/"     style="background:#fff0f0;border-color:#f0c0c8;color:#181410"><span class="flag">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span><div><span class="name">England</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/france/"      style="background:#f0f0ff;border-color:#b8c0e0;color:#181410"><span class="flag">🇫🇷</span><div><span class="name">France</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/germany/"     style="background:#f5f5f5;border-color:#cccccc;color:#181410"><span class="flag">🇩🇪</span><div><span class="name">Germany</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/netherlands/" style="background:#fff8f0;border-color:#eec8b5;color:#181410"><span class="flag">🇳🇱</span><div><span class="name">Netherlands</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/norway/"      style="background:#fff0f0;border-color:#edc8c8;color:#181410"><span class="flag">🇳🇴</span><div><span class="name">Norway</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/portugal/"    style="background:#f0fff4;border-color:#b8d8c0;color:#181410"><span class="flag">🇵🇹</span><div><span class="name">Portugal</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/scotland/"    style="background:#f0f0ff;border-color:#b8c0e0;color:#181410"><span class="flag">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span><div><span class="name">Scotland</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/spain/"       style="background:#fff0f0;border-color:#edccc8;color:#181410"><span class="flag">🇪🇸</span><div><span class="name">Spain</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/sweden/"      style="background:#f0f0ff;border-color:#b8cee0;color:#181410"><span class="flag">🇸🇪</span><div><span class="name">Sweden</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/switzerland/" style="background:#fff0f0;border-color:#edccc8;color:#181410"><span class="flag">🇨🇭</span><div><span class="name">Switzerland</span><span class="coming-soon">Squad coming soon</span></div></a>
+        <a class="nation-card" href="/nations/turkey/"      style="background:#fff0f0;border-color:#efc8c8;color:#181410"><span class="flag">🇹🇷</span><div><span class="name">Turkey</span><span class="coming-soon">Squad coming soon</span></div></a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="hub-footer">
+    <p><a href="/">← Back to ICONED</a> · <a href="mailto:hello@iconed.wtf">hello@iconed.wtf</a></p>
+  </footer>
+</div>
+</body>
+</html>
