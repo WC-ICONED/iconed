@@ -428,7 +428,7 @@ function makeNationIndexHtml(n) {
           <div class="consent-header">
             <span class="kicker gold">Before you play</span>
             <h2>We use cookies & local storage</h2>
-            <p class="consent-subtitle">ICONED stores your game progress and stats on this device.</p>
+            <p class="consent-subtitle">ICONED stores your game progress and stats on this device. We also use Microsoft Clarity to understand how the game is used, which is data that goes to Microsoft.</p>
           </div>
           <div class="consent-body">
             <span class="label">What we store</span>
@@ -437,7 +437,6 @@ function makeNationIndexHtml(n) {
               <li>Your win/streak statistics</li>
               <li>Player thumbnail image cache</li>
             </ul>
-            <p class="consent-legal">No data is sent to any server. Everything stays on your device.</p>
           </div>
           <div class="consent-actions">
             <button class="cta-primary" id="consentAccept" type="button" style="flex:1">Got it, let's play!</button>
