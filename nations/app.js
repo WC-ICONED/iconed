@@ -557,6 +557,8 @@
     renderSharePreview(puzzleNum);
     if (els.shareText)   els.shareText.classList.toggle("hidden", archiveMode);
     if (els.shareButton) els.shareButton.classList.toggle("hidden", archiveMode);
+    const squadPrompt = document.getElementById("resultSquadPrompt");
+    if (squadPrompt) squadPrompt.classList.toggle("hidden", archiveMode);
 
     if (els.result) els.result.classList.remove("hidden");
     startCountdown();
@@ -748,6 +750,8 @@
       renderSharePreview(puzzleNum);
       if (els.shareText)   els.shareText.classList.add("hidden");
       if (els.shareButton) els.shareButton.classList.add("hidden");
+      const squadPromptA = document.getElementById("resultSquadPrompt");
+      if (squadPromptA) squadPromptA.classList.add("hidden");
       if (els.result)      els.result.classList.remove("hidden");
       startCountdown();
       updateArchiveNav();
@@ -766,6 +770,8 @@
     if (els.albumView)     els.albumView.classList.add("hidden");
     if (els.shareText)   els.shareText.classList.remove("hidden");
     if (els.shareButton) els.shareButton.classList.remove("hidden");
+    const squadPromptB = document.getElementById("resultSquadPrompt");
+    if (squadPromptB) squadPromptB.classList.remove("hidden");
     resetStickerStates();
     restoreOrStart();
   }
@@ -1240,6 +1246,9 @@
 
     if (els.archiveButton) els.archiveButton.addEventListener("click", openAlbumView);
     if (els.albumBack)     els.albumBack.addEventListener("click", closeAlbumView);
+
+    const resultSquadLink = document.getElementById("resultSquadLink");
+    if (resultSquadLink) resultSquadLink.addEventListener("click", e => { e.preventDefault(); openArchiveModal(); });
     if (els.backToToday)   els.backToToday.addEventListener("click", goBackToToday);
 
     const wordmarkLink = document.getElementById("wordmarkLink");

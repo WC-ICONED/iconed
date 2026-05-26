@@ -785,6 +785,20 @@ body {
   cursor: pointer;
 }
 .cta-secondary:hover { background: var(--page); }
+.result-squad-prompt {
+  margin: 14px 0 0;
+  text-align: center;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 13px;
+  font-style: italic;
+}
+.result-squad-prompt a {
+  color: var(--ink-soft);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+.result-squad-prompt a:hover { color: var(--ink); }
 
 /* ─── Modal ─── */
 .modal-overlay {
