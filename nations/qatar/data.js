@@ -19,22 +19,22 @@ window.PUZZLES = [
     aliases: ["Zakaria"], nationality: "Qatar",
     caps: 8, clubCountry: "Qatar", position: "Goalkeeper",
     goals: 0, age: 27, shirtNumber: null, club: "Al-Duhail",
-    wikipediaTitle: "Salah Zakaria"
-  },
+    wikipediaTitle: "Salah Zakaria",
+    imageUrl: "https://img.sofascore.com/api/v1/player/985171/image"},
   {
     id: "qat-abunada", answer: "Mahmud Abunada",
     aliases: ["Abunada"], nationality: "Qatar",
     caps: 3, clubCountry: "Qatar", position: "Goalkeeper",
     goals: 0, age: 26, shirtNumber: null, club: "Al-Rayyan",
-    wikipediaTitle: "Mahmud Abunada"
-  },
+    wikipediaTitle: "Mahmud Abunada",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1012458/image"},
   {
     id: "qat-ellethy", answer: "Shehab Ellethy",
     aliases: ["Ellethy"], nationality: "Qatar",
     caps: 1, clubCountry: "Qatar", position: "Goalkeeper",
     goals: 0, age: 26, shirtNumber: null, club: "Al-Shahaniya",
-    wikipediaTitle: "Shehab Ellethy"
-  },
+    wikipediaTitle: "Shehab Ellethy",
+    imageUrl: "https://img.sofascore.com/api/v1/player/832426/image"},
   {
     id: "qat-younis", answer: "Fahad Younis",
     aliases: ["Younis"], nationality: "Qatar",
@@ -89,8 +89,8 @@ window.PUZZLES = [
     aliases: ["Mendes"], nationality: "Qatar",
     caps: 24, clubCountry: "Qatar", position: "Defender",
     goals: 1, age: 35, shirtNumber: null, club: "Al-Wakrah",
-    wikipediaTitle: "Lucas Mendes (Qatari footballer)"
-  },
+    wikipediaTitle: "Lucas Mendes (Qatari footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/243199/image"},
   {
     id: "qat-al-brake", answer: "Sultan Al-Brake",
     aliases: ["Al-Brake", "Al Brake"], nationality: "Qatar",
@@ -104,36 +104,36 @@ window.PUZZLES = [
     aliases: ["Al-Hussain", "Al Hussain", "Al Hashmi"], nationality: "Qatar",
     caps: 6, clubCountry: "Qatar", position: "Defender",
     goals: 0, age: 22, shirtNumber: null, club: "Al-Arabi",
-    wikipediaTitle: "Al-Hashmi Al-Hussain"
-  },
+    wikipediaTitle: "Al-Hashmi Al-Hussain",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1148402/image"},
   {
     id: "qat-al-oui", answer: "Ayoub Al-Oui",
     aliases: ["Al-Oui", "Al Oui"], nationality: "Qatar",
     caps: 4, clubCountry: "Qatar", position: "Defender",
     goals: 0, age: 21, shirtNumber: null, club: "Al-Gharafa",
-    wikipediaTitle: "Ayoub Al-Oui"
-  },
+    wikipediaTitle: "Ayoub Al-Oui",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1396639/image"},
   {
     id: "qat-laye", answer: "Issa Laye",
     aliases: ["Laye"], nationality: "Qatar",
     caps: 2, clubCountry: "Qatar", position: "Defender",
     goals: 0, age: 28, shirtNumber: null, club: "Al-Arabi",
-    wikipediaTitle: "Issa Laye"
-  },
+    wikipediaTitle: "Issa Laye",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1892282/image"},
   {
     id: "qat-al-ali", answer: "Rayyan Al-Ali",
     aliases: ["Al-Ali", "Al Ali"], nationality: "Qatar",
     caps: 0, clubCountry: "Qatar", position: "Defender",
     goals: 0, age: 20, shirtNumber: null, club: "Al-Gharafa",
-    wikipediaTitle: "Rayyan Al-Ali"
-  },
+    wikipediaTitle: "Rayyan Al-Ali",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1501526/image"},
   {
     id: "qat-mason", answer: "Niall Mason",
     aliases: ["Mason"], nationality: "Qatar",
     caps: 0, clubCountry: "Qatar", position: "Defender",
     goals: 0, age: 29, shirtNumber: null, club: "Qatar SC",
-    wikipediaTitle: "Niall Mason"
-  },
+    wikipediaTitle: "Niall Mason",
+    imageUrl: "https://img.sofascore.com/api/v1/player/830554/image"},
 
   // ── Midfielders ───────────────────────────────────────────────
   {
@@ -189,15 +189,15 @@ window.PUZZLES = [
     aliases: ["Al-Mannai", "Al Mannai"], nationality: "Qatar",
     caps: 8, clubCountry: "Qatar", position: "Midfielder",
     goals: 0, age: 22, shirtNumber: null, club: "Al-Shamal",
-    wikipediaTitle: "Mohamed Al-Mannai"
-  },
+    wikipediaTitle: "Mohamed Al-Mannai",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1083016/image"},
   {
     id: "qat-jamshid", answer: "Tahsin Jamshid",
     aliases: ["Jamshid"], nationality: "Qatar",
     caps: 1, clubCountry: "Qatar", position: "Midfielder",
     goals: 0, age: 19, shirtNumber: null, club: "Al-Duhail",
-    wikipediaTitle: "Tahsin Jamshid"
-  },
+    wikipediaTitle: "Tahsin Jamshid",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1501518/image"},
 
   // ── Forwards ──────────────────────────────────────────────────
   {
@@ -269,15 +269,15 @@ window.PUZZLES = [
     aliases: ["Al-Ganehi", "Al Ganehi"], nationality: "Qatar",
     caps: 13, clubCountry: "Qatar", position: "Forward",
     goals: 1, age: 25, shirtNumber: null, club: "Al-Gharafa",
-    wikipediaTitle: "Ahmed Al-Ganehi"
-  },
+    wikipediaTitle: "Ahmed Al-Ganehi",
+    imageUrl: "https://img.sofascore.com/api/v1/player/936542/image"},
   {
     id: "qat-shanan", answer: "Mubarak Shanan",
     aliases: ["Shanan"], nationality: "Qatar",
     caps: 2, clubCountry: "Qatar", position: "Forward",
     goals: 0, age: 22, shirtNumber: null, club: "Al-Duhail",
-    wikipediaTitle: "Mubarak Shanan"
-  },
+    wikipediaTitle: "Mubarak Shanan",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1152426/image"},
 
 ];
 

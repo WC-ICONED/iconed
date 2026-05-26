@@ -25,8 +25,8 @@ window.PUZZLES = [
     aliases: ["Keller"], nationality: "Switzerland",
     caps: 0, clubCountry: "Switzerland", position: "Goalkeeper",
     goals: 0, age: 23, shirtNumber: 21, club: "Young Boys",
-    wikipediaTitle: "Marvin Keller (goalkeeper)"
-  },
+    wikipediaTitle: "Marvin Keller (goalkeeper)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1005744/image"},
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
@@ -66,8 +66,8 @@ window.PUZZLES = [
     aliases: ["Rodriguez", "Rodríguez"], nationality: "Switzerland",
     caps: 136, clubCountry: "Spain", position: "Defender",
     goals: 9, age: 33, shirtNumber: 13, club: "Real Betis",
-    wikipediaTitle: "Ricardo Rodríguez (Swiss footballer)"
-  },
+    wikipediaTitle: "Ricardo Rodríguez (Swiss footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/67769/image"},
   {
     id: "sui-comert", answer: "Eray Cömert",
     aliases: ["Cömert", "Comert"], nationality: "Switzerland",
@@ -81,15 +81,15 @@ window.PUZZLES = [
     aliases: ["Amenda"], nationality: "Switzerland",
     caps: 6, clubCountry: "Germany", position: "Defender",
     goals: 0, age: 22, shirtNumber: 24, club: "Eintracht Frankfurt",
-    wikipediaTitle: "Aurèle Amenda"
-  },
+    wikipediaTitle: "Aurèle Amenda",
+    imageUrl: "https://img.sofascore.com/api/v1/player/999276/image"},
   {
     id: "sui-jaquez", answer: "Luca Jaquez",
     aliases: ["Jaquez"], nationality: "Switzerland",
     caps: 2, clubCountry: "Germany", position: "Defender",
     goals: 0, age: 23, shirtNumber: 25, club: "VfB Stuttgart",
-    wikipediaTitle: "Luca Jaquez"
-  },
+    wikipediaTitle: "Luca Jaquez",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1127823/image"},
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
@@ -113,8 +113,8 @@ window.PUZZLES = [
     aliases: ["Manzambi"], nationality: "Switzerland",
     caps: 10, clubCountry: "Germany", position: "Midfielder",
     goals: 3, age: 20, shirtNumber: 9, club: "SC Freiburg",
-    wikipediaTitle: "Johan Manzambi"
-  },
+    wikipediaTitle: "Johan Manzambi",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1518931/image"},
   {
     id: "sui-xhaka", answer: "Granit Xhaka",
     aliases: ["Xhaka"], nationality: "Switzerland",
@@ -152,15 +152,15 @@ window.PUZZLES = [
     aliases: ["Aebischer"], nationality: "Switzerland",
     caps: 38, clubCountry: "Italy", position: "Midfielder",
     goals: 2, age: 29, shirtNumber: 20, club: "Pisa",
-    wikipediaTitle: "Michel Aebischer"
-  },
+    wikipediaTitle: "Michel Aebischer",
+    imageUrl: "https://img.sofascore.com/api/v1/player/850891/image"},
   {
     id: "sui-rieder", answer: "Fabian Rieder",
     aliases: ["Rieder"], nationality: "Switzerland",
     caps: 27, clubCountry: "Germany", position: "Midfielder",
     goals: 1, age: 24, shirtNumber: 22, club: "FC Augsburg",
-    wikipediaTitle: "Fabian Rieder"
-  },
+    wikipediaTitle: "Fabian Rieder",
+    imageUrl: "https://img.sofascore.com/api/v1/player/929620/image"},
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
@@ -184,8 +184,8 @@ window.PUZZLES = [
     aliases: ["Vargas"], nationality: "Switzerland",
     caps: 60, clubCountry: "Spain", position: "Forward",
     goals: 11, age: 27, shirtNumber: 17, club: "Sevilla",
-    wikipediaTitle: "Rubén Vargas"
-  },
+    wikipediaTitle: "Rubén Vargas",
+    imageUrl: "https://img.sofascore.com/api/v1/player/872919/image"},
   {
     id: "sui-okafor", answer: "Noah Okafor",
     aliases: ["Okafor"], nationality: "Switzerland",
@@ -199,15 +199,15 @@ window.PUZZLES = [
     aliases: ["Amdouni"], nationality: "Switzerland",
     caps: 27, clubCountry: "England", position: "Forward",
     goals: 11, age: 25, shirtNumber: 23, club: "Burnley",
-    wikipediaTitle: "Zeki Amdouni"
-  },
+    wikipediaTitle: "Zeki Amdouni",
+    imageUrl: "https://img.sofascore.com/api/v1/player/990550/image"},
   {
     id: "sui-itten", answer: "Cedric Itten",
     aliases: ["Itten"], nationality: "Switzerland",
     caps: 13, clubCountry: "Germany", position: "Forward",
     goals: 5, age: 29, shirtNumber: 26, club: "Fortuna Düsseldorf",
-    wikipediaTitle: "Cédric Itten"
-  },
+    wikipediaTitle: "Cédric Itten",
+    imageUrl: "https://img.sofascore.com/api/v1/player/352290/image"},
 ];
 
 window.PUZZLE_ORDER = [

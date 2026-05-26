@@ -25,8 +25,8 @@ window.PUZZLES = [
     aliases: ["Mohamed Koné", "M. Koné", "Kone"], nationality: "Ivory Coast",
     caps: 0, clubCountry: "Belgium", position: "Goalkeeper",
     goals: 0, age: 24, shirtNumber: null, club: "Charleroi",
-    wikipediaTitle: "Mohamed Koné (Ivorian footballer)"
-  },
+    wikipediaTitle: "Mohamed Koné (Ivorian footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1131009/image"},
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
     id: "civ-konan", answer: "Ghislain Konan",
@@ -114,8 +114,8 @@ window.PUZZLES = [
     aliases: ["Sangaré", "Sangare"], nationality: "Ivory Coast",
     caps: 57, clubCountry: "England", position: "Midfielder",
     goals: 12, age: 28, shirtNumber: null, club: "Nottingham Forest",
-    wikipediaTitle: "Ibrahim Sangaré (footballer)"
-  },
+    wikipediaTitle: "Ibrahim Sangaré (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/843754/image"},
   {
     id: "civ-s-fofana", answer: "Seko Fofana",
     aliases: ["Seko Fofana", "S. Fofana"], nationality: "Ivory Coast",
@@ -129,8 +129,8 @@ window.PUZZLES = [
     aliases: ["Oulaï", "Oulai", "Christ Oulaï"], nationality: "Ivory Coast",
     caps: 8, clubCountry: "Turkey", position: "Midfielder",
     goals: 0, age: 20, shirtNumber: null, club: "Trabzonspor",
-    wikipediaTitle: "Christ Inao Oulaï"
-  },
+    wikipediaTitle: "Christ Inao Oulaï",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1888002/image"},
   {
     id: "civ-guiagon", answer: "Parfait Guiagon",
     aliases: ["Guiagon"], nationality: "Ivory Coast",
@@ -185,15 +185,15 @@ window.PUZZLES = [
     aliases: ["Yan Diomandé", "Y. Diomande", "Y. Diomandé"], nationality: "Ivory Coast",
     caps: 9, clubCountry: "Germany", position: "Forward",
     goals: 3, age: 19, shirtNumber: null, club: "RB Leipzig",
-    wikipediaTitle: "Yan Diomandé"
-  },
+    wikipediaTitle: "Yan Diomandé",
+    imageUrl: "https://img.sofascore.com/api/v1/player/2087085/image"},
   {
     id: "civ-toure", answer: "Bazoumana Touré",
     aliases: ["Touré", "Toure", "Bazoumana Touré"], nationality: "Ivory Coast",
     caps: 5, clubCountry: "Germany", position: "Forward",
     goals: 2, age: 20, shirtNumber: null, club: "TSG Hoffenheim",
-    wikipediaTitle: "Bazoumana Touré"
-  },
+    wikipediaTitle: "Bazoumana Touré",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1568123/image"},
   {
     id: "civ-wahi", answer: "Elye Wahi",
     aliases: ["Wahi"], nationality: "Ivory Coast",
@@ -207,8 +207,8 @@ window.PUZZLES = [
     aliases: ["Bonny", "Ange-Yoan Bonny"], nationality: "Ivory Coast",
     caps: 0, clubCountry: "Italy", position: "Forward",
     goals: 0, age: 22, shirtNumber: null, club: "Inter Milan",
-    wikipediaTitle: "Ange-Yoan Bonny"
-  },
+    wikipediaTitle: "Ange-Yoan Bonny",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1086223/image"},
 ];
 
 window.PUZZLE_ORDER = [

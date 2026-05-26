@@ -75,15 +75,15 @@ window.PUZZLES = [
     aliases: ["Abu Dahab"], nationality: "Jordan",
     caps: 16, clubCountry: "Jordan", position: "Defender",
     goals: 0, age: 26, shirtNumber: null, club: "Al-Faisaly",
-    wikipediaTitle: "Husam Abu Dahab"
-  },
+    wikipediaTitle: "Husam Abu Dahab",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1218720/image"},
   {
     id: "jor-abualnadi", answer: "Mo Abualnadi",
     aliases: ["Abualnadi"], nationality: "Jordan",
     caps: 16, clubCountry: "Malaysia", position: "Defender",
     goals: 0, age: 25, shirtNumber: null, club: "Selangor",
-    wikipediaTitle: "Mo Abualnadi"
-  },
+    wikipediaTitle: "Mo Abualnadi",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1158813/image"},
   {
     id: "jor-obaid", answer: "Salim Obaid",
     aliases: ["Obaid"], nationality: "Jordan",
@@ -97,15 +97,15 @@ window.PUZZLES = [
     aliases: ["Assaf"], nationality: "Jordan",
     caps: 6, clubCountry: "Jordan", position: "Defender",
     goals: 0, age: 26, shirtNumber: null, club: "Al-Hussein",
-    wikipediaTitle: "Ahmad Assaf"
-  },
+    wikipediaTitle: "Ahmad Assaf",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1141154/image"},
   {
     id: "jor-badawi", answer: "Anas Badawi",
     aliases: ["Badawi"], nationality: "Jordan",
     caps: 0, clubCountry: "Jordan", position: "Defender",
     goals: 0, age: 28, shirtNumber: null, club: "Al-Faisaly",
-    wikipediaTitle: "Anas Badawi"
-  },
+    wikipediaTitle: "Anas Badawi",
+    imageUrl: "https://img.sofascore.com/api/v1/player/2239188/image"},
 
   // ── Midfielders ───────────────────────────────────────────────
   {
@@ -129,8 +129,8 @@ window.PUZZLES = [
     aliases: ["Sadeh"], nationality: "Jordan",
     caps: 55, clubCountry: "Iraq", position: "Midfielder",
     goals: 3, age: 26, shirtNumber: null, club: "Al-Karma",
-    wikipediaTitle: "Ibrahim Sadeh"
-  },
+    wikipediaTitle: "Ibrahim Sadeh",
+    imageUrl: "https://img.sofascore.com/api/v1/player/997817/image"},
   {
     id: "jor-abu-hashish", answer: "Mohammad Abu Hashish",
     aliases: ["Abu Hashish"], nationality: "Jordan",
@@ -152,8 +152,8 @@ window.PUZZLES = [
     aliases: ["Abu Taha"], nationality: "Jordan",
     caps: 27, clubCountry: "Iraq", position: "Midfielder",
     goals: 1, age: 23, shirtNumber: null, club: "Al-Quwa Al-Jawiya",
-    wikipediaTitle: "Mohannad Abu Taha"
-  },
+    wikipediaTitle: "Mohannad Abu Taha",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1114775/image"},
   {
     id: "jor-jamous", answer: "Amer Jamous",
     aliases: ["Jamous"], nationality: "Jordan",
@@ -167,22 +167,22 @@ window.PUZZLES = [
     aliases: ["Al-Dawoud", "Al Dawoud"], nationality: "Jordan",
     caps: 11, clubCountry: "Jordan", position: "Midfielder",
     goals: 1, age: 33, shirtNumber: null, club: "Al-Wehdat",
-    wikipediaTitle: "Mohammad Al-Dawoud"
-  },
+    wikipediaTitle: "Mohammad Al-Dawoud",
+    imageUrl: "https://img.sofascore.com/api/v1/player/786034/image"},
   {
     id: "jor-qashi", answer: "Yousef Qashi",
     aliases: ["Qashi"], nationality: "Jordan",
     caps: 0, clubCountry: "Jordan", position: "Midfielder",
     goals: 0, age: 21, shirtNumber: null, club: "Al-Hussein",
-    wikipediaTitle: "Yousef Qashi"
-  },
+    wikipediaTitle: "Yousef Qashi",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1403019/image"},
   {
     id: "jor-taha", answer: "Mohammad Taha",
     aliases: ["Taha"], nationality: "Jordan",
     caps: 0, clubCountry: "Jordan", position: "Midfielder",
     goals: 0, age: 20, shirtNumber: null, club: "Al-Hussein",
-    wikipediaTitle: "Mohammad Taha (footballer)"
-  },
+    wikipediaTitle: "Mohammad Taha (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/2048339/image"},
 
   // ── Forwards ──────────────────────────────────────────────────
   {
@@ -238,8 +238,8 @@ window.PUZZLES = [
     aliases: ["Azaizeh"], nationality: "Jordan",
     caps: 2, clubCountry: "Saudi Arabia", position: "Forward",
     goals: 0, age: 22, shirtNumber: null, club: "Al-Shabab",
-    wikipediaTitle: "Ali Azaizeh"
-  },
+    wikipediaTitle: "Ali Azaizeh",
+    imageUrl: "https://img.sofascore.com/api/v1/player/2048169/image"},
 ];
 
 // Preliminary 30 — stars first

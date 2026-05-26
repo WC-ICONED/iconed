@@ -69,15 +69,15 @@ window.PUZZLES = [
     aliases: ["Seck"], nationality: "Senegal",
     caps: 21, clubCountry: "Israel", position: "Defender",
     goals: 4, age: 34, shirtNumber: null, club: "Maccabi Haifa",
-    wikipediaTitle: "Abdoulaye Seck (footballer)"
-  },
+    wikipediaTitle: "Abdoulaye Seck (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/583896/image"},
   {
     id: "sen-mh-diouf", answer: "El Hadji Malick Diouf",
     aliases: ["Malick Diouf", "El Hadji Diouf"], nationality: "Senegal",
     caps: 18, clubCountry: "England", position: "Defender",
     goals: 1, age: 21, shirtNumber: null, club: "West Ham United",
-    wikipediaTitle: "El Hadji Malick Diouf"
-  },
+    wikipediaTitle: "El Hadji Malick Diouf",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1471764/image"},
   {
     id: "sen-a-mendy", answer: "Antoine Mendy",
     aliases: ["Mendy"], nationality: "Senegal",
@@ -99,15 +99,15 @@ window.PUZZLES = [
     aliases: ["Camara"], nationality: "Senegal",
     caps: 3, clubCountry: "Belgium", position: "Defender",
     goals: 0, age: 23, shirtNumber: null, club: "Anderlecht",
-    wikipediaTitle: "Ilay Camara"
-  },
+    wikipediaTitle: "Ilay Camara",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1397747/image"},
   {
     id: "sen-mbow", answer: "Moustapha Mbow",
     aliases: ["Mbow"], nationality: "Senegal",
     caps: 0, clubCountry: "France", position: "Defender",
     goals: 0, age: 26, shirtNumber: null, club: "Paris FC",
-    wikipediaTitle: "Moustapha Mbow"
-  },
+    wikipediaTitle: "Moustapha Mbow",
+    imageUrl: "https://img.sofascore.com/api/v1/player/982319/image"},
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
@@ -139,8 +139,8 @@ window.PUZZLES = [
     aliases: ["Pathe Ciss", "Ciss"], nationality: "Senegal",
     caps: 29, clubCountry: "Spain", position: "Midfielder",
     goals: 0, age: 32, shirtNumber: null, club: "Rayo Vallecano",
-    wikipediaTitle: "Pathé Ciss"
-  },
+    wikipediaTitle: "Pathé Ciss",
+    imageUrl: "https://img.sofascore.com/api/v1/player/913679/image"},
   {
     id: "sen-l-camara", answer: "Lamine Camara",
     aliases: ["Camara"], nationality: "Senegal",
@@ -162,8 +162,8 @@ window.PUZZLES = [
     aliases: ["Bara Ndiaye", "Ndiaye"], nationality: "Senegal",
     caps: 0, clubCountry: "Germany", position: "Midfielder",
     goals: 0, age: 18, shirtNumber: null, club: "Bayern Munich",
-    wikipediaTitle: "Bara Sapoko Ndiaye"
-  },
+    wikipediaTitle: "Bara Sapoko Ndiaye",
+    imageUrl: "https://img.sofascore.com/api/v1/player/2427970/image"},
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
@@ -227,8 +227,8 @@ window.PUZZLES = [
     aliases: ["Diao"], nationality: "Senegal",
     caps: 4, clubCountry: "Italy", position: "Forward",
     goals: 0, age: 20, shirtNumber: null, club: "Como",
-    wikipediaTitle: "Assane Diao"
-  },
+    wikipediaTitle: "Assane Diao",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1493689/image"},
 
 ];
 

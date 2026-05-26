@@ -78,8 +78,8 @@ window.PUZZLES = [
     aliases: ["Sigur"], nationality: "Canada",
     caps: 17, clubCountry: "Croatia", position: "Defender",
     goals: 2, age: 22, shirtNumber: null, club: "Hajduk Split",
-    wikipediaTitle: "Niko Sigur"
-  },
+    wikipediaTitle: "Niko Sigur",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1411145/image"},
   {
     id: "can-waterman", answer: "Joel Waterman",
     aliases: ["Waterman"], nationality: "Canada",
@@ -93,8 +93,8 @@ window.PUZZLES = [
     aliases: ["de Fougerolles"], nationality: "Canada",
     caps: 11, clubCountry: "Belgium", position: "Defender",
     goals: 0, age: 20, shirtNumber: null, club: "Dender",
-    wikipediaTitle: "Luc de Fougerolles"
-  },
+    wikipediaTitle: "Luc de Fougerolles",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1413129/image"},
   {
     id: "can-bassong", answer: "Zorhan Bassong",
     aliases: ["Bassong"], nationality: "Canada",
@@ -108,15 +108,15 @@ window.PUZZLES = [
     aliases: ["Knight-Lebel"], nationality: "Canada",
     caps: 3, clubCountry: "England", position: "Defender",
     goals: 0, age: 21, shirtNumber: null, club: "Swindon Town",
-    wikipediaTitle: "Jamie Knight-Lebel"
-  },
+    wikipediaTitle: "Jamie Knight-Lebel",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1384002/image"},
   {
     id: "can-priso", answer: "Ralph Priso",
     aliases: ["Priso"], nationality: "Canada",
     caps: 2, clubCountry: "Canada", position: "Defender",
     goals: 0, age: 23, shirtNumber: null, club: "Vancouver Whitecaps",
-    wikipediaTitle: "Ralph Priso"
-  },
+    wikipediaTitle: "Ralph Priso",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1002266/image"},
   {
     id: "can-jones", answer: "Alfie Jones",
     aliases: ["Jones"], nationality: "Canada",
@@ -180,15 +180,15 @@ window.PUZZLES = [
     aliases: [], nationality: "Canada",
     caps: 24, clubCountry: "England", position: "Midfielder",
     goals: 1, age: 25, shirtNumber: null, club: "Norwich City",
-    wikipediaTitle: "Ali Ahmed (soccer)"
-  },
+    wikipediaTitle: "Ali Ahmed (soccer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1464637/image"},
   {
     id: "can-choiniere", answer: "Mathieu Choinière",
     aliases: ["Mathieu Choiniere"], nationality: "Canada",
     caps: 22, clubCountry: "United States", position: "Midfielder",
     goals: 0, age: 27, shirtNumber: null, club: "Los Angeles FC",
-    wikipediaTitle: "Mathieu Choinière"
-  },
+    wikipediaTitle: "Mathieu Choinière",
+    imageUrl: "https://img.sofascore.com/api/v1/player/937255/image"},
   {
     id: "can-saliba", answer: "Nathan Saliba",
     aliases: ["Saliba"], nationality: "Canada",
@@ -252,8 +252,8 @@ window.PUZZLES = [
     aliases: ["Russell-Rowe"], nationality: "Canada",
     caps: 8, clubCountry: "France", position: "Forward",
     goals: 0, age: 23, shirtNumber: null, club: "Toulouse",
-    wikipediaTitle: "Jacen Russell-Rowe"
-  },
+    wikipediaTitle: "Jacen Russell-Rowe",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1002267/image"},
   {
     id: "can-jebbison", answer: "Daniel Jebbison",
     aliases: ["Jebbison"], nationality: "Canada",

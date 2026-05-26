@@ -27,15 +27,15 @@ window.PUZZLES = [
     aliases: ["Al-Kassar", "Al Kassar"], nationality: "Saudi Arabia",
     caps: 8, clubCountry: "Saudi Arabia", position: "Goalkeeper",
     goals: 0, age: 35, shirtNumber: null, club: "Al-Qadsiah",
-    wikipediaTitle: "Ahmed Al-Kassar"
-  },
+    wikipediaTitle: "Ahmed Al-Kassar",
+    imageUrl: "https://img.sofascore.com/api/v1/player/818749/image"},
   {
     id: "ksa-atiah", answer: "Abdulquddus Atiah",
     aliases: ["Atiah"], nationality: "Saudi Arabia",
     caps: 1, clubCountry: "Saudi Arabia", position: "Goalkeeper",
     goals: 0, age: 29, shirtNumber: null, club: "Al-Taawoun",
-    wikipediaTitle: "Abdulquddus Atiah"
-  },
+    wikipediaTitle: "Abdulquddus Atiah",
+    imageUrl: "https://img.sofascore.com/api/v1/player/925459/image"},
 
   // ── Defenders ─────────────────────────────────────────────────
   {
@@ -51,8 +51,8 @@ window.PUZZLES = [
     aliases: ["Al-Tambakti", "Al Tambakti"], nationality: "Saudi Arabia",
     caps: 50, clubCountry: "Saudi Arabia", position: "Defender",
     goals: 0, age: 27, shirtNumber: null, club: "Al-Hilal",
-    wikipediaTitle: "Hassan Al-Tambakti"
-  },
+    wikipediaTitle: "Hassan Al-Tambakti",
+    imageUrl: "https://img.sofascore.com/api/v1/player/881837/image"},
   {
     id: "ksa-al-amri", answer: "Abdulelah Al-Amri",
     aliases: ["Al-Amri", "Al Amri"], nationality: "Saudi Arabia",
@@ -90,29 +90,29 @@ window.PUZZLES = [
     aliases: ["Kadesh"], nationality: "Saudi Arabia",
     caps: 18, clubCountry: "Saudi Arabia", position: "Defender",
     goals: 2, age: 33, shirtNumber: null, club: "Al-Ittihad",
-    wikipediaTitle: "Hassan Kadesh"
-  },
+    wikipediaTitle: "Hassan Kadesh",
+    imageUrl: "https://img.sofascore.com/api/v1/player/847235/image"},
   {
     id: "ksa-al-harbi", answer: "Moteb Al-Harbi",
     aliases: ["Al-Harbi", "Al Harbi"], nationality: "Saudi Arabia",
     caps: 10, clubCountry: "Saudi Arabia", position: "Defender",
     goals: 0, age: 26, shirtNumber: null, club: "Al-Hilal",
-    wikipediaTitle: "Moteb Al-Harbi"
-  },
+    wikipediaTitle: "Moteb Al-Harbi",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1022679/image"},
   {
     id: "ksa-thakri", answer: "Jehad Thakri",
     aliases: ["Thakri"], nationality: "Saudi Arabia",
     caps: 6, clubCountry: "Saudi Arabia", position: "Defender",
     goals: 0, age: 24, shirtNumber: null, club: "Al-Qadsiah",
-    wikipediaTitle: "Jehad Thakri"
-  },
+    wikipediaTitle: "Jehad Thakri",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1845169/image"},
   {
     id: "ksa-m-abu-shamat", answer: "Mohammed Abu Al-Shamat",
     aliases: ["Abu Al-Shamat", "Abu Alshamat"], nationality: "Saudi Arabia",
     caps: 4, clubCountry: "Saudi Arabia", position: "Defender",
     goals: 0, age: 23, shirtNumber: null, club: "Al-Qadsiah",
-    wikipediaTitle: "Mohammed Abu Al-Shamat"
-  },
+    wikipediaTitle: "Mohammed Abu Al-Shamat",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1804369/image"},
   {
     id: "ksa-hawsawi", answer: "Zakaria Hawsawi",
     aliases: ["Hawsawi"], nationality: "Saudi Arabia",
@@ -160,8 +160,8 @@ window.PUZZLES = [
     aliases: ["Al-Juwayr", "Al Juwayr"], nationality: "Saudi Arabia",
     caps: 32, clubCountry: "Saudi Arabia", position: "Midfielder",
     goals: 6, age: 22, shirtNumber: null, club: "Al-Qadsiah",
-    wikipediaTitle: "Musab Al-Juwayr"
-  },
+    wikipediaTitle: "Musab Al-Juwayr",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1106234/image"},
   {
     id: "ksa-yahya", answer: "Ayman Yahya",
     aliases: ["Yahya"], nationality: "Saudi Arabia",
@@ -183,22 +183,22 @@ window.PUZZLES = [
     aliases: ["Saleh Abu Alshamat", "S. Abu Al-Shamat"], nationality: "Saudi Arabia",
     caps: 10, clubCountry: "Saudi Arabia", position: "Midfielder",
     goals: 2, age: 23, shirtNumber: null, club: "Al-Ahli",
-    wikipediaTitle: "Saleh Abu Al-Shamat"
-  },
+    wikipediaTitle: "Saleh Abu Al-Shamat",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1429250/image"},
   {
     id: "ksa-mandash", answer: "Sultan Mandash",
     aliases: ["Mandash"], nationality: "Saudi Arabia",
     caps: 4, clubCountry: "Saudi Arabia", position: "Midfielder",
     goals: 0, age: 31, shirtNumber: null, club: "Al-Hilal",
-    wikipediaTitle: "Sultan Mandash"
-  },
+    wikipediaTitle: "Sultan Mandash",
+    imageUrl: "https://img.sofascore.com/api/v1/player/818568/image"},
   {
     id: "ksa-al-hejji", answer: "Alaa Al-Hejji",
     aliases: ["Al-Hejji", "Al Hejji"], nationality: "Saudi Arabia",
     caps: 0, clubCountry: "Saudi Arabia", position: "Midfielder",
     goals: 0, age: 30, shirtNumber: null, club: "Neom",
-    wikipediaTitle: "Alaa Al-Hejji"
-  },
+    wikipediaTitle: "Alaa Al-Hejji",
+    imageUrl: "https://img.sofascore.com/api/v1/player/826242/image"},
 
   // ── Forwards ──────────────────────────────────────────────────
   {
@@ -214,29 +214,29 @@ window.PUZZLES = [
     aliases: ["Al-Shehri", "Al Shehri"], nationality: "Saudi Arabia",
     caps: 55, clubCountry: "Saudi Arabia", position: "Forward",
     goals: 18, age: 32, shirtNumber: null, club: "Al-Ittihad",
-    wikipediaTitle: "Saleh Al-Shehri"
-  },
+    wikipediaTitle: "Saleh Al-Shehri",
+    imageUrl: "https://img.sofascore.com/api/v1/player/818779/image"},
   {
     id: "ksa-al-hamdan", answer: "Abdullah Al-Hamdan",
     aliases: ["Al-Hamdan", "Al Hamdan"], nationality: "Saudi Arabia",
     caps: 47, clubCountry: "Saudi Arabia", position: "Forward",
     goals: 11, age: 26, shirtNumber: null, club: "Al-Nassr",
-    wikipediaTitle: "Abdullah Al-Hamdan"
-  },
+    wikipediaTitle: "Abdullah Al-Hamdan",
+    imageUrl: "https://img.sofascore.com/api/v1/player/915991/image"},
   {
     id: "ksa-al-ghannam", answer: "Khalid Al-Ghannam",
     aliases: ["Al-Ghannam", "Al Ghannam"], nationality: "Saudi Arabia",
     caps: 4, clubCountry: "Saudi Arabia", position: "Forward",
     goals: 0, age: 25, shirtNumber: null, club: "Al-Ettifaq",
-    wikipediaTitle: "Khalid Al-Ghannam"
-  },
+    wikipediaTitle: "Khalid Al-Ghannam",
+    imageUrl: "https://img.sofascore.com/api/v1/player/976538/image"},
   {
     id: "ksa-al-salem", answer: "Abdullah Al-Salem",
     aliases: ["Al-Salem", "Al Salem"], nationality: "Saudi Arabia",
     caps: 3, clubCountry: "Saudi Arabia", position: "Forward",
     goals: 0, age: 33, shirtNumber: null, club: "Al-Qadsiah",
-    wikipediaTitle: "Abdullah Al-Salem"
-  },
+    wikipediaTitle: "Abdullah Al-Salem",
+    imageUrl: "https://img.sofascore.com/api/v1/player/818674/image"},
 
 ];
 

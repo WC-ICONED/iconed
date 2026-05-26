@@ -25,8 +25,8 @@ window.PUZZLES = [
     aliases: ["Kelly"], nationality: "Scotland",
     caps: 2, clubCountry: "Scotland", position: "Goalkeeper",
     goals: 0, age: 30, shirtNumber: null, club: "Rangers",
-    wikipediaTitle: "Liam Kelly (footballer, born 1996)"
-  },
+    wikipediaTitle: "Liam Kelly (footballer, born 1996)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/287555/image"},
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
@@ -58,22 +58,22 @@ window.PUZZLES = [
     aliases: ["McKenna"], nationality: "Scotland",
     caps: 49, clubCountry: "Croatia", position: "Defender",
     goals: 1, age: 29, shirtNumber: null, club: "Dinamo Zagreb",
-    wikipediaTitle: "Scott McKenna"
-  },
+    wikipediaTitle: "Scott McKenna",
+    imageUrl: "https://img.sofascore.com/api/v1/player/358108/image"},
   {
     id: "sco-hendry", answer: "Jack Hendry",
     aliases: ["Hendry"], nationality: "Scotland",
     caps: 37, clubCountry: "Saudi Arabia", position: "Defender",
     goals: 3, age: 31, shirtNumber: null, club: "Al-Ettifaq",
-    wikipediaTitle: "Jack Hendry"
-  },
+    wikipediaTitle: "Jack Hendry",
+    imageUrl: "https://img.sofascore.com/api/v1/player/795696/image"},
   {
     id: "sco-patterson", answer: "Nathan Patterson",
     aliases: ["Patterson"], nationality: "Scotland",
     caps: 25, clubCountry: "England", position: "Defender",
     goals: 1, age: 24, shirtNumber: null, club: "Everton",
-    wikipediaTitle: "Nathan Patterson"
-  },
+    wikipediaTitle: "Nathan Patterson",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1020141/image"},
   {
     id: "sco-ralston", answer: "Anthony Ralston",
     aliases: ["Ralston"], nationality: "Scotland",
@@ -153,8 +153,8 @@ window.PUZZLES = [
     aliases: ["Ferguson"], nationality: "Scotland",
     caps: 23, clubCountry: "Italy", position: "Midfielder",
     goals: 1, age: 26, shirtNumber: null, club: "Bologna",
-    wikipediaTitle: "Lewis Ferguson (footballer)"
-  },
+    wikipediaTitle: "Lewis Ferguson (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/907152/image"},
   {
     id: "sco-gannon-doak", answer: "Ben Gannon-Doak",
     aliases: ["Ben Doak", "Doak"], nationality: "Scotland",
@@ -202,15 +202,15 @@ window.PUZZLES = [
     aliases: ["Hirst"], nationality: "Scotland",
     caps: 8, clubCountry: "England", position: "Forward",
     goals: 1, age: 27, shirtNumber: null, club: "Ipswich Town",
-    wikipediaTitle: "George Hirst (footballer, born 1999)"
-  },
+    wikipediaTitle: "George Hirst (footballer, born 1999)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/839712/image"},
   {
     id: "sco-stewart", answer: "Ross Stewart",
     aliases: ["Stewart"], nationality: "Scotland",
     caps: 2, clubCountry: "England", position: "Forward",
     goals: 0, age: 29, shirtNumber: null, club: "Southampton",
-    wikipediaTitle: "Ross Stewart (footballer, born 1996)"
-  },
+    wikipediaTitle: "Ross Stewart (footballer, born 1996)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/886117/image"},
 ];
 
 window.PUZZLE_ORDER = [

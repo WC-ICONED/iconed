@@ -9,22 +9,22 @@ window.PUZZLES = [
     aliases: ["Dahmen"], nationality: "Tunisia",
     caps: 37, clubCountry: "Tunisia", position: "Goalkeeper",
     goals: 0, age: 29, shirtNumber: null, club: "CS Sfaxien",
-    wikipediaTitle: "Aymen Dahmen"
-  },
+    wikipediaTitle: "Aymen Dahmen",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1198374/image"},
   {
     id: "tun-ben-hessen", answer: "Sabri Ben Hessen",
     aliases: ["Ben Hessen"], nationality: "Tunisia",
     caps: 2, clubCountry: "Tunisia", position: "Goalkeeper",
     goals: 0, age: 29, shirtNumber: null, club: "Étoile du Sahel",
-    wikipediaTitle: "Sabri Ben Hessen"
-  },
+    wikipediaTitle: "Sabri Ben Hessen",
+    imageUrl: "https://img.sofascore.com/api/v1/player/359312/image"},
   {
     id: "tun-chamakh", answer: "Mouhib Chamakh",
     aliases: ["Chamakh"], nationality: "Tunisia",
     caps: 1, clubCountry: "Tunisia", position: "Goalkeeper",
     goals: 0, age: 24, shirtNumber: null, club: "Club Africain",
-    wikipediaTitle: "Mouhib Chamakh"
-  },
+    wikipediaTitle: "Mouhib Chamakh",
+    imageUrl: "https://img.sofascore.com/api/v1/player/2018130/image"},
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
@@ -48,8 +48,8 @@ window.PUZZLES = [
     aliases: ["Abdi"], nationality: "Tunisia",
     caps: 45, clubCountry: "France", position: "Defender",
     goals: 7, age: 32, shirtNumber: null, club: "Nice",
-    wikipediaTitle: "Ali Abdi (Tunisian footballer)"
-  },
+    wikipediaTitle: "Ali Abdi (Tunisian footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/919027/image"},
   {
     id: "tun-valery", answer: "Yan Valery",
     aliases: ["Valery"], nationality: "Tunisia",
@@ -71,29 +71,29 @@ window.PUZZLES = [
     aliases: ["Neffati"], nationality: "Tunisia",
     caps: 5, clubCountry: "Sweden", position: "Defender",
     goals: 0, age: 21, shirtNumber: null, club: "IFK Norrköping",
-    wikipediaTitle: "Moutaz Neffati"
-  },
+    wikipediaTitle: "Moutaz Neffati",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1391526/image"},
   {
     id: "tun-rekik", answer: "Omar Rekik",
     aliases: ["Rekik"], nationality: "Tunisia",
     caps: 4, clubCountry: "Slovenia", position: "Defender",
     goals: 0, age: 24, shirtNumber: null, club: "Maribor",
-    wikipediaTitle: "Omar Rekik"
-  },
+    wikipediaTitle: "Omar Rekik",
+    imageUrl: "https://img.sofascore.com/api/v1/player/976251/image"},
   {
     id: "tun-arous", answer: "Adem Arous",
     aliases: ["Arous"], nationality: "Tunisia",
     caps: 1, clubCountry: "Turkey", position: "Defender",
     goals: 0, age: 21, shirtNumber: null, club: "Kasımpaşa",
-    wikipediaTitle: "Adem Arous"
-  },
+    wikipediaTitle: "Adem Arous",
+    imageUrl: "https://img.sofascore.com/api/v1/player/2018238/image"},
   {
     id: "tun-chikhaoui", answer: "Raed Chikhaoui",
     aliases: ["Chikhaoui"], nationality: "Tunisia",
     caps: 0, clubCountry: "Tunisia", position: "Defender",
     goals: 0, age: 22, shirtNumber: null, club: "US Monastir",
-    wikipediaTitle: "Raed Chikhaoui"
-  },
+    wikipediaTitle: "Raed Chikhaoui",
+    imageUrl: "https://img.sofascore.com/api/v1/player/2018330/image"},
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
@@ -141,8 +141,8 @@ window.PUZZLES = [
     aliases: ["Mahmoud"], nationality: "Tunisia",
     caps: 7, clubCountry: "Switzerland", position: "Midfielder",
     goals: 0, age: 26, shirtNumber: null, club: "Lugano",
-    wikipediaTitle: "Hadj Mahmoud (footballer)"
-  },
+    wikipediaTitle: "Hadj Mahmoud (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1008597/image"},
   {
     id: "tun-khedira", answer: "Rani Khedira",
     aliases: ["Khedira"], nationality: "Tunisia",
@@ -166,8 +166,8 @@ window.PUZZLES = [
     aliases: ["Chaouat"], nationality: "Tunisia",
     caps: 28, clubCountry: "Tunisia", position: "Forward",
     goals: 6, age: 30, shirtNumber: null, club: "Club Africain",
-    wikipediaTitle: "Firas Chaouat"
-  },
+    wikipediaTitle: "Firas Chaouat",
+    imageUrl: "https://img.sofascore.com/api/v1/player/919198/image"},
   {
     id: "tun-mastouri", answer: "Hazem Mastouri",
     aliases: ["Mastouri"], nationality: "Tunisia",
@@ -189,22 +189,22 @@ window.PUZZLES = [
     aliases: ["Tounekti"], nationality: "Tunisia",
     caps: 10, clubCountry: "Scotland", position: "Forward",
     goals: 1, age: 23, shirtNumber: null, club: "Celtic",
-    wikipediaTitle: "Sebastian Tounekti"
-  },
+    wikipediaTitle: "Sebastian Tounekti",
+    imageUrl: "https://img.sofascore.com/api/v1/player/957143/image"},
   {
     id: "tun-ayari", answer: "Khalil Ayari",
     aliases: ["Ayari"], nationality: "Tunisia",
     caps: 2, clubCountry: "France", position: "Forward",
     goals: 0, age: 21, shirtNumber: null, club: "Paris Saint-Germain",
-    wikipediaTitle: "Khalil Ayari"
-  },
+    wikipediaTitle: "Khalil Ayari",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1606568/image"},
   {
     id: "tun-elloumi", answer: "Rayan Elloumi",
     aliases: ["Elloumi"], nationality: "Tunisia",
     caps: 2, clubCountry: "Canada", position: "Forward",
     goals: 0, age: 18, shirtNumber: null, club: "Vancouver Whitecaps FC",
-    wikipediaTitle: "Rayan Elloumi"
-  },
+    wikipediaTitle: "Rayan Elloumi",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1872950/image"},
 ];
 
 window.PUZZLE_ORDER = [

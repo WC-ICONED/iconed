@@ -25,8 +25,8 @@ window.PUZZLES = [
     aliases: ["Pandur"], nationality: "Croatia",
     caps: 0, clubCountry: "England", position: "Goalkeeper",
     goals: 0, age: 26, shirtNumber: null, club: "Hull City",
-    wikipediaTitle: "Ivor Pandur"
-  },
+    wikipediaTitle: "Ivor Pandur",
+    imageUrl: "https://img.sofascore.com/api/v1/player/943212/image"},
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
@@ -82,8 +82,8 @@ window.PUZZLES = [
     aliases: ["Vušković", "Vuskovic"], nationality: "Croatia",
     caps: 4, clubCountry: "Germany", position: "Defender",
     goals: 1, age: 19, shirtNumber: null, club: "Hamburger SV",
-    wikipediaTitle: "Luka Vušković"
-  },
+    wikipediaTitle: "Luka Vušković",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1405212/image"},
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
@@ -163,8 +163,8 @@ window.PUZZLES = [
     aliases: ["Fruk"], nationality: "Croatia",
     caps: 7, clubCountry: "Croatia", position: "Midfielder",
     goals: 1, age: 25, shirtNumber: null, club: "Rijeka",
-    wikipediaTitle: "Toni Fruk"
-  },
+    wikipediaTitle: "Toni Fruk",
+    imageUrl: "https://img.sofascore.com/api/v1/player/916183/image"},
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
@@ -212,8 +212,8 @@ window.PUZZLES = [
     aliases: ["Matanović", "Matanovic"], nationality: "Croatia",
     caps: 8, clubCountry: "Germany", position: "Forward",
     goals: 2, age: 23, shirtNumber: null, club: "SC Freiburg",
-    wikipediaTitle: "Igor Matanović"
-  },
+    wikipediaTitle: "Igor Matanović",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1019321/image"},
 ];
 
 window.PUZZLE_ORDER = [

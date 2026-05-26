@@ -85,8 +85,8 @@ window.PUZZLES = [
     aliases: ["Abdullaev"], nationality: "Uzbekistan",
     caps: 16, clubCountry: "UAE", position: "Defender",
     goals: 0, age: 28, shirtNumber: null, club: "Dibba",
-    wikipediaTitle: "Abdulla Abdullaev (footballer)"
-  },
+    wikipediaTitle: "Abdulla Abdullaev (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/954524/image"},
   {
     id: "uzb-karimov", answer: "Bekhruz Karimov",
     aliases: ["Karimov"], nationality: "Uzbekistan",
@@ -150,15 +150,15 @@ window.PUZZLES = [
     aliases: ["Ganiev"], nationality: "Uzbekistan",
     caps: 18, clubCountry: "UAE", position: "Midfielder",
     goals: 0, age: 28, shirtNumber: null, club: "Al Bataeh",
-    wikipediaTitle: "Azizjon Ganiev"
-  },
+    wikipediaTitle: "Azizjon Ganiev",
+    imageUrl: "https://img.sofascore.com/api/v1/player/793857/image"},
   {
     id: "uzb-jaloliddinov", answer: "Jasurbek Jaloliddinov",
     aliases: ["Jaloliddinov"], nationality: "Uzbekistan",
     caps: 1, clubCountry: "Uzbekistan", position: "Midfielder",
     goals: 0, age: 24, shirtNumber: null, club: "Sogdiana",
-    wikipediaTitle: "Jasurbek Jaloliddinov"
-  },
+    wikipediaTitle: "Jasurbek Jaloliddinov",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1016148/image"},
   {
     id: "uzb-rakhmonaliev", answer: "Umarali Rakhmonaliev",
     aliases: ["Rakhmonaliev"], nationality: "Uzbekistan",

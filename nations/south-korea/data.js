@@ -37,8 +37,8 @@ window.PUZZLES = [
     aliases: [], nationality: "South Korea",
     caps: 77, clubCountry: "Germany", position: "Defender",
     goals: 4, age: 29, shirtNumber: null, club: "Bayern Munich",
-    wikipediaTitle: "Kim Min-jae"
-  },
+    wikipediaTitle: "Kim Min-jae",
+    imageUrl: "https://img.sofascore.com/api/v1/player/896569/image"},
   {
     id: "kor-kim-moon-hwan", answer: "Kim Moon-hwan",
     aliases: [], nationality: "South Korea",
@@ -76,15 +76,15 @@ window.PUZZLES = [
     aliases: [], nationality: "South Korea",
     caps: 12, clubCountry: "China", position: "Defender",
     goals: 1, age: 30, shirtNumber: null, club: "Zhejiang FC",
-    wikipediaTitle: "Park Jin-seob"
-  },
+    wikipediaTitle: "Park Jin-seob",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1026069/image"},
   {
     id: "kor-kim-tae-hyeon", answer: "Kim Tae-hyeon",
     aliases: [], nationality: "South Korea",
     caps: 7, clubCountry: "Japan", position: "Defender",
     goals: 0, age: 25, shirtNumber: null, club: "Kashima Antlers",
-    wikipediaTitle: "Kim Tae-hyeon"
-  },
+    wikipediaTitle: "Kim Tae-hyeon",
+    imageUrl: "https://img.sofascore.com/api/v1/player/976203/image"},
   {
     id: "kor-lee-han-beom", answer: "Lee Han-beom",
     aliases: [], nationality: "South Korea",
@@ -98,15 +98,15 @@ window.PUZZLES = [
     aliases: [], nationality: "South Korea",
     caps: 5, clubCountry: "Germany", position: "Defender",
     goals: 0, age: 22, shirtNumber: null, club: "Borussia Mönchengladbach",
-    wikipediaTitle: "Jens Castrop"
-  },
+    wikipediaTitle: "Jens Castrop",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1019312/image"},
   {
     id: "kor-lee-ki-hyuk", answer: "Lee Ki-hyuk",
     aliases: [], nationality: "South Korea",
     caps: 1, clubCountry: "South Korea", position: "Defender",
     goals: 0, age: 25, shirtNumber: null, club: "Gangwon FC",
-    wikipediaTitle: "Lee Ki-hyuk"
-  },
+    wikipediaTitle: "Lee Ki-hyuk",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1103520/image"},
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
@@ -154,8 +154,8 @@ window.PUZZLES = [
     aliases: [], nationality: "South Korea",
     caps: 20, clubCountry: "South Korea", position: "Midfielder",
     goals: 3, age: 29, shirtNumber: null, club: "Jeonbuk Hyundai Motors",
-    wikipediaTitle: "Kim Jin-gyu"
-  },
+    wikipediaTitle: "Kim Jin-gyu",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1009476/image"},
   {
     id: "kor-lee-dong-gyeong", answer: "Lee Dong-gyeong",
     aliases: [], nationality: "South Korea",

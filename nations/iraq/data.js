@@ -27,15 +27,15 @@ window.PUZZLES = [
     aliases: ["Basil"], nationality: "Iraq",
     caps: 14, clubCountry: "Iraq", position: "Goalkeeper",
     goals: 0, age: 29, shirtNumber: null, club: "Al-Shorta",
-    wikipediaTitle: "Ahmed Basil"
-  },
+    wikipediaTitle: "Ahmed Basil",
+    imageUrl: "https://img.sofascore.com/api/v1/player/888896/image"},
   {
     id: "irq-al-rekabe", answer: "Kumel Al-Rekabe",
     aliases: ["Al-Rekabe", "Al Rekabe"], nationality: "Iraq",
     caps: 0, clubCountry: "Iraq", position: "Goalkeeper",
     goals: 0, age: 21, shirtNumber: null, club: "Erbil",
-    wikipediaTitle: "Kumel Al-Rekabe"
-  },
+    wikipediaTitle: "Kumel Al-Rekabe",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1500415/image"},
 
   // ── Defenders ─────────────────────────────────────────────────
   {
@@ -51,8 +51,8 @@ window.PUZZLES = [
     aliases: ["Younis"], nationality: "Iraq",
     caps: 31, clubCountry: "Iraq", position: "Defender",
     goals: 1, age: 29, shirtNumber: null, club: "Al-Shorta",
-    wikipediaTitle: "Manaf Younis"
-  },
+    wikipediaTitle: "Manaf Younis",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1176558/image"},
   {
     id: "irq-doski", answer: "Merchas Doski",
     aliases: ["Doski"], nationality: "Iraq",
@@ -74,22 +74,22 @@ window.PUZZLES = [
     aliases: ["Tahseen"], nationality: "Iraq",
     caps: 25, clubCountry: "Uzbekistan", position: "Defender",
     goals: 1, age: 25, shirtNumber: null, club: "Pakhtakor",
-    wikipediaTitle: "Zaid Tahseen"
-  },
+    wikipediaTitle: "Zaid Tahseen",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1150051/image"},
   {
     id: "irq-putros", answer: "Frans Putros",
     aliases: ["Putros"], nationality: "Iraq",
     caps: 25, clubCountry: "Indonesia", position: "Defender",
     goals: 0, age: 32, shirtNumber: null, club: "Persib",
-    wikipediaTitle: "Frans Putros"
-  },
+    wikipediaTitle: "Frans Putros",
+    imageUrl: "https://img.sofascore.com/api/v1/player/851676/image"},
   {
     id: "irq-jabbar", answer: "Maitham Jabbar",
     aliases: ["Jabbar"], nationality: "Iraq",
     caps: 19, clubCountry: "Iraq", position: "Defender",
     goals: 0, age: 25, shirtNumber: null, club: "Al-Zawraa",
-    wikipediaTitle: "Maitham Jabbar"
-  },
+    wikipediaTitle: "Maitham Jabbar",
+    imageUrl: "https://img.sofascore.com/api/v1/player/906078/image"},
   {
     id: "irq-a-yahya", answer: "Ahmed Yahya",
     aliases: ["Yahya"], nationality: "Iraq",
@@ -103,29 +103,29 @@ window.PUZZLES = [
     aliases: ["Saadoon"], nationality: "Iraq",
     caps: 14, clubCountry: "Iraq", position: "Defender",
     goals: 0, age: 25, shirtNumber: null, club: "Al-Shorta",
-    wikipediaTitle: "Mustafa Saadoon"
-  },
+    wikipediaTitle: "Mustafa Saadoon",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1500435/image"},
   {
     id: "irq-hashim", answer: "Akam Hashim",
     aliases: ["Hashim"], nationality: "Iraq",
     caps: 11, clubCountry: "Iraq", position: "Defender",
     goals: 1, age: 27, shirtNumber: null, club: "Al-Zawraa",
-    wikipediaTitle: "Akam Hashim"
-  },
+    wikipediaTitle: "Akam Hashim",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1631451/image"},
   {
     id: "irq-maknzi", answer: "Ahmed Maknzi",
     aliases: ["Maknzi"], nationality: "Iraq",
     caps: 5, clubCountry: "Iraq", position: "Defender",
     goals: 0, age: 24, shirtNumber: null, club: "Al-Karma",
-    wikipediaTitle: "Ahmed Maknzi"
-  },
+    wikipediaTitle: "Ahmed Maknzi",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1381227/image"},
   {
     id: "irq-naamo", answer: "Dario Naamo",
     aliases: ["Naamo"], nationality: "Iraq",
     caps: 0, clubCountry: "Scotland", position: "Defender",
     goals: 0, age: 20, shirtNumber: null, club: "Dundee United",
-    wikipediaTitle: "Dario Naamo"
-  },
+    wikipediaTitle: "Dario Naamo",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1385140/image"},
 
   // ── Midfielders ───────────────────────────────────────────────
   {
@@ -133,8 +133,8 @@ window.PUZZLES = [
     aliases: ["Bayesh"], nationality: "Iraq",
     caps: 74, clubCountry: "UAE", position: "Midfielder",
     goals: 8, age: 26, shirtNumber: null, club: "Al-Dhafra",
-    wikipediaTitle: "Ibrahim Bayesh"
-  },
+    wikipediaTitle: "Ibrahim Bayesh",
+    imageUrl: "https://img.sofascore.com/api/v1/player/920815/image"},
   {
     id: "irq-al-ammari", answer: "Amir Al-Ammari",
     aliases: ["Al-Ammari", "Al Ammari"], nationality: "Iraq",
@@ -148,8 +148,8 @@ window.PUZZLES = [
     aliases: ["Jasim"], nationality: "Iraq",
     caps: 35, clubCountry: "Saudi Arabia", position: "Midfielder",
     goals: 2, age: 22, shirtNumber: null, club: "Al-Najma",
-    wikipediaTitle: "Ali Jasim"
-  },
+    wikipediaTitle: "Ali Jasim",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1066729/image"},
   {
     id: "irq-amyn", answer: "Youssef Amyn",
     aliases: ["Amyn"], nationality: "Iraq",
@@ -171,22 +171,22 @@ window.PUZZLES = [
     aliases: ["Abdulkareem"], nationality: "Iraq",
     caps: 21, clubCountry: "Iraq", position: "Midfielder",
     goals: 1, age: 27, shirtNumber: null, club: "Al-Zawraa",
-    wikipediaTitle: "Hasan Abdulkareem"
-  },
+    wikipediaTitle: "Hasan Abdulkareem",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1542533/image"},
   {
     id: "irq-farji", answer: "Marko Farji",
     aliases: ["Farji"], nationality: "Iraq",
     caps: 9, clubCountry: "Italy", position: "Midfielder",
     goals: 0, age: 22, shirtNumber: null, club: "Venezia",
-    wikipediaTitle: "Marko Farji"
-  },
+    wikipediaTitle: "Marko Farji",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1026519/image"},
   {
     id: "irq-nabeel", answer: "Karrar Nabeel",
     aliases: ["Nabeel"], nationality: "Iraq",
     caps: 8, clubCountry: "Iraq", position: "Midfielder",
     goals: 0, age: 28, shirtNumber: null, club: "Al-Zawraa",
-    wikipediaTitle: "Karrar Nabeel"
-  },
+    wikipediaTitle: "Karrar Nabeel",
+    imageUrl: "https://img.sofascore.com/api/v1/player/954095/image"},
   {
     id: "irq-yakob", answer: "Kevin Yakob",
     aliases: ["Yakob"], nationality: "Iraq",
@@ -215,15 +215,15 @@ window.PUZZLES = [
     aliases: ["Gwargis"], nationality: "Iraq",
     caps: 3, clubCountry: "Iraq", position: "Midfielder",
     goals: 0, age: 25, shirtNumber: null, club: "Duhok",
-    wikipediaTitle: "Peter Gwargis"
-  },
+    wikipediaTitle: "Peter Gwargis",
+    imageUrl: "https://img.sofascore.com/api/v1/player/920019/image"},
   {
     id: "irq-nasrawe", answer: "Jussef Nasrawe",
     aliases: ["Nasrawe"], nationality: "Iraq",
     caps: 0, clubCountry: "Austria", position: "Midfielder",
     goals: 0, age: 19, shirtNumber: null, club: "SV Ried",
-    wikipediaTitle: "Jussef Nasrawe"
-  },
+    wikipediaTitle: "Jussef Nasrawe",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1922533/image"},
   {
     id: "irq-qasem", answer: "Ahmed Qasem",
     aliases: ["Qasem"], nationality: "Iraq",
@@ -263,8 +263,8 @@ window.PUZZLES = [
     aliases: ["Yousif"], nationality: "Iraq",
     caps: 5, clubCountry: "Iraq", position: "Forward",
     goals: 0, age: 30, shirtNumber: null, club: "Al-Talaba",
-    wikipediaTitle: "Ali Yousif (Iraqi footballer)"
-  },
+    wikipediaTitle: "Ali Yousif (Iraqi footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1083743/image"},
 ];
 
 // Preliminary 34 — stars first

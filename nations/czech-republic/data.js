@@ -49,8 +49,8 @@ window.PUZZLES = [
     age: 23,
     shirtNumber: null,
     club: "Braga",
-    wikipediaTitle: "Lukáš Horníček"
-  },
+    wikipediaTitle: "Lukáš Horníček",
+    imageUrl: "https://img.sofascore.com/api/v1/player/963744/image"},
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
@@ -140,8 +140,8 @@ window.PUZZLES = [
     age: 25,
     shirtNumber: null,
     club: "Slavia Prague",
-    wikipediaTitle: "David Jurásek"
-  },
+    wikipediaTitle: "David Jurásek",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1030711/image"},
   {
     id: "cze-doudera",
     answer: "David Douděra",
@@ -169,8 +169,8 @@ window.PUZZLES = [
     age: 26,
     shirtNumber: null,
     club: "TSG Hoffenheim",
-    wikipediaTitle: "Robin Hranáč"
-  },
+    wikipediaTitle: "Robin Hranáč",
+    imageUrl: "https://img.sofascore.com/api/v1/player/957615/image"},
   {
     id: "cze-chaloupek",
     answer: "Štěpán Chaloupek",
@@ -183,8 +183,8 @@ window.PUZZLES = [
     age: 23,
     shirtNumber: null,
     club: "Slavia Prague",
-    wikipediaTitle: "Štěpán Chaloupek"
-  },
+    wikipediaTitle: "Štěpán Chaloupek",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1144329/image"},
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
@@ -229,8 +229,8 @@ window.PUZZLES = [
     age: 29,
     shirtNumber: null,
     club: "Slavia Prague",
-    wikipediaTitle: "Lukáš Provod"
-  },
+    wikipediaTitle: "Lukáš Provod",
+    imageUrl: "https://img.sofascore.com/api/v1/player/846122/image"},
   {
     id: "cze-sadilek",
     answer: "Michal Sadílek",
@@ -273,8 +273,8 @@ window.PUZZLES = [
     age: 25,
     shirtNumber: null,
     club: "Viktoria Plzeň",
-    wikipediaTitle: "Lukáš Červ"
-  },
+    wikipediaTitle: "Lukáš Červ",
+    imageUrl: "https://img.sofascore.com/api/v1/player/952114/image"},
   {
     id: "cze-ladra",
     answer: "Tomáš Ladra",
@@ -287,8 +287,8 @@ window.PUZZLES = [
     age: 29,
     shirtNumber: null,
     club: "Viktoria Plzeň",
-    wikipediaTitle: "Tomáš Ladra"
-  },
+    wikipediaTitle: "Tomáš Ladra",
+    imageUrl: "https://img.sofascore.com/api/v1/player/827568/image"},
   {
     id: "cze-bucha",
     answer: "Pavel Bucha",
@@ -316,8 +316,8 @@ window.PUZZLES = [
     age: 18,
     shirtNumber: null,
     club: "Sparta Prague",
-    wikipediaTitle: "Hugo Sochůrek"
-  },
+    wikipediaTitle: "Hugo Sochůrek",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1931626/image"},
   {
     id: "cze-sojka",
     answer: "Alexandr Sojka",
@@ -330,8 +330,8 @@ window.PUZZLES = [
     age: 23,
     shirtNumber: null,
     club: "Viktoria Plzeň",
-    wikipediaTitle: "Alexandr Sojka"
-  },
+    wikipediaTitle: "Alexandr Sojka",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1403491/image"},
   {
     id: "cze-visinsky",
     answer: "Denis Višinský",
@@ -344,8 +344,8 @@ window.PUZZLES = [
     age: 23,
     shirtNumber: null,
     club: "Viktoria Plzeň",
-    wikipediaTitle: "Denis Višinský"
-  },
+    wikipediaTitle: "Denis Višinský",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1088727/image"},
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
@@ -420,8 +420,8 @@ window.PUZZLES = [
     age: 27,
     shirtNumber: null,
     club: "Slavia Prague",
-    wikipediaTitle: "Mojmír Chytil"
-  },
+    wikipediaTitle: "Mojmír Chytil",
+    imageUrl: "https://img.sofascore.com/api/v1/player/826049/image"},
   {
     id: "cze-kabongo",
     answer: "Christophe Kabongo",
@@ -434,8 +434,8 @@ window.PUZZLES = [
     age: 22,
     shirtNumber: null,
     club: "Mladá Boleslav",
-    wikipediaTitle: "Christophe Kabongo"
-  },
+    wikipediaTitle: "Christophe Kabongo",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1065545/image"},
 
 ];
 

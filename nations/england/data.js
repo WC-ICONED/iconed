@@ -75,15 +75,15 @@ window.PUZZLES = [
     aliases: ["Livramento"], nationality: "England",
     caps: 5, clubCountry: "England", position: "Defender",
     goals: 0, age: 23, shirtNumber: null, club: "Newcastle United",
-    wikipediaTitle: "Tino Livramento"
-  },
+    wikipediaTitle: "Tino Livramento",
+    imageUrl: "https://img.sofascore.com/api/v1/player/980634/image"},
   {
     id: "eng-spence", answer: "Djed Spence",
     aliases: ["Spence"], nationality: "England",
     caps: 4, clubCountry: "England", position: "Defender",
     goals: 0, age: 25, shirtNumber: null, club: "Tottenham Hotspur",
-    wikipediaTitle: "Djed Spence"
-  },
+    wikipediaTitle: "Djed Spence",
+    imageUrl: "https://img.sofascore.com/api/v1/player/945798/image"},
   {
     id: "eng-oreilly", answer: "Nico O'Reilly",
     aliases: ["O'Reilly", "OReilly"], nationality: "England",
@@ -139,15 +139,15 @@ window.PUZZLES = [
     aliases: ["Mainoo"], nationality: "England",
     caps: 12, clubCountry: "England", position: "Midfielder",
     goals: 0, age: 21, shirtNumber: null, club: "Manchester United",
-    wikipediaTitle: "Kobbie Mainoo"
-  },
+    wikipediaTitle: "Kobbie Mainoo",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1142175/image"},
   {
     id: "eng-anderson", answer: "Elliot Anderson",
     aliases: ["Anderson"], nationality: "England",
     caps: 7, clubCountry: "England", position: "Midfielder",
     goals: 0, age: 23, shirtNumber: null, club: "Nottingham Forest",
-    wikipediaTitle: "Elliot Anderson (footballer)"
-  },
+    wikipediaTitle: "Elliot Anderson (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/994546/image"},
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
@@ -187,8 +187,8 @@ window.PUZZLES = [
     aliases: ["Gordon"], nationality: "England",
     caps: 17, clubCountry: "England", position: "Forward",
     goals: 2, age: 25, shirtNumber: null, club: "Newcastle United",
-    wikipediaTitle: "Anthony Gordon (English footballer)"
-  },
+    wikipediaTitle: "Anthony Gordon (English footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/914902/image"},
   {
     id: "eng-eze", answer: "Eberechi Eze",
     aliases: ["Eze"], nationality: "England",

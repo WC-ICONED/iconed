@@ -19,15 +19,15 @@ window.PUZZLES = [
     aliases: [], nationality: "Haiti",
     caps: 14, clubCountry: "France", position: "Goalkeeper",
     goals: 0, age: 25, shirtNumber: null, club: "Sochaux",
-    wikipediaTitle: "Alexandre Pierre"
-  },
+    wikipediaTitle: "Alexandre Pierre",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1091596/image"},
   {
     id: "hai-duverger", answer: "Josué Duverger",
     aliases: ["Josue Duverger", "Duverger"], nationality: "Haiti",
     caps: 6, clubCountry: "Germany", position: "Goalkeeper",
     goals: 0, age: 26, shirtNumber: null, club: "Cosmos Koblenz",
-    wikipediaTitle: "Josué Duverger"
-  },
+    wikipediaTitle: "Josué Duverger",
+    imageUrl: "https://img.sofascore.com/api/v1/player/936558/image"},
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
@@ -35,8 +35,8 @@ window.PUZZLES = [
     aliases: ["Ricardo Ade", "Adé", "Ade"], nationality: "Haiti",
     caps: 57, clubCountry: "Ecuador", position: "Defender",
     goals: 2, age: 36, shirtNumber: null, club: "LDU Quito",
-    wikipediaTitle: "Ricardo Adé"
-  },
+    wikipediaTitle: "Ricardo Adé",
+    imageUrl: "https://img.sofascore.com/api/v1/player/839638/image"},
   {
     id: "hai-arcus", answer: "Carlens Arcus",
     aliases: ["Arcus"], nationality: "Haiti",
@@ -50,8 +50,8 @@ window.PUZZLES = [
     aliases: ["Martin Experience", "Expérience", "Experience"], nationality: "Haiti",
     caps: 19, clubCountry: "France", position: "Defender",
     goals: 0, age: 27, shirtNumber: null, club: "Nancy",
-    wikipediaTitle: "Martin Expérience"
-  },
+    wikipediaTitle: "Martin Expérience",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1110369/image"},
   {
     id: "hai-duverne", answer: "Jean-Kévin Duverne",
     aliases: ["Jean-Kevin Duverne", "Duverne"], nationality: "Haiti",
@@ -65,15 +65,15 @@ window.PUZZLES = [
     aliases: ["Lacroix"], nationality: "Haiti",
     caps: 14, clubCountry: "United States", position: "Defender",
     goals: 2, age: 32, shirtNumber: null, club: "Colorado Springs Switchbacks",
-    wikipediaTitle: "Duke Lacroix"
-  },
+    wikipediaTitle: "Duke Lacroix",
+    imageUrl: "https://img.sofascore.com/api/v1/player/884301/image"},
   {
     id: "hai-paugain", answer: "Wilguens Paugain",
     aliases: ["Paugain"], nationality: "Haiti",
     caps: 6, clubCountry: "Belgium", position: "Defender",
     goals: 0, age: 24, shirtNumber: null, club: "Zulte Waregem",
-    wikipediaTitle: "Wilguens Paugain"
-  },
+    wikipediaTitle: "Wilguens Paugain",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1404526/image"},
   {
     id: "hai-delcroix", answer: "Hannes Delcroix",
     aliases: ["Delcroix"], nationality: "Haiti",
@@ -87,8 +87,8 @@ window.PUZZLES = [
     aliases: ["Thermoncy"], nationality: "Haiti",
     caps: 1, clubCountry: "Switzerland", position: "Defender",
     goals: 0, age: 20, shirtNumber: null, club: "Young Boys",
-    wikipediaTitle: "Keeto Thermoncy"
-  },
+    wikipediaTitle: "Keeto Thermoncy",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1544387/image"},
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
@@ -96,8 +96,8 @@ window.PUZZLES = [
     aliases: ["Leverton Pierre"], nationality: "Haiti",
     caps: 33, clubCountry: "Portugal", position: "Midfielder",
     goals: 0, age: 28, shirtNumber: null, club: "Vizela",
-    wikipediaTitle: "Leverton Pierre"
-  },
+    wikipediaTitle: "Leverton Pierre",
+    imageUrl: "https://img.sofascore.com/api/v1/player/912050/image"},
   {
     id: "hai-jean-jacques", answer: "Danley Jean Jacques",
     aliases: ["Jean Jacques"], nationality: "Haiti",
@@ -111,8 +111,8 @@ window.PUZZLES = [
     aliases: ["Carl Sainte", "Sainté", "Sainte"], nationality: "Haiti",
     caps: 25, clubCountry: "United States", position: "Midfielder",
     goals: 0, age: 23, shirtNumber: null, club: "El Paso Locomotive FC",
-    wikipediaTitle: "Carl Sainté"
-  },
+    wikipediaTitle: "Carl Sainté",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1002387/image"},
   {
     id: "hai-bellegarde", answer: "Jean-Ricner Bellegarde",
     aliases: ["Bellegarde"], nationality: "Haiti",
@@ -126,15 +126,15 @@ window.PUZZLES = [
     aliases: [], nationality: "Haiti",
     caps: 1, clubCountry: "Haiti", position: "Midfielder",
     goals: 0, age: 21, shirtNumber: null, club: "Violette",
-    wikipediaTitle: "Woodensky Pierre"
-  },
+    wikipediaTitle: "Woodensky Pierre",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1384367/image"},
   {
     id: "hai-simon", answer: "Dominique Simon",
     aliases: ["Simon"], nationality: "Haiti",
     caps: 0, clubCountry: "Slovakia", position: "Midfielder",
     goals: 0, age: 25, shirtNumber: null, club: "Tatran Prešov",
-    wikipediaTitle: "Dominique Simon"
-  },
+    wikipediaTitle: "Dominique Simon",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1187376/image"},
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
@@ -150,8 +150,8 @@ window.PUZZLES = [
     aliases: ["Pierrot"], nationality: "Haiti",
     caps: 49, clubCountry: "Turkey", position: "Forward",
     goals: 33, age: 31, shirtNumber: null, club: "Çaykur Rizespor",
-    wikipediaTitle: "Frantzdy Pierrot"
-  },
+    wikipediaTitle: "Frantzdy Pierrot",
+    imageUrl: "https://img.sofascore.com/api/v1/player/943278/image"},
   {
     id: "hai-etienne-jr", answer: "Derrick Etienne Jr.",
     aliases: ["Derrick Etienne", "Etienne"], nationality: "Haiti",
@@ -165,29 +165,29 @@ window.PUZZLES = [
     aliases: ["Deedson"], nationality: "Haiti",
     caps: 30, clubCountry: "United States", position: "Forward",
     goals: 10, age: 25, shirtNumber: null, club: "FC Dallas",
-    wikipediaTitle: "Louicius Deedson"
-  },
+    wikipediaTitle: "Louicius Deedson",
+    imageUrl: "https://img.sofascore.com/api/v1/player/991451/image"},
   {
     id: "hai-providence", answer: "Ruben Providence",
     aliases: ["Providence"], nationality: "Haiti",
     caps: 13, clubCountry: "Netherlands", position: "Forward",
     goals: 2, age: 24, shirtNumber: null, club: "Almere City",
-    wikipediaTitle: "Ruben Providence"
-  },
+    wikipediaTitle: "Ruben Providence",
+    imageUrl: "https://img.sofascore.com/api/v1/player/954066/image"},
   {
     id: "hai-casimir", answer: "Josué Casimir",
     aliases: ["Josue Casimir", "Casimir"], nationality: "Haiti",
     caps: 5, clubCountry: "France", position: "Forward",
     goals: 0, age: 24, shirtNumber: null, club: "Auxerre",
-    wikipediaTitle: "Josué Casimir"
-  },
+    wikipediaTitle: "Josué Casimir",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1035986/image"},
   {
     id: "hai-fortune", answer: "Yassin Fortuné",
     aliases: ["Yassin Fortune", "Fortuné", "Fortune"], nationality: "Haiti",
     caps: 3, clubCountry: "Portugal", position: "Forward",
     goals: 0, age: 27, shirtNumber: null, club: "Vizela",
-    wikipediaTitle: "Yassin Fortuné"
-  },
+    wikipediaTitle: "Yassin Fortuné",
+    imageUrl: "https://img.sofascore.com/api/v1/player/826211/image"},
   {
     id: "hai-isidor", answer: "Wilson Isidor",
     aliases: ["Isidor"], nationality: "Haiti",
@@ -201,8 +201,8 @@ window.PUZZLES = [
     aliases: ["Joseph"], nationality: "Haiti",
     caps: 0, clubCountry: "Hungary", position: "Forward",
     goals: 0, age: 25, shirtNumber: null, club: "Ferencváros",
-    wikipediaTitle: "Lenny Joseph"
-  },
+    wikipediaTitle: "Lenny Joseph",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1010126/image"},
 
 ];
 

@@ -17,15 +17,15 @@ window.PUZZLES = [
     aliases: ["Fayulu"], nationality: "DR Congo",
     caps: 3, clubCountry: "Armenia", position: "Goalkeeper",
     goals: 0, age: 26, shirtNumber: null, club: "Noah",
-    wikipediaTitle: "Timothy Fayulu"
-  },
+    wikipediaTitle: "Timothy Fayulu",
+    imageUrl: "https://img.sofascore.com/api/v1/player/927616/image"},
   {
     id: "cod-epolo", answer: "Matthieu Epolo",
     aliases: ["Epolo"], nationality: "DR Congo",
     caps: 1, clubCountry: "Belgium", position: "Goalkeeper",
     goals: 0, age: 21, shirtNumber: null, club: "Standard Liège",
-    wikipediaTitle: "Matthieu Epolo"
-  },
+    wikipediaTitle: "Matthieu Epolo",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1121943/image"},
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
     id: "cod-mbemba", answer: "Chancel Mbemba",
@@ -56,8 +56,8 @@ window.PUZZLES = [
     aliases: ["Joris Kayembe", "J. Kayembe"], nationality: "DR Congo",
     caps: 24, clubCountry: "Belgium", position: "Defender",
     goals: 0, age: 31, shirtNumber: null, club: "Genk",
-    wikipediaTitle: "Joris Kayembe"
-  },
+    wikipediaTitle: "Joris Kayembe",
+    imageUrl: "https://img.sofascore.com/api/v1/player/354046/image"},
   {
     id: "cod-batubinsika", answer: "Dylan Batubinsika",
     aliases: ["Batubinsika"], nationality: "DR Congo",
@@ -87,8 +87,8 @@ window.PUZZLES = [
     aliases: ["Kapuadi"], nationality: "DR Congo",
     caps: 3, clubCountry: "Poland", position: "Defender",
     goals: 0, age: 28, shirtNumber: null, club: "Widzew Łódź",
-    wikipediaTitle: "Steve Kapuadi"
-  },
+    wikipediaTitle: "Steve Kapuadi",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1019957/image"},
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
     id: "cod-moutoussamy", answer: "Samuel Moutoussamy",
@@ -143,15 +143,15 @@ window.PUZZLES = [
     aliases: ["Mukau", "Ngal'ayel Mukau"], nationality: "DR Congo",
     caps: 12, clubCountry: "France", position: "Midfielder",
     goals: 0, age: 21, shirtNumber: null, club: "Lille",
-    wikipediaTitle: "Ngal'ayel Mukau"
-  },
+    wikipediaTitle: "Ngal'ayel Mukau",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1391541/image"},
   {
     id: "cod-cipenga", answer: "Brian Cipenga",
     aliases: ["Cipenga"], nationality: "DR Congo",
     caps: 7, clubCountry: "Spain", position: "Midfielder",
     goals: 0, age: 28, shirtNumber: null, club: "Castellón",
-    wikipediaTitle: "Brian Cipenga"
-  },
+    wikipediaTitle: "Brian Cipenga",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1160969/image"},
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
     id: "cod-bakambu", answer: "Cédric Bakambu",
@@ -182,8 +182,8 @@ window.PUZZLES = [
     aliases: ["Mayele"], nationality: "DR Congo",
     caps: 37, clubCountry: "Egypt", position: "Forward",
     goals: 6, age: 31, shirtNumber: null, club: "Pyramids",
-    wikipediaTitle: "Fiston Mayele"
-  },
+    wikipediaTitle: "Fiston Mayele",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1007556/image"},
   {
     id: "cod-wissa", answer: "Yoane Wissa",
     aliases: ["Wissa"], nationality: "DR Congo",
@@ -197,8 +197,8 @@ window.PUZZLES = [
     aliases: ["Mbuku"], nationality: "DR Congo",
     caps: 17, clubCountry: "France", position: "Forward",
     goals: 2, age: 24, shirtNumber: null, club: "Montpellier",
-    wikipediaTitle: "Nathanaël Mbuku"
-  },
+    wikipediaTitle: "Nathanaël Mbuku",
+    imageUrl: "https://img.sofascore.com/api/v1/player/963399/image"},
   {
     id: "cod-banza", answer: "Simon Banza",
     aliases: ["Banza"], nationality: "DR Congo",

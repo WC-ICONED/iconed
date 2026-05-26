@@ -52,8 +52,8 @@ window.PUZZLES = [
     aliases: ["Santiago Beltran"], nationality: "Argentina",
     caps: 0, clubCountry: "Argentina", position: "Goalkeeper",
     goals: 0, age: 21, shirtNumber: null, club: "River Plate",
-    wikipediaTitle: "Santiago Beltrán"
-  },
+    wikipediaTitle: "Santiago Beltrán",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1485255/image"},
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
@@ -197,8 +197,8 @@ window.PUZZLES = [
     aliases: ["Romero"], nationality: "Argentina",
     caps: 0, clubCountry: "Spain", position: "Defender",
     goals: 0, age: 26, shirtNumber: null, club: "Getafe",
-    wikipediaTitle: "Zaid Romero"
-  },
+    wikipediaTitle: "Zaid Romero",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1108450/image"},
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
@@ -270,8 +270,8 @@ window.PUZZLES = [
     aliases: ["Nicolas Dominguez"], nationality: "Argentina",
     caps: 11, clubCountry: "England", position: "Midfielder",
     goals: 1, age: 27, shirtNumber: null, club: "Nottingham Forest",
-    wikipediaTitle: "Nicolás Domínguez"
-  },
+    wikipediaTitle: "Nicolás Domínguez",
+    imageUrl: "https://img.sofascore.com/api/v1/player/871765/image"},
   {
     id: "arg-g-simeone", answer: "Giuliano Simeone",
     aliases: ["Simeone"], nationality: "Argentina",
@@ -325,8 +325,8 @@ window.PUZZLES = [
     aliases: ["Delgado"], nationality: "Argentina",
     caps: 0, clubCountry: "Argentina", position: "Midfielder",
     goals: 0, age: 20, shirtNumber: null, club: "Boca Juniors",
-    wikipediaTitle: "Milton Delgado"
-  },
+    wikipediaTitle: "Milton Delgado",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1819597/image"},
   {
     id: "arg-equi", answer: "Equi Fernández",
     aliases: ["Equi Fernandez"], nationality: "Argentina",
@@ -340,8 +340,8 @@ window.PUZZLES = [
     aliases: ["Varela"], nationality: "Argentina",
     caps: 0, clubCountry: "Portugal", position: "Midfielder",
     goals: 0, age: 24, shirtNumber: null, club: "Porto",
-    wikipediaTitle: "Alan Varela"
-  },
+    wikipediaTitle: "Alan Varela",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1066560/image"},
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
@@ -405,15 +405,15 @@ window.PUZZLES = [
     aliases: ["Prestianni"], nationality: "Argentina",
     caps: 1, clubCountry: "Portugal", position: "Forward",
     goals: 0, age: 19, shirtNumber: null, club: "Benfica",
-    wikipediaTitle: "Gianluca Prestianni"
-  },
+    wikipediaTitle: "Gianluca Prestianni",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1201395/image"},
   {
     id: "arg-aranda", answer: "Tomás Aranda",
     aliases: ["Tomas Aranda", "Aranda"], nationality: "Argentina",
     caps: 0, clubCountry: "Argentina", position: "Forward",
     goals: 0, age: 18, shirtNumber: null, club: "Boca Juniors",
-    wikipediaTitle: "Tomás Aranda"
-  },
+    wikipediaTitle: "Tomás Aranda",
+    imageUrl: "https://img.sofascore.com/api/v1/player/2050771/image"},
   {
     id: "arg-s-castro", answer: "Santiago Castro",
     aliases: ["Castro"], nationality: "Argentina",
@@ -427,15 +427,15 @@ window.PUZZLES = [
     aliases: ["Echeverri"], nationality: "Argentina",
     caps: 0, clubCountry: "Spain", position: "Forward",
     goals: 0, age: 19, shirtNumber: null, club: "Girona",
-    wikipediaTitle: "Claudio Echeverri"
-  },
+    wikipediaTitle: "Claudio Echeverri",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1482424/image"},
   {
     id: "arg-pellegrino", answer: "Mateo Pellegrino",
     aliases: ["Pellegrino"], nationality: "Argentina",
     caps: 0, clubCountry: "Italy", position: "Forward",
     goals: 0, age: 24, shirtNumber: null, club: "Parma",
-    wikipediaTitle: "Mateo Pellegrino"
-  },
+    wikipediaTitle: "Mateo Pellegrino",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1099296/image"},
   {
     id: "arg-soule", answer: "Matías Soulé",
     aliases: ["Matias Soule", "Soulé"], nationality: "Argentina",

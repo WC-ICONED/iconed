@@ -27,8 +27,8 @@ window.PUZZLES = [
     aliases: ["Bodak"], nationality: "Curaçao",
     caps: 4, clubCountry: "Netherlands", position: "Goalkeeper",
     goals: 0, age: 24, shirtNumber: null, club: "Telstar",
-    wikipediaTitle: "Tyrick Bodak"
-  },
+    wikipediaTitle: "Tyrick Bodak",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1049270/image"},
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
@@ -44,8 +44,8 @@ window.PUZZLES = [
     aliases: ["van Eijma"], nationality: "Curaçao",
     caps: 27, clubCountry: "Netherlands", position: "Defender",
     goals: 1, age: 28, shirtNumber: null, club: "RKC Waalwijk",
-    wikipediaTitle: "Roshon van Eijma"
-  },
+    wikipediaTitle: "Roshon van Eijma",
+    imageUrl: "https://img.sofascore.com/api/v1/player/925930/image"},
   {
     id: "cur-floranus", answer: "Sherel Floranus",
     aliases: ["Floranus"], nationality: "Curaçao",
@@ -67,8 +67,8 @@ window.PUZZLES = [
     aliases: ["Sambo"], nationality: "Curaçao",
     caps: 7, clubCountry: "Netherlands", position: "Defender",
     goals: 0, age: 24, shirtNumber: null, club: "Sparta Rotterdam",
-    wikipediaTitle: "Shurandy Sambo"
-  },
+    wikipediaTitle: "Shurandy Sambo",
+    imageUrl: "https://img.sofascore.com/api/v1/player/916926/image"},
   {
     id: "cur-obispo", answer: "Armando Obispo",
     aliases: ["Obispo"], nationality: "Curaçao",
@@ -90,8 +90,8 @@ window.PUZZLES = [
     aliases: ["Fonville"], nationality: "Curaçao",
     caps: 0, clubCountry: "Netherlands", position: "Defender",
     goals: 0, age: 23, shirtNumber: null, club: "NEC",
-    wikipediaTitle: "Deveron Fonville"
-  },
+    wikipediaTitle: "Deveron Fonville",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1177177/image"},
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
@@ -115,8 +115,8 @@ window.PUZZLES = [
     aliases: ["Roemeratoe"], nationality: "Curaçao",
     caps: 26, clubCountry: "Netherlands", position: "Midfielder",
     goals: 1, age: 26, shirtNumber: null, club: "RKC Waalwijk",
-    wikipediaTitle: "Godfried Roemeratoe"
-  },
+    wikipediaTitle: "Godfried Roemeratoe",
+    imageUrl: "https://img.sofascore.com/api/v1/player/825849/image"},
   {
     id: "cur-felida", answer: "Kevin Felida",
     aliases: ["Felida"], nationality: "Curaçao",
@@ -130,8 +130,8 @@ window.PUZZLES = [
     aliases: ["Comenencia"], nationality: "Curaçao",
     caps: 18, clubCountry: "Switzerland", position: "Midfielder",
     goals: 1, age: 22, shirtNumber: null, club: "Zürich",
-    wikipediaTitle: "Livano Comenencia"
-  },
+    wikipediaTitle: "Livano Comenencia",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1136642/image"},
   {
     id: "cur-martha", answer: "Ar'jany Martha",
     aliases: ["Arjany Martha", "Martha"], nationality: "Curaçao",
@@ -179,15 +179,15 @@ window.PUZZLES = [
     aliases: ["Antonisse"], nationality: "Curaçao",
     caps: 25, clubCountry: "Greece", position: "Forward",
     goals: 3, age: 24, shirtNumber: null, club: "Kifisia",
-    wikipediaTitle: "Jeremy Antonisse"
-  },
+    wikipediaTitle: "Jeremy Antonisse",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1092638/image"},
   {
     id: "cur-margaritha", answer: "Jearl Margaritha",
     aliases: ["Margaritha"], nationality: "Curaçao",
     caps: 21, clubCountry: "Belgium", position: "Forward",
     goals: 5, age: 26, shirtNumber: null, club: "Beveren",
-    wikipediaTitle: "Jearl Margaritha"
-  },
+    wikipediaTitle: "Jearl Margaritha",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1036004/image"},
   {
     id: "cur-locadia", answer: "Jürgen Locadia",
     aliases: ["Jurgen Locadia", "Locadia"], nationality: "Curaçao",

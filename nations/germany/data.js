@@ -83,8 +83,8 @@ window.PUZZLES = [
     aliases: ["Brown"], nationality: "Germany",
     caps: 3, clubCountry: "Germany", position: "Defender",
     goals: 0, age: 22, shirtNumber: null, club: "Eintracht Frankfurt",
-    wikipediaTitle: "Nathaniel Brown (footballer, born 2003)"
-  },
+    wikipediaTitle: "Nathaniel Brown (footballer, born 2003)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1159759/image"},
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
@@ -148,8 +148,8 @@ window.PUZZLES = [
     aliases: ["Pavlović", "Pavlovic"], nationality: "Germany",
     caps: 9, clubCountry: "Germany", position: "Midfielder",
     goals: 1, age: 22, shirtNumber: null, club: "Bayern Munich",
-    wikipediaTitle: "Aleksandar Pavlović"
-  },
+    wikipediaTitle: "Aleksandar Pavlović",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1142251/image"},
   {
     id: "ger-stiller", answer: "Angelo Stiller",
     aliases: ["Stiller"], nationality: "Germany",
@@ -179,8 +179,8 @@ window.PUZZLES = [
     aliases: ["Karl"], nationality: "Germany",
     caps: 2, clubCountry: "Germany", position: "Midfielder",
     goals: 0, age: 18, shirtNumber: null, club: "Bayern Munich",
-    wikipediaTitle: "Lennart Karl"
-  },
+    wikipediaTitle: "Lennart Karl",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1861975/image"},
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
@@ -196,8 +196,8 @@ window.PUZZLES = [
     aliases: ["Woltemade"], nationality: "Germany",
     caps: 10, clubCountry: "England", position: "Forward",
     goals: 4, age: 24, shirtNumber: null, club: "Newcastle United",
-    wikipediaTitle: "Nick Woltemade"
-  },
+    wikipediaTitle: "Nick Woltemade",
+    imageUrl: "https://img.sofascore.com/api/v1/player/980623/image"},
   {
     id: "ger-undav", answer: "Deniz Undav",
     aliases: ["Undav"], nationality: "Germany",

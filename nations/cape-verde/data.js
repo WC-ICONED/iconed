@@ -9,8 +9,8 @@ window.PUZZLES = [
     aliases: [], nationality: "Cape Verde",
     caps: 85, clubCountry: "Portugal", position: "Goalkeeper",
     goals: 0, age: 40, shirtNumber: null, club: "Chaves",
-    wikipediaTitle: "Vozinha"
-  },
+    wikipediaTitle: "Vozinha",
+    imageUrl: "https://img.sofascore.com/api/v1/player/307436/image"},
   {
     id: "cpv-rosa", answer: "Márcio Rosa",
     aliases: ["Rosa"], nationality: "Cape Verde",
@@ -42,22 +42,22 @@ window.PUZZLES = [
     aliases: ["Lopes"], nationality: "Cape Verde",
     caps: 44, clubCountry: "Ireland", position: "Defender",
     goals: 0, age: 33, shirtNumber: null, club: "Shamrock Rovers",
-    wikipediaTitle: "Roberto Lopes (footballer)"
-  },
+    wikipediaTitle: "Roberto Lopes (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/147138/image"},
   {
     id: "cpv-joao-paulo", answer: "João Paulo",
     aliases: [], nationality: "Cape Verde",
     caps: 40, clubCountry: "Romania", position: "Defender",
     goals: 1, age: 28, shirtNumber: null, club: "FCSB",
-    wikipediaTitle: "João Paulo (Cape Verdean footballer)"
-  },
+    wikipediaTitle: "João Paulo (Cape Verdean footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1627776/image"},
   {
     id: "cpv-diney", answer: "Diney",
     aliases: [], nationality: "Cape Verde",
     caps: 29, clubCountry: "United Arab Emirates", position: "Defender",
     goals: 2, age: 31, shirtNumber: null, club: "Al Bataeh",
-    wikipediaTitle: "Diney"
-  },
+    wikipediaTitle: "Diney",
+    imageUrl: "https://img.sofascore.com/api/v1/player/784677/image"},
   {
     id: "cpv-l-costa", answer: "Logan Costa",
     aliases: ["Costa"], nationality: "Cape Verde",
@@ -79,22 +79,22 @@ window.PUZZLES = [
     aliases: ["W. Pina"], nationality: "Cape Verde",
     caps: 12, clubCountry: "Turkey", position: "Defender",
     goals: 0, age: 23, shirtNumber: null, club: "Trabzonspor",
-    wikipediaTitle: "Wagner Pina"
-  },
+    wikipediaTitle: "Wagner Pina",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1513625/image"},
   {
     id: "cpv-cabral-s", answer: "Sidny Lopes Cabral",
     aliases: ["Sidny Cabral"], nationality: "Cape Verde",
     caps: 8, clubCountry: "Portugal", position: "Defender",
     goals: 3, age: 22, shirtNumber: null, club: "Benfica",
-    wikipediaTitle: "Sidny Lopes Cabral"
-  },
+    wikipediaTitle: "Sidny Lopes Cabral",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1117723/image"},
   {
     id: "cpv-k-pires", answer: "Kelvin Pires",
     aliases: ["Pires"], nationality: "Cape Verde",
     caps: 4, clubCountry: "Finland", position: "Defender",
     goals: 1, age: 26, shirtNumber: null, club: "SJK",
-    wikipediaTitle: "Kelvin Pires (footballer)"
-  },
+    wikipediaTitle: "Kelvin Pires (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1048591/image"},
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
@@ -110,8 +110,8 @@ window.PUZZLES = [
     aliases: ["K. Pina"], nationality: "Cape Verde",
     caps: 30, clubCountry: "Russia", position: "Midfielder",
     goals: 2, age: 29, shirtNumber: null, club: "Krasnodar",
-    wikipediaTitle: "Kevin Pina"
-  },
+    wikipediaTitle: "Kevin Pina",
+    imageUrl: "https://img.sofascore.com/api/v1/player/906838/image"},
   {
     id: "cpv-deroy-duarte", answer: "Deroy Duarte",
     aliases: ["D. Duarte"], nationality: "Cape Verde",
@@ -125,22 +125,22 @@ window.PUZZLES = [
     aliases: ["Arcanjo"], nationality: "Cape Verde",
     caps: 14, clubCountry: "Portugal", position: "Midfielder",
     goals: 1, age: 24, shirtNumber: null, club: "Vitória de Guimarães",
-    wikipediaTitle: "Telmo Arcanjo"
-  },
+    wikipediaTitle: "Telmo Arcanjo",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1035280/image"},
   {
     id: "cpv-laros-duarte", answer: "Laros Duarte",
     aliases: ["L. Duarte"], nationality: "Cape Verde",
     caps: 12, clubCountry: "Hungary", position: "Midfielder",
     goals: 0, age: 29, shirtNumber: null, club: "Puskás Akadémia",
-    wikipediaTitle: "Laros Duarte"
-  },
+    wikipediaTitle: "Laros Duarte",
+    imageUrl: "https://img.sofascore.com/api/v1/player/798177/image"},
   {
     id: "cpv-y-semedo", answer: "Yannick Semedo",
     aliases: ["Y. Semedo"], nationality: "Cape Verde",
     caps: 10, clubCountry: "Portugal", position: "Midfielder",
     goals: 1, age: 30, shirtNumber: null, club: "Farense",
-    wikipediaTitle: "Yannick Semedo"
-  },
+    wikipediaTitle: "Yannick Semedo",
+    imageUrl: "https://img.sofascore.com/api/v1/player/818064/image"},
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
@@ -188,15 +188,15 @@ window.PUZZLES = [
     aliases: ["Livramento"], nationality: "Cape Verde",
     caps: 20, clubCountry: "Portugal", position: "Forward",
     goals: 7, age: 25, shirtNumber: null, club: "Casa Pia",
-    wikipediaTitle: "Dailon Livramento"
-  },
+    wikipediaTitle: "Dailon Livramento",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1155358/image"},
   {
     id: "cpv-varela", answer: "Hélio Varela",
     aliases: ["Varela"], nationality: "Cape Verde",
     caps: 19, clubCountry: "Israel", position: "Forward",
     goals: 0, age: 24, shirtNumber: null, club: "Maccabi Tel Aviv",
-    wikipediaTitle: "Hélio Varela (footballer)"
-  },
+    wikipediaTitle: "Hélio Varela (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1094395/image"},
   {
     id: "cpv-da-costa", answer: "Nuno da Costa",
     aliases: ["da Costa"], nationality: "Cape Verde",

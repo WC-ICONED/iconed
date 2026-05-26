@@ -27,8 +27,8 @@ window.PUZZLES = [
     aliases: [], nationality: "Japan",
     caps: 3, clubCountry: "Japan", position: "Goalkeeper",
     goals: 0, age: 27, shirtNumber: null, club: "Kashima Antlers",
-    wikipediaTitle: "Tomoki Hayakawa"
-  },
+    wikipediaTitle: "Tomoki Hayakawa",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1100230/image"},
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
@@ -68,8 +68,8 @@ window.PUZZLES = [
     aliases: ["Hiroki Ito"], nationality: "Japan",
     caps: 23, clubCountry: "Germany", position: "Defender",
     goals: 1, age: 27, shirtNumber: null, club: "Bayern Munich",
-    wikipediaTitle: "Hiroki Itō"
-  },
+    wikipediaTitle: "Hiroki Itō",
+    imageUrl: "https://img.sofascore.com/api/v1/player/873106/image"},
   {
     id: "jpn-sugawara", answer: "Yukinari Sugawara",
     aliases: [], nationality: "Japan",
@@ -83,22 +83,22 @@ window.PUZZLES = [
     aliases: [], nationality: "Japan",
     caps: 13, clubCountry: "France", position: "Defender",
     goals: 0, age: 26, shirtNumber: null, club: "Le Havre",
-    wikipediaTitle: "Ayumu Seko"
-  },
+    wikipediaTitle: "Ayumu Seko",
+    imageUrl: "https://img.sofascore.com/api/v1/player/873221/image"},
   {
     id: "jpn-watanabe", answer: "Tsuyoshi Watanabe",
     aliases: [], nationality: "Japan",
     caps: 10, clubCountry: "Netherlands", position: "Defender",
     goals: 0, age: 29, shirtNumber: null, club: "Feyenoord",
-    wikipediaTitle: "Tsuyoshi Watanabe (footballer, born 1997)"
-  },
+    wikipediaTitle: "Tsuyoshi Watanabe (footballer, born 1997)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/942213/image"},
   {
     id: "jpn-j-suzuki", answer: "Junnosuke Suzuki",
     aliases: [], nationality: "Japan",
     caps: 6, clubCountry: "Denmark", position: "Defender",
     goals: 0, age: 22, shirtNumber: null, club: "Copenhagen",
-    wikipediaTitle: "Junnosuke Suzuki"
-  },
+    wikipediaTitle: "Junnosuke Suzuki",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1171902/image"},
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
@@ -188,8 +188,8 @@ window.PUZZLES = [
     aliases: ["Koki Ogawa"], nationality: "Japan",
     caps: 14, clubCountry: "Netherlands", position: "Forward",
     goals: 10, age: 28, shirtNumber: null, club: "NEC",
-    wikipediaTitle: "Kōki Ogawa"
-  },
+    wikipediaTitle: "Kōki Ogawa",
+    imageUrl: "https://img.sofascore.com/api/v1/player/831860/image"},
   {
     id: "jpn-y-suzuki", answer: "Yuito Suzuki",
     aliases: [], nationality: "Japan",
@@ -203,15 +203,15 @@ window.PUZZLES = [
     aliases: ["Keisuke Goto"], nationality: "Japan",
     caps: 3, clubCountry: "Belgium", position: "Forward",
     goals: 0, age: 21, shirtNumber: null, club: "Sint-Truiden",
-    wikipediaTitle: "Keisuke Gotō"
-  },
+    wikipediaTitle: "Keisuke Gotō",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1391315/image"},
   {
     id: "jpn-shiogai", answer: "Kento Shiogai",
     aliases: [], nationality: "Japan",
     caps: 1, clubCountry: "Germany", position: "Forward",
     goals: 0, age: 21, shirtNumber: null, club: "VfL Wolfsburg",
-    wikipediaTitle: "Kento Shiogai"
-  },
+    wikipediaTitle: "Kento Shiogai",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1499696/image"},
 
 ];
 

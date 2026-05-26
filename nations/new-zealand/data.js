@@ -36,8 +36,8 @@ window.PUZZLES = [
     aliases: [], nationality: "New Zealand",
     caps: 49, clubCountry: "New Zealand", position: "Defender",
     goals: 3, age: 32, shirtNumber: 2, club: "Wellington Phoenix",
-    wikipediaTitle: "Tim Payne (footballer)"
-  },
+    wikipediaTitle: "Tim Payne (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/155882/image"},
   {
     id: "nzl-de-vries", answer: "Francis de Vries",
     aliases: [], nationality: "New Zealand",
@@ -51,8 +51,8 @@ window.PUZZLES = [
     aliases: [], nationality: "New Zealand",
     caps: 23, clubCountry: "England", position: "Defender",
     goals: 3, age: 21, shirtNumber: 4, club: "Sheffield United",
-    wikipediaTitle: "Tyler Bindon"
-  },
+    wikipediaTitle: "Tyler Bindon",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1514870/image"},
   {
     id: "nzl-boxall", answer: "Michael Boxall",
     aliases: [], nationality: "New Zealand",
@@ -74,8 +74,8 @@ window.PUZZLES = [
     aliases: [], nationality: "New Zealand",
     caps: 23, clubCountry: "New Zealand", position: "Defender",
     goals: 0, age: 27, shirtNumber: 15, club: "Auckland FC",
-    wikipediaTitle: "Nando Pijnaker"
-  },
+    wikipediaTitle: "Nando Pijnaker",
+    imageUrl: "https://img.sofascore.com/api/v1/player/982371/image"},
   {
     id: "nzl-surman", answer: "Finn Surman",
     aliases: [], nationality: "New Zealand",
@@ -97,8 +97,8 @@ window.PUZZLES = [
     aliases: [], nationality: "New Zealand",
     caps: 56, clubCountry: "England", position: "Defender",
     goals: 2, age: 36, shirtNumber: 26, club: "Braintree Town",
-    wikipediaTitle: "Tommy Smith (New Zealand footballer)"
-  },
+    wikipediaTitle: "Tommy Smith (New Zealand footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/38111/image"},
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
@@ -106,15 +106,15 @@ window.PUZZLES = [
     aliases: [], nationality: "New Zealand",
     caps: 31, clubCountry: "Norway", position: "Midfielder",
     goals: 1, age: 27, shirtNumber: 6, club: "Viking",
-    wikipediaTitle: "Joe Bell (New Zealand footballer)"
-  },
+    wikipediaTitle: "Joe Bell (New Zealand footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/822749/image"},
   {
     id: "nzl-garbett", answer: "Matthew Garbett",
     aliases: [], nationality: "New Zealand",
     caps: 35, clubCountry: "England", position: "Midfielder",
     goals: 5, age: 24, shirtNumber: 7, club: "Peterborough United",
-    wikipediaTitle: "Matthew Garbett"
-  },
+    wikipediaTitle: "Matthew Garbett",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1002607/image"},
   {
     id: "nzl-stamenic", answer: "Marko Stamenić",
     aliases: ["Marko Stamenic"], nationality: "New Zealand",
@@ -168,8 +168,8 @@ window.PUZZLES = [
     aliases: [], nationality: "New Zealand",
     caps: 25, clubCountry: "Netherlands", position: "Midfielder",
     goals: 3, age: 31, shirtNumber: 23, club: "PEC Zwolle",
-    wikipediaTitle: "Ryan Thomas (New Zealand footballer)"
-  },
+    wikipediaTitle: "Ryan Thomas (New Zealand footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/333571/image"},
   {
     id: "nzl-bayliss", answer: "Lachlan Bayliss",
     aliases: [], nationality: "New Zealand",
@@ -209,8 +209,8 @@ window.PUZZLES = [
     aliases: [], nationality: "New Zealand",
     caps: 9, clubCountry: "New Zealand", position: "Forward",
     goals: 2, age: 23, shirtNumber: 21, club: "Auckland FC",
-    wikipediaTitle: "Jesse Randall (footballer)"
-  },
+    wikipediaTitle: "Jesse Randall (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1002506/image"},
 
 ];
 

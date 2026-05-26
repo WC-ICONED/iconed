@@ -27,15 +27,15 @@ window.PUZZLES = [
     aliases: ["Hosseini"], nationality: "Iran",
     caps: 13, clubCountry: "Iran", position: "Goalkeeper",
     goals: 0, age: 33, shirtNumber: null, club: "Sepahan",
-    wikipediaTitle: "Hossein Hosseini (footballer)"
-  },
+    wikipediaTitle: "Hossein Hosseini (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/328769/image"},
   {
     id: "irn-khalife", answer: "Mohammad Khalife",
     aliases: ["Khalife"], nationality: "Iran",
     caps: 0, clubCountry: "Iran", position: "Goalkeeper",
     goals: 0, age: 21, shirtNumber: null, club: "Aluminium Arak",
-    wikipediaTitle: "Mohammad Khalife"
-  },
+    wikipediaTitle: "Mohammad Khalife",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1464886/image"},
 
   // ── Defenders ─────────────────────────────────────────────────
   {
@@ -107,8 +107,8 @@ window.PUZZLES = [
     aliases: ["Eiri"], nationality: "Iran",
     caps: 0, clubCountry: "Iran", position: "Defender",
     goals: 0, age: 22, shirtNumber: null, club: "Malavan",
-    wikipediaTitle: "Danial Eiri"
-  },
+    wikipediaTitle: "Danial Eiri",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1464876/image"},
 
   // ── Midfielders ───────────────────────────────────────────────
   {
@@ -180,15 +180,15 @@ window.PUZZLES = [
     aliases: ["Razzaghinia"], nationality: "Iran",
     caps: 2, clubCountry: "Iran", position: "Midfielder",
     goals: 0, age: 20, shirtNumber: null, club: "Esteghlal",
-    wikipediaTitle: "Amirmohammad Razzaghinia"
-  },
+    wikipediaTitle: "Amirmohammad Razzaghinia",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1500737/image"},
   {
     id: "irn-habibinejad", answer: "Hadi Habibinejad",
     aliases: ["Habibinejad"], nationality: "Iran",
     caps: 0, clubCountry: "Iran", position: "Midfielder",
     goals: 0, age: 30, shirtNumber: null, club: "Chadormalou",
-    wikipediaTitle: "Hadi Habibinejad"
-  },
+    wikipediaTitle: "Hadi Habibinejad",
+    imageUrl: "https://img.sofascore.com/api/v1/player/791473/image"},
 
   // ── Forwards ──────────────────────────────────────────────────
   {
@@ -236,8 +236,8 @@ window.PUZZLES = [
     aliases: ["Mahmoudi"], nationality: "Iran",
     caps: 1, clubCountry: "Iran", position: "Forward",
     goals: 0, age: 19, shirtNumber: null, club: "Persepolis",
-    wikipediaTitle: "Amirhossein Mahmoudi"
-  },
+    wikipediaTitle: "Amirhossein Mahmoudi",
+    imageUrl: "https://img.sofascore.com/api/v1/player/2195590/image"},
   {
     id: "irn-eckert", answer: "Dennis Eckert",
     aliases: ["Eckert", "Dennis Eckert Ayensa"], nationality: "Iran",

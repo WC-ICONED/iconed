@@ -52,8 +52,8 @@ window.PUZZLES = [
     aliases: ["Padilla"], nationality: "Mexico",
     caps: 0, clubCountry: "Spain", position: "Goalkeeper",
     goals: 0, age: 22, shirtNumber: null, club: "Athletic Bilbao",
-    wikipediaTitle: "Alex Padilla (footballer)"
-  },
+    wikipediaTitle: "Alex Padilla (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1155116/image"},
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
@@ -101,8 +101,8 @@ window.PUZZLES = [
     aliases: ["Jesús Angulo", "Jesus Angulo"], nationality: "Mexico",
     caps: 19, clubCountry: "Mexico", position: "Defender",
     goals: 0, age: 28, shirtNumber: null, club: "UANL",
-    wikipediaTitle: "Jesús Alberto Angulo"
-  },
+    wikipediaTitle: "Jesús Alberto Angulo",
+    imageUrl: "https://img.sofascore.com/api/v1/player/869277/image"},
   {
     id: "mex-araujo", answer: "Julián Araujo",
     aliases: ["Julian Araujo", "Araujo"], nationality: "Mexico",
@@ -132,29 +132,29 @@ window.PUZZLES = [
     aliases: ["Ledezma"], nationality: "Mexico",
     caps: 3, clubCountry: "Mexico", position: "Defender",
     goals: 1, age: 25, shirtNumber: null, club: "Guadalajara",
-    wikipediaTitle: "Richard Ledezma"
-  },
+    wikipediaTitle: "Richard Ledezma",
+    imageUrl: "https://img.sofascore.com/api/v1/player/985176/image"},
   {
     id: "mex-e-lopez", answer: "Everardo López",
     aliases: ["Everardo Lopez", "López"], nationality: "Mexico",
     caps: 3, clubCountry: "Mexico", position: "Defender",
     goals: 0, age: 21, shirtNumber: null, club: "Toluca",
-    wikipediaTitle: "Everardo López"
-  },
+    wikipediaTitle: "Everardo López",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1199256/image"},
   {
     id: "mex-a-gomez", answer: "Alejandro Gómez",
     aliases: ["Alejandro Gomez"], nationality: "Mexico",
     caps: 2, clubCountry: "Mexico", position: "Defender",
     goals: 0, age: 24, shirtNumber: null, club: "Tijuana",
-    wikipediaTitle: "Alejandro Gómez (Mexican footballer)"
-  },
+    wikipediaTitle: "Alejandro Gómez (Mexican footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1003078/image"},
   {
     id: "mex-b-gonzalez", answer: "Bryan González",
     aliases: ["Bryan Gonzalez"], nationality: "Mexico",
     caps: 2, clubCountry: "Mexico", position: "Defender",
     goals: 0, age: 23, shirtNumber: null, club: "Guadalajara",
-    wikipediaTitle: "Bryan González (Mexican footballer)"
-  },
+    wikipediaTitle: "Bryan González (Mexican footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1002384/image"},
   {
     id: "mex-juarez", answer: "Ramón Juárez",
     aliases: ["Ramon Juarez", "Juárez", "Juarez"], nationality: "Mexico",
@@ -282,29 +282,29 @@ window.PUZZLES = [
     aliases: ["Vargas"], nationality: "Mexico",
     caps: 5, clubCountry: "Spain", position: "Midfielder",
     goals: 0, age: 20, shirtNumber: null, club: "Atlético Madrid",
-    wikipediaTitle: "Obed Vargas"
-  },
+    wikipediaTitle: "Obed Vargas",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1119345/image"},
   {
     id: "mex-jr-angulo", answer: "Jesús Ricardo Angulo",
     aliases: ["Jesús R. Angulo"], nationality: "Mexico",
     caps: 3, clubCountry: "Mexico", position: "Midfielder",
     goals: 1, age: 29, shirtNumber: null, club: "Toluca",
-    wikipediaTitle: "Jesús Ricardo Angulo"
-  },
+    wikipediaTitle: "Jesús Ricardo Angulo",
+    imageUrl: "https://img.sofascore.com/api/v1/player/829624/image"},
   {
     id: "mex-castaneda", answer: "Kevin Castañeda",
     aliases: ["Kevin Castaneda", "Castañeda"], nationality: "Mexico",
     caps: 3, clubCountry: "Mexico", position: "Midfielder",
     goals: 0, age: 26, shirtNumber: null, club: "Tijuana",
-    wikipediaTitle: "Kevin Castañeda"
-  },
+    wikipediaTitle: "Kevin Castañeda",
+    imageUrl: "https://img.sofascore.com/api/v1/player/942708/image"},
   {
     id: "mex-carrillo", answer: "Jordán Carrillo",
     aliases: ["Jordan Carrillo", "Carrillo"], nationality: "Mexico",
     caps: 2, clubCountry: "Mexico", position: "Midfielder",
     goals: 0, age: 24, shirtNumber: null, club: "UNAM",
-    wikipediaTitle: "Jordán Carrillo"
-  },
+    wikipediaTitle: "Jordán Carrillo",
+    imageUrl: "https://img.sofascore.com/api/v1/player/944637/image"},
   {
     id: "mex-fidalgo", answer: "Álvaro Fidalgo",
     aliases: ["Alvaro Fidalgo", "Fidalgo"], nationality: "Mexico",
@@ -326,8 +326,8 @@ window.PUZZLES = [
     aliases: ["Alexei Dominguez", "Domínguez"], nationality: "Mexico",
     caps: 0, clubCountry: "Mexico", position: "Midfielder",
     goals: 0, age: 21, shirtNumber: null, club: "Pachuca",
-    wikipediaTitle: "Alexéi Domínguez"
-  },
+    wikipediaTitle: "Alexéi Domínguez",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1510870/image"},
   {
     id: "mex-marquez", answer: "Jeremy Márquez",
     aliases: ["Jeremy Marquez", "Márquez"], nationality: "Mexico",
@@ -341,8 +341,8 @@ window.PUZZLES = [
     aliases: ["Elias Montiel", "Montiel"], nationality: "Mexico",
     caps: 0, clubCountry: "Mexico", position: "Midfielder",
     goals: 0, age: 20, shirtNumber: null, club: "Pachuca",
-    wikipediaTitle: "Elías Montiel"
-  },
+    wikipediaTitle: "Elías Montiel",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1503702/image"},
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {

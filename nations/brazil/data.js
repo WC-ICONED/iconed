@@ -77,8 +77,8 @@ window.PUZZLES = [
     aliases: ["Wesley França"], nationality: "Brazil",
     caps: 6, clubCountry: "Italy", position: "Defender",
     goals: 0, age: 22, shirtNumber: null, club: "Roma",
-    wikipediaTitle: "Wesley França"
-  },
+    wikipediaTitle: "Wesley França",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1134200/image"},
   {
     id: "bra-roger-ibanez", answer: "Roger Ibañez",
     aliases: ["Roger Ibanez"], nationality: "Brazil",
@@ -100,8 +100,8 @@ window.PUZZLES = [
     aliases: ["Leo Pereira"], nationality: "Brazil",
     caps: 2, clubCountry: "Brazil", position: "Defender",
     goals: 0, age: 29, shirtNumber: null, club: "Flamengo",
-    wikipediaTitle: "Léo Pereira (footballer, born 1996)"
-  },
+    wikipediaTitle: "Léo Pereira (footballer, born 1996)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/358548/image"},
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {

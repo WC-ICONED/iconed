@@ -25,8 +25,8 @@ window.PUZZLES = [
     aliases: ["Penders"], nationality: "Belgium",
     caps: 0, clubCountry: "France", position: "Goalkeeper",
     goals: 0, age: 20, shirtNumber: null, club: "Strasbourg",
-    wikipediaTitle: "Mike Penders"
-  },
+    wikipediaTitle: "Mike Penders",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1149148/image"},
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
@@ -98,8 +98,8 @@ window.PUZZLES = [
     aliases: ["Ngoy"], nationality: "Belgium",
     caps: 2, clubCountry: "France", position: "Defender",
     goals: 0, age: 23, shirtNumber: null, club: "Lille",
-    wikipediaTitle: "Nathan Ngoy"
-  },
+    wikipediaTitle: "Nathan Ngoy",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1119487/image"},
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {

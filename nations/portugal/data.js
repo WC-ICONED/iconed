@@ -25,8 +25,8 @@ window.PUZZLES = [
     aliases: ["Silva"], nationality: "Portugal",
     caps: 2, clubCountry: "Portugal", position: "Goalkeeper",
     goals: 0, age: 32, shirtNumber: null, club: "Sporting CP",
-    wikipediaTitle: "Rui Silva (Portuguese footballer)"
-  },
+    wikipediaTitle: "Rui Silva (Portuguese footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/253809/image"},
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
     id: "por-dias", answer: "Rúben Dias",
@@ -130,8 +130,8 @@ window.PUZZLES = [
     aliases: [], nationality: "Portugal",
     caps: 37, clubCountry: "France", position: "Midfielder",
     goals: 0, age: 26, shirtNumber: null, club: "Paris Saint-Germain",
-    wikipediaTitle: "Vitinha"
-  },
+    wikipediaTitle: "Vitinha",
+    imageUrl: "https://img.sofascore.com/api/v1/player/902029/image"},
   {
     id: "por-j-neves", answer: "João Neves",
     aliases: ["Joao Neves", "Neves"], nationality: "Portugal",

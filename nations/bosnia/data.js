@@ -17,8 +17,8 @@ window.PUZZLES = [
     aliases: ["Zlomislić", "Zlomslic"], nationality: "Bosnia and Herzegovina",
     caps: 2, clubCountry: "Croatia", position: "Goalkeeper",
     goals: 0, age: 27, shirtNumber: null, club: "Rijeka",
-    wikipediaTitle: "Martin Zlomislić"
-  },
+    wikipediaTitle: "Martin Zlomislić",
+    imageUrl: "https://img.sofascore.com/api/v1/player/885719/image"},
   {
     id: "bih-hadzikic-o", answer: "Osman Hadžikić",
     aliases: ["Hadžikić", "Hadzikic", "O. Hadžikić"], nationality: "Bosnia and Herzegovina",
@@ -65,22 +65,22 @@ window.PUZZLES = [
     aliases: ["Muharemović", "Muharemovic"], nationality: "Bosnia and Herzegovina",
     caps: 12, clubCountry: "Italy", position: "Defender",
     goals: 1, age: 23, shirtNumber: null, club: "Sassuolo",
-    wikipediaTitle: "Tarik Muharemović"
-  },
+    wikipediaTitle: "Tarik Muharemović",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1118177/image"},
   {
     id: "bih-mujakic", answer: "Nihad Mujakić",
     aliases: ["Mujakić", "Mujakic"], nationality: "Bosnia and Herzegovina",
     caps: 10, clubCountry: "Turkey", position: "Defender",
     goals: 1, age: 28, shirtNumber: null, club: "Gaziantep",
-    wikipediaTitle: "Nihad Mujakić"
-  },
+    wikipediaTitle: "Nihad Mujakić",
+    imageUrl: "https://img.sofascore.com/api/v1/player/858004/image"},
   {
     id: "bih-radeljic", answer: "Stjepan Radeljić",
     aliases: ["Radeljić", "Radeljic"], nationality: "Bosnia and Herzegovina",
     caps: 4, clubCountry: "Croatia", position: "Defender",
     goals: 0, age: 28, shirtNumber: null, club: "Rijeka",
-    wikipediaTitle: "Stjepan Radeljić"
-  },
+    wikipediaTitle: "Stjepan Radeljić",
+    imageUrl: "https://img.sofascore.com/api/v1/player/843746/image"},
   {
     id: "bih-celik", answer: "Nidal Čelik",
     aliases: ["Čelik", "Celik"], nationality: "Bosnia and Herzegovina",
@@ -135,15 +135,15 @@ window.PUZZLES = [
     aliases: ["Bajraktarević", "Bajraktarevic"], nationality: "Bosnia and Herzegovina",
     caps: 14, clubCountry: "Netherlands", position: "Midfielder",
     goals: 1, age: 21, shirtNumber: null, club: "PSV Eindhoven",
-    wikipediaTitle: "Esmir Bajraktarević"
-  },
+    wikipediaTitle: "Esmir Bajraktarević",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1136110/image"},
   {
     id: "bih-memic", answer: "Amar Memić",
     aliases: ["Memić", "Memic"], nationality: "Bosnia and Herzegovina",
     caps: 11, clubCountry: "Czech Republic", position: "Midfielder",
     goals: 1, age: 25, shirtNumber: null, club: "Viktoria Plzeň",
-    wikipediaTitle: "Amar Memić"
-  },
+    wikipediaTitle: "Amar Memić",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1129610/image"},
   {
     id: "bih-sunjic", answer: "Ivan Šunjić",
     aliases: ["Šunjić", "Sunjic"], nationality: "Bosnia and Herzegovina",
@@ -165,8 +165,8 @@ window.PUZZLES = [
     aliases: ["Mahmić", "Mahmic"], nationality: "Bosnia and Herzegovina",
     caps: 0, clubCountry: "Czech Republic", position: "Midfielder",
     goals: 0, age: 21, shirtNumber: null, club: "Slovan Liberec",
-    wikipediaTitle: "Ermin Mahmić"
-  },
+    wikipediaTitle: "Ermin Mahmić",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1149353/image"},
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
     id: "bih-dzeko", answer: "Edin Džeko",
@@ -181,29 +181,29 @@ window.PUZZLES = [
     aliases: ["Demirović", "Demirovic"], nationality: "Bosnia and Herzegovina",
     caps: 38, clubCountry: "Germany", position: "Forward",
     goals: 4, age: 28, shirtNumber: null, club: "VfB Stuttgart",
-    wikipediaTitle: "Ermedin Demirović"
-  },
+    wikipediaTitle: "Ermedin Demirović",
+    imageUrl: "https://img.sofascore.com/api/v1/player/878081/image"},
   {
     id: "bih-bazdar", answer: "Samed Baždar",
     aliases: ["Baždar", "Bazdar"], nationality: "Bosnia and Herzegovina",
     caps: 11, clubCountry: "Poland", position: "Forward",
     goals: 1, age: 22, shirtNumber: null, club: "Jagiellonia Białystok",
-    wikipediaTitle: "Samed Baždar"
-  },
+    wikipediaTitle: "Samed Baždar",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1100965/image"},
   {
     id: "bih-tabakovic", answer: "Haris Tabaković",
     aliases: ["Tabaković", "Tabakovic"], nationality: "Bosnia and Herzegovina",
     caps: 10, clubCountry: "Germany", position: "Forward",
     goals: 4, age: 31, shirtNumber: null, club: "Borussia Mönchengladbach",
-    wikipediaTitle: "Haris Tabaković"
-  },
+    wikipediaTitle: "Haris Tabaković",
+    imageUrl: "https://img.sofascore.com/api/v1/player/259803/image"},
   {
     id: "bih-lukic", answer: "Jovo Lukić",
     aliases: ["Lukić", "Lukic"], nationality: "Bosnia and Herzegovina",
     caps: 1, clubCountry: "Romania", position: "Forward",
     goals: 0, age: 27, shirtNumber: null, club: "Universitatea Cluj",
-    wikipediaTitle: "Jovo Lukić"
-  },
+    wikipediaTitle: "Jovo Lukić",
+    imageUrl: "https://img.sofascore.com/api/v1/player/927797/image"},
 ];
 
 window.PUZZLE_ORDER = [

@@ -19,22 +19,22 @@ window.PUZZLES = [
     aliases: ["Shobeir"], nationality: "Egypt",
     caps: 7, clubCountry: "Egypt", position: "Goalkeeper",
     goals: 0, age: 26, shirtNumber: null, club: "Al Ahly",
-    wikipediaTitle: "Mostafa Shobeir"
-  },
+    wikipediaTitle: "Mostafa Shobeir",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1048378/image"},
   {
     id: "egy-alaa", answer: "Mohamed Alaa",
     aliases: ["Alaa"], nationality: "Egypt",
     caps: 0, clubCountry: "Egypt", position: "Goalkeeper",
     goals: 0, age: 27, shirtNumber: null, club: "El Gouna",
-    wikipediaTitle: "Mohamed Alaa (goalkeeper)"
-  },
+    wikipediaTitle: "Mohamed Alaa (goalkeeper)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1980828/image"},
   {
     id: "egy-soliman", answer: "El Mahdy Soliman",
     aliases: ["Soliman", "El-Mahdy Soliman"], nationality: "Egypt",
     caps: 0, clubCountry: "Egypt", position: "Goalkeeper",
     goals: 0, age: 39, shirtNumber: null, club: "Zamalek",
-    wikipediaTitle: "El Mahdy Soliman"
-  },
+    wikipediaTitle: "El Mahdy Soliman",
+    imageUrl: "https://img.sofascore.com/api/v1/player/918547/image"},
 
   // ── Defenders ─────────────────────────────────────────────────
   {
@@ -66,8 +66,8 @@ window.PUZZLES = [
     aliases: ["Abou El Fotouh", "Fotouh"], nationality: "Egypt",
     caps: 38, clubCountry: "Egypt", position: "Defender",
     goals: 1, age: 28, shirtNumber: null, club: "Zamalek",
-    wikipediaTitle: "Ahmed Abou El Fotouh"
-  },
+    wikipediaTitle: "Ahmed Abou El Fotouh",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1129602/image"},
   {
     id: "egy-abdelmonem", answer: "Mohamed Abdelmonem",
     aliases: ["Abdelmonem"], nationality: "Egypt",
@@ -105,8 +105,8 @@ window.PUZZLES = [
     aliases: ["Alaa"], nationality: "Egypt",
     caps: 1, clubCountry: "Egypt", position: "Defender",
     goals: 0, age: 24, shirtNumber: null, club: "ZED",
-    wikipediaTitle: "Tarek Alaa"
-  },
+    wikipediaTitle: "Tarek Alaa",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1498642/image"},
 
   // ── Midfielders ───────────────────────────────────────────────
   {
@@ -130,29 +130,29 @@ window.PUZZLES = [
     aliases: ["Lasheen"], nationality: "Egypt",
     caps: 21, clubCountry: "Egypt", position: "Midfielder",
     goals: 0, age: 30, shirtNumber: null, club: "Pyramids",
-    wikipediaTitle: "Mohanad Lasheen"
-  },
+    wikipediaTitle: "Mohanad Lasheen",
+    imageUrl: "https://img.sofascore.com/api/v1/player/918506/image"},
   {
     id: "egy-saber", answer: "Mahmoud Saber",
     aliases: ["Saber"], nationality: "Egypt",
     caps: 14, clubCountry: "Egypt", position: "Midfielder",
     goals: 1, age: 24, shirtNumber: null, club: "ZED",
-    wikipediaTitle: "Mahmoud Saber (footballer)"
-  },
+    wikipediaTitle: "Mahmoud Saber (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1101624/image"},
   {
     id: "egy-emad", answer: "Nabil Emad",
     aliases: ["Emad"], nationality: "Egypt",
     caps: 8, clubCountry: "Saudi Arabia", position: "Midfielder",
     goals: 0, age: 30, shirtNumber: null, club: "Al-Najma",
-    wikipediaTitle: "Nabil Emad"
-  },
+    wikipediaTitle: "Nabil Emad",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1490344/image"},
   {
     id: "egy-ziko", answer: "Mostafa Ziko",
     aliases: ["Ziko"], nationality: "Egypt",
     caps: 0, clubCountry: "Egypt", position: "Midfielder",
     goals: 0, age: 29, shirtNumber: null, club: "Pyramids",
-    wikipediaTitle: "Mostafa Ziko"
-  },
+    wikipediaTitle: "Mostafa Ziko",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1418782/image"},
 
   // ── Forwards ──────────────────────────────────────────────────
   {
@@ -200,22 +200,22 @@ window.PUZZLES = [
     aliases: ["Hassan", "Haissem"], nationality: "Egypt",
     caps: 2, clubCountry: "Spain", position: "Forward",
     goals: 0, age: 24, shirtNumber: null, club: "Oviedo",
-    wikipediaTitle: "Haissem Hassan"
-  },
+    wikipediaTitle: "Haissem Hassan",
+    imageUrl: "https://img.sofascore.com/api/v1/player/942836/image"},
   {
     id: "egy-abdallah", answer: "Aqtay Abdallah",
     aliases: ["Abdallah"], nationality: "Egypt",
     caps: 0, clubCountry: "Egypt", position: "Forward",
     goals: 0, age: 23, shirtNumber: null, club: "ENPPI",
-    wikipediaTitle: "Aqtay Abdallah"
-  },
+    wikipediaTitle: "Aqtay Abdallah",
+    imageUrl: "https://img.sofascore.com/api/v1/player/2200929/image"},
   {
     id: "egy-abdelkarim", answer: "Hamza Abdelkarim",
     aliases: ["Abdelkarim"], nationality: "Egypt",
     caps: 0, clubCountry: "Spain", position: "Forward",
     goals: 0, age: 18, shirtNumber: null, club: "Barcelona B",
-    wikipediaTitle: "Hamza Abdelkarim"
-  },
+    wikipediaTitle: "Hamza Abdelkarim",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1961596/image"},
 ];
 
 // Preliminary 27 — stars first

@@ -28,29 +28,29 @@ window.PUZZLES = [
     aliases: ["Gill"], nationality: "Paraguay",
     caps: 5, clubCountry: "Argentina", position: "Goalkeeper",
     goals: 0, age: 26, shirtNumber: null, club: "San Lorenzo",
-    wikipediaTitle: "Orlando Gill"
-  },
+    wikipediaTitle: "Orlando Gill",
+    imageUrl: "https://img.sofascore.com/api/v1/player/991709/image"},
   {
     id: "par-s-rojas", answer: "Santiago Rojas",
     aliases: ["S. Rojas"], nationality: "Paraguay",
     caps: 2, clubCountry: "Paraguay", position: "Goalkeeper",
     goals: 0, age: 30, shirtNumber: null, club: "Nacional",
-    wikipediaTitle: "Santiago Rojas"
-  },
+    wikipediaTitle: "Santiago Rojas",
+    imageUrl: "https://img.sofascore.com/api/v1/player/871581/image"},
   {
     id: "par-espinola", answer: "Juan Espínola",
     aliases: ["Juan Espinola", "Espínola"], nationality: "Paraguay",
     caps: 1, clubCountry: "Argentina", position: "Goalkeeper",
     goals: 0, age: 31, shirtNumber: null, club: "Barracas Central",
-    wikipediaTitle: "Juan Espínola (footballer, born 1994)"
-  },
+    wikipediaTitle: "Juan Espínola (footballer, born 1994)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/805426/image"},
   {
     id: "par-olveira", answer: "Gastón Olveira",
     aliases: ["Gaston Olveira", "Olveira"], nationality: "Paraguay",
     caps: 1, clubCountry: "Paraguay", position: "Goalkeeper",
     goals: 0, age: 33, shirtNumber: null, club: "Olimpia",
-    wikipediaTitle: "Gastón Olveira"
-  },
+    wikipediaTitle: "Gastón Olveira",
+    imageUrl: "https://img.sofascore.com/api/v1/player/339135/image"},
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
@@ -106,78 +106,78 @@ window.PUZZLES = [
     aliases: ["Gustavo Velazquez", "Velázquez"], nationality: "Paraguay",
     caps: 12, clubCountry: "Paraguay", position: "Defender",
     goals: 1, age: 35, shirtNumber: null, club: "Cerro Porteño",
-    wikipediaTitle: "Gustavo Velázquez"
-  },
+    wikipediaTitle: "Gustavo Velázquez",
+    imageUrl: "https://img.sofascore.com/api/v1/player/805427/image"},
   {
     id: "par-a-benitez", answer: "Alan Benítez",
     aliases: ["Alan Benitez"], nationality: "Paraguay",
     caps: 8, clubCountry: "Paraguay", position: "Defender",
     goals: 0, age: 32, shirtNumber: null, club: "Libertad",
-    wikipediaTitle: "Alan Benítez"
-  },
+    wikipediaTitle: "Alan Benítez",
+    imageUrl: "https://img.sofascore.com/api/v1/player/312824/image"},
   {
     id: "par-sandez", answer: "Agustín Sández",
     aliases: ["Agustin Sandez"], nationality: "Paraguay",
     caps: 5, clubCountry: "Argentina", position: "Defender",
     goals: 0, age: 25, shirtNumber: null, club: "Rosario Central",
-    wikipediaTitle: "Agustín Sández"
-  },
+    wikipediaTitle: "Agustín Sández",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1066556/image"},
   {
     id: "par-gamarra", answer: "Mateo Gamarra",
     aliases: ["Gamarra"], nationality: "Paraguay",
     caps: 3, clubCountry: "Brazil", position: "Defender",
     goals: 0, age: 25, shirtNumber: null, club: "Cruzeiro",
-    wikipediaTitle: "Mateo Gamarra"
-  },
+    wikipediaTitle: "Mateo Gamarra",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1085451/image"},
   {
     id: "par-salcedo", answer: "Saúl Salcedo",
     aliases: ["Saul Salcedo", "Salcedo"], nationality: "Paraguay",
     caps: 2, clubCountry: "Argentina", position: "Defender",
     goals: 0, age: 28, shirtNumber: null, club: "Newell's Old Boys",
-    wikipediaTitle: "Saúl Salcedo"
-  },
+    wikipediaTitle: "Saúl Salcedo",
+    imageUrl: "https://img.sofascore.com/api/v1/player/805134/image"},
   {
     id: "par-canale", answer: "José Canale",
     aliases: ["Jose Canale", "Canale"], nationality: "Paraguay",
     caps: 1, clubCountry: "Argentina", position: "Defender",
     goals: 0, age: 29, shirtNumber: null, club: "Lanús",
-    wikipediaTitle: "José Canale"
-  },
+    wikipediaTitle: "José Canale",
+    imageUrl: "https://img.sofascore.com/api/v1/player/877452/image"},
   {
     id: "par-d-leon", answer: "Diego León",
     aliases: ["Diego Leon"], nationality: "Paraguay",
     caps: 1, clubCountry: "England", position: "Defender",
     goals: 0, age: 19, shirtNumber: null, club: "Manchester United",
-    wikipediaTitle: "Diego León (footballer, born 2007)"
-  },
+    wikipediaTitle: "Diego León (footballer, born 2007)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1900795/image"},
   {
     id: "par-maidana", answer: "Alexandro Maidana",
     aliases: ["Maidana"], nationality: "Paraguay",
     caps: 1, clubCountry: "Argentina", position: "Defender",
     goals: 0, age: 20, shirtNumber: null, club: "Talleres",
-    wikipediaTitle: "Alexandro Maidana"
-  },
+    wikipediaTitle: "Alexandro Maidana",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1546739/image"},
   {
     id: "par-alc-benitez", answer: "Alcides Benítez",
     aliases: ["Alcides Benitez"], nationality: "Paraguay",
     caps: 0, clubCountry: "Argentina", position: "Defender",
     goals: 0, age: 23, shirtNumber: null, club: "Belgrano",
-    wikipediaTitle: "Alcides Benítez"
-  },
+    wikipediaTitle: "Alcides Benítez",
+    imageUrl: "https://img.sofascore.com/api/v1/player/912031/image"},
   {
     id: "par-dejesus", answer: "Ronaldo Dejesús",
     aliases: ["Ronaldo Dejesus"], nationality: "Paraguay",
     caps: 0, clubCountry: "Argentina", position: "Defender",
     goals: 0, age: 25, shirtNumber: null, club: "Lanús",
-    wikipediaTitle: "Ronaldo Dejesús"
-  },
+    wikipediaTitle: "Ronaldo Dejesús",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1095279/image"},
   {
     id: "par-a-nunez", answer: "Alan Núñez",
     aliases: ["Alan Nunez"], nationality: "Paraguay",
     caps: 0, clubCountry: "Paraguay", position: "Defender",
     goals: 0, age: 21, shirtNumber: null, club: "Nacional",
-    wikipediaTitle: "Alan Núñez"
-  },
+    wikipediaTitle: "Alan Núñez",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1116982/image"},
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
@@ -193,8 +193,8 @@ window.PUZZLES = [
     aliases: ["Mathias Villasanti", "Villasanti"], nationality: "Paraguay",
     caps: 51, clubCountry: "Brazil", position: "Midfielder",
     goals: 0, age: 29, shirtNumber: null, club: "Grêmio",
-    wikipediaTitle: "Mathías Villasanti"
-  },
+    wikipediaTitle: "Mathías Villasanti",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1139775/image"},
   {
     id: "par-kaku", answer: "Kaku",
     aliases: [], nationality: "Paraguay",
@@ -232,8 +232,8 @@ window.PUZZLES = [
     aliases: ["Damian Bobadilla", "Bobadilla"], nationality: "Paraguay",
     caps: 19, clubCountry: "Brazil", position: "Midfielder",
     goals: 1, age: 25, shirtNumber: null, club: "São Paulo",
-    wikipediaTitle: "Damián Bobadilla"
-  },
+    wikipediaTitle: "Damián Bobadilla",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1015261/image"},
   {
     id: "par-ojeda", answer: "Braian Ojeda",
     aliases: ["Ojeda"], nationality: "Paraguay",
@@ -263,22 +263,22 @@ window.PUZZLES = [
     aliases: ["Alvaro Campuzano", "Campuzano"], nationality: "Paraguay",
     caps: 4, clubCountry: "Paraguay", position: "Midfielder",
     goals: 0, age: 31, shirtNumber: null, club: "Libertad",
-    wikipediaTitle: "Álvaro Campuzano"
-  },
+    wikipediaTitle: "Álvaro Campuzano",
+    imageUrl: "https://img.sofascore.com/api/v1/player/988862/image"},
   {
     id: "par-d-gonzalez", answer: "Diego González",
     aliases: ["Diego Gonzalez"], nationality: "Paraguay",
     caps: 4, clubCountry: "Mexico", position: "Midfielder",
     goals: 0, age: 23, shirtNumber: null, club: "Atlas",
-    wikipediaTitle: "Diego González (footballer, born 2003)"
-  },
+    wikipediaTitle: "Diego González (footballer, born 2003)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1866651/image"},
   {
     id: "par-cuenca", answer: "Hugo Cuenca",
     aliases: ["Cuenca"], nationality: "Paraguay",
     caps: 3, clubCountry: "Spain", position: "Midfielder",
     goals: 0, age: 21, shirtNumber: null, club: "Burgos",
-    wikipediaTitle: "Hugo Cuenca (footballer)"
-  },
+    wikipediaTitle: "Hugo Cuenca (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1397355/image"},
   {
     id: "par-mauricio", answer: "Maurício",
     aliases: ["Mauricio"], nationality: "Paraguay",
@@ -292,22 +292,22 @@ window.PUZZLES = [
     aliases: ["Romero"], nationality: "Paraguay",
     caps: 2, clubCountry: "Chile", position: "Midfielder",
     goals: 0, age: 23, shirtNumber: null, club: "Universidad de Chile",
-    wikipediaTitle: "Lucas Romero (Paraguayan footballer)"
-  },
+    wikipediaTitle: "Lucas Romero (Paraguayan footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1201172/image"},
   {
     id: "par-enso", answer: "Enso González",
     aliases: ["Enso Gonzalez"], nationality: "Paraguay",
     caps: 0, clubCountry: "England", position: "Midfielder",
     goals: 0, age: 21, shirtNumber: null, club: "Wolverhampton Wanderers",
-    wikipediaTitle: "Enso González"
-  },
+    wikipediaTitle: "Enso González",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1402232/image"},
   {
     id: "par-lezcano", answer: "Rubén Lezcano",
     aliases: ["Ruben Lezcano", "Lezcano"], nationality: "Paraguay",
     caps: 0, clubCountry: "Paraguay", position: "Midfielder",
     goals: 0, age: 22, shirtNumber: null, club: "Olimpia",
-    wikipediaTitle: "Rubén Lezcano"
-  },
+    wikipediaTitle: "Rubén Lezcano",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1393308/image"},
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
@@ -347,8 +347,8 @@ window.PUZZLES = [
     aliases: ["Gabriel Avalos", "Ávalos"], nationality: "Paraguay",
     caps: 22, clubCountry: "Argentina", position: "Forward",
     goals: 2, age: 35, shirtNumber: null, club: "Independiente",
-    wikipediaTitle: "Gabriel Ávalos"
-  },
+    wikipediaTitle: "Gabriel Ávalos",
+    imageUrl: "https://img.sofascore.com/api/v1/player/789453/image"},
   {
     id: "par-c-gonzalez", answer: "Carlos González",
     aliases: ["Carlos Gonzalez"], nationality: "Paraguay",
@@ -362,15 +362,15 @@ window.PUZZLES = [
     aliases: ["Alex Arce", "Arce"], nationality: "Paraguay",
     caps: 14, clubCountry: "Argentina", position: "Forward",
     goals: 1, age: 31, shirtNumber: null, club: "Independiente Rivadavia",
-    wikipediaTitle: "Álex Arce"
-  },
+    wikipediaTitle: "Álex Arce",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1167312/image"},
   {
     id: "par-bareiro", answer: "Adam Bareiro",
     aliases: ["Bareiro"], nationality: "Paraguay",
     caps: 8, clubCountry: "Argentina", position: "Forward",
     goals: 0, age: 30, shirtNumber: null, club: "Boca Juniors",
-    wikipediaTitle: "Adam Bareiro"
-  },
+    wikipediaTitle: "Adam Bareiro",
+    imageUrl: "https://img.sofascore.com/api/v1/player/871580/image"},
   {
     id: "par-melgarejo", answer: "Lorenzo Melgarejo",
     aliases: ["Melgarejo"], nationality: "Paraguay",
@@ -392,36 +392,36 @@ window.PUZZLES = [
     aliases: ["Ronaldo Martinez"], nationality: "Paraguay",
     caps: 4, clubCountry: "Argentina", position: "Forward",
     goals: 0, age: 30, shirtNumber: null, club: "Talleres",
-    wikipediaTitle: "Ronaldo Martínez (footballer)"
-  },
+    wikipediaTitle: "Ronaldo Martínez (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/874452/image"},
   {
     id: "par-caballero", answer: "Gustavo Caballero",
     aliases: ["Caballero"], nationality: "Paraguay",
     caps: 2, clubCountry: "England", position: "Forward",
     goals: 1, age: 25, shirtNumber: null, club: "Portsmouth",
-    wikipediaTitle: "Gustavo Caballero"
-  },
+    wikipediaTitle: "Gustavo Caballero",
+    imageUrl: "https://img.sofascore.com/api/v1/player/988656/image"},
   {
     id: "par-r-morales", answer: "Robert Morales",
     aliases: ["Morales"], nationality: "Paraguay",
     caps: 2, clubCountry: "Mexico", position: "Forward",
     goals: 1, age: 27, shirtNumber: null, club: "UNAM",
-    wikipediaTitle: "Robert Morales (footballer)"
-  },
+    wikipediaTitle: "Robert Morales (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1087734/image"},
   {
     id: "par-alcaraz", answer: "Adrián Alcaraz",
     aliases: ["Adrian Alcaraz", "Alcaraz"], nationality: "Paraguay",
     caps: 0, clubCountry: "Paraguay", position: "Forward",
     goals: 0, age: 27, shirtNumber: null, club: "Olimpia",
-    wikipediaTitle: "Adrián Alcaraz"
-  },
+    wikipediaTitle: "Adrián Alcaraz",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1172470/image"},
   {
     id: "par-redes", answer: "Rodney Redes",
     aliases: ["Redes"], nationality: "Paraguay",
     caps: 0, clubCountry: "Ecuador", position: "Forward",
     goals: 0, age: 26, shirtNumber: null, club: "LDU Quito",
-    wikipediaTitle: "Rodney Redes"
-  },
+    wikipediaTitle: "Rodney Redes",
+    imageUrl: "https://img.sofascore.com/api/v1/player/931228/image"},
 
 ];
 

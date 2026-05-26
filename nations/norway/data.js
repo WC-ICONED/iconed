@@ -17,8 +17,8 @@ window.PUZZLES = [
     aliases: ["Tangvik"], nationality: "Norway",
     caps: 0, clubCountry: "Germany", position: "Goalkeeper",
     goals: 0, age: 23, shirtNumber: 12, club: "Hamburger SV",
-    wikipediaTitle: "Sander Tangvik"
-  },
+    wikipediaTitle: "Sander Tangvik",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1030355/image"},
   {
     id: "nor-selvik", answer: "Egil Selvik",
     aliases: ["Selvik"], nationality: "Norway",
@@ -146,15 +146,15 @@ window.PUZZLES = [
     aliases: ["Thorstvedt"], nationality: "Norway",
     caps: 35, clubCountry: "Italy", position: "Midfielder",
     goals: 4, age: 27, shirtNumber: 18, club: "Sassuolo",
-    wikipediaTitle: "Kristian Thorstvedt"
-  },
+    wikipediaTitle: "Kristian Thorstvedt",
+    imageUrl: "https://img.sofascore.com/api/v1/player/924973/image"},
   {
     id: "nor-aasgaard", answer: "Thelo Aasgaard",
     aliases: ["Aasgaard"], nationality: "Norway",
     caps: 6, clubCountry: "Scotland", position: "Midfielder",
     goals: 5, age: 24, shirtNumber: 19, club: "Rangers",
-    wikipediaTitle: "Thelo Aasgaard"
-  },
+    wikipediaTitle: "Thelo Aasgaard",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1065989/image"},
   {
     id: "nor-nusa", answer: "Antonio Nusa",
     aliases: ["Nusa"], nationality: "Norway",
@@ -168,8 +168,8 @@ window.PUZZLES = [
     aliases: ["Schjelderup"], nationality: "Norway",
     caps: 10, clubCountry: "Portugal", position: "Midfielder",
     goals: 1, age: 22, shirtNumber: 21, club: "Benfica",
-    wikipediaTitle: "Andreas Schjelderup"
-  },
+    wikipediaTitle: "Andreas Schjelderup",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1100952/image"},
   {
     id: "nor-bobb", answer: "Oscar Bobb",
     aliases: ["Bobb"], nationality: "Norway",

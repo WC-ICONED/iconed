@@ -58,8 +58,8 @@ window.PUZZLES = [
     aliases: ["Eric Garcia"], nationality: "Spain",
     caps: 19, clubCountry: "Spain", position: "Defender",
     goals: 0, age: 25, shirtNumber: null, club: "Barcelona",
-    wikipediaTitle: "Eric García"
-  },
+    wikipediaTitle: "Eric García",
+    imageUrl: "https://img.sofascore.com/api/v1/player/876214/image"},
   {
     id: "esp-porro", answer: "Pedro Porro",
     aliases: ["Porro"], nationality: "Spain",
@@ -98,8 +98,8 @@ window.PUZZLES = [
     aliases: [], nationality: "Spain",
     caps: 61, clubCountry: "England", position: "Midfielder",
     goals: 4, age: 29, shirtNumber: null, club: "Manchester City",
-    wikipediaTitle: "Rodri"
-  },
+    wikipediaTitle: "Rodri",
+    imageUrl: "https://img.sofascore.com/api/v1/player/827606/image"},
   {
     id: "esp-merino", answer: "Mikel Merino",
     aliases: ["Merino"], nationality: "Spain",
@@ -210,8 +210,8 @@ window.PUZZLES = [
     aliases: ["Victor Munoz", "Muñoz", "Munoz"], nationality: "Spain",
     caps: 2, clubCountry: "Spain", position: "Forward",
     goals: 1, age: 22, shirtNumber: null, club: "Osasuna",
-    wikipediaTitle: "Víctor Muñoz (Spanish footballer)"
-  },
+    wikipediaTitle: "Víctor Muñoz (Spanish footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1145642/image"},
 ];
 
 window.PUZZLE_ORDER = [

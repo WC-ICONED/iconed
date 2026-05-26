@@ -17,8 +17,8 @@ window.PUZZLES = [
     aliases: ["Wiegele"], nationality: "Austria",
     caps: 1, clubCountry: "Czech Republic", position: "Goalkeeper",
     goals: 0, age: 25, shirtNumber: 12, club: "Viktoria Plzeň",
-    wikipediaTitle: "Florian Wiegele"
-  },
+    wikipediaTitle: "Florian Wiegele",
+    imageUrl: "https://img.sofascore.com/api/v1/player/869476/image"},
   {
     id: "aut-pentz", answer: "Patrick Pentz",
     aliases: ["Pentz"], nationality: "Austria",
@@ -34,8 +34,8 @@ window.PUZZLES = [
     aliases: ["Affengruber"], nationality: "Austria",
     caps: 1, clubCountry: "Spain", position: "Defender",
     goals: 0, age: 25, shirtNumber: 2, club: "Elche",
-    wikipediaTitle: "David Affengruber"
-  },
+    wikipediaTitle: "David Affengruber",
+    imageUrl: "https://img.sofascore.com/api/v1/player/988672/image"},
   {
     id: "aut-danso", answer: "Kevin Danso",
     aliases: ["Danso"], nationality: "Austria",
@@ -89,15 +89,15 @@ window.PUZZLES = [
     aliases: ["Friedl"], nationality: "Austria",
     caps: 10, clubCountry: "Germany", position: "Defender",
     goals: 0, age: 28, shirtNumber: 23, club: "Werder Bremen",
-    wikipediaTitle: "Marco Friedl (footballer)"
-  },
+    wikipediaTitle: "Marco Friedl (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/825771/image"},
   {
     id: "aut-svoboda", answer: "Michael Svoboda",
     aliases: ["Svoboda"], nationality: "Austria",
     caps: 4, clubCountry: "Italy", position: "Defender",
     goals: 0, age: 27, shirtNumber: 25, club: "Venezia",
-    wikipediaTitle: "Michael Svoboda (footballer)"
-  },
+    wikipediaTitle: "Michael Svoboda (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/888340/image"},
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
@@ -137,8 +137,8 @@ window.PUZZLES = [
     aliases: ["Chukwuemeka"], nationality: "Austria",
     caps: 2, clubCountry: "Germany", position: "Midfielder",
     goals: 1, age: 22, shirtNumber: 17, club: "Borussia Dortmund",
-    wikipediaTitle: "Carney Chukwuemeka"
-  },
+    wikipediaTitle: "Carney Chukwuemeka",
+    imageUrl: "https://img.sofascore.com/api/v1/player/994556/image"},
   {
     id: "aut-schmid", answer: "Romano Schmid",
     aliases: ["Schmid"], nationality: "Austria",

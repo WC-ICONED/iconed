@@ -35,8 +35,8 @@ window.PUZZLES = [
     aliases: ["Lagerbielke"], nationality: "Sweden",
     caps: 9, clubCountry: "Portugal", position: "Defender",
     goals: 2, age: 26, shirtNumber: 2, club: "Braga",
-    wikipediaTitle: "Gustaf Lagerbielke"
-  },
+    wikipediaTitle: "Gustaf Lagerbielke",
+    imageUrl: "https://img.sofascore.com/api/v1/player/965263/image"},
   {
     id: "swe-lindelof", answer: "Victor Lindelöf",
     aliases: ["Lindelöf", "Lindelof"], nationality: "Sweden",
@@ -50,8 +50,8 @@ window.PUZZLES = [
     aliases: ["Hien"], nationality: "Sweden",
     caps: 27, clubCountry: "Italy", position: "Defender",
     goals: 0, age: 27, shirtNumber: 4, club: "Atalanta",
-    wikipediaTitle: "Isak Hien"
-  },
+    wikipediaTitle: "Isak Hien",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1157713/image"},
   {
     id: "swe-gudmundsson", answer: "Gabriel Gudmundsson",
     aliases: ["Gudmundsson"], nationality: "Sweden",
@@ -73,8 +73,8 @@ window.PUZZLES = [
     aliases: ["Svensson"], nationality: "Sweden",
     caps: 11, clubCountry: "Germany", position: "Defender",
     goals: 0, age: 24, shirtNumber: 8, club: "Borussia Dortmund",
-    wikipediaTitle: "Daniel Svensson (Swedish footballer)"
-  },
+    wikipediaTitle: "Daniel Svensson (Swedish footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1021272/image"},
   {
     id: "swe-ekdal", answer: "Hjalmar Ekdal",
     aliases: ["Ekdal"], nationality: "Sweden",
@@ -104,8 +104,8 @@ window.PUZZLES = [
     aliases: ["Stroud"], nationality: "Sweden",
     caps: 0, clubCountry: "Sweden", position: "Defender",
     goals: 0, age: 23, shirtNumber: 24, club: "Mjällby AIF",
-    wikipediaTitle: "Elliot Stroud"
-  },
+    wikipediaTitle: "Elliot Stroud",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1383695/image"},
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
@@ -203,15 +203,15 @@ window.PUZZLES = [
     aliases: ["Nilsson"], nationality: "Sweden",
     caps: 8, clubCountry: "Belgium", position: "Forward",
     goals: 3, age: 29, shirtNumber: 25, club: "Club Brugge",
-    wikipediaTitle: "Gustaf Nilsson (footballer)"
-  },
+    wikipediaTitle: "Gustaf Nilsson (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/572286/image"},
   {
     id: "swe-ali", answer: "Taha Ali",
     aliases: ["Ali"], nationality: "Sweden",
     caps: 1, clubCountry: "Sweden", position: "Forward",
     goals: 0, age: 27, shirtNumber: 26, club: "Malmö FF",
-    wikipediaTitle: "Taha Ali (footballer)"
-  },
+    wikipediaTitle: "Taha Ali (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1022820/image"},
 ];
 
 window.PUZZLE_ORDER = [

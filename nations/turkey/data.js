@@ -125,15 +125,15 @@ window.PUZZLES = [
     aliases: ["Yusuf Akcicek", "Akçiçek", "Akcicek"], nationality: "Turkey",
     caps: 3, clubCountry: "Saudi Arabia", position: "Defender",
     goals: 0, age: 20, shirtNumber: null, club: "Al-Hilal",
-    wikipediaTitle: "Yusuf Akçiçek"
-  },
+    wikipediaTitle: "Yusuf Akçiçek",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1479523/image"},
   {
     id: "tur-eskihellas", answer: "Mustafa Eskihellaç",
     aliases: ["Mustafa Eskihellas", "Eskihellaç", "Eskihellas"], nationality: "Turkey",
     caps: 3, clubCountry: "Turkey", position: "Defender",
     goals: 0, age: 29, shirtNumber: null, club: "Trabzonspor",
-    wikipediaTitle: "Mustafa Eskihellaç"
-  },
+    wikipediaTitle: "Mustafa Eskihellaç",
+    imageUrl: "https://img.sofascore.com/api/v1/player/899069/image"},
   {
     id: "tur-kaplan", answer: "Ahmetcan Kaplan",
     aliases: ["Kaplan"], nationality: "Turkey",
@@ -255,15 +255,15 @@ window.PUZZLES = [
     aliases: ["Oguz Aydin", "Aydın", "Aydin"], nationality: "Turkey",
     caps: 9, clubCountry: "Turkey", position: "Forward",
     goals: 0, age: 25, shirtNumber: null, club: "Fenerbahçe",
-    wikipediaTitle: "Oğuz Aydın"
-  },
+    wikipediaTitle: "Oğuz Aydın",
+    imageUrl: "https://img.sofascore.com/api/v1/player/999396/image"},
   {
     id: "tur-gul", answer: "Deniz Gül",
     aliases: ["Deniz Gul", "Gül", "Gul"], nationality: "Turkey",
     caps: 6, clubCountry: "Portugal", position: "Forward",
     goals: 1, age: 21, shirtNumber: null, club: "Porto",
-    wikipediaTitle: "Deniz Gül"
-  },
+    wikipediaTitle: "Deniz Gül",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1407720/image"},
   {
     id: "tur-sari", answer: "Yusuf Sarı",
     aliases: ["Yusuf Sari", "Sarı", "Sari"], nationality: "Turkey",
@@ -277,15 +277,15 @@ window.PUZZLES = [
     aliases: ["Uzun"], nationality: "Turkey",
     caps: 4, clubCountry: "Germany", position: "Forward",
     goals: 0, age: 20, shirtNumber: null, club: "Eintracht Frankfurt",
-    wikipediaTitle: "Can Uzun (footballer)"
-  },
+    wikipediaTitle: "Can Uzun (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1440948/image"},
   {
     id: "tur-simsir", answer: "Aral Şimşir",
     aliases: ["Aral Simsir", "Şimşir", "Simsir"], nationality: "Turkey",
     caps: 0, clubCountry: "Denmark", position: "Forward",
     goals: 0, age: 23, shirtNumber: null, club: "Midtjylland",
-    wikipediaTitle: "Aral Şimşir"
-  },
+    wikipediaTitle: "Aral Şimşir",
+    imageUrl: "https://img.sofascore.com/api/v1/player/999186/image"},
 
 ];
 

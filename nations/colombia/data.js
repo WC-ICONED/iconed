@@ -61,8 +61,8 @@ window.PUZZLES = [
     aliases: ["Daniel Munoz", "Muñoz"], nationality: "Colombia",
     caps: 44, clubCountry: "England", position: "Defender",
     goals: 3, age: 29, shirtNumber: null, club: "Crystal Palace",
-    wikipediaTitle: "Daniel Muñoz (footballer)"
-  },
+    wikipediaTitle: "Daniel Muñoz (footballer)",
+    imageUrl: "https://img.sofascore.com/api/v1/player/870360/image"},
   {
     id: "col-mojica", answer: "Johan Mojica",
     aliases: ["Mojica"], nationality: "Colombia",
@@ -158,15 +158,15 @@ window.PUZZLES = [
     aliases: ["Campaz"], nationality: "Colombia",
     caps: 9, clubCountry: "Argentina", position: "Midfielder",
     goals: 1, age: 25, shirtNumber: null, club: "Rosario Central",
-    wikipediaTitle: "Jaminton Campaz"
-  },
+    wikipediaTitle: "Jaminton Campaz",
+    imageUrl: "https://img.sofascore.com/api/v1/player/877299/image"},
   {
     id: "col-portilla", answer: "Juan Portilla",
     aliases: ["Portilla"], nationality: "Colombia",
     caps: 8, clubCountry: "Brazil", position: "Midfielder",
     goals: 0, age: 27, shirtNumber: null, club: "Athletico Paranaense",
-    wikipediaTitle: "Juan Portilla"
-  },
+    wikipediaTitle: "Juan Portilla",
+    imageUrl: "https://img.sofascore.com/api/v1/player/980580/image"},
   {
     id: "col-puerta", answer: "Gustavo Puerta",
     aliases: ["Puerta"], nationality: "Colombia",
