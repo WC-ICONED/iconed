@@ -863,16 +863,28 @@
     renderStatsModal();
     const modal = document.getElementById("statsModal");
     if (modal) modal.classList.remove("hidden");
-    // Fetch community stats for today (or current archive day) and render in modal
+    // Stats modal community section ALWAYS shows today's player —
+    // independent of whether you're currently browsing an archive day.
+    // This keeps the modal a stable "overview" rather than context-switching.
     (async () => {
       if (typeof window.Community === "undefined") return;
       const el = document.getElementById("statsCommunityChart");
       if (!el) return;
-      const dayNum = archiveMode ? archiveDayNum : Stats.todayNumber();
-      const stats  = await window.Community.fetchStats({ nationSlug: cfg.slug, dayNumber: dayNum });
-      const userGuessesUsed = finished ? guesses.length : null;
-      const won             = finished ? guesses.some(g => g.correct) : false;
-      el.innerHTML = buildCommunityChartHTML(stats, userGuessesUsed, won);
+      el.innerHTML = '<p class="community-empty">Loading…</p>';
+      const todayNum = Stats.todayNumber();
+      const stats = await window.Community.fetchStats({ nationSlug: cfg.slug, dayNumber: todayNum });
+
+      // Highlight the user's bar only if they've finished TODAY's puzzle
+      // (not an archive day). Check today's saved state, not current play state.
+      let userGuessesUsed = null;
+      let userWon         = false;
+      const todayState = Stats.getDayState();
+      if (todayState && todayState.day === todayNum && todayState.finished) {
+        const tg = todayState.guesses || [];
+        userGuessesUsed = tg.length;
+        userWon         = tg.some(g => g.correct);
+      }
+      el.innerHTML = buildCommunityChartHTML(stats, userGuessesUsed, userWon);
     })();
   }
 
