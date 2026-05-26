@@ -66,7 +66,8 @@ window.PUZZLES = [
     aliases: ["Ali"], nationality: "Iraq",
     caps: 25, clubCountry: "Poland", position: "Defender",
     goals: 1, age: 24, shirtNumber: null, club: "Pogoń Szczecin",
-    wikipediaTitle: "Hussein Ali (Iraqi footballer)"
+    wikipediaTitle: "Hussein Ali (Iraqi footballer)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Hussein_Ali_Al-Saedi.jpg"
   },
   {
     id: "irq-z-tahseen", answer: "Zaid Tahseen",

@@ -11,14 +11,16 @@ window.PUZZLES = [
     aliases: ["Abulaila"], nationality: "Jordan",
     caps: 74, clubCountry: "Jordan", position: "Goalkeeper",
     goals: 0, age: 33, shirtNumber: null, club: "Al-Hussein",
-    wikipediaTitle: "Yazeed Abulaila"
+    wikipediaTitle: "Yazeed Abulaila",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Asian_Nations_Cup_-_Jordan_and_South_Korea_%2853%29_%28cropped%29.jpg"
   },
   {
     id: "jor-a-fakhouri", answer: "Abdallah Al-Fakhouri",
     aliases: ["Al-Fakhouri", "Al Fakhouri"], nationality: "Jordan",
     caps: 11, clubCountry: "Jordan", position: "Goalkeeper",
     goals: 0, age: 26, shirtNumber: null, club: "Al-Wehdat",
-    wikipediaTitle: "Abdallah Al-Fakhouri"
+    wikipediaTitle: "Abdallah Al-Fakhouri",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Week_3_of_the_second_level_of_the_AFC_Champions_League%3B_Esteghlal_2_-_0_Al-Wehdat_Avash_27_%28cropped%29.jpg"
   },
   {
     id: "jor-bani-attiah", answer: "Nour Bani Attiah",
@@ -41,28 +43,32 @@ window.PUZZLES = [
     aliases: ["Haddad"], nationality: "Jordan",
     caps: 90, clubCountry: "Jordan", position: "Defender",
     goals: 2, age: 32, shirtNumber: null, club: "Al-Hussein",
-    wikipediaTitle: "Ihsan Haddad"
+    wikipediaTitle: "Ihsan Haddad",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Ihsan_Haddad.jpg"
   },
   {
     id: "jor-al-arab", answer: "Yazan Al-Arab",
     aliases: ["Al-Arab", "Al Arab"], nationality: "Jordan",
     caps: 78, clubCountry: "South Korea", position: "Defender",
     goals: 3, age: 30, shirtNumber: null, club: "FC Seoul",
-    wikipediaTitle: "Yazan Al-Arab"
+    wikipediaTitle: "Yazan Al-Arab",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/30/250720_FC_%EC%84%9C%EC%9A%B8_vs_%EC%9A%B8%EC%82%B0_%28Yazan_Al-Arab%29_1.jpg"
   },
   {
     id: "jor-nasib", answer: "Abdallah Nasib",
     aliases: ["Nasib"], nationality: "Jordan",
     caps: 64, clubCountry: "Iraq", position: "Defender",
     goals: 3, age: 32, shirtNumber: null, club: "Al-Zawraa",
-    wikipediaTitle: "Abdallah Nasib"
+    wikipediaTitle: "Abdallah Nasib",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Abdallah_Nasib.png"
   },
   {
     id: "jor-al-rosan", answer: "Saed Al-Rosan",
     aliases: ["Al-Rosan", "Al Rosan"], nationality: "Jordan",
     caps: 19, clubCountry: "Jordan", position: "Defender",
     goals: 2, age: 29, shirtNumber: null, club: "Al-Hussein",
-    wikipediaTitle: "Saed Al-Rosan"
+    wikipediaTitle: "Saed Al-Rosan",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/99/AFC_Champions_League_-_Sepahan_of_Iran_and_Al-Hussein_of_Jordan_17_%28Mehr%2C_2025%29_%28cropped%29.jpg"
   },
   {
     id: "jor-abu-dahab", answer: "Husam Abu Dahab",
@@ -83,7 +89,8 @@ window.PUZZLES = [
     aliases: ["Obaid"], nationality: "Jordan",
     caps: 9, clubCountry: "Jordan", position: "Defender",
     goals: 0, age: 34, shirtNumber: null, club: "Al-Hussein",
-    wikipediaTitle: "Salim Obaid"
+    wikipediaTitle: "Salim Obaid",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f0/Sepahan_and_Al-Hussein_Jordan_football_teams_meet_21_%282025%29_esfahanzibaonline.ir_%28cropped2%29.jpg"
   },
   {
     id: "jor-assaf", answer: "Ahmad Assaf",
@@ -106,14 +113,16 @@ window.PUZZLES = [
     aliases: ["Ayed"], nationality: "Jordan",
     caps: 72, clubCountry: "Jordan", position: "Midfielder",
     goals: 0, age: 32, shirtNumber: null, club: "Al-Hussein",
-    wikipediaTitle: "Rajaei Ayed"
+    wikipediaTitle: "Rajaei Ayed",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Sepahan_and_Al-Hussein_Jordan_football_teams_meet_2_%282025%29_esfahanzibaonline.ir_%28cropped2%29.jpg"
   },
   {
     id: "jor-al-rawabdeh", answer: "Noor Al-Rawabdeh",
     aliases: ["Al-Rawabdeh", "Al Rawabdeh"], nationality: "Jordan",
     caps: 66, clubCountry: "Malaysia", position: "Midfielder",
     goals: 3, age: 29, shirtNumber: null, club: "Selangor",
-    wikipediaTitle: "Noor Al-Rawabdeh"
+    wikipediaTitle: "Noor Al-Rawabdeh",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/60/Noor_Al-Rawabdeh.png"
   },
   {
     id: "jor-sadeh", answer: "Ibrahim Sadeh",
@@ -127,14 +136,16 @@ window.PUZZLES = [
     aliases: ["Abu Hashish"], nationality: "Jordan",
     caps: 54, clubCountry: "Iraq", position: "Midfielder",
     goals: 1, age: 31, shirtNumber: null, club: "Al-Karma",
-    wikipediaTitle: "Mohammad Abu Hashish"
+    wikipediaTitle: "Mohammad Abu Hashish",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f8/Mohammad_Abu_Hashish.png"
   },
   {
     id: "jor-al-rashdan", answer: "Nizar Al-Rashdan",
     aliases: ["Al-Rashdan", "Al Rashdan"], nationality: "Jordan",
     caps: 45, clubCountry: "Qatar", position: "Midfielder",
     goals: 4, age: 27, shirtNumber: null, club: "Qatar SC",
-    wikipediaTitle: "Nizar Al-Rashdan"
+    wikipediaTitle: "Nizar Al-Rashdan",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/fe/Asian_Nations_Cup_-_Jordan_and_South_Korea_%2874%29_%28cropped%29.jpg"
   },
   {
     id: "jor-abu-taha", answer: "Mohannad Abu Taha",
@@ -148,7 +159,8 @@ window.PUZZLES = [
     aliases: ["Jamous"], nationality: "Jordan",
     caps: 18, clubCountry: "Iraq", position: "Midfielder",
     goals: 1, age: 23, shirtNumber: null, club: "Al-Zawraa",
-    wikipediaTitle: "Amer Jamous"
+    wikipediaTitle: "Amer Jamous",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9b/AFC_Champions_League_2_-_Esteghlal_and_Al-Wehdat_football_teams_meet_32_%282025%29_Tasnim_%28cropped%29.jpg"
   },
   {
     id: "jor-al-dawoud", answer: "Mohammad Al-Dawoud",
@@ -178,42 +190,48 @@ window.PUZZLES = [
     aliases: ["Al-Taamari", "Al Taamari", "Taamari"], nationality: "Jordan",
     caps: 90, clubCountry: "France", position: "Forward",
     goals: 24, age: 29, shirtNumber: null, club: "Rennes",
-    wikipediaTitle: "Musa Al-Taamari"
+    wikipediaTitle: "Musa Al-Taamari",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/40/Al_taamari_asse_mhsc_2425.png"
   },
   {
     id: "jor-al-mardi", answer: "Mahmoud Al-Mardi",
     aliases: ["Al-Mardi", "Al Mardi"], nationality: "Jordan",
     caps: 87, clubCountry: "Jordan", position: "Forward",
     goals: 9, age: 32, shirtNumber: null, club: "Al-Hussein",
-    wikipediaTitle: "Mahmoud Al-Mardi"
+    wikipediaTitle: "Mahmoud Al-Mardi",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/67/Asian_Nations_Cup_-_Jordan_and_South_Korea_%2867%29_%28cropped3%29.jpg"
   },
   {
     id: "jor-olwan", answer: "Ali Olwan",
     aliases: ["Olwan"], nationality: "Jordan",
     caps: 64, clubCountry: "Qatar", position: "Forward",
     goals: 29, age: 26, shirtNumber: null, club: "Al-Sailiya",
-    wikipediaTitle: "Ali Olwan"
+    wikipediaTitle: "Ali Olwan",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/59/Ali_Olwan.png"
   },
   {
     id: "jor-abu-zrayq", answer: "Mohammad Abu Zrayq",
     aliases: ["Abu Zrayq"], nationality: "Jordan",
     caps: 39, clubCountry: "Morocco", position: "Forward",
     goals: 5, age: 28, shirtNumber: null, club: "Raja Casablanca",
-    wikipediaTitle: "Mohammad Abu Zrayq"
+    wikipediaTitle: "Mohammad Abu Zrayq",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/39/Mohammad_Abu_Zrayq.jpg"
   },
   {
     id: "jor-sabra", answer: "Ibrahim Sabra",
     aliases: ["Sabra"], nationality: "Jordan",
     caps: 9, clubCountry: "Croatia", position: "Forward",
     goals: 1, age: 20, shirtNumber: null, club: "Lokomotiva Zagreb",
-    wikipediaTitle: "Ibrahim Sabra"
+    wikipediaTitle: "Ibrahim Sabra",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/aa/Player_Ibraheem_Sabra.jpg"
   },
   {
     id: "jor-o-fakhouri", answer: "Odeh Al-Fakhouri",
     aliases: ["Al-Fakhouri", "Al Fakhouri"], nationality: "Jordan",
     caps: 8, clubCountry: "Egypt", position: "Forward",
     goals: 0, age: 20, shirtNumber: null, club: "Pyramids",
-    wikipediaTitle: "Odeh Al-Fakhouri"
+    wikipediaTitle: "Odeh Al-Fakhouri",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Sepahan_and_Al-Hussein_Jordan_football_teams_meet_10_%282025%29_esfahanzibaonline.ir_%28cropped%29.jpg"
   },
   {
     id: "jor-azaizeh", answer: "Ali Azaizeh",

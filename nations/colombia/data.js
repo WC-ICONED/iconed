@@ -11,21 +11,24 @@ window.PUZZLES = [
     aliases: ["Ospina"], nationality: "Colombia",
     caps: 129, clubCountry: "Colombia", position: "Goalkeeper",
     goals: 0, age: 37, shirtNumber: null, club: "Atlético Nacional",
-    wikipediaTitle: "David Ospina"
+    wikipediaTitle: "David Ospina",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/fd/David_Ospina%2C_2015-05-31.JPG"
   },
   {
     id: "col-c-vargas", answer: "Camilo Vargas",
     aliases: ["Vargas"], nationality: "Colombia",
     caps: 40, clubCountry: "Mexico", position: "Goalkeeper",
     goals: 0, age: 37, shirtNumber: null, club: "Atlas",
-    wikipediaTitle: "Camilo Vargas"
+    wikipediaTitle: "Camilo Vargas",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/de/Camilo_Andres_Vargas.jpg"
   },
   {
     id: "col-montero", answer: "Álvaro Montero",
     aliases: ["Alvaro Montero", "Montero"], nationality: "Colombia",
     caps: 11, clubCountry: "Argentina", position: "Goalkeeper",
     goals: 0, age: 31, shirtNumber: null, club: "Vélez Sarsfield",
-    wikipediaTitle: "Álvaro Montero (Colombian footballer)"
+    wikipediaTitle: "Álvaro Montero (Colombian footballer)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Alvaro_Montero.jpg/3840px-Alvaro_Montero.jpg"
   },
 
   // ── Defenders ─────────────────────────────────────────────────────────────
@@ -34,21 +37,24 @@ window.PUZZLES = [
     aliases: ["Davinson Sanchez", "Sánchez"], nationality: "Colombia",
     caps: 77, clubCountry: "Turkey", position: "Defender",
     goals: 3, age: 29, shirtNumber: null, club: "Galatasaray",
-    wikipediaTitle: "Davinson Sánchez"
+    wikipediaTitle: "Davinson Sánchez",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/64/FWC_2018_-_Round_of_16_-_COL_v_ENG_-_D_S%C3%A1nchez.jpg"
   },
   {
     id: "col-arias", answer: "Santiago Arias",
     aliases: ["Arias"], nationality: "Colombia",
     caps: 66, clubCountry: "Argentina", position: "Defender",
     goals: 0, age: 34, shirtNumber: null, club: "Independiente",
-    wikipediaTitle: "Santiago Arias"
+    wikipediaTitle: "Santiago Arias",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/3d/ATL-Madrid-Lokomotiv001-Arias.jpg"
   },
   {
     id: "col-mina", answer: "Yerry Mina",
     aliases: ["Mina"], nationality: "Colombia",
     caps: 52, clubCountry: "Italy", position: "Defender",
     goals: 8, age: 31, shirtNumber: null, club: "Cagliari",
-    wikipediaTitle: "Yerry Mina"
+    wikipediaTitle: "Yerry Mina",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/bf/FWC_2018_-_Round_of_16_-_COL_v_ENG_-_Photo_103_%28cropped%29.jpg"
   },
   {
     id: "col-munoz", answer: "Daniel Muñoz",
@@ -62,21 +68,24 @@ window.PUZZLES = [
     aliases: ["Mojica"], nationality: "Colombia",
     caps: 43, clubCountry: "Spain", position: "Defender",
     goals: 1, age: 33, shirtNumber: null, club: "Mallorca",
-    wikipediaTitle: "Johan Mojica"
+    wikipediaTitle: "Johan Mojica",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4a/FWC_2018_-_Round_of_16_-_COL_v_ENG_-_Photo_102_%28cropped%29_2.jpg"
   },
   {
     id: "col-lucumi", answer: "Jhon Lucumí",
     aliases: ["Jhon Lucumi", "Lucumí", "Lucumi"], nationality: "Colombia",
     caps: 35, clubCountry: "Italy", position: "Defender",
     goals: 1, age: 27, shirtNumber: null, club: "Bologna",
-    wikipediaTitle: "Jhon Lucumí"
+    wikipediaTitle: "Jhon Lucumí",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b6/Jhon_Lucum%C3%AD_September_2019.jpg"
   },
   {
     id: "col-machado", answer: "Deiver Machado",
     aliases: ["Machado"], nationality: "Colombia",
     caps: 14, clubCountry: "France", position: "Defender",
     goals: 0, age: 32, shirtNumber: null, club: "Nantes",
-    wikipediaTitle: "Deiver Machado"
+    wikipediaTitle: "Deiver Machado",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Lens_-_Reims_%2812-05-2023%29_33.jpg"
   },
   {
     id: "col-ditta", answer: "Willer Ditta",

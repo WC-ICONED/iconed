@@ -81,7 +81,8 @@ window.PUZZLES = [
     aliases: ["Prass"], nationality: "Austria",
     caps: 18, clubCountry: "Germany", position: "Defender",
     goals: 0, age: 25, shirtNumber: 22, club: "TSG Hoffenheim",
-    wikipediaTitle: "Alexander Prass"
+    wikipediaTitle: "Alexander Prass",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1a/FC_Liefering_versus_WSG_Wattens_%2824._Mai_2019%29_06.jpg"
   },
   {
     id: "aut-friedl", answer: "Marco Friedl",
@@ -167,21 +168,24 @@ window.PUZZLES = [
     aliases: ["Wimmer"], nationality: "Austria",
     caps: 30, clubCountry: "Germany", position: "Midfielder",
     goals: 1, age: 25, shirtNumber: 21, club: "VfL Wolfsburg",
-    wikipediaTitle: "Patrick Wimmer"
+    wikipediaTitle: "Patrick Wimmer",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/6f/U19_Austria_vs._Ireland%2819._November_2019_%29_42.jpg"
   },
   {
     id: "aut-wanner", answer: "Paul Wanner",
     aliases: ["Wanner"], nationality: "Austria",
     caps: 2, clubCountry: "Netherlands", position: "Midfielder",
     goals: 0, age: 20, shirtNumber: 24, club: "PSV Eindhoven",
-    wikipediaTitle: "Paul Wanner"
+    wikipediaTitle: "Paul Wanner",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/41/Paul_wanner-1772636856_%28cropped%29.JPG"
   },
   {
     id: "aut-schopf", answer: "Alessandro Schöpf",
     aliases: ["Schöpf", "Schopf"], nationality: "Austria",
     caps: 35, clubCountry: "Austria", position: "Midfielder",
     goals: 6, age: 32, shirtNumber: 26, club: "Wolfsberger AC",
-    wikipediaTitle: "Alessandro Schöpf"
+    wikipediaTitle: "Alessandro Schöpf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/d7/20140905_U21_AUT_BIH_AT08_1103.jpg"
   },
 
   // ── Forwards ──────────────────────────────────────────────────────────────
