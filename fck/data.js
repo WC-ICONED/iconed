@@ -21,7 +21,8 @@ window.FCK_DATA = {
       "position": "Goalkeeper",
       "shirt_number": 1,
       "age_that_season": 33,
-      "fun_fact": "FCK fans voted him Player of the Year in the club’s debut championship season, 1992-93."
+      "fun_fact": "FCK fans voted him Player of the Year in the club’s debut championship season, 1992-93.",
+      "image_url": "https://www.fck.dk/sites/default/files/styles/player_teaser_portrait/public/players/portrait/Palle%20Petersen_portrait.jpg?h=4f321f6b&itok=n6VID6-4"
     },
     {
       "season": "1992-93",
@@ -30,7 +31,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 10,
       "age_that_season": 19,
-      "fun_fact": "He scored twice in the 3-2 win at Brøndby that helped decide FCK’s first league title."
+      "fun_fact": "He scored twice in the 3-2 win at Brøndby that helped decide FCK’s first league title.",
+      "image_url": "https://www.fck.dk/sites/default/files/styles/player_teaser_portrait/public/players/portrait/Martin%20Johansen_portrait.jpg?h=4f321f6b&itok=QKFU6g8T"
     },
     {
       "season": "1992-93",
@@ -39,7 +41,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 5,
       "age_that_season": 21,
-      "fun_fact": "FCK’s official profile credits him with 214 total appearances and 66 goals."
+      "fun_fact": "FCK’s official profile credits him with 214 total appearances and 66 goals.",
+      "image_url": "https://www.fck.dk/sites/default/files/styles/player_teaser_portrait/public/players/portrait/Lars%20H%C3%B8jer_portrait.jpg?h=4f321f6b&itok=AxUUQm4o"
     },
     {
       "season": "1993-94",
@@ -48,7 +51,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 14,
       "age_that_season": 21,
-      "fun_fact": "FCK’s official profile credits him with 203 total appearances and 55 goals."
+      "fun_fact": "FCK’s official profile credits him with 203 total appearances and 55 goals.",
+      "image_url": "https://img.sofascore.com/api/v1/player/1422047/image"
     },
     {
       "season": "1993-94",
@@ -57,7 +61,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 12,
       "age_that_season": 19,
-      "fun_fact": "FCK’s official profile credits him with 203 total appearances and 22 goals."
+      "fun_fact": "FCK’s official profile credits him with 203 total appearances and 22 goals.",
+      "image_url": "https://www.fck.dk/sites/default/files/styles/hero_image/public/2020-04/morten_falch.jpg?h=c673cd1c&itok=cCneIrNx"
     },
     {
       "season": "1993-94",
@@ -66,7 +71,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 11,
       "age_that_season": 20,
-      "fun_fact": "He and twin brother Martin both played in FCK’s first match on 1 July 1992."
+      "fun_fact": "He and twin brother Martin both played in FCK’s first match on 1 July 1992.",
+      "image_url": "https://www.fck.dk/sites/default/files/styles/player_teaser_portrait/public/players/portrait/Michael%20Johansen_portrait.jpg?h=4f321f6b&itok=Z3Vst2V0"
     },
     {
       "season": "1994-95",
@@ -75,7 +81,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 15,
       "age_that_season": 24,
-      "fun_fact": "FCK’s official profile credits him with 24 goals in 68 total appearances."
+      "fun_fact": "FCK’s official profile credits him with 24 goals in 68 total appearances.",
+      "image_url": "https://img.sofascore.com/api/v1/player/1421775/image"
     },
     {
       "season": "1994-95",
@@ -84,7 +91,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 7,
       "age_that_season": 23,
-      "fun_fact": "FCK’s official profile lists his debut as 20 March 1994 against Lyngby."
+      "fun_fact": "FCK’s official profile lists his debut as 20 March 1994 against Lyngby.",
+      "image_url": "https://img.sofascore.com/api/v1/player/1421776/image"
     },
     {
       "season": "1995-96",
@@ -93,7 +101,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 6,
       "age_that_season": 24,
-      "fun_fact": "FCK’s official profile credits him with 256 appearances and four Superliga titles."
+      "fun_fact": "FCK’s official profile credits him with 256 appearances and four Superliga titles.",
+      "image_url": "https://img.sofascore.com/api/v1/player/2321652/image"
     },
     {
       "season": "1996-97",
@@ -102,7 +111,8 @@ window.FCK_DATA = {
       "position": "Goalkeeper",
       "shirt_number": 1,
       "age_that_season": 24,
-      "fun_fact": "FCK’s official profile records 55 total appearances after he joined in November 1995."
+      "fun_fact": "FCK’s official profile records 55 total appearances after he joined in November 1995.",
+      "image_url": "https://img.sofascore.com/api/v1/player/886/image"
     },
     {
       "season": "1996-97",
@@ -111,7 +121,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 3,
       "age_that_season": 24,
-      "fun_fact": "He played most of his career at FCK and is in the club’s Legends Club."
+      "fun_fact": "He played most of his career at FCK and is in the club’s Legends Club.",
+      "image_url": "https://www.fck.dk/sites/default/files/styles/player_teaser_portrait/public/players/portrait/Diego%20Tur_portrait.jpg?h=4f321f6b&itok=F-E3wsMO"
     },
     {
       "season": "1997-98",
@@ -120,7 +131,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 7,
       "age_that_season": 28,
-      "fun_fact": "FCK’s official profile credits him with 99 appearances and 22 goals."
+      "fun_fact": "FCK’s official profile credits him with 99 appearances and 22 goals.",
+      "image_url": "https://img.sofascore.com/api/v1/player/1422046/image"
     },
     {
       "season": "1997-98",
@@ -129,7 +141,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 9,
       "age_that_season": 20,
-      "fun_fact": "FCK’s official profile credits him with 43 goals in 133 total appearances."
+      "fun_fact": "FCK’s official profile credits him with 43 goals in 133 total appearances.",
+      "image_url": "https://img.sofascore.com/api/v1/player/8458/image"
     },
     {
       "season": "1997-98",
@@ -138,7 +151,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 18,
       "age_that_season": 22,
-      "fun_fact": "FCK highlights his memorable free-kick against Ajax in the 2001 UEFA Cup."
+      "fun_fact": "FCK highlights his memorable free-kick against Ajax in the 2001 UEFA Cup.",
+      "image_url": "https://img.sofascore.com/api/v1/player/102/image"
     },
     {
       "season": "1997-98",
@@ -147,7 +161,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 14,
       "age_that_season": 24,
-      "fun_fact": "FCK’s official profile credits him with 134 appearances and 29 goals."
+      "fun_fact": "FCK’s official profile credits him with 134 appearances and 29 goals.",
+      "image_url": "https://www.fck.dk/sites/default/files/styles/hero_image/public/2017-06/Thomas%20Thorninger.jpg?h=c673cd1c&itok=sOlC-Xe1"
     },
     {
       "season": "1998-99",
@@ -156,7 +171,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 11,
       "age_that_season": 29,
-      "fun_fact": "FCK’s official profile records 12 Superliga appearances and two goals for the club."
+      "fun_fact": "FCK’s official profile records 12 Superliga appearances and two goals for the club.",
+      "image_url": "https://img.sofascore.com/api/v1/player/1421772/image"
     },
     {
       "season": "1999-00",
@@ -165,7 +181,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 25,
       "age_that_season": 18,
-      "fun_fact": "FCK’s official profile credits him with 320 appearances and six Superliga titles."
+      "fun_fact": "FCK’s official profile credits him with 320 appearances and six Superliga titles.",
+      "image_url": "https://img.sofascore.com/api/v1/player/1854849/image"
     },
     {
       "season": "2000-01",
@@ -174,7 +191,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 10,
       "age_that_season": 25,
-      "fun_fact": "His bicycle kick against Brøndby in 2001 is one of FCK’s iconic title-race moments."
+      "fun_fact": "His bicycle kick against Brøndby in 2001 is one of FCK’s iconic title-race moments.",
+      "image_url": "https://img.sofascore.com/api/v1/player/989/image"
     },
     {
       "season": "2000-01",
@@ -183,7 +201,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 11,
       "age_that_season": 33,
-      "fun_fact": "FCK’s official profile credits him with 12 goals in 37 total appearances."
+      "fun_fact": "FCK’s official profile credits him with 12 goals in 37 total appearances.",
+      "image_url": "https://www.fck.dk/sites/default/files/styles/hero_image/public/2017-06/Heine%20Fernandez.jpg?h=c673cd1c&itok=pJ7eUHk2"
     },
     {
       "season": "2001-02",
@@ -192,7 +211,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 6,
       "age_that_season": 21,
-      "fun_fact": "He moved from FCK to Schalke 04 after his breakthrough in Denmark."
+      "fun_fact": "He moved from FCK to Schalke 04 after his breakthrough in Denmark.",
+      "image_url": "https://img.sofascore.com/api/v1/player/251/image"
     },
     {
       "season": "2001-02",
@@ -201,7 +221,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 21,
       "age_that_season": 27,
-      "fun_fact": "FCK’s official profile credits him with 98 appearances and two Superliga titles."
+      "fun_fact": "FCK’s official profile credits him with 98 appearances and two Superliga titles.",
+      "image_url": "https://img.sofascore.com/api/v1/player/10006/image"
     },
     {
       "season": "2001-02",
@@ -210,7 +231,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 9,
       "age_that_season": 24,
-      "fun_fact": "FCK’s official profile credits him with 127 appearances and 26 goals."
+      "fun_fact": "FCK’s official profile credits him with 127 appearances and 26 goals.",
+      "image_url": "https://www.fck.dk/sites/default/files/styles/hero_image/public/2017-06/Thomas%20R%C2%AFll.jpg?h=c673cd1c&itok=o_DX9d_V"
     },
     {
       "season": "2003-04",
@@ -219,7 +241,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 2,
       "age_that_season": 23,
-      "fun_fact": "FCK’s official profile credits him with 263 appearances and four Superliga titles."
+      "fun_fact": "FCK’s official profile credits him with 263 appearances and four Superliga titles.",
+      "image_url": "https://img.sofascore.com/api/v1/player/8508/image"
     },
     {
       "season": "2003-04",
@@ -228,7 +251,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 8,
       "age_that_season": 21,
-      "fun_fact": "FCK’s official profile credits him with 195 appearances and 29 goals."
+      "fun_fact": "FCK’s official profile credits him with 195 appearances and 29 goals.",
+      "image_url": "https://img.sofascore.com/api/v1/player/8526/image"
     },
     {
       "season": "2003-04",
@@ -237,7 +261,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 18,
       "age_that_season": 23,
-      "fun_fact": "FCK’s shirt-number archive lists him in #18 before he later took #7."
+      "fun_fact": "FCK’s shirt-number archive lists him in #18 before he later took #7.",
+      "image_url": "https://img.sofascore.com/api/v1/player/16453/image"
     },
     {
       "season": "2004-05",
@@ -246,7 +271,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 23,
       "age_that_season": 19,
-      "fun_fact": "FCK’s official profile credits him with 425 appearances and eight Superliga titles."
+      "fun_fact": "FCK’s official profile credits him with 425 appearances and eight Superliga titles.",
+      "image_url": "https://img.sofascore.com/api/v1/player/8521/image"
     },
     {
       "season": "2004-05",
@@ -255,7 +281,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 6,
       "age_that_season": 25,
-      "fun_fact": "FCK’s official profile credits him with 127 appearances after joining in July 2004."
+      "fun_fact": "FCK’s official profile credits him with 127 appearances after joining in July 2004.",
+      "image_url": "https://img.sofascore.com/api/v1/player/8511/image"
     },
     {
       "season": "2005-06",
@@ -264,7 +291,8 @@ window.FCK_DATA = {
       "position": "Goalkeeper",
       "shirt_number": 1,
       "age_that_season": 27,
-      "fun_fact": "FCK’s official profile credits him with 210 appearances and four Superliga titles."
+      "fun_fact": "FCK’s official profile credits him with 210 appearances and four Superliga titles.",
+      "image_url": "https://img.sofascore.com/api/v1/player/8505/image"
     },
     {
       "season": "2005-06",
@@ -273,7 +301,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 13,
       "age_that_season": 22,
-      "fun_fact": "FCK’s official profile credits him with 215 appearances and four Superliga titles."
+      "fun_fact": "FCK’s official profile credits him with 215 appearances and four Superliga titles.",
+      "image_url": "https://img.sofascore.com/api/v1/player/7721/image"
     },
     {
       "season": "2005-06",
@@ -282,7 +311,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 5,
       "age_that_season": 24,
-      "fun_fact": "FCK’s official profile credits him with 107 appearances after joining in January 2006."
+      "fun_fact": "FCK’s official profile credits him with 107 appearances after joining in January 2006.",
+      "image_url": "https://img.sofascore.com/api/v1/player/6381/image"
     },
     {
       "season": "2005-06",
@@ -291,7 +321,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 14,
       "age_that_season": 27,
-      "fun_fact": "FCK’s official profile credits him with 129 appearances and 10 goals."
+      "fun_fact": "FCK’s official profile credits him with 129 appearances and 10 goals.",
+      "image_url": "https://img.sofascore.com/api/v1/player/8503/image"
     },
     {
       "season": "2005-06",
@@ -300,7 +331,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 11,
       "age_that_season": 31,
-      "fun_fact": "He was later inducted into FCK’s Legends Club."
+      "fun_fact": "He was later inducted into FCK’s Legends Club.",
+      "image_url": "https://img.sofascore.com/api/v1/player/1422223/image"
     },
     {
       "season": "2006-07",
@@ -309,11 +341,13 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 10,
       "age_that_season": 28,
-      "fun_fact": "He was later inducted into FCK’s Legends Club."
+      "fun_fact": "He was later inducted into FCK’s Legends Club.",
+      "image_url": "https://img.sofascore.com/api/v1/player/2425/image"
     },
     {
       "season": "2007-08",
-      "name": "Zden k Posp ch",
+      "name": "Zdeněk Pospěch",
+      "image_url": "https://img.sofascore.com/api/v1/player/12406/image",
       "nationality": "Czech",
       "position": "Defender",
       "shirt_number": 2,
@@ -327,7 +361,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 6,
       "age_that_season": 23,
-      "fun_fact": "FCK’s shirt-number archive lists him with #6 from autumn 2007 to autumn 2009."
+      "fun_fact": "FCK’s shirt-number archive lists him with #6 from autumn 2007 to autumn 2009.",
+      "image_url": "https://img.sofascore.com/api/v1/player/8307/image"
     },
     {
       "season": "2007-08",
@@ -336,7 +371,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 24,
       "age_that_season": 30,
-      "fun_fact": "FCK’s shirt-number archive lists him with #24 from autumn 2007 to autumn 2009."
+      "fun_fact": "FCK’s shirt-number archive lists him with #24 from autumn 2007 to autumn 2009.",
+      "image_url": "https://img.sofascore.com/api/v1/player/1422482/image"
     },
     {
       "season": "2007-08",
@@ -345,7 +381,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 9,
       "age_that_season": 24,
-      "fun_fact": "FCK’s shirt-number archive lists him with #9 from autumn 2007 to spring 2012."
+      "fun_fact": "FCK’s shirt-number archive lists him with #9 from autumn 2007 to spring 2012.",
+      "image_url": "https://img.sofascore.com/api/v1/player/15904/image"
     },
     {
       "season": "2008-09",
@@ -354,7 +391,8 @@ window.FCK_DATA = {
       "position": "Goalkeeper",
       "shirt_number": 21,
       "age_that_season": 27,
-      "fun_fact": "FCK’s shirt-number archive lists him with #21 from spring 2009 to autumn 2015."
+      "fun_fact": "FCK’s shirt-number archive lists him with #21 from spring 2009 to autumn 2015.",
+      "image_url": "https://img.sofascore.com/api/v1/player/1103969/image"
     },
     {
       "season": "2008-09",
@@ -363,7 +401,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 20,
       "age_that_season": 23,
-      "fun_fact": "FCK’s shirt-number archive lists him with #20 from spring 2009 to autumn 2013."
+      "fun_fact": "FCK’s shirt-number archive lists him with #20 from spring 2009 to autumn 2013.",
+      "image_url": "https://img.sofascore.com/api/v1/player/859699/image"
     },
     {
       "season": "2008-09",
@@ -372,7 +411,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 11,
       "age_that_season": 27,
-      "fun_fact": "FCK’s shirt-number archive lists him with #11 from autumn 2008 to autumn 2013."
+      "fun_fact": "FCK’s shirt-number archive lists him with #11 from autumn 2008 to autumn 2013.",
+      "image_url": "https://img.sofascore.com/api/v1/player/7766/image"
     },
     {
       "season": "2008-09",
@@ -381,7 +421,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 14,
       "age_that_season": 23,
-      "fun_fact": "FCK’s official profile credits him with 118 goals in 217 total appearances."
+      "fun_fact": "FCK’s official profile credits him with 118 goals in 217 total appearances.",
+      "image_url": "https://img.sofascore.com/api/v1/player/30178/image"
     },
     {
       "season": "2009-10",
@@ -390,7 +431,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 19,
       "age_that_season": 19,
-      "fun_fact": "FCK’s shirt-number archive lists him with #19 during two FCK spells."
+      "fun_fact": "FCK’s shirt-number archive lists him with #19 during two FCK spells.",
+      "image_url": "https://img.sofascore.com/api/v1/player/109064/image"
     },
     {
       "season": "2009-10",
@@ -399,7 +441,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 17,
       "age_that_season": 23,
-      "fun_fact": "FCK’s shirt-number archive lists him with #17 from autumn 2006 to spring 2011."
+      "fun_fact": "FCK’s shirt-number archive lists him with #17 from autumn 2006 to spring 2011.",
+      "image_url": "https://img.sofascore.com/api/v1/player/7058/image"
     },
     {
       "season": "2010-11",
@@ -408,7 +451,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 3,
       "age_that_season": 22,
-      "fun_fact": "FCK’s shirt-number archive lists him with #3 from spring 2011 to autumn 2014."
+      "fun_fact": "FCK’s shirt-number archive lists him with #3 from spring 2011 to autumn 2014.",
+      "image_url": "https://img.sofascore.com/api/v1/player/7085/image"
     },
     {
       "season": "2010-11",
@@ -417,7 +461,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 6,
       "age_that_season": 22,
-      "fun_fact": "FCK’s shirt-number archive lists him with #6 from autumn 2010 to spring 2015."
+      "fun_fact": "FCK’s shirt-number archive lists him with #6 from autumn 2010 to spring 2015.",
+      "image_url": "https://img.sofascore.com/api/v1/player/34257/image"
     },
     {
       "season": "2010-11",
@@ -426,7 +471,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 30,
       "age_that_season": 26,
-      "fun_fact": "FCK’s shirt-number archive lists him with #30 from autumn 2010 to spring 2014."
+      "fun_fact": "FCK’s shirt-number archive lists him with #30 from autumn 2010 to spring 2014.",
+      "image_url": "https://img.sofascore.com/api/v1/player/11381/image"
     },
     {
       "season": "2011-12",
@@ -435,7 +481,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 17,
       "age_that_season": 25,
-      "fun_fact": "FCK’s shirt-number archive lists him with #17 from autumn 2011 to autumn 2013."
+      "fun_fact": "FCK’s shirt-number archive lists him with #17 from autumn 2011 to autumn 2013.",
+      "image_url": "https://img.sofascore.com/api/v1/player/22071/image"
     },
     {
       "season": "2011-12",
@@ -444,7 +491,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 24,
       "age_that_season": 18,
-      "fun_fact": "FCK’s shirt-number archive lists him with #24 from autumn 2011 to spring 2018."
+      "fun_fact": "FCK’s shirt-number archive lists him with #24 from autumn 2011 to spring 2018.",
+      "image_url": "https://img.sofascore.com/api/v1/player/150630/image"
     },
     {
       "season": "2012-13",
@@ -453,7 +501,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 27,
       "age_that_season": 20,
-      "fun_fact": "FCK’s shirt-number archive lists him with #27 before he later took #8."
+      "fun_fact": "FCK’s shirt-number archive lists him with #27 before he later took #8.",
+      "image_url": "https://img.sofascore.com/api/v1/player/66477/image"
     },
     {
       "season": "2012-13",
@@ -462,7 +511,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 18,
       "age_that_season": 21,
-      "fun_fact": "FCK’s shirt-number archive lists him with #18 from autumn 2012 to spring 2014."
+      "fun_fact": "FCK’s shirt-number archive lists him with #18 from autumn 2012 to spring 2014.",
+      "image_url": "https://img.sofascore.com/api/v1/player/57857/image"
     },
     {
       "season": "2012-13",
@@ -471,7 +521,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 19,
       "age_that_season": 24,
-      "fun_fact": "FCK’s shirt-number archive lists him with #19 from spring 2013 to spring 2015."
+      "fun_fact": "FCK’s shirt-number archive lists him with #19 from spring 2013 to spring 2015.",
+      "image_url": "https://img.sofascore.com/api/v1/player/13059/image"
     },
     {
       "season": "2012-13",
@@ -480,7 +531,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 32,
       "age_that_season": 18,
-      "fun_fact": "FCK’s official profile credits him with 99 appearances and three Superliga titles."
+      "fun_fact": "FCK’s official profile credits him with 99 appearances and three Superliga titles.",
+      "image_url": "https://img.sofascore.com/api/v1/player/94279/image"
     },
     {
       "season": "2012-13",
@@ -489,7 +541,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 29,
       "age_that_season": 19,
-      "fun_fact": "FCK’s shirt-number archive lists him with #29 in 2012-13 before he later wore #11 and #14."
+      "fun_fact": "FCK’s shirt-number archive lists him with #29 in 2012-13 before he later wore #11 and #14.",
+      "image_url": "https://img.sofascore.com/api/v1/player/183483/image"
     },
     {
       "season": "2014-15",
@@ -498,7 +551,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 25,
       "age_that_season": 24,
-      "fun_fact": "FCK’s shirt-number archive lists him in multiple #25 spells."
+      "fun_fact": "FCK’s shirt-number archive lists him in multiple #25 spells.",
+      "image_url": "https://img.sofascore.com/api/v1/player/26404/image"
     },
     {
       "season": "2014-15",
@@ -507,7 +561,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 15,
       "age_that_season": 33,
-      "fun_fact": "FCK’s shirt-number archive lists his second #15 spell from autumn 2014 to spring 2018."
+      "fun_fact": "FCK’s shirt-number archive lists his second #15 spell from autumn 2014 to spring 2018.",
+      "image_url": "https://img.sofascore.com/api/v1/player/1050/image"
     },
     {
       "season": "2014-15",
@@ -516,7 +571,8 @@ window.FCK_DATA = {
       "position": "Goalkeeper",
       "shirt_number": 1,
       "age_that_season": 32,
-      "fun_fact": "FCK’s shirt-number archive lists him with #1 from autumn 2014 to spring 2021."
+      "fun_fact": "FCK’s shirt-number archive lists him with #1 from autumn 2014 to spring 2021.",
+      "image_url": "https://img.sofascore.com/api/v1/player/15654/image"
     },
     {
       "season": "2014-15",
@@ -525,7 +581,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 2,
       "age_that_season": 30,
-      "fun_fact": "FCK’s shirt-number archive lists him with #2 from autumn 2014 to autumn 2017."
+      "fun_fact": "FCK’s shirt-number archive lists him with #2 from autumn 2014 to autumn 2017.",
+      "image_url": "https://img.sofascore.com/api/v1/player/6985/image"
     },
     {
       "season": "2014-15",
@@ -534,7 +591,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 3,
       "age_that_season": 20,
-      "fun_fact": "FCK’s shirt-number archive lists him with #3 from spring 2015 to spring 2017."
+      "fun_fact": "FCK’s shirt-number archive lists him with #3 from spring 2015 to spring 2017.",
+      "image_url": "https://img.sofascore.com/api/v1/player/138546/image"
     },
     {
       "season": "2014-15",
@@ -543,7 +601,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 9,
       "age_that_season": 22,
-      "fun_fact": "FCK’s shirt-number archive lists him with #9 from autumn 2014 to spring 2017."
+      "fun_fact": "FCK’s shirt-number archive lists him with #9 from autumn 2014 to spring 2017.",
+      "image_url": "https://img.sofascore.com/api/v1/player/95446/image"
     },
     {
       "season": "2015-16",
@@ -552,7 +611,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 17,
       "age_that_season": 23,
-      "fun_fact": "FCK’s shirt-number archive lists him with #17 from autumn 2015 to spring 2018."
+      "fun_fact": "FCK’s shirt-number archive lists him with #17 from autumn 2015 to spring 2018.",
+      "image_url": "https://img.sofascore.com/api/v1/player/121260/image"
     },
     {
       "season": "2015-16",
@@ -561,11 +621,13 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 5,
       "age_that_season": 26,
-      "fun_fact": "FCK’s shirt-number archive lists him with #5 from spring 2016 to spring 2018."
+      "fun_fact": "FCK’s shirt-number archive lists him with #5 from spring 2016 to spring 2018.",
+      "image_url": "https://img.sofascore.com/api/v1/player/362156/image"
     },
     {
       "season": "2015-16",
-      "name": "Benjamin Verbi ",
+      "name": "Benjamin Verbič",
+      "image_url": "https://img.sofascore.com/api/v1/player/153230/image",
       "nationality": "Slovenian",
       "position": "Forward",
       "shirt_number": 7,
@@ -579,7 +641,8 @@ window.FCK_DATA = {
       "position": "Goalkeeper",
       "shirt_number": 31,
       "age_that_season": 25,
-      "fun_fact": "FCK’s shirt-number archive lists him with #31 from spring 2016 to spring 2017."
+      "fun_fact": "FCK’s shirt-number archive lists him with #31 from spring 2016 to spring 2017.",
+      "image_url": "https://img.sofascore.com/api/v1/player/26025/image"
     },
     {
       "season": "2015-16",
@@ -588,7 +651,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 22,
       "age_that_season": 24,
-      "fun_fact": "FCK’s shirt-number archive lists him with #22 in two FCK spells."
+      "fun_fact": "FCK’s shirt-number archive lists him with #22 in two FCK spells.",
+      "image_url": "https://img.sofascore.com/api/v1/player/113700/image"
     },
     {
       "season": "2015-16",
@@ -597,7 +661,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 19,
       "age_that_season": 24,
-      "fun_fact": "FCK’s shirt-number archive lists him with #19 from autumn 2015 to spring 2017."
+      "fun_fact": "FCK’s shirt-number archive lists him with #19 from autumn 2015 to spring 2017.",
+      "image_url": "https://img.sofascore.com/api/v1/player/46972/image"
     },
     {
       "season": "2016-17",
@@ -606,7 +671,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 33,
       "age_that_season": 24,
-      "fun_fact": "FCK’s official profile credits him with 339 appearances before his 2025 move back to OB."
+      "fun_fact": "FCK’s official profile credits him with 339 appearances before his 2025 move back to OB.",
+      "image_url": "https://img.sofascore.com/api/v1/player/116660/image"
     },
     {
       "season": "2016-17",
@@ -615,11 +681,13 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 26,
       "age_that_season": 23,
-      "fun_fact": "FCK’s shirt-number archive lists him with #26 from autumn 2016 to spring 2017."
+      "fun_fact": "FCK’s shirt-number archive lists him with #26 from autumn 2016 to spring 2017.",
+      "image_url": "https://img.sofascore.com/api/v1/player/90341/image"
     },
     {
       "season": "2016-17",
-      "name": "Uroš Mati ",
+      "name": "Uroš Matić",
+      "image_url": "https://img.sofascore.com/api/v1/player/63273/image",
       "nationality": "Serbian",
       "position": "Midfielder",
       "shirt_number": 8,
@@ -633,7 +701,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 16,
       "age_that_season": 25,
-      "fun_fact": "FCK’s shirt-number archive lists him with #16 from autumn 2016 to autumn 2018."
+      "fun_fact": "FCK’s shirt-number archive lists him with #16 from autumn 2016 to autumn 2018.",
+      "image_url": "https://img.sofascore.com/api/v1/player/72903/image"
     },
     {
       "season": "2017-18",
@@ -642,11 +711,13 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 7,
       "age_that_season": 23,
-      "fun_fact": "FCK’s shirt-number archive also records his temporary #77 in the 2018 Atlético Madrid ties."
+      "fun_fact": "FCK’s shirt-number archive also records his temporary #77 in the 2018 Atlético Madrid ties.",
+      "image_url": "https://img.sofascore.com/api/v1/player/94287/image"
     },
     {
       "season": "2017-18",
-      "name": "Andrija Pavlovi ",
+      "name": "Andrija Pavlović",
+      "image_url": "https://img.sofascore.com/api/v1/player/157637/image",
       "nationality": "Serbian",
       "position": "Forward",
       "shirt_number": 11,
@@ -660,7 +731,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 14,
       "age_that_season": 24,
-      "fun_fact": "FCK’s shirt-number archive lists him with #14 before he later wore #8."
+      "fun_fact": "FCK’s shirt-number archive lists him with #14 before he later wore #8.",
+      "image_url": "https://img.sofascore.com/api/v1/player/180477/image"
     },
     {
       "season": "2017-18",
@@ -669,7 +741,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 23,
       "age_that_season": 29,
-      "fun_fact": "FCK’s shirt-number archive lists him with #23 in autumn 2017."
+      "fun_fact": "FCK’s shirt-number archive lists him with #23 in autumn 2017.",
+      "image_url": "https://img.sofascore.com/api/v1/player/28260/image"
     },
     {
       "season": "2018-19",
@@ -678,7 +751,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 28,
       "age_that_season": 25,
-      "fun_fact": "FCK’s shirt-number archive lists him with #28 from autumn 2017 to spring 2019."
+      "fun_fact": "FCK’s shirt-number archive lists him with #28 from autumn 2017 to spring 2019.",
+      "image_url": "https://img.sofascore.com/api/v1/player/97060/image"
     },
     {
       "season": "2018-19",
@@ -687,7 +761,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 29,
       "age_that_season": 22,
-      "fun_fact": "FCK’s shirt-number archive lists him with #29 from spring 2018 to autumn 2019."
+      "fun_fact": "FCK’s shirt-number archive lists him with #29 from spring 2018 to autumn 2019.",
+      "image_url": "https://img.sofascore.com/api/v1/player/327863/image"
     },
     {
       "season": "2018-19",
@@ -696,7 +771,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 40,
       "age_that_season": 16,
-      "fun_fact": "FCK’s U19 shirt-number section records him with #40 before he later took #11."
+      "fun_fact": "FCK’s U19 shirt-number section records him with #40 before he later took #11.",
+      "image_url": "https://img.sofascore.com/api/v1/player/957279/image"
     },
     {
       "season": "2018-19",
@@ -705,7 +781,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 2,
       "age_that_season": 25,
-      "fun_fact": "FCK’s shirt-number archive lists him with #2 from spring 2019 to spring 2021."
+      "fun_fact": "FCK’s shirt-number archive lists him with #2 from spring 2019 to spring 2021.",
+      "image_url": "https://img.sofascore.com/api/v1/player/311456/image"
     },
     {
       "season": "2019-20",
@@ -714,7 +791,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 10,
       "age_that_season": 30,
-      "fun_fact": "FCK’s shirt-number archive lists him with #10 from autumn 2017 to spring 2023."
+      "fun_fact": "FCK’s shirt-number archive lists him with #10 from autumn 2017 to spring 2023.",
+      "image_url": "https://img.sofascore.com/api/v1/player/125584/image"
     },
     {
       "season": "2019-20",
@@ -723,7 +801,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 20,
       "age_that_season": 27,
-      "fun_fact": "FCK’s shirt-number archive lists him with #20 from autumn 2016 to spring 2025."
+      "fun_fact": "FCK’s shirt-number archive lists him with #20 from autumn 2016 to spring 2025.",
+      "image_url": "https://img.sofascore.com/api/v1/player/95443/image"
     },
     {
       "season": "2019-20",
@@ -732,7 +811,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 16,
       "age_that_season": 22,
-      "fun_fact": "FCK’s shirt-number archive lists him with #16 from autumn 2019 to autumn 2022."
+      "fun_fact": "FCK’s shirt-number archive lists him with #16 from autumn 2019 to autumn 2022.",
+      "image_url": "https://img.sofascore.com/api/v1/player/914857/image"
     },
     {
       "season": "2019-20",
@@ -741,7 +821,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 32,
       "age_that_season": 31,
-      "fun_fact": "FCK’s shirt-number archive lists him with #32 in autumn 2019."
+      "fun_fact": "FCK’s shirt-number archive lists him with #32 in autumn 2019.",
+      "image_url": "https://img.sofascore.com/api/v1/player/14049/image"
     },
     {
       "season": "2019-20",
@@ -750,7 +831,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 18,
       "age_that_season": 26,
-      "fun_fact": "FCK’s shirt-number archive lists him with #18 from autumn 2019 to autumn 2020."
+      "fun_fact": "FCK’s shirt-number archive lists him with #18 from autumn 2019 to autumn 2020.",
+      "image_url": "https://img.sofascore.com/api/v1/player/339115/image"
     },
     {
       "season": "2019-20",
@@ -759,7 +841,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 6,
       "age_that_season": 22,
-      "fun_fact": "FCK’s shirt-number archive lists him with #6 from autumn 2019 to spring 2022."
+      "fun_fact": "FCK’s shirt-number archive lists him with #6 from autumn 2019 to spring 2022.",
+      "image_url": "https://img.sofascore.com/api/v1/player/830142/image"
     },
     {
       "season": "2020-21",
@@ -768,7 +851,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 12,
       "age_that_season": 26,
-      "fun_fact": "FCK’s shirt-number archive lists him with #12 from spring 2021 onward."
+      "fun_fact": "FCK’s shirt-number archive lists him with #12 from spring 2021 onward.",
+      "image_url": "https://img.sofascore.com/api/v1/player/151470/image"
     },
     {
       "season": "2020-21",
@@ -777,7 +861,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 4,
       "age_that_season": 21,
-      "fun_fact": "FCK’s shirt-number archive lists him with #4 from autumn 2020 to autumn 2021."
+      "fun_fact": "FCK’s shirt-number archive lists him with #4 from autumn 2020 to autumn 2021.",
+      "image_url": "https://img.sofascore.com/api/v1/player/846148/image"
     },
     {
       "season": "2020-21",
@@ -786,7 +871,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 35,
       "age_that_season": 18,
-      "fun_fact": "FCK’s U19 shirt-number section records him with #35 in 2020-21."
+      "fun_fact": "FCK’s U19 shirt-number section records him with #35 in 2020-21.",
+      "image_url": "https://img.sofascore.com/api/v1/player/1002620/image"
     },
     {
       "season": "2021-22",
@@ -795,7 +881,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 34,
       "age_that_season": 18,
-      "fun_fact": "FCK’s U19 shirt-number section records him with #34 before it became his fixed number."
+      "fun_fact": "FCK’s U19 shirt-number section records him with #34 before it became his fixed number.",
+      "image_url": "https://img.sofascore.com/api/v1/player/1092409/image"
     },
     {
       "season": "2021-22",
@@ -804,7 +891,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 30,
       "age_that_season": 18,
-      "fun_fact": "FCK’s shirt-number archive lists him with #30 from autumn 2021 to spring 2023."
+      "fun_fact": "FCK’s shirt-number archive lists him with #30 from autumn 2021 to spring 2023.",
+      "image_url": "https://img.sofascore.com/api/v1/player/1138804/image"
     },
     {
       "season": "2021-22",
@@ -813,7 +901,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 15,
       "age_that_season": 29,
-      "fun_fact": "FCK’s shirt-number archive lists him with #15 in spring 2022 before he switched to #7."
+      "fun_fact": "FCK’s shirt-number archive lists him with #15 in spring 2022 before he switched to #7.",
+      "image_url": "https://img.sofascore.com/api/v1/player/137661/image"
     },
     {
       "season": "2021-22",
@@ -822,7 +911,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 3,
       "age_that_season": 25,
-      "fun_fact": "FCK’s shirt-number archive lists him with #3 from spring 2022 to autumn 2024."
+      "fun_fact": "FCK’s shirt-number archive lists him with #3 from spring 2022 to autumn 2024.",
+      "image_url": "https://img.sofascore.com/api/v1/player/293127/image"
     },
     {
       "season": "2021-22",
@@ -831,7 +921,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 28,
       "age_that_season": 18,
-      "fun_fact": "FCK’s shirt-number archive lists him with #28 in autumn 2021."
+      "fun_fact": "FCK’s shirt-number archive lists him with #28 in autumn 2021.",
+      "image_url": "https://img.sofascore.com/api/v1/player/1086417/image"
     },
     {
       "season": "2021-22",
@@ -840,7 +931,8 @@ window.FCK_DATA = {
       "position": "Goalkeeper",
       "shirt_number": 1,
       "age_that_season": 22,
-      "fun_fact": "FCK’s shirt-number archive lists him with #1 from autumn 2021 to spring 2024."
+      "fun_fact": "FCK’s shirt-number archive lists him with #1 from autumn 2021 to spring 2024.",
+      "image_url": "https://img.sofascore.com/api/v1/player/902080/image"
     },
     {
       "season": "2021-22",
@@ -849,7 +941,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 5,
       "age_that_season": 28,
-      "fun_fact": "FCK’s shirt-number archive lists him with #5 from autumn 2021 to spring 2024."
+      "fun_fact": "FCK’s shirt-number archive lists him with #5 from autumn 2021 to spring 2024.",
+      "image_url": "https://img.sofascore.com/api/v1/player/97023/image"
     },
     {
       "season": "2022-23",
@@ -858,7 +951,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 40,
       "age_that_season": 16,
-      "fun_fact": "FCK’s shirt-number archive lists him with #40 from autumn 2022 to spring 2025."
+      "fun_fact": "FCK’s shirt-number archive lists him with #40 from autumn 2022 to spring 2025.",
+      "image_url": "https://img.sofascore.com/api/v1/player/1162107/image"
     },
     {
       "season": "2022-23",
@@ -867,7 +961,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 17,
       "age_that_season": 22,
-      "fun_fact": "FCK’s shirt-number archive lists him with #17 from spring 2022 to spring 2024."
+      "fun_fact": "FCK’s shirt-number archive lists him with #17 from spring 2022 to spring 2024.",
+      "image_url": "https://img.sofascore.com/api/v1/player/992198/image"
     },
     {
       "season": "2022-23",
@@ -876,7 +971,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 18,
       "age_that_season": 17,
-      "fun_fact": "FCK’s shirt-number archive lists him with #18 from autumn 2022 to autumn 2024."
+      "fun_fact": "FCK’s shirt-number archive lists him with #18 from autumn 2022 to autumn 2024.",
+      "image_url": "https://img.sofascore.com/api/v1/player/1026015/image"
     },
     {
       "season": "2023-24",
@@ -885,7 +981,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 2,
       "age_that_season": 26,
-      "fun_fact": "FCK’s shirt-number archive lists him with #2 from autumn 2021 to spring 2025."
+      "fun_fact": "FCK’s shirt-number archive lists him with #2 from autumn 2021 to spring 2025.",
+      "image_url": "https://img.sofascore.com/api/v1/player/583806/image"
     },
     {
       "season": "2023-24",
@@ -894,7 +991,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 9,
       "age_that_season": 26,
-      "fun_fact": "FCK’s shirt-number archive lists him with #9 from spring 2023 to autumn 2024."
+      "fun_fact": "FCK’s shirt-number archive lists him with #9 from spring 2023 to autumn 2024.",
+      "image_url": "https://img.sofascore.com/api/v1/player/357746/image"
     },
     {
       "season": "2023-24",
@@ -903,7 +1001,8 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 19,
       "age_that_season": 20,
-      "fun_fact": "FCK’s shirt-number archive lists him with #19 from autumn 2022 to spring 2024."
+      "fun_fact": "FCK’s shirt-number archive lists him with #19 from autumn 2022 to spring 2024.",
+      "image_url": "https://img.sofascore.com/api/v1/player/1126433/image"
     },
     {
       "season": "2023-24",
@@ -912,7 +1011,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 11,
       "age_that_season": 26,
-      "fun_fact": "FCK’s shirt-number archive lists him with #11 from autumn 2023 onward."
+      "fun_fact": "FCK’s shirt-number archive lists him with #11 from autumn 2023 onward.",
+      "image_url": "https://img.sofascore.com/api/v1/player/578380/image"
     },
     {
       "season": "2023-24",
@@ -921,7 +1021,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 10,
       "age_that_season": 28,
-      "fun_fact": "FCK’s shirt-number archive lists him with #10 from autumn 2023 onward."
+      "fun_fact": "FCK’s shirt-number archive lists him with #10 from autumn 2023 onward.",
+      "image_url": "https://img.sofascore.com/api/v1/player/119151/image"
     },
     {
       "season": "2023-24",
@@ -930,7 +1031,8 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 30,
       "age_that_season": 24,
-      "fun_fact": "FCK’s official profile lists his debut as 25 July 2023 against Breidablik."
+      "fun_fact": "FCK’s official profile lists his debut as 25 July 2023 against Breidablik.",
+      "image_url": "https://img.sofascore.com/api/v1/player/945204/image"
     },
     {
       "season": "2024-25",
@@ -939,7 +1041,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 47,
       "age_that_season": 18,
-      "fun_fact": "FCK’s official profile records his 2025 transfer to FC Porto."
+      "fun_fact": "FCK’s official profile records his 2025 transfer to FC Porto.",
+      "image_url": "https://img.sofascore.com/api/v1/player/1406639/image"
     },
     {
       "season": "2024-25",
@@ -948,7 +1051,8 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 36,
       "age_that_season": 20,
-      "fun_fact": "FCK’s official profile credits him with 119 appearances by the 2025-26 season."
+      "fun_fact": "FCK’s official profile credits him with 119 appearances by the 2025-26 season.",
+      "image_url": "https://img.sofascore.com/api/v1/player/1083413/image"
     }
   ]
 };
