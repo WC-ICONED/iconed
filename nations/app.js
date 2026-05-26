@@ -863,6 +863,17 @@
     renderStatsModal();
     const modal = document.getElementById("statsModal");
     if (modal) modal.classList.remove("hidden");
+    // Fetch community stats for today (or current archive day) and render in modal
+    (async () => {
+      if (typeof window.Community === "undefined") return;
+      const el = document.getElementById("statsCommunityChart");
+      if (!el) return;
+      const dayNum = archiveMode ? archiveDayNum : Stats.todayNumber();
+      const stats  = await window.Community.fetchStats({ nationSlug: cfg.slug, dayNumber: dayNum });
+      const userGuessesUsed = finished ? guesses.length : null;
+      const won             = finished ? guesses.some(g => g.correct) : false;
+      el.innerHTML = buildCommunityChartHTML(stats, userGuessesUsed, won);
+    })();
   }
 
   function closeStatsModal() {
@@ -1098,42 +1109,31 @@
 
   // ─── Community stats ───────────────────────────────────────────────────
 
-  function renderCommunityStats(stats, userGuessesUsed, won) {
-    const el = document.getElementById("communityStats");
-    if (!el) return;
-    el.classList.remove("hidden");
-
+  // Shared chart builder — used by result screen and stats modal
+  function buildCommunityChartHTML(stats, userGuessesUsed, won) {
     if (!stats || !stats.total) {
-      el.innerHTML = '<p class="community-empty">Be the first to play today!</p>';
-      return;
+      return '<p class="community-empty">No data yet — be the first!</p>';
     }
-
     const { total, wins, dist } = stats;
     const winPct  = Math.round((wins / total) * 100);
-    const userKey = won ? String(userGuessesUsed) : "miss";
-
-    const rows = [
-      { key: "1", label: "1" },
-      { key: "2", label: "2" },
-      { key: "3", label: "3" },
-      { key: "4", label: "4" },
-      { key: "5", label: "5" },
-      { key: "miss", label: "✕" }
+    const userKey = (userGuessesUsed != null) ? (won ? String(userGuessesUsed) : "miss") : null;
+    const rows    = [
+      { key: "1", label: "1" }, { key: "2", label: "2" },
+      { key: "3", label: "3" }, { key: "4", label: "4" },
+      { key: "5", label: "5" }, { key: "miss", label: "✕" }
     ];
     const maxVal = Math.max(...rows.map(r => dist[r.key] || 0), 1);
-
     let html = `
       <div class="community-header">
         <span class="community-title">COMMUNITY</span>
         <span class="community-meta">${total} player${total !== 1 ? "s" : ""} · ${winPct}% solved</span>
       </div>
       <div class="community-chart">`;
-
     for (const row of rows) {
-      const count  = dist[row.key] || 0;
-      const pct    = total > 0 ? Math.round((count / total) * 100) : 0;
-      const width  = count > 0 ? Math.max((count / maxVal) * 100, 4) : 0;
-      const isYou  = row.key === userKey;
+      const count = dist[row.key] || 0;
+      const pct   = total > 0 ? Math.round((count / total) * 100) : 0;
+      const width = count > 0 ? Math.max((count / maxVal) * 100, 4) : 0;
+      const isYou = userKey !== null && row.key === userKey;
       html += `
         <div class="community-row${isYou ? " community-row-you" : ""}">
           <span class="community-label">${row.label}</span>
@@ -1143,9 +1143,18 @@
           <span class="community-count">${pct}%</span>
         </div>`;
     }
+    return html + `</div>`;
+  }
 
-    html += `</div>`;
-    el.innerHTML = html;
+  function renderCommunityStats(stats, userGuessesUsed, won) {
+    const el = document.getElementById("communityStats");
+    if (!el) return;
+    el.classList.remove("hidden");
+    if (!stats || !stats.total) {
+      el.innerHTML = '<p class="community-empty">Be the first to play today!</p>';
+      return;
+    }
+    el.innerHTML = buildCommunityChartHTML(stats, userGuessesUsed, won);
   }
 
   async function submitAndFetchCommunity(dayNumber, guessesUsed, won) {

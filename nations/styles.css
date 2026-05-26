@@ -991,6 +991,18 @@ body {
   font-family: "JetBrains Mono", monospace;
 }
 .dist-bar.highlight { background: var(--pitch); color: #fff; }
+.stats-community-section {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--page-edge);
+}
+.stats-community-label {
+  font-family: "Archivo Black", system-ui, sans-serif;
+  font-size: 10px;
+  letter-spacing: .12em;
+  color: var(--ink-soft);
+  margin-bottom: 10px;
+}
 .modal-actions {
   display: flex;
   flex-direction: column;
