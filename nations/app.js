@@ -15,8 +15,8 @@
 //   Always shown : WC Squad (2026) · Country (nationality) · Caps (by Jun 1 2026) · Club Country
 //   Miss 1       : Position + Goals scored
 //   Miss 2       : Age
-//   Miss 3       : Shirt number
-//   Miss 4       : Wikipedia photo + Current club name
+//   Miss 3       : Current club name
+//   Miss 4       : Wikipedia photo
 //
 // Player data format (window.PUZZLES):
 // {
@@ -58,8 +58,6 @@
     clueGoals:       document.getElementById("clueGoals"),
     stickerAge:      document.getElementById("sticker-age"),
     clueAge:         document.getElementById("clueAge"),
-    stickerShirt:    document.getElementById("sticker-shirt"),
-    clueShirt:       document.getElementById("clueShirt"),
     photoSlot:       document.getElementById("photoSlot"),
     stickerClub:     document.getElementById("sticker-club"),
     clueClub:        document.getElementById("clueClub"),
@@ -215,12 +213,10 @@
     }
 
     if (wrong >= 3) {
-      if (els.stickerShirt && els.stickerShirt.classList.contains("locked")) {
-        unlockSticker(els.stickerShirt);
+      if (els.stickerClub && els.stickerClub.classList.contains("locked")) {
+        unlockSticker(els.stickerClub);
       }
-      if (els.clueShirt) {
-        els.clueShirt.textContent = puzzle.shirtNumber != null ? `#${puzzle.shirtNumber}` : "Unknown";
-      }
+      if (els.clueClub) els.clueClub.textContent = puzzle.club || "Unknown";
     }
 
     if (wrong >= 4) {
@@ -228,10 +224,6 @@
         els.photoSlot.classList.remove("locked");
         els.photoSlot.classList.add("revealed");
       }
-      if (els.stickerClub && els.stickerClub.classList.contains("locked")) {
-        unlockSticker(els.stickerClub);
-      }
-      if (els.clueClub) els.clueClub.textContent = puzzle.club || "Unknown";
       maybeFetchImage();
     }
   }
@@ -261,18 +253,14 @@
       if (els.clueAge) els.clueAge.textContent = puzzle.age != null ? puzzle.age : "Unknown";
     }
     if (wrong >= 3) {
-      if (els.stickerShirt) els.stickerShirt.classList.remove("locked");
-      if (els.clueShirt) {
-        els.clueShirt.textContent = puzzle.shirtNumber != null ? `#${puzzle.shirtNumber}` : "Unknown";
-      }
+      if (els.stickerClub) els.stickerClub.classList.remove("locked");
+      if (els.clueClub) els.clueClub.textContent = puzzle.club || "Unknown";
     }
     if (wrong >= 4) {
       if (els.photoSlot) {
         els.photoSlot.classList.remove("locked");
         els.photoSlot.classList.add("revealed");
       }
-      if (els.stickerClub) els.stickerClub.classList.remove("locked");
-      if (els.clueClub) els.clueClub.textContent = puzzle.club || "Unknown";
       maybeFetchImage();
     }
   }
@@ -457,7 +445,6 @@
       if (puzzle.caps    != null) tags.push(`${puzzle.caps} caps`);
       if (puzzle.goals   != null) tags.push(`${puzzle.goals} goals`);
       if (puzzle.age     != null) tags.push(`Age ${puzzle.age}`);
-      if (puzzle.shirtNumber != null) tags.push(`#${puzzle.shirtNumber}`);
       if (puzzle.club)             tags.push(puzzle.club);
       tags.forEach(t => {
         const span = document.createElement("span");
@@ -662,16 +649,14 @@
     if (els.stickerPosition) els.stickerPosition.classList.add("locked");
     if (els.stickerGoals)    els.stickerGoals.classList.add("locked");
     if (els.stickerAge)      els.stickerAge.classList.add("locked");
-    if (els.stickerShirt)    els.stickerShirt.classList.add("locked");
+    if (els.stickerClub)     els.stickerClub.classList.add("locked");
     if (els.photoSlot) {
       els.photoSlot.classList.add("locked");
       els.photoSlot.classList.remove("revealed");
     }
-    if (els.stickerClub) els.stickerClub.classList.add("locked");
     if (els.cluePosition)    els.cluePosition.textContent    = "—";
     if (els.clueGoals)       els.clueGoals.textContent       = "—";
     if (els.clueAge)         els.clueAge.textContent         = "—";
-    if (els.clueShirt)       els.clueShirt.textContent       = "—";
     if (els.clueClubCountry) els.clueClubCountry.textContent = "—";
     if (els.clueClub)        els.clueClub.textContent        = "—";
     const ph = document.querySelector(".portrait-placeholder");

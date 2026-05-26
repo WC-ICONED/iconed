@@ -146,12 +146,13 @@
           <span class="sticker-value big" id="clueAge">—</span>
           <span class="sticker-locked-text">Reveals after miss 2</span>
         </div>
-        <!-- Miss 3: Shirt number (full width) -->
-        <div class="sticker locked sticker-wide" id="sticker-shirt" style="--tilt:0.5deg">
+
+        <!-- Miss 3: Current club (full width, unlocks with photo) -->
+        <div class="sticker sticker-wide locked" id="sticker-club" style="--tilt:-0.3deg">
           <span class="sticker-notch"></span>
           <span class="sticker-tape"></span>
-          <span class="label">Shirt No.</span>
-          <span class="sticker-value big" id="clueShirt">—</span>
+          <span class="label">Current club</span>
+          <span class="sticker-value" id="clueClub">—</span>
           <span class="sticker-locked-text">Reveals after miss 3</span>
         </div>
         <!-- Miss 4: Photo -->
@@ -165,16 +166,7 @@
           <span class="photo-corner tr"></span>
           <span class="photo-corner bl"></span>
           <span class="photo-corner br"></span>
-        </div>
-        <!-- Miss 4: Current club (full width, unlocks with photo) -->
-        <div class="sticker sticker-wide locked" id="sticker-club" style="--tilt:-0.3deg">
-          <span class="sticker-notch"></span>
-          <span class="sticker-tape"></span>
-          <span class="label">Current club</span>
-          <span class="sticker-value" id="clueClub">—</span>
-          <span class="sticker-locked-text">Reveals after miss 4</span>
-        </div>
-      </div>
+        </div>      </div>
 
       <div class="submit-dock" id="guessArea">
         <div class="autocomplete-wrap">
@@ -308,8 +300,8 @@
             <ul>
               <li>Miss 1 → <strong>Position</strong> &amp; <strong>Goals scored</strong></li>
               <li>Miss 2 → <strong>Age</strong></li>
-              <li>Miss 3 → <strong>Shirt number</strong></li>
-              <li>Miss 4 → <strong>Wikipedia photo</strong> &amp; <strong>Current club</strong></li>
+              <li>Miss 3 → <strong>Current club</strong></li>
+              <li>Miss 4 → <strong>Wikipedia photo</strong></li>
             </ul>
             <p>You have <strong>5 shots</strong> to guess the player. A new player appears every day at midnight.</p>
           </div>
