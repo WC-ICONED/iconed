@@ -74,5 +74,6 @@
 // ─── Existing clubs ─────────────────────────────────────────────────
 //
 //   /clubs/man-united/   — Manchester United, 165 players, 33 seasons, red theme
+//   /clubs/chelsea/      — Chelsea FC,        165 players, 33 seasons, royal blue theme
 //
 // ─────────────────────────────────────────────────────────────────────
