@@ -82,7 +82,7 @@ window.EPL_DATA = {
           "shirt_number": 6,
           "age": 31,
           "fun_fact": "Anchored United's defence through their Double triumph, forming a reliable partnership alongside Steve Bruce.",
-          "image_url": ""
+          "image_url": "https://img.sofascore.com/api/v1/player/2281224/image"
         },
         {
           "name": "Tim Flowers",
@@ -102,7 +102,7 @@ window.EPL_DATA = {
           "shirt_number": 9,
           "age": 26,
           "fun_fact": "Scored 15 league goals in his debut Spurs season, justifying his £4.5m fee with consistent performances throughout the campaign.",
-          "image_url": ""
+          "image_url": "https://img.sofascore.com/api/v1/player/2447115/image"
         },
         {
           "name": "Tony Adams",
@@ -187,7 +187,7 @@ window.EPL_DATA = {
           "shirt_number": 10,
           "age": 23,
           "fun_fact": "The diminutive Brazilian magician was Boro's creative heartbeat, dazzling with his technique despite the club's relegation.",
-          "image_url": ""
+          "image_url": "https://img.sofascore.com/api/v1/player/1422233/image"
         },
         {
           "name": "Gary Neville",
@@ -282,7 +282,7 @@ window.EPL_DATA = {
           "shirt_number": 1,
           "age": 31,
           "fun_fact": "England's reliable custodian produced a string of outstanding saves for Leeds, keeping them competitive throughout the campaign.",
-          "image_url": ""
+          "image_url": "https://img.sofascore.com/api/v1/player/1133/image"
         },
         {
           "name": "Andy Cole",
@@ -302,7 +302,7 @@ window.EPL_DATA = {
           "shirt_number": 4,
           "age": 29,
           "fun_fact": "A combative midfield anchor for Newcastle during a difficult league campaign that also included a run to the FA Cup final.",
-          "image_url": ""
+          "image_url": "https://img.sofascore.com/api/v1/player/1421979/image"
         },
         {
           "name": "Tim Sherwood",
@@ -407,7 +407,7 @@ window.EPL_DATA = {
           "shirt_number": 9,
           "age": 26,
           "fun_fact": "Shared the Premier League Golden Boot with 18 goals alongside Owen and Yorke, his clinical finishing leading Leeds to a fourth-place finish under David O'Leary.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Hasselbaink_luton_2023.jpg/500px-Hasselbaink_luton_2023.jpg"
         },
         {
           "name": "Marcel Desailly",
@@ -417,7 +417,7 @@ window.EPL_DATA = {
           "shirt_number": 6,
           "age": 29,
           "fun_fact": "The reigning Champions League and World Cup winner brought elite continental defending to Stamford Bridge, his composure and reading of the game making Chelsea's defence one of the most respected in the league.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Marcel_Desailly_-_240422_192752-3_%28cropped%29.jpg/500px-25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Marcel_Desailly_-_240422_192752-3_%28cropped%29.jpg"
         },
         {
           "name": "David Seaman",
@@ -427,7 +427,7 @@ window.EPL_DATA = {
           "shirt_number": 1,
           "age": 34,
           "fun_fact": "The England number one remained Arsenal's commanding presence between the posts as the Gunners pushed United all the way for the title, his shot-stopping among the best in the world.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/David_Seaman.jpg/500px-David_Seaman.jpg"
         }
       ]
     },
@@ -532,7 +532,7 @@ window.EPL_DATA = {
           "shirt_number": 1,
           "age": 29,
           "fun_fact": "Produced a string of excellent performances for Aston Villa after moving from Liverpool, his imposing presence and athleticism making him a top-flight mainstay.",
-          "image_url": ""
+          "image_url": "https://img.sofascore.com/api/v1/player/1073/image"
         }
       ]
     },
@@ -627,7 +627,7 @@ window.EPL_DATA = {
           "shirt_number": 9,
           "age": 24,
           "fun_fact": "Scored 17 league goals in his debut Leeds season including all four in a famous 4-3 win over Liverpool, his power and technique making him one of the most complete strikers in the Premier League.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Mark_Viduka_2005_WCQ.jpg"
         },
         {
           "name": "Frank Lampard",
@@ -637,7 +637,7 @@ window.EPL_DATA = {
           "shirt_number": 18,
           "age": 22,
           "fun_fact": "Played his final season at his boyhood club West Ham before his £11m summer move to Chelsea, his late runs into the box and shooting from distance hinting at the goalscoring midfielder he would become.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Frank_Lampard_2019.jpg"
         }
       ]
     },
@@ -742,7 +742,7 @@ window.EPL_DATA = {
           "shirt_number": 10,
           "age": 21,
           "fun_fact": "Scored 19 league goals as Liverpool finished runners-up, capping an extraordinary calendar year that included an FA Cup final hat-trick against Arsenal and the 2001 Ballon d'Or.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Michael_Owen.jpg/500px-Michael_Owen.jpg"
         }
       ]
     },
@@ -797,7 +797,7 @@ window.EPL_DATA = {
           "shirt_number": 12,
           "age": 25,
           "fun_fact": "The right back was a key part of the Invincibles' foundations being laid, his tenacity and ability on the ball vital to Arsenal's style.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/1_Laureano_Bisan_Etam%C3%A9-Mayer.jpg/500px-1_Laureano_Bisan_Etam%C3%A9-Mayer.jpg"
         },
         {
           "name": "Gianfranco Zola",
@@ -952,7 +952,7 @@ window.EPL_DATA = {
           "shirt_number": 1,
           "age": 32,
           "fun_fact": "The Dutch master kept Fulham comfortably in the Premier League with a string of brilliant performances at Craven Cottage, his calm presence and shot-stopping among the best in the division.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Edwin_van_der_Sar_2015.jpg/500px-Edwin_van_der_Sar_2015.jpg"
         }
       ]
     },
@@ -1057,7 +1057,7 @@ window.EPL_DATA = {
           "shirt_number": 23,
           "age": 26,
           "fun_fact": "Was at the heart of Liverpool's improbable Champions League triumph in Istanbul, his organisation and bravery in defence making him the bedrock of Benitez's team during the miraculous comeback against Milan.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Football_against_poverty_2014_-_Jamie_Carragher_%28cropped%29.jpg/500px-Football_against_poverty_2014_-_Jamie_Carragher_%28cropped%29.jpg"
         }
       ]
     },
@@ -1162,7 +1162,7 @@ window.EPL_DATA = {
           "shirt_number": 25,
           "age": 22,
           "fun_fact": "Won the inaugural Premier League Golden Glove with 20 clean sheets in his debut season after his summer move from Villarreal, immediately establishing himself as one of the best keepers in England.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Pepe_Reina_2017.jpg/500px-Pepe_Reina_2017.jpg"
         }
       ]
     },
@@ -1372,7 +1372,7 @@ window.EPL_DATA = {
           "shirt_number": 32,
           "age": 23,
           "fun_fact": "Won the Premier League and Champions League double in his first United season after arriving from West Ham, his tireless work-rate and 14 league goals making him an instant favourite at Old Trafford.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Carlos_Tevez_with_Argentina_November_2014_%28cropped%29.jpg/500px-Carlos_Tevez_with_Argentina_November_2014_%28cropped%29.jpg"
         }
       ]
     },
@@ -2097,7 +2097,7 @@ window.EPL_DATA = {
           "shirt_number": 10,
           "age": 23,
           "fun_fact": "Won both the PFA Players' Player of the Year and FWA Footballer of the Year as Chelsea won the title under Mourinho, his dribbling and creativity making him the most exciting player in the Premier League.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Eden_Hazard_at_Baku_before_2019_UEFA_Europe_League_Final.jpg"
         },
         {
           "name": "Olivier Giroud",
@@ -2107,7 +2107,7 @@ window.EPL_DATA = {
           "shirt_number": 12,
           "age": 27,
           "fun_fact": "Scored 14 league goals in 27 starts as Arsenal won the FA Cup, his physicality and link-up play crucial during a season disrupted by injury early in the campaign.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Olivier_Giroud_December_2024.png"
         }
       ]
     },
