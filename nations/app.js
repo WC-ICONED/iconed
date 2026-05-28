@@ -1138,7 +1138,7 @@
     let html = `
       <div class="community-header">
         <span class="community-title">COMMUNITY</span>
-        <span class="community-meta">${total} player${total !== 1 ? "s" : ""} · ${winPct}% solved</span>
+        <span class="community-meta">${total} ${total !== 1 ? "tries" : "try"} · ${winPct}% solved</span>
       </div>
       <div class="community-chart">`;
     for (const row of rows) {
