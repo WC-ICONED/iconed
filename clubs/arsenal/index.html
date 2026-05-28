@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- All relative URLs resolve from /clubs/arsenal/ regardless of trailing-slash. -->
+  <base href="/clubs/arsenal/">
+  <title>ICONED · AFC</title>
+  <meta name="description" content="ICONED · AFC — Guess the iconic Arsenal FC player from 1992-93 to 2024-25. Five shots, new player every day.">
+  <link rel="canonical" href="https://www.iconed.wtf/clubs/arsenal/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>" type="image/svg+xml">
+
+  <!-- Open Graph / iMessage / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ICONED">
+  <meta property="og:title" content="ICONED · AFC — Guess the iconic Arsenal FC player">
+  <meta property="og:description" content="Guess the iconic Arsenal FC player from 1992 to today.">
+  <meta property="og:url" content="https://www.iconed.wtf/clubs/arsenal/">
+  <meta property="og:image" content="https://www.iconed.wtf/clubs/arsenal/og-image.png">
+  <meta property="og:image:secure_url" content="https://www.iconed.wtf/clubs/arsenal/og-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="ICONED · AFC — Daily Arsenal FC guessing game">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ICONED · AFC — Guess the iconic Arsenal FC player">
+  <meta name="twitter:description" content="Guess the iconic Arsenal FC player from 1992 to today.">
+  <meta name="twitter:image" content="https://www.iconed.wtf/clubs/arsenal/og-image.png">
+
+  <meta name="theme-color" content="#EF0107">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,400;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/clubs/styles.css" />
+  <style>
+    /* Arsenal FC — classic red on white */
+    :root {
+      --page: #ffffff;
+      --page-edge: #f3c9c4;
+      --paper-card: #fbece9;
+      --ink: #1a1a1a;
+      --ink-soft: rgba(26,26,26,.55);
+      --spine: #DA291C;
+      --spine-deep: #9b1a11;
+      --spine-ink: #ffffff;
+      --gold: #FBE122;
+      --pitch: #DA291C;
+    }
+  </style>
+<script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","wv2p0tvb5i");</script>
+  <script>
+    window.CLUB_CONFIG = {
+      name:        "Arsenal FC",
+      slug:        "man-united",
+      countryFlag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      shareLabel:  "MU",
+      urlPath:     "clubs/man-united"
+    };
+  </script>
+</head>
+<body>
+  <div class="album">
+    <div class="spine">
+      <a class="spine-top" id="spineTitle" href="/" title="Back to ICONED Home">ICONED HOME</a>
+      <div class="spine-rules"><span></span><span></span><span></span></div>
+      <span class="spine-bottom">AFC · MMXXVI</span>
+    </div>
+    <div class="album-content">
+      <header class="album-header">
+        <div class="wordmark-block">
+          <div class="wordmark">
+            <a class="wordmark-title" id="wordmarkLink" href="#"><span class="logo-ball">⚽</span> ICONED · AFC</a>
+            <span class="wordmark-page" id="pageLabel">PAGE 1</span>
+          </div>
+        </div>
+        <nav class="album-nav">
+          <button class="nav-link" id="rulesToggle" type="button">Rules</button>
+          <button class="nav-link" id="archiveToggle" type="button">Archive</button>
+          <button class="nav-link" id="statsToggle" type="button">Stats</button>
+        </nav>
+      </header>
+
+      <div class="page-title" id="pageTitleBlock">
+        <span class="kicker gold" id="pageKicker">Page 1 · matchday №1</span>
+        <h1>Guess the iconic<br>Arsenal FC<br>player.</h1>
+        <p class="page-desc">Three clues are on the page.<br>Five shots to guess the player. Each miss reveals a new clue.</p>
+      </div>
+
+      <div class="archive-banner hidden" id="archiveBanner">
+        <span id="archiveBannerText">Archive · Page 1</span>
+        <button id="backToToday" type="button">← Back to today</button>
+      </div>
+
+      <div class="sticker-grid" id="stickerGrid">
+        <div class="sticker" id="sticker-year" style="--tilt:-1.4deg">
+          <span class="sticker-notch"></span>
+          <span class="sticker-tape"></span>
+          <span class="label label-year">Season</span>
+          <span class="sticker-value big" id="clueYear">—</span>
+          <span class="sticker-locked-text"></span>
+        </div>
+        <div class="sticker" id="sticker-nation" style="--tilt:1.2deg">
+          <span class="sticker-notch"></span>
+          <span class="sticker-tape"></span>
+          <span class="label">Nation</span>
+          <span class="sticker-value" id="clueNationality">—</span>
+          <span class="sticker-locked-text"></span>
+        </div>
+        <div class="sticker" id="sticker-shirt" style="--tilt:-0.6deg">
+          <span class="sticker-notch"></span>
+          <span class="sticker-tape"></span>
+          <span class="label">Shirt no.</span>
+          <span class="sticker-value big" id="clueShirt">—</span>
+          <span class="sticker-locked-text"></span>
+        </div>
+        <div class="sticker locked" id="sticker-age" style="--tilt:0.8deg">
+          <span class="sticker-notch"></span>
+          <span class="sticker-tape"></span>
+          <span class="label">Age</span>
+          <span class="sticker-value" id="clueAge">—</span>
+          <span class="sticker-locked-text">Reveals after miss 1</span>
+        </div>
+        <div class="sticker locked sticker-wide" id="sticker-position" style="--tilt:-0.4deg">
+          <span class="sticker-notch"></span>
+          <span class="sticker-tape"></span>
+          <span class="label">Position</span>
+          <span class="sticker-value" id="cluePosition">—</span>
+          <span class="sticker-locked-text">Reveals after miss 2</span>
+        </div>
+        <div class="fun-fact-slot locked" id="funFactSlot">
+          <div class="fun-fact-slot-placeholder" id="funFactPlaceholder">
+            <span class="label">Fun fact · sticker</span>
+            <span class="fun-fact-slot-sub">Reveals after miss 3</span>
+          </div>
+          <p class="fun-fact-slot-text" id="funFactText"></p>
+        </div>
+        <div class="photo-slot locked" id="photoSlot">
+          <div class="photo-slot-placeholder" id="photoPlaceholder">
+            <span class="label">Photograph · sticker</span>
+            <span class="photo-slot-sub">Reveals after miss 4</span>
+          </div>
+          <img id="player-image" class="photo-slot-image" alt="Player photo" />
+          <span class="photo-corner tl"></span>
+          <span class="photo-corner tr"></span>
+          <span class="photo-corner bl"></span>
+          <span class="photo-corner br"></span>
+        </div>
+      </div>
+
+      <div class="submit-dock" id="guessArea">
+        <div class="autocomplete-wrap">
+          <input type="text" id="guessInput" placeholder="Type a name…" autocomplete="off" spellcheck="false" />
+          <ul class="suggestions" id="suggestions"></ul>
+        </div>
+        <button id="guessButton" type="button">SHOOT!</button>
+      </div>
+
+      <div class="guess-log" id="guessLogCard">
+        <div class="guess-log-header">
+          <span class="label">Guess log</span>
+          <span class="label guess-counter" id="guessCount">0 used · 5 left</span>
+        </div>
+        <div id="guessList"></div>
+      </div>
+
+      <section class="result hidden" id="result">
+        <span class="kicker gold result-kicker" id="resultKicker">Page complete</span>
+        <div class="countdown-line" id="countdownLine">
+          <span class="countdown-label">Time until new player</span>
+          <span class="countdown-time" id="countdownTime">--:--:--</span>
+        </div>
+        <div class="result-header">
+          <div>
+            <h1 id="resultTitle">Sticker<br>collected.</h1>
+          </div>
+          <div class="stamp stamp-win" id="solvedStamp">SOLVED · 3/5</div>
+        </div>
+        <div class="player-card">
+          <span class="sticker-tape tape-wide"></span>
+          <div class="player-card-grid">
+            <div class="player-portrait">
+              <span class="portrait-number" id="portraitNumber"></span>
+              <span class="portrait-meta" id="portraitMeta"></span>
+              <img id="playerImageResult" alt="Player photo" />
+              <span class="portrait-placeholder">WIKI<br>PORTRAIT</span>
+              <span class="foil-shimmer"></span>
+            </div>
+            <div class="player-info">
+              <span class="kicker gold" id="stickerNumber">Sticker N° 1</span>
+              <h2 id="playerName">PLAYER</h2>
+              <div class="player-tags" id="playerTags"></div>
+            </div>
+          </div>
+        </div>
+        <p class="fun-fact-result hidden" id="funFactAboveLog"></p>
+        <div class="match-log-section">
+          <span class="label">Shot log</span>
+          <div class="match-log" id="matchLogCells"></div>
+          <div class="result-guesses" id="resultGuesses"></div>
+        </div>
+        <pre class="share-preview" id="shareText"></pre>
+        <div class="result-ctas">
+          <button class="cta-primary" id="shareButton" type="button">SHARE RESULT!</button>
+          <button class="cta-secondary" id="archiveButton" type="button">OPEN MY AFC ALBUM</button>
+        </div>
+        <div class="archive-nav hidden" id="archiveNav">
+          <button class="archive-nav-btn" id="archivePrev" type="button">← Previous day</button>
+          <button class="archive-nav-btn" id="archiveNext" type="button">Next day →</button>
+        </div>
+      </section>
+
+      <!-- Stats Modal -->
+      <div class="modal-overlay hidden" id="statsModal">
+        <div class="modal">
+          <div class="modal-header">
+            <div>
+              <span class="kicker gold">Your collection</span>
+              <h2>Statistics</h2>
+            </div>
+            <button class="modal-close" id="statsClose" type="button">✕</button>
+          </div>
+          <p class="stats-note">Your stats are counted when you guess today's player. Guessing players in the archive is not counted in your streak, but the players you guess still show up in your sticker album.</p>
+          <div class="stat-boxes">
+            <div class="stat-box"><span class="stat-num" id="statPlayed">0</span><span class="stat-label-text">Played</span></div>
+            <div class="stat-box"><span class="stat-num" id="statWon">0</span><span class="stat-label-text">Won</span></div>
+            <div class="stat-box"><span class="stat-num" id="statPct">0</span><span class="stat-label-text">Win %</span></div>
+            <div class="stat-box"><span class="stat-num" id="statStreak">0</span><span class="stat-label-text">Streak</span></div>
+            <div class="stat-box"><span class="stat-num" id="statMax">0</span><span class="stat-label-text">Max</span></div>
+          </div>
+          <span class="label">Guess Distribution</span>
+          <div class="dist-chart" id="distChart"></div>
+          <div class="modal-actions">
+            <button class="reset-btn" id="resetStats" type="button">Reset stats</button>
+            <button class="transfer-btn" id="transferToggle" type="button">Transfer Stats</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Transfer Modal -->
+      <div class="modal-overlay hidden" id="transferModal">
+        <div class="modal">
+          <div class="modal-header">
+            <div>
+              <span class="kicker gold">Device sync</span>
+              <h2>Move your album.</h2>
+            </div>
+            <button class="modal-close" id="transferClose" type="button">✕</button>
+          </div>
+          <div class="transfer-section">
+            <span class="label">Export</span>
+            <p class="transfer-hint">Copy this code and paste it on your other device.</p>
+            <div class="transfer-code-wrap">
+              <textarea class="transfer-code" id="exportCode" readonly></textarea>
+              <button class="cta-primary" id="copyExportCode" type="button">COPY CODE</button>
+            </div>
+          </div>
+          <div class="transfer-section">
+            <span class="label">Import</span>
+            <p class="transfer-hint">Paste a transfer code to import stats.</p>
+            <div class="transfer-code-wrap">
+              <textarea class="transfer-code" id="importCode" placeholder="Paste transfer code here…"></textarea>
+              <button class="cta-secondary" id="importStatsBtn" type="button">IMPORT</button>
+            </div>
+            <p class="transfer-msg hidden" id="transferMsg"></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rules Modal -->
+      <div class="modal-overlay hidden" id="rulesModal">
+        <div class="modal">
+          <div class="modal-header">
+            <div>
+              <span class="kicker gold">How to play</span>
+              <h2>Rules</h2>
+            </div>
+            <button class="modal-close" id="rulesClose" type="button">✕</button>
+          </div>
+          <div class="rules-body">
+            <p>You have <strong>5 shots</strong> to guess the mystery Arsenal FC player from the <strong>1992–2025</strong> era.</p>
+            <p>Every day a new player sticker is missing from the album. Three clues are revealed from the start:</p>
+            <ul>
+              <li><strong>Season</strong> — the Arsenal season they starred in</li>
+              <li><strong>Nation</strong> — the country they represented</li>
+              <li><strong>Shirt no.</strong> — the number on their Arsenal shirt</li>
+            </ul>
+            <p>Each wrong guess peels back another corner, revealing extra clues in order:</p>
+            <ul>
+              <li>Miss 1 — <strong>Age</strong> during that season</li>
+              <li>Miss 2 — <strong>Position</strong></li>
+              <li>Miss 3 — <strong>Fun fact</strong></li>
+              <li>Miss 4 — <strong>Photograph</strong></li>
+            </ul>
+            <p>Guess correctly to collect the sticker. A new page opens every day at midnight.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Archive Modal -->
+      <div class="modal-overlay hidden" id="archiveModal">
+        <div class="modal modal-archive">
+          <div class="modal-header">
+            <div>
+              <span class="kicker gold">Past pages</span>
+              <h2>Album Archive</h2>
+            </div>
+            <button class="modal-close" id="archiveClose" type="button">✕</button>
+          </div>
+          <button class="archive-album-link" id="archiveOpenAlbum" type="button">
+            <span class="archive-album-link-label">Your collection</span>
+            <span class="archive-album-link-cta">Open My AFC Album →</span>
+          </button>
+          <div class="archive-list" id="archiveList"></div>
+        </div>
+      </div>
+
+      <!-- Sticker Album View -->
+      <section class="album-view hidden" id="albumView">
+        <div class="album-view-header">
+          <div>
+            <span class="kicker gold">Your collection</span>
+            <h1>My AFC Album</h1>
+          </div>
+          <button class="back-btn" id="albumBack" type="button">← Back to today</button>
+        </div>
+        <div class="album-progress">
+          <div class="album-progress-header">
+            <span class="label">Collection progress</span>
+            <span class="album-progress-pct" id="albumPct">0 of 0 · 0%</span>
+          </div>
+          <div class="album-progress-bar">
+            <div class="album-progress-fill" id="albumFill"></div>
+          </div>
+        </div>
+        <div class="sticker-album-grid" id="albumGrid"></div>
+      </section>
+
+      <aside class="ad-slot" id="adBottom"></aside>
+      <footer class="site-footer">
+        <button class="cookie-settings-link" id="cookieSettingsLink" type="button">Cookie Settings</button>
+        <p class="footer-contact">Feedback or comments? <a href="mailto:trier.boaster.2f@icloud.com">Contact us</a></p>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Cookie Consent -->
+  <div class="consent-overlay" id="consentOverlay">
+    <div class="consent-card">
+      <div class="consent-header">
+        <span class="kicker gold">ICONED.wtf asks:</span>
+        <h2>Do you want to keep<br>your stats and guesses?</h2>
+        <p class="consent-subtitle">We need your consent to do so!</p>
+      </div>
+      <div class="consent-body">
+        <span class="label">Your consent is used to:</span>
+        <ul class="consent-list">
+          <li>Store and/or access information on a device</li>
+          <li>Personalised advertising and content, advertising and content measurement, audience research and services development</li>
+        </ul>
+        <details class="consent-faq">
+          <summary>Learn more</summary>
+          <div class="consent-faq-inner">
+            <details>
+              <summary>How can I change my choice?</summary>
+              <p>You can change your consent choice at any time by clicking the "Cookie Settings" link at the bottom of the page.</p>
+            </details>
+            <details>
+              <summary>What if I don't consent?</summary>
+              <p>If you don't consent, your stats and game progress will not be saved between sessions. You can still play the game, but your data will be lost when you close the browser.</p>
+            </details>
+          </div>
+        </details>
+        <p class="consent-legal">Your personal data will be processed and information from your device (cookies, unique identifiers and other device data) may be stored by, accessed by and shared with partners or used specifically by this site.</p>
+      </div>
+      <div class="consent-actions">
+        <button class="cta-primary" id="consentAccept" type="button">ACCEPT</button>
+        <button class="cta-secondary" id="consentDecline" type="button">DECLINE</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="/clubs/stats.js"></script>
+  <script src="/clubs/app.js"></script>
+</body>
+</html>
