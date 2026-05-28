@@ -1191,7 +1191,7 @@ window.CLUB_DATA = {
           "position": "MID",
           "shirt_number": 17,
           "age": 31,
-          "fun_fact": "Arrived on loan despite being injured — he played once and somehow earned an FA Cup winner's medal with Arsenal.",
+          "fun_fact": "Arrived on loan despite being injured, he played once and somehow earned an FA Cup winner's medal with Arsenal.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Kim_K%C3%A4llstr%C3%B6m_2016-08-15_001.jpg/330px-Kim_K%C3%A4llstr%C3%B6m_2016-08-15_001.jpg"
         },
         {
@@ -1611,7 +1611,7 @@ window.CLUB_DATA = {
           "position": "MID",
           "shirt_number": 8,
           "age": 22,
-          "fun_fact": "Arsenal's captain and creative heartbeat, signed permanently for £30m after a successful loan — regarded as one of the world's best No.10s.",
+          "fun_fact": "Arsenal's captain and creative heartbeat, signed permanently for £30m after a successful loan, regarded as one of the world's best No.10s.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Norway_Italy_-_June_2025_E_04.jpg/330px-Norway_Italy_-_June_2025_E_04.jpg"
         },
         {
@@ -1696,7 +1696,7 @@ window.CLUB_DATA = {
           "position": "DEF",
           "shirt_number": 12,
           "age": 21,
-          "fun_fact": "A £27m signing loaned three times before becoming the cornerstone of Arsenal's defence — won the PFA Young Player of the Year.",
+          "fun_fact": "A £27m signing loaned three times before becoming the cornerstone of Arsenal's defence, won the PFA Young Player of the Year.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/1_william_saliba_arsenal_2025_%28cropped%29.jpg/330px-1_william_saliba_arsenal_2025_%28cropped%29.jpg"
         },
         {
@@ -1786,7 +1786,7 @@ window.CLUB_DATA = {
           "position": "MID",
           "shirt_number": 23,
           "age": 28,
-          "fun_fact": "Spain's Euro 2024 hero — scorer of the quarter-final winner — joined Arsenal to provide physicality and intelligence in midfield.",
+          "fun_fact": "Spain's Euro 2024 hero, scorer of the quarter-final winner, joined Arsenal to provide physicality and intelligence in midfield.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/1_mikel_merino_arsenal_2025_%28cropped%29.jpg/330px-1_mikel_merino_arsenal_2025_%28cropped%29.jpg"
         },
         {
@@ -1816,7 +1816,7 @@ window.CLUB_DATA = {
           "position": "MID",
           "shirt_number": 53,
           "age": 17,
-          "fun_fact": "The youngest player ever to appear for Arsenal's senior team — aged 15 years and 181 days — and a star of the 2024-25 campaign.",
+          "fun_fact": "The youngest player ever to appear for Arsenal's senior team, aged 15 years and 181 days, and a star of the 2024-25 campaign.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Ethan_Nwaneri.png/330px-Ethan_Nwaneri.png"
         }
       ]

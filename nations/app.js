@@ -186,10 +186,10 @@
       els.clueNationality.textContent = `${cfg.flag || ""} ${puzzle.nationality || cfg.name}`.trim();
     }
     if (els.clueCaps) {
-      els.clueCaps.textContent = puzzle.caps != null ? puzzle.caps : "—";
+      els.clueCaps.textContent = puzzle.caps != null ? puzzle.caps : "·";
     }
     if (els.clueClubCountry) {
-      els.clueClubCountry.textContent = puzzle.clubCountry || "—";
+      els.clueClubCountry.textContent = puzzle.clubCountry || "·";
     }
 
     const wrong = guesses.filter(g => !g.correct).length;
@@ -202,7 +202,7 @@
         unlockSticker(els.stickerGoals);
       }
       if (els.cluePosition) els.cluePosition.textContent = puzzle.position || "Unknown";
-      if (els.clueGoals) els.clueGoals.textContent = puzzle.goals != null ? puzzle.goals : "—";
+      if (els.clueGoals) els.clueGoals.textContent = puzzle.goals != null ? puzzle.goals : "·";
     }
 
     if (wrong >= 2) {
@@ -234,10 +234,10 @@
       els.clueNationality.textContent = `${cfg.flag || ""} ${puzzle.nationality || cfg.name}`.trim();
     }
     if (els.clueCaps) {
-      els.clueCaps.textContent = puzzle.caps != null ? puzzle.caps : "—";
+      els.clueCaps.textContent = puzzle.caps != null ? puzzle.caps : "·";
     }
     if (els.clueClubCountry) {
-      els.clueClubCountry.textContent = puzzle.clubCountry || "—";
+      els.clueClubCountry.textContent = puzzle.clubCountry || "·";
     }
 
     const wrong = guesses.filter(g => !g.correct).length;
@@ -246,7 +246,7 @@
       if (els.stickerPosition) els.stickerPosition.classList.remove("locked");
       if (els.stickerGoals) els.stickerGoals.classList.remove("locked");
       if (els.cluePosition) els.cluePosition.textContent = puzzle.position || "Unknown";
-      if (els.clueGoals) els.clueGoals.textContent = puzzle.goals != null ? puzzle.goals : "—";
+      if (els.clueGoals) els.clueGoals.textContent = puzzle.goals != null ? puzzle.goals : "·";
     }
     if (wrong >= 2) {
       if (els.stickerAge) els.stickerAge.classList.remove("locked");
@@ -663,11 +663,11 @@
       els.photoSlot.classList.add("locked");
       els.photoSlot.classList.remove("revealed");
     }
-    if (els.cluePosition)    els.cluePosition.textContent    = "—";
-    if (els.clueGoals)       els.clueGoals.textContent       = "—";
-    if (els.clueAge)         els.clueAge.textContent         = "—";
-    if (els.clueClubCountry) els.clueClubCountry.textContent = "—";
-    if (els.clueClub)        els.clueClub.textContent        = "—";
+    if (els.cluePosition)    els.cluePosition.textContent    = "·";
+    if (els.clueGoals)       els.clueGoals.textContent       = "·";
+    if (els.clueAge)         els.clueAge.textContent         = "·";
+    if (els.clueClubCountry) els.clueClubCountry.textContent = "·";
+    if (els.clueClub)        els.clueClub.textContent        = "·";
     const ph = document.querySelector(".portrait-placeholder");
     if (ph) ph.style.display = "";
   }
@@ -1124,7 +1124,7 @@
   // Shared chart builder — used by result screen and stats modal
   function buildCommunityChartHTML(stats, userGuessesUsed, won) {
     if (!stats || !stats.total) {
-      return '<p class="community-empty">No data yet — be the first!</p>';
+      return '<p class="community-empty">No data yet: be the first!</p>';
     }
     const { total, wins, dist } = stats;
     const winPct  = Math.round((wins / total) * 100);

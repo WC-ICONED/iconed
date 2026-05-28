@@ -963,7 +963,7 @@ window.CLUB_DATA = {
           "position": "Striker",
           "shirt_number": 7,
           "age": 29,
-          "fun_fact": "The former Liverpool and Real Madrid striker joined on a free transfer and delivered the most dramatic moment of the season — a last-minute winner against rivals Manchester City.",
+          "fun_fact": "The former Liverpool and Real Madrid striker joined on a free transfer and delivered the most dramatic moment of the season, a last-minute winner against rivals Manchester City.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Michael_Owen.jpg/330px-Michael_Owen.jpg"
         },
         {
@@ -973,7 +973,7 @@ window.CLUB_DATA = {
           "position": "Striker",
           "shirt_number": 20,
           "age": 21,
-          "fun_fact": "The Senegalese striker joined from Molde — the same club that would later produce Erling Haaland — and made his mark as a lively squad player for United.",
+          "fun_fact": "The Senegalese striker joined from Molde, the same club that would later produce Erling Haaland, and made his mark as a lively squad player for United.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Mame_Biram_Diouf.jpg"
         },
         {
@@ -1028,7 +1028,7 @@ window.CLUB_DATA = {
           "position": "Winger",
           "shirt_number": 9,
           "age": 19,
-          "fun_fact": "The Portuguese winger became one of football's most discussed signings — bought for £7.4 million from a homeless shelter to Old Trafford — in one of Fergie's most unconventional transfers.",
+          "fun_fact": "The Portuguese winger became one of football's most discussed signings, bought for £7.4 million from a homeless shelter to Old Trafford, in one of Fergie's most unconventional transfers.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Tiago_Manuel_Dias_Correia.JPG/330px-Tiago_Manuel_Dias_Correia.JPG"
         },
         {
@@ -1118,7 +1118,7 @@ window.CLUB_DATA = {
           "position": "Striker",
           "shirt_number": 20,
           "age": 29,
-          "fun_fact": "Signed from Arsenal for £24 million, van Persie's 26 league goals — including a stunning volley against Villa — were the defining factor in United's 20th and final title under Sir Alex Ferguson.",
+          "fun_fact": "Signed from Arsenal for £24 million, van Persie's 26 league goals, including a stunning volley against Villa, were the defining factor in United's 20th and final title under Sir Alex Ferguson.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Loco-Fener_%2810%29.jpg/330px-Loco-Fener_%2810%29.jpg"
         },
         {
@@ -1158,7 +1158,7 @@ window.CLUB_DATA = {
           "position": "Winger",
           "shirt_number": 11,
           "age": 20,
-          "fun_fact": "Signed from Crystal Palace for £10 million in January 2013, the dual-nationality English winger was loaned back to Palace after the season — his United career never truly began.",
+          "fun_fact": "Signed from Crystal Palace for £10 million in January 2013, the dual-nationality English winger was loaned back to Palace after the season, his United career never truly began.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Wilfried_Zaha_NYCFC_v_Charlotte_20_Sep_2025-022_%28cropped%29.jpg/330px-Wilfried_Zaha_NYCFC_v_Charlotte_20_Sep_2025-022_%28cropped%29.jpg"
         }
       ]
@@ -1173,7 +1173,7 @@ window.CLUB_DATA = {
           "position": "Midfielder",
           "shirt_number": 27,
           "age": 25,
-          "fun_fact": "David Moyes's first signing as United manager — brought from Everton on deadline day for £27.5 million — became a symbol of the post-Fergie transition and Moyes's difficult reign.",
+          "fun_fact": "David Moyes's first signing as United manager, brought from Everton on deadline day for £27.5 million, became a symbol of the post-Fergie transition and Moyes's difficult reign.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Marouane_Fellaini_2018.jpg/330px-Marouane_Fellaini_2018.jpg"
         },
         {
@@ -1323,7 +1323,7 @@ window.CLUB_DATA = {
           "position": "Striker",
           "shirt_number": 39,
           "age": 18,
-          "fun_fact": "The local-born teenager burst onto the scene against Midtjylland in the Europa League, then scored on his Premier League debut against Arsenal — one of the most extraordinary first-week careers in football history.",
+          "fun_fact": "The local-born teenager burst onto the scene against Midtjylland in the Europa League, then scored on his Premier League debut against Arsenal, one of the most extraordinary first-week careers in football history.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Marcus_Rashford_in_2023.jpg/330px-Marcus_Rashford_in_2023.jpg"
         }
       ]
@@ -1433,7 +1433,7 @@ window.CLUB_DATA = {
           "position": "Midfielder",
           "shirt_number": 39,
           "age": 20,
-          "fun_fact": "The Manchester-born Scottish international made his league debut this season and won Sir Alex Ferguson's appreciation — the legendary manager called him an 'outstanding young man' in his first senior appearance.",
+          "fun_fact": "The Manchester-born Scottish international made his league debut this season and won Sir Alex Ferguson's appreciation, the legendary manager called him an 'outstanding young man' in his first senior appearance.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Manchester_United_v_Liverpool%2C_22_August_2022_%2821%29_%28Scott_McTominay%29.jpg/330px-Manchester_United_v_Liverpool%2C_22_August_2022_%2821%29_%28Scott_McTominay%29.jpg"
         }
       ]
@@ -1543,7 +1543,7 @@ window.CLUB_DATA = {
           "position": "Striker",
           "shirt_number": 25,
           "age": 30,
-          "fun_fact": "The Nigerian striker became one of football's most heart-warming stories — a lifelong United fan signed on loan deadline day — becoming the first Nigerian to score for United.",
+          "fun_fact": "The Nigerian striker became one of football's most heart-warming stories, a lifelong United fan signed on loan deadline day, becoming the first Nigerian to score for United.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Odion_Ighalo_24.jpeg/330px-Odion_Ighalo_24.jpeg"
         }
       ]
@@ -1643,7 +1643,7 @@ window.CLUB_DATA = {
           "position": "Goalkeeper",
           "shirt_number": 22,
           "age": 35,
-          "fun_fact": "The veteran English goalkeeper returned to United — his boyhood club — as experienced third-choice cover, providing valuable backup during a turbulent season under multiple managers.",
+          "fun_fact": "The veteran English goalkeeper returned to United, his boyhood club, as experienced third-choice cover, providing valuable backup during a turbulent season under multiple managers.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tom_Heaton_playing_for_Burnley_%28cropped%29.jpg/330px-Tom_Heaton_playing_for_Burnley_%28cropped%29.jpg"
         },
         {
@@ -1678,7 +1678,7 @@ window.CLUB_DATA = {
           "position": "Winger",
           "shirt_number": 21,
           "age": 22,
-          "fun_fact": "Signed from Ajax for £85 million — United's second most expensive transfer ever — the Brazilian winger scored on his debut and brought directness and creativity to the attack.",
+          "fun_fact": "Signed from Ajax for £85 million, United's second most expensive transfer ever, the Brazilian winger scored on his debut and brought directness and creativity to the attack.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Antony_2022.jpg/330px-Antony_2022.jpg"
         },
         {
@@ -1733,7 +1733,7 @@ window.CLUB_DATA = {
           "position": "Goalkeeper",
           "shirt_number": 24,
           "age": 27,
-          "fun_fact": "Signed from Inter Milan for £47 million after his Champions League final display, the Cameroonian goalkeeper brought a modern, ball-playing style — though his first season was inconsistent.",
+          "fun_fact": "Signed from Inter Milan for £47 million after his Champions League final display, the Cameroonian goalkeeper brought a modern, ball-playing style, though his first season was inconsistent.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Andr%C3%A9_Onana.jpg/330px-Andr%C3%A9_Onana.jpg"
         },
         {

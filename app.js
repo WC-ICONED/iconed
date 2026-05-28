@@ -331,13 +331,13 @@
       else if (g.correct) cells.push("✅");
       else cells.push("❌");
     }
-    return `Football·Icons №${puzzleNum} — ${puzzle.worldCupYear} 🏆 ${flag}\n⚽ ${cells.join(" ")}\nhttps://www.iconed.wtf`;
+    return `Football·Icons №${puzzleNum} · ${puzzle.worldCupYear} 🏆 ${flag}\n⚽ ${cells.join(" ")}\nhttps://www.iconed.wtf`;
   }
 
   function renderSharePreview(puzzleNum) {
     const flag = FLAG[puzzle.nationality] || "";
     const line1 = document.createElement("div");
-    line1.textContent = `Football·Icons №${puzzleNum} — ${puzzle.worldCupYear} 🏆 ${flag}`;
+    line1.textContent = `Football·Icons №${puzzleNum} · ${puzzle.worldCupYear} 🏆 ${flag}`;
 
     const line2 = document.createElement("div");
     line2.appendChild(document.createTextNode("⚽ "));
@@ -562,9 +562,9 @@
     els.photoSlot.classList.add("locked");
     els.photoSlot.classList.remove("revealed");
 
-    els.clueAge.textContent = "—";
-    els.cluePosition.textContent = "—";
-    els.clueShirt.textContent = "—";
+    els.clueAge.textContent = "·";
+    els.cluePosition.textContent = "·";
+    els.clueShirt.textContent = "·";
 
     const placeholder = document.querySelector(".portrait-placeholder");
     if (placeholder) placeholder.style.display = "";

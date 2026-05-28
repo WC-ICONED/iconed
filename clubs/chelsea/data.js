@@ -1061,7 +1061,7 @@ window.CLUB_DATA = {
           "position": "Striker",
           "shirt_number": 11,
           "age": 33,
-          "fun_fact": "Scored the Champions League final equaliser in Munich with virtually the last touch of the game, then scored in the shootout — the defining Chelsea moment.",
+          "fun_fact": "Scored the Champions League final equaliser in Munich with virtually the last touch of the game, then scored in the shootout, the defining Chelsea moment.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Didier_Drogba_%282019%29_%28cropped2%29.jpg/330px-Didier_Drogba_%282019%29_%28cropped2%29.jpg"
         },
         {
@@ -1126,7 +1126,7 @@ window.CLUB_DATA = {
           "position": "Midfielder",
           "shirt_number": 14,
           "age": 21,
-          "fun_fact": "Belgian playmaker who joined Chelsea from Genk but was loaned out twice before being sold to Wolfsburg — he went on to become one of the world's best players at Manchester City.",
+          "fun_fact": "Belgian playmaker who joined Chelsea from Genk but was loaned out twice before being sold to Wolfsburg, he went on to become one of the world's best players at Manchester City.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_%28cropped%29.jpg/330px-Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_%28cropped%29.jpg"
         },
         {
@@ -1191,7 +1191,7 @@ window.CLUB_DATA = {
           "position": "Midfielder",
           "shirt_number": 14,
           "age": 22,
-          "fun_fact": "German World Cup winner who was an effective wide player for Chelsea before a move to Wolfsburg — his assists in the 2014 World Cup final were historic.",
+          "fun_fact": "German World Cup winner who was an effective wide player for Chelsea before a move to Wolfsburg, his assists in the 2014 World Cup final were historic.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Sch%C3%BCrrle_2019.jpg/330px-Sch%C3%BCrrle_2019.jpg"
         },
         {

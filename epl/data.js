@@ -146,7 +146,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 16,
           "age": 25,
-          "fun_fact": "United's engine as they retained the title, his combative midfield play and driving runs key to their domestic dominance — the captaincy from Cantona would come the following season.",
+          "fun_fact": "United's engine as they retained the title, his combative midfield play and driving runs key to their domestic dominance, the captaincy from Cantona would come the following season.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Roy_keane_2014.jpg/330px-Roy_keane_2014.jpg"
         },
         {
@@ -441,7 +441,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 10,
           "age": 26,
-          "fun_fact": "Won the European Golden Shoe with 30 league goals in Sunderland's first top-flight season in years — a remarkable feat for an unfancied club.",
+          "fun_fact": "Won the European Golden Shoe with 30 league goals in Sunderland's first top-flight season in years, a remarkable feat for an unfancied club.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Kevin_Phillips_2014.jpg/330px-Kevin_Phillips_2014.jpg"
         },
         {
@@ -566,7 +566,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 10,
           "age": 27,
-          "fun_fact": "Scored 19 league goals as newly-promoted Ipswich finished fifth — one of the great overachievement stories in Premier League history.",
+          "fun_fact": "Scored 19 league goals as newly-promoted Ipswich finished fifth, one of the great overachievement stories in Premier League history.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Marcus_Stewart_30-04-2016_1.jpg/330px-Marcus_Stewart_30-04-2016_1.jpg"
         },
         {
@@ -966,7 +966,7 @@ window.EPL_DATA = {
           "position": "GK",
           "shirt_number": 1,
           "age": 22,
-          "fun_fact": "Set a then-Premier League record of 24 clean sheets in a debut season of extraordinary quality — the best goalkeeper in England from day one.",
+          "fun_fact": "Set a then-Premier League record of 24 clean sheets in a debut season of extraordinary quality, the best goalkeeper in England from day one.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Arsenal_players_training_before_2019_UEFA_Europa_League_final_07_%28cropped%29.jpg"
         },
         {
@@ -986,7 +986,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 9,
           "age": 23,
-          "fun_fact": "Scored 21 Premier League goals for relegated Crystal Palace — a stunning individual achievement that made him one of the season's standout performers.",
+          "fun_fact": "Scored 21 Premier League goals for relegated Crystal Palace, a stunning individual achievement that made him one of the season's standout performers.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Andrew_Johnson_photo_portrait_head_and_shoulders%2C_c1870-1880-Edit1.jpg/330px-Andrew_Johnson_photo_portrait_head_and_shoulders%2C_c1870-1880-Edit1.jpg"
         },
         {
@@ -1236,7 +1236,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 9,
           "age": 29,
-          "fun_fact": "Scored 18 Premier League goals in an outstanding season for Blackburn — the highest ever by a South African player in the top flight.",
+          "fun_fact": "Scored 18 Premier League goals in an outstanding season for Blackburn, the highest ever by a South African player in the top flight.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/BenniMcCarthy.jpg/330px-BenniMcCarthy.jpg"
         },
         {
@@ -1291,7 +1291,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 9,
           "age": 23,
-          "fun_fact": "Scored 24 league goals in his debut season after arriving from Atletico Madrid — the fastest Liverpool player to 50 goals and an instant Anfield legend.",
+          "fun_fact": "Scored 24 league goals in his debut season after arriving from Atletico Madrid, the fastest Liverpool player to 50 goals and an instant Anfield legend.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Fernando_Torres_2017.jpg"
         },
         {
@@ -1711,7 +1711,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 16,
           "age": 23,
-          "fun_fact": "Scored perhaps the most dramatic goal in Premier League history — the 93:20 title-winner against QPR — having netted 23 league goals in his debut season.",
+          "fun_fact": "Scored perhaps the most dramatic goal in Premier League history, the 93:20 title-winner against QPR, having netted 23 league goals in his debut season.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Ag%C3%BCero_in_2018.jpg/330px-Ag%C3%BCero_in_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
         },
         {
@@ -1731,7 +1731,7 @@ window.EPL_DATA = {
           "position": "GK",
           "shirt_number": 1,
           "age": 20,
-          "fun_fact": "Struggled initially but showed flashes of brilliance that would eventually make him the best goalkeeper in the Premier League — a future great emerging.",
+          "fun_fact": "Struggled initially but showed flashes of brilliance that would eventually make him the best goalkeeper in the Premier League, a future great emerging.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/David_de_Gea_2017.jpg/330px-David_de_Gea_2017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
         },
         {
@@ -1806,7 +1806,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 7,
           "age": 25,
-          "fun_fact": "Scored 23 goals and provided 12 assists in a campaign of incredible skill and controversy — the most captivating and maddening player in England.",
+          "fun_fact": "Scored 23 goals and provided 12 assists in a campaign of incredible skill and controversy, the most captivating and maddening player in England.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Luis_Su%C3%A1rez_2026_%28cropped%29.jpg/330px-Luis_Su%C3%A1rez_2026_%28cropped%29.jpg"
         },
         {
@@ -1856,7 +1856,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 22,
           "age": 26,
-          "fun_fact": "The bargain of the season — signed for £2m — scored 18 Premier League goals and 22 in all competitions, one of the great surprise packages.",
+          "fun_fact": "The bargain of the season, signed for £2m, scored 18 Premier League goals and 22 in all competitions, one of the great surprise packages.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Michu_2013.jpg/330px-Michu_2013.jpg"
         },
         {
@@ -1866,7 +1866,7 @@ window.EPL_DATA = {
           "position": "DEF",
           "shirt_number": 5,
           "age": 25,
-          "fun_fact": "Arrived from Ajax and immediately impressed with his technical quality and reading of the game — one of the best centre-back arrivals of that summer.",
+          "fun_fact": "Arrived from Ajax and immediately impressed with his technical quality and reading of the game, one of the best centre-back arrivals of that summer.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Jan_Vertonghen_14_Jul_2018.jpg/330px-Jan_Vertonghen_14_Jul_2018.jpg"
         },
         {
@@ -1941,7 +1941,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 9,
           "age": 24,
-          "fun_fact": "Scored 17 Premier League goals for Swansea — extraordinary for a mid-table side — establishing himself as one of the most effective strikers outside the top six.",
+          "fun_fact": "Scored 17 Premier League goals for Swansea, extraordinary for a mid-table side, establishing himself as one of the most effective strikers outside the top six.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Wilfried_Bony_%282013%29.JPG/330px-Wilfried_Bony_%282013%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
         },
         {
@@ -2016,7 +2016,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 18,
           "age": 21,
-          "fun_fact": "Burst onto the scene and won PFA Young Player of the Year with 21 league goals — the Premier League's great surprise of the season.",
+          "fun_fact": "Burst onto the scene and won PFA Young Player of the Year with 21 league goals, the Premier League's great surprise of the season.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Harry_Kane_on_October_10%2C_2023.jpg/330px-Harry_Kane_on_October_10%2C_2023.jpg"
         },
         {
@@ -2276,7 +2276,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 17,
           "age": 24,
-          "fun_fact": "Scored 16 Premier League goals for Bournemouth — remarkable for a mid-table side — establishing himself as one of the division's most underrated strikers.",
+          "fun_fact": "Scored 16 Premier League goals for Bournemouth, remarkable for a mid-table side, establishing himself as one of the division's most underrated strikers.",
           "image_url": "player_images/joshua_king.jpg"
         },
         {
@@ -2381,7 +2381,7 @@ window.EPL_DATA = {
           "position": "GK",
           "shirt_number": 1,
           "age": 26,
-          "fun_fact": "Named in the PFA Team of the Year with a series of world-class saves — widely regarded as the world's best goalkeeper throughout the campaign.",
+          "fun_fact": "Named in the PFA Team of the Year with a series of world-class saves, widely regarded as the world's best goalkeeper throughout the campaign.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/David_de_Gea_2017.jpg/330px-David_de_Gea_2017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
         },
         {
@@ -2436,7 +2436,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 7,
           "age": 23,
-          "fun_fact": "Won the FWA Footballer of the Year and the PFA Young Player of the Year with 17 league goals and 10 assists as City won the title with 98 points — his transformation into a world-class attacker complete.",
+          "fun_fact": "Won the FWA Footballer of the Year and the PFA Young Player of the Year with 17 league goals and 10 assists as City won the title with 98 points, his transformation into a world-class attacker complete.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Raheem_Sterling_2018.jpg/330px-Raheem_Sterling_2018.jpg"
         },
         {
@@ -2551,7 +2551,7 @@ window.EPL_DATA = {
           "position": "DEF",
           "shirt_number": 66,
           "age": 21,
-          "fun_fact": "Registered 13 assists — a Premier League record for a defender — as Liverpool won the title at a canter, his delivery from right back redefining the full-back position.",
+          "fun_fact": "Registered 13 assists, a Premier League record for a defender, as Liverpool won the title at a canter, his delivery from right back redefining the full-back position.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Trent_Alexander-Arnold_2018_%28cropped%29.jpg"
         },
         {
@@ -2656,7 +2656,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 8,
           "age": 30,
-          "fun_fact": "Scored 13 league goals — extraordinary for a deep-lying midfielder — including an unstoppable run of 9 in 8 games that effectively won City the title.",
+          "fun_fact": "Scored 13 league goals, extraordinary for a deep-lying midfielder, including an unstoppable run of 9 in 8 games that effectively won City the title.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/20180602_FIFA_Friendly_Match_Austria_vs._Germany_%C4%B0lkay_G%C3%BCndo%C4%9Fan_850_0728.jpg/330px-20180602_FIFA_Friendly_Match_Austria_vs._Germany_%C4%B0lkay_G%C3%BCndo%C4%9Fan_850_0728.jpg"
         },
         {
@@ -2761,7 +2761,7 @@ window.EPL_DATA = {
           "position": "FWD",
           "shirt_number": 7,
           "age": 29,
-          "fun_fact": "Shared the Golden Boot on 23 goals — the first Asian player to win the award — cementing his status as one of Europe's elite forwards.",
+          "fun_fact": "Shared the Golden Boot on 23 goals, the first Asian player to win the award, cementing his status as one of Europe's elite forwards.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/BFA_2023_-2_Heung-Min_Son_%28cropped%29.jpg/330px-BFA_2023_-2_Heung-Min_Son_%28cropped%29.jpg"
         },
         {
@@ -2916,7 +2916,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 24,
           "age": 28,
-          "fun_fact": "Scored 11 league goals — far exceeding all expectations — as Newcastle qualified for the Champions League, becoming an unlikely cult hero at St James' Park.",
+          "fun_fact": "Scored 11 league goals, far exceeding all expectations, as Newcastle qualified for the Champions League, becoming an unlikely cult hero at St James' Park.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Miguel_Almir%C3%B3n_Red_Bull_Atlanta_5.31.25-069_%28cropped%29.jpg/330px-Miguel_Almir%C3%B3n_Red_Bull_Atlanta_5.31.25-069_%28cropped%29.jpg"
         },
         {
@@ -2961,7 +2961,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 47,
           "age": 23,
-          "fun_fact": "Won PFA Players' Player of the Year with a career-best 19 league goals and 8 assists — his transition into City's main creative focal point fully dominant.",
+          "fun_fact": "Won PFA Players' Player of the Year with a career-best 19 league goals and 8 assists, his transition into City's main creative focal point fully dominant.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2613%2C_Phil_Foden.jpg/330px-2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2613%2C_Phil_Foden.jpg"
         },
         {
@@ -2971,7 +2971,7 @@ window.EPL_DATA = {
           "position": "MID",
           "shirt_number": 20,
           "age": 21,
-          "fun_fact": "Won PFA Young Player of the Year with 22 goals and 11 assists after his move from City — the best debut season by any player in Chelsea's Premier League history.",
+          "fun_fact": "Won PFA Young Player of the Year with 22 goals and 11 assists after his move from City, the best debut season by any player in Chelsea's Premier League history.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Cole_Palmer_2025_FIFA_Club_World_Cup_Final.jpg"
         },
         {

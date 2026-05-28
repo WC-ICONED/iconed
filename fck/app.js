@@ -355,13 +355,13 @@
       else if (g.correct) cells.push("✅");
       else cells.push("❌");
     }
-    return `ICONED·FCK №${puzzleNum} — ${puzzle.season} 🇩🇰 ${flag}\n⚽ ${cells.join(" ")}\nhttps://www.iconed.wtf/fck/`;
+    return `ICONED·FCK №${puzzleNum} · ${puzzle.season} 🇩🇰 ${flag}\n⚽ ${cells.join(" ")}\nhttps://www.iconed.wtf/fck/`;
   }
 
   function renderSharePreview(puzzleNum) {
     const flag = FLAG[puzzle.nationality] || "";
     const line1 = document.createElement("div");
-    line1.textContent = `ICONED·FCK №${puzzleNum} — ${puzzle.season} 🇩🇰 ${flag}`;
+    line1.textContent = `ICONED·FCK №${puzzleNum} · ${puzzle.season} 🇩🇰 ${flag}`;
 
     const line2 = document.createElement("div");
     line2.appendChild(document.createTextNode("⚽ "));
@@ -593,8 +593,8 @@
     els.photoSlot.classList.add("locked");
     els.photoSlot.classList.remove("revealed");
 
-    els.clueAge.textContent = "—";
-    els.cluePosition.textContent = "—";
+    els.clueAge.textContent = "·";
+    els.cluePosition.textContent = "·";
     if (els.funFactSlotText) els.funFactSlotText.textContent = "";
 
     const placeholder = document.querySelector(".portrait-placeholder");
@@ -1254,7 +1254,7 @@
     const dayState = Stats.getDayState();
     if (dayState && dayState.puzzleId && !validIds.has(dayState.puzzleId)) {
       Stats.clearDayState();
-      console.info(`[ICONED] Cleared today-state — puzzle no longer in dataset.`);
+      console.info(`[ICONED] Cleared today-state: puzzle no longer in dataset.`);
     }
   }
 

@@ -78,19 +78,19 @@ function makeNationIndexHtml(n) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <base href="/nations/${n.slug}/">
   <title>ICONED · ${n.name} ${n.flag}</title>
-  <meta name="description" content="ICONED · ${n.name} — Guess the iconic 2026 World Cup player from ${n.name}. Five shots, new player every day.">
+  <meta name="description" content="ICONED · ${n.name}: Guess the iconic 2026 World Cup player from ${n.name}. Five shots, new player every day.">
   <link rel="canonical" href="https://www.iconed.wtf/nations/${n.slug}/">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>" type="image/svg+xml">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="ICONED">
-  <meta property="og:title" content="ICONED · ${n.name} — Guess the 2026 World Cup player">
+  <meta property="og:title" content="ICONED · ${n.name}: Guess the 2026 World Cup player">
   <meta property="og:description" content="Guess the iconic ${n.name} player from the 2026 World Cup squad.">
   <meta property="og:url" content="https://www.iconed.wtf/nations/${n.slug}/">
   <meta property="og:image" content="https://www.iconed.wtf/og-image.png">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="ICONED · ${n.name} — Guess the 2026 WC player">
+  <meta name="twitter:title" content="ICONED · ${n.name}: Guess the 2026 WC player">
   <meta name="twitter:image" content="https://www.iconed.wtf/og-image.png">
   <meta name="theme-color" content="${n.spine}">
 
@@ -183,7 +183,7 @@ function makeNationIndexHtml(n) {
           <span class="sticker-notch"></span>
           <span class="sticker-tape"></span>
           <span class="label">Caps by June 1, 2026</span>
-          <span class="sticker-value big" id="clueCaps">—</span>
+          <span class="sticker-value big" id="clueCaps">·</span>
           <span class="sticker-locked-text"></span>
         </div>
         <!-- Always visible: Club Country -->
@@ -191,7 +191,7 @@ function makeNationIndexHtml(n) {
           <span class="sticker-notch"></span>
           <span class="sticker-tape"></span>
           <span class="label">Plays in</span>
-          <span class="sticker-value" id="clueClubCountry">—</span>
+          <span class="sticker-value" id="clueClubCountry">·</span>
           <span class="sticker-locked-text"></span>
         </div>
         <!-- Miss 1: Position -->
@@ -199,7 +199,7 @@ function makeNationIndexHtml(n) {
           <span class="sticker-notch"></span>
           <span class="sticker-tape"></span>
           <span class="label">Position</span>
-          <span class="sticker-value" id="cluePosition">—</span>
+          <span class="sticker-value" id="cluePosition">·</span>
           <span class="sticker-locked-text">Reveals after miss 1</span>
         </div>
         <!-- Miss 1: Goals -->
@@ -207,7 +207,7 @@ function makeNationIndexHtml(n) {
           <span class="sticker-notch"></span>
           <span class="sticker-tape"></span>
           <span class="label">Goals</span>
-          <span class="sticker-value big" id="clueGoals">—</span>
+          <span class="sticker-value big" id="clueGoals">·</span>
           <span class="sticker-locked-text">Reveals after miss 1</span>
         </div>
         <!-- Miss 2: Age (full width) -->
@@ -215,7 +215,7 @@ function makeNationIndexHtml(n) {
           <span class="sticker-notch"></span>
           <span class="sticker-tape"></span>
           <span class="label">Age</span>
-          <span class="sticker-value big" id="clueAge">—</span>
+          <span class="sticker-value big" id="clueAge">·</span>
           <span class="sticker-locked-text">Reveals after miss 2</span>
         </div>
 
@@ -224,7 +224,7 @@ function makeNationIndexHtml(n) {
           <span class="sticker-notch"></span>
           <span class="sticker-tape"></span>
           <span class="label">Current club</span>
-          <span class="sticker-value" id="clueClub">—</span>
+          <span class="sticker-value" id="clueClub">·</span>
           <span class="sticker-locked-text">Reveals after miss 3</span>
         </div>
         <!-- Miss 4: Photo -->
@@ -308,7 +308,7 @@ function makeNationIndexHtml(n) {
             <div><span class="kicker gold">Your collection</span><h2>Statistics</h2></div>
             <button class="modal-close" id="statsClose" type="button">✕</button>
           </div>
-          <p class="stats-note">Every game counts — today's player and any past player from the archive. Replay an archive day as many times as you like; it only counts once.</p>
+          <p class="stats-note">Every game counts: today's player and any past player from the archive. Replay an archive day as many times as you like; it only counts once.</p>
           <div class="stat-boxes">
             <div class="stat-box"><span class="stat-num" id="statPlayed">0</span><span class="stat-label-text">Played</span></div>
             <div class="stat-box"><span class="stat-num" id="statWon">0</span><span class="stat-label-text">Won</span></div>
@@ -319,6 +319,8 @@ function makeNationIndexHtml(n) {
           <div class="dist-chart" id="distChart"></div>
           <div class="modal-actions">
             <button class="cta-secondary" id="copyStatsBtn" type="button">SHARE YOUR SCORE</button>
+          </div>
+          <div class="modal-actions">
             <button class="transfer-btn" id="transferToggle" type="button">Transfer stats to another device</button>
             <button class="reset-btn" id="resetStats" type="button">Reset stats</button>
           </div>
@@ -363,10 +365,10 @@ function makeNationIndexHtml(n) {
             <p>Guess the <strong>${n.name} ${n.flag}</strong> player from the 2026 World Cup squad.</p>
             <p>You start with four clues:</p>
             <ul>
-              <li><strong>WC Squad</strong> — always 2026</li>
-              <li><strong>Country</strong> — always ${n.name}</li>
-              <li><strong>Caps</strong> — international appearances by June 1, 2026</li>
-              <li><strong>Plays in</strong> — country where their club is based</li>
+              <li><strong>WC Squad</strong>: always 2026</li>
+              <li><strong>Country</strong>: always ${n.name}</li>
+              <li><strong>Caps</strong>: international appearances by June 1, 2026</li>
+              <li><strong>Plays in</strong>: country where their club is based</li>
             </ul>
             <p>Each wrong guess reveals an extra clue:</p>
             <ul>

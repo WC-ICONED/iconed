@@ -1003,6 +1003,14 @@ body {
   color: var(--ink-soft);
   margin-bottom: 10px;
 }
+.community-disclaimer {
+  margin-top: 12px;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 10.5px;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  opacity: .7;
+}
 .modal-actions {
   display: flex;
   flex-direction: column;
