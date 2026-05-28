@@ -27,14 +27,16 @@ window.PUZZLES = [
     aliases: ["Bani Attiah"], nationality: "Jordan",
     caps: 4, clubCountry: "Jordan", position: "Goalkeeper",
     goals: 0, age: 33, shirtNumber: null, club: "Al-Faisaly",
-    wikipediaTitle: "Nour Bani Attiah"
+    wikipediaTitle: "Nour Bani Attiah",
+    imageUrl: "https://img.sofascore.com/api/v1/player/828259/image"
   },
   {
     id: "jor-al-juaidi", answer: "Ahmad Al-Juaidi",
     aliases: ["Al-Juaidi", "Al Juaidi"], nationality: "Jordan",
     caps: 0, clubCountry: "Jordan", position: "Goalkeeper",
     goals: 0, age: 25, shirtNumber: null, club: "Shabab Al-Ordon",
-    wikipediaTitle: "Ahmad Al-Juaidi"
+    wikipediaTitle: "Ahmad Al-Juaidi",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1014310/image"
   },
 
   // ── Defenders ─────────────────────────────────────────────────

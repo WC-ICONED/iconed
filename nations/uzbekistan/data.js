@@ -164,7 +164,8 @@ window.PUZZLES = [
     aliases: ["Rakhmonaliev"], nationality: "Uzbekistan",
     caps: 1, clubCountry: "Azerbaijan", position: "Midfielder",
     goals: 0, age: 22, shirtNumber: null, club: "Sabah",
-    wikipediaTitle: "Umarali Rakhmonaliev"
+    wikipediaTitle: "Umarali Rakhmonaliev",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1134291/image"
   },
   {
     id: "uzb-esanov", answer: "Sherzod Esanov",

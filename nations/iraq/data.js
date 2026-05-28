@@ -208,7 +208,8 @@ window.PUZZLES = [
     aliases: ["Ismail"], nationality: "Iraq",
     caps: 4, clubCountry: "Iraq", position: "Midfielder",
     goals: 0, age: 24, shirtNumber: null, club: "Al-Talaba",
-    wikipediaTitle: "Zaid Ismail"
+    wikipediaTitle: "Zaid Ismail",
+    imageUrl: "https://img.sofascore.com/api/v1/player/1843356/image"
   },
   {
     id: "irq-gwargis", answer: "Peter Gwargis",
