@@ -467,7 +467,7 @@ window.CLUB_DATA = {
           "shirt_number": 11,
           "age": 26,
           "fun_fact": "His last-minute equaliser at Old Trafford in May 2002 clinched the Premier League title for Arsenal on Manchester United's own ground.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Sylvain_Wiltord_Rennes_081229.jpg"
         },
         {
           "name": "Lauren",
@@ -477,7 +477,7 @@ window.CLUB_DATA = {
           "shirt_number": 12,
           "age": 24,
           "fun_fact": "The Cameroonian right-back won back-to-back FA Cups and the 2003-04 Invincibles title as part of Arsenal's formidable defence.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/1_Laureano_Bisan_Etam%C3%A9-Mayer.jpg/500px-1_Laureano_Bisan_Etam%C3%A9-Mayer.jpg"
         },
         {
           "name": "Edu",
@@ -532,7 +532,7 @@ window.CLUB_DATA = {
           "shirt_number": 13,
           "age": 24,
           "fun_fact": "Signed from Ipswich as competition for Seaman, he had a difficult spell at Arsenal including famously falling into his own goal post.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Richard_Wright_%28Ipswich_goalkeeper%29.jpg/500px-Richard_Wright_%28Ipswich_goalkeeper%29.jpg"
         },
         {
           "name": "Francis Jeffers",
@@ -607,7 +607,7 @@ window.CLUB_DATA = {
           "shirt_number": 30,
           "age": 26,
           "fun_fact": "Arsenal's Swedish backup goalkeeper who filled in when both Seaman and Wright were injured during a busy season.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Rami_Shaaban_2014-08-27_001.jpg/500px-Rami_Shaaban_2014-08-27_001.jpg"
         }
       ]
     },
@@ -762,7 +762,7 @@ window.CLUB_DATA = {
           "shirt_number": 31,
           "age": 20,
           "fun_fact": "A local youth product who made several first-team appearances before eventually moving on to Middlesbrough.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/CINvCHI_2017-06-28_-_Justin_Hoyte_%2841203934261%29_%28cropped%29.jpg/500px-CINvCHI_2017-06-28_-_Justin_Hoyte_%2841203934261%29_%28cropped%29.jpg"
         },
         {
           "name": "Kerrea Gilbert",
@@ -772,7 +772,7 @@ window.CLUB_DATA = {
           "shirt_number": 30,
           "age": 18,
           "fun_fact": "A young right-back who came through Arsenal's academy and made a handful of appearances during this period.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Kerrea_Gilbert.jpg"
         }
       ]
     },
@@ -807,7 +807,7 @@ window.CLUB_DATA = {
           "shirt_number": 15,
           "age": 19,
           "fun_fact": "A young Brazilian who impressed in his debut season before becoming a less popular figure during Arsenal's trophy drought.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Den%C3%ADlson.jpg/500px-Den%C3%ADlson.jpg"
         },
         {
           "name": "Emmanuel Eboue",
@@ -992,7 +992,7 @@ window.CLUB_DATA = {
           "shirt_number": 26,
           "age": 19,
           "fun_fact": "A Spanish youth international who was tipped for greatness at Arsenal but departed for Atlético Madrid without establishing himself.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Fran_M%C3%A9rida_august_2020_%28cropped%29.jpg/500px-Fran_M%C3%A9rida_august_2020_%28cropped%29.jpg"
         }
       ]
     },
@@ -1102,7 +1102,7 @@ window.CLUB_DATA = {
           "shirt_number": 16,
           "age": 30,
           "fun_fact": "A Brazilian left-back best remembered for swapping shirts with Robin van Persie mid-match during an FA Cup tie, angering Wenger.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Andre_Santos_2.jpg/500px-Andre_Santos_2.jpg"
         }
       ]
     },
@@ -1182,7 +1182,7 @@ window.CLUB_DATA = {
           "shirt_number": 29,
           "age": 21,
           "fun_fact": "A powerful but raw French striker who scored four goals in a pre-season friendly against New York Red Bulls but struggled for consistency.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Yaya_Sanogo_27-02-2016_1.jpg/500px-Yaya_Sanogo_27-02-2016_1.jpg"
         },
         {
           "name": "Kim Källström",
@@ -1202,7 +1202,7 @@ window.CLUB_DATA = {
           "shirt_number": 31,
           "age": 21,
           "fun_fact": "A promising Japanese winger who spent most of his Arsenal years on loan at various clubs before leaving on a free transfer.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Miyaichi%2C_Ryo_StP_16-17_%282%29_WP.jpg/500px-Miyaichi%2C_Ryo_StP_16-17_%282%29_WP.jpg"
         },
         {
           "name": "Emiliano Viviano",
@@ -1212,7 +1212,7 @@ window.CLUB_DATA = {
           "shirt_number": 13,
           "age": 28,
           "fun_fact": "An Italian goalkeeper brought in as emergency cover following a goalkeeper injury crisis at Arsenal.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Emiliano_Viviano.jpg/500px-Emiliano_Viviano.jpg"
         }
       ]
     },
@@ -1687,7 +1687,7 @@ window.CLUB_DATA = {
           "shirt_number": 35,
           "age": 25,
           "fun_fact": "A World War-era-style left-back who plays more like a midfielder, his positional intelligence changed how Arsenal defend.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Oleksandr_Zinchenko_%28footballer%29_2023_%28cropped%29.jpg/500px-Oleksandr_Zinchenko_%28footballer%29_2023_%28cropped%29.jpg"
         },
         {
           "name": "William Saliba",
@@ -1707,7 +1707,7 @@ window.CLUB_DATA = {
           "shirt_number": 21,
           "age": 22,
           "fun_fact": "A technically gifted Portuguese playmaker signed from Porto who showed his quality in flashes but struggled with injuries.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/RC_Lens_-_Arsenal_FC_%2803-10-2023%29_18_%28cropped%29.jpg/500px-RC_Lens_-_Arsenal_FC_%2803-10-2023%29_18_%28cropped%29.jpg"
         }
       ]
     },

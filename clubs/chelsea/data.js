@@ -127,7 +127,7 @@ window.CLUB_DATA = {
           "shirt_number": 9,
           "age": 24,
           "fun_fact": "Feisty Scottish striker who was Chelsea's top scorer in 1994-95, known for his bravery and eye for goal despite his small stature.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/John_Spencer.jpg"
         },
         {
           "name": "Frank Sinclair",
@@ -477,7 +477,7 @@ window.CLUB_DATA = {
           "shirt_number": 7,
           "age": 28,
           "fun_fact": "Creative Croatian winger who joined Chelsea in 2000 and provided flair and direct running on the right flank across three seasons at Stamford Bridge.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Mario_Stanic.jpg"
         },
         {
           "name": "Sam Dalla Bona",
@@ -907,7 +907,7 @@ window.CLUB_DATA = {
           "shirt_number": 33,
           "age": 27,
           "fun_fact": "Powerful Brazilian centre back renowned for his thunderbolt free kicks and commanding aerial presence, who formed a solid partnership with John Terry across five Chelsea seasons.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/28_12_2020_Jogo_Beneficente_Natal_Sem_Fome_%2850775668042%29_-_Alex.jpg/500px-28_12_2020_Jogo_Beneficente_Natal_Sem_Fome_%2850775668042%29_-_Alex.jpg"
         },
         {
           "name": "Deco",
@@ -937,7 +937,7 @@ window.CLUB_DATA = {
           "shirt_number": 20,
           "age": 27,
           "fun_fact": "Dependable Portuguese right back who provided loyal service to Chelsea across nine seasons, always reliable when called upon.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Paulo_Ferreira_2017.jpg/500px-Paulo_Ferreira_2017.jpg"
         }
       ]
     },
@@ -1347,7 +1347,7 @@ window.CLUB_DATA = {
           "shirt_number": 3,
           "age": 26,
           "fun_fact": "Spanish wing back who thrived in Conte's 3-4-3 system, chipping in with 6 Premier League goals in Chelsea's title-winning campaign.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Marcos_Alonso_Mendoza.jpg"
         },
         {
           "name": "Victor Moses",
@@ -1732,7 +1732,7 @@ window.CLUB_DATA = {
           "shirt_number": 15,
           "age": 22,
           "fun_fact": "Senegalese striker who scored 14 Premier League goals in his debut season despite widespread criticism, showing composure and determination to succeed.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Nicolas_Jackson_2025_FIFA_Club_World_Cup_Final.jpg"
         },
         {
           "name": "Moises Caicedo",

@@ -499,7 +499,7 @@ window.CLUB_DATA = {
           "shirt_number": 22,
           "age": 21,
           "fun_fact": "The Scottish midfielder was a product of United's renowned academy system, part of the squad that delivered a third consecutive Premier League title.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Wilson_Mark.jpg/500px-Wilson_Mark.jpg"
         }
       ]
     },
@@ -554,7 +554,7 @@ window.CLUB_DATA = {
           "shirt_number": 32,
           "age": 19,
           "fun_fact": "The Swedish-Serbian midfielder of Serbian heritage was a highly touted youth talent who had brief involvement with United's first team during this campaign.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bojan_Djordjic_watching_an_AIK_match.jpg/500px-Bojan_Djordjic_watching_an_AIK_match.jpg"
         }
       ]
     },
@@ -1084,7 +1084,7 @@ window.CLUB_DATA = {
           "shirt_number": 4,
           "age": 19,
           "fun_fact": "Purchased from Blackburn for £16.5 million, the young English defender was earmarked as a future United captain by Sir Alex Ferguson in one of his boldest predictions.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Phil_Jones_-_July_2015_%28cropped%29.jpg/500px-Phil_Jones_-_July_2015_%28cropped%29.jpg"
         },
         {
           "name": "Tom Cleverley",
@@ -1139,7 +1139,7 @@ window.CLUB_DATA = {
           "shirt_number": 25,
           "age": 18,
           "fun_fact": "The highly-rated English youngster joined from Crewe and scored a stunning debut goal against Wigan, marking himself out as one of the most exciting talents in United's academy.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Powell-01.jpg/500px-Powell-01.jpg"
         },
         {
           "name": "Alexander Büttner",
@@ -1204,7 +1204,7 @@ window.CLUB_DATA = {
           "shirt_number": 22,
           "age": 23,
           "fun_fact": "The energetic Brazilian right back was one of United's better performers in the difficult post-Ferguson season under David Moyes, his attacking instincts and recovery speed standing out.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Zenit-Lion15_%288%29.jpg/500px-Zenit-Lion15_%288%29.jpg"
         },
         {
           "name": "Michael Keane",
@@ -1214,7 +1214,7 @@ window.CLUB_DATA = {
           "shirt_number": 5,
           "age": 20,
           "fun_fact": "The tall English centre back from Stockport came through United's academy and began making his mark on the first team, eventually departing to flourish at Burnley and Everton.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Michael_Keane_2017.jpg"
         }
       ]
     },
@@ -1469,7 +1469,7 @@ window.CLUB_DATA = {
           "shirt_number": 13,
           "age": 35,
           "fun_fact": "The experienced English goalkeeper was signed as third-choice backup, his calm professionalism providing crucial squad depth during a turbulent season that saw two managers.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/LeeGrant09.jpg/500px-LeeGrant09.jpg"
         },
         {
           "name": "Andreas Pereira",
@@ -1479,7 +1479,7 @@ window.CLUB_DATA = {
           "shirt_number": 15,
           "age": 22,
           "fun_fact": "The Belgian-born Brazilian midfielder with Brazilian and Belgian heritage made regular appearances during this difficult season as United searched for consistency and direction.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Andreas-Pereira-Palmeiras-Internacional-sep2025_%28cropped%29.jpg/500px-Andreas-Pereira-Palmeiras-Internacional-sep2025_%28cropped%29.jpg"
         },
         {
           "name": "Tahith Chong",
@@ -1524,7 +1524,7 @@ window.CLUB_DATA = {
           "shirt_number": 21,
           "age": 21,
           "fun_fact": "The Welsh winger arrived from Swansea City for £18 million and lit up Old Trafford with his pace and directness, scoring a memorable debut goal at Southampton on the opening day.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Daniel_James_13092025_%285%29.jpg/500px-Daniel_James_13092025_%285%29.jpg"
         },
         {
           "name": "Bruno Fernandes",
@@ -1744,7 +1744,7 @@ window.CLUB_DATA = {
           "shirt_number": 37,
           "age": 18,
           "fun_fact": "The Stockport-born academy product burst onto the scene and became one of the Premier League's most exciting young talents, earning England recognition before his 19th birthday.",
-          "image_url": ""
+          "image_url": "https://img.sofascore.com/api/v1/player/1142175/image"
         },
         {
           "name": "Mason Mount",
