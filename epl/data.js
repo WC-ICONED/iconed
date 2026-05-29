@@ -82,7 +82,7 @@ window.EPL_DATA = {
           "shirt_number": 6,
           "age": 31,
           "fun_fact": "Anchored United's defence through their Double triumph, forming a reliable partnership alongside Steve Bruce.",
-          "image_url": "https://img.sofascore.com/api/v1/player/2281224/image"
+          "image_url": "/epl/stickers/gary-pallister.webp"
         },
         {
           "name": "Tim Flowers",
@@ -102,7 +102,7 @@ window.EPL_DATA = {
           "shirt_number": 9,
           "age": 26,
           "fun_fact": "Scored 15 league goals in his debut Spurs season, justifying his £4.5m fee with consistent performances throughout the campaign.",
-          "image_url": "https://img.sofascore.com/api/v1/player/2447115/image"
+          "image_url": "/epl/stickers/chris-armstrong.webp"
         },
         {
           "name": "Tony Adams",
@@ -187,7 +187,7 @@ window.EPL_DATA = {
           "shirt_number": 10,
           "age": 23,
           "fun_fact": "The diminutive Brazilian magician was Boro's creative heartbeat, dazzling with his technique despite the club's relegation.",
-          "image_url": "https://img.sofascore.com/api/v1/player/1422233/image"
+          "image_url": "/epl/stickers/juninho.jpg"
         },
         {
           "name": "Gary Neville",
@@ -282,7 +282,7 @@ window.EPL_DATA = {
           "shirt_number": 1,
           "age": 31,
           "fun_fact": "England's reliable custodian produced a string of outstanding saves for Leeds, keeping them competitive throughout the campaign.",
-          "image_url": "https://img.sofascore.com/api/v1/player/1133/image"
+          "image_url": "/epl/stickers/nigel-martyn.jpg"
         },
         {
           "name": "Andy Cole",
@@ -302,7 +302,7 @@ window.EPL_DATA = {
           "shirt_number": 4,
           "age": 29,
           "fun_fact": "A combative midfield anchor for Newcastle during a difficult league campaign that also included a run to the FA Cup final.",
-          "image_url": "https://img.sofascore.com/api/v1/player/1421979/image"
+          "image_url": "/epl/stickers/david-batty.jpg"
         },
         {
           "name": "Tim Sherwood",
@@ -532,7 +532,7 @@ window.EPL_DATA = {
           "shirt_number": 1,
           "age": 29,
           "fun_fact": "Produced a string of excellent performances for Aston Villa after moving from Liverpool, his imposing presence and athleticism making him a top-flight mainstay.",
-          "image_url": "https://img.sofascore.com/api/v1/player/1073/image"
+          "image_url": "/epl/stickers/david-james.jpg"
         }
       ]
     },
