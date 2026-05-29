@@ -74,6 +74,28 @@
       color: rgba(255,255,255,.78);
       margin-top: 8px;
     }
+    .beta-badge {
+      display: inline-block;
+      margin-left: 8px;
+      padding: 2px 7px 1px;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 9px;
+      font-weight: 500;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: var(--pitch);
+      background: var(--gold);
+      border-radius: 3px;
+      vertical-align: middle;
+    }
+    .hub-note {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 10px;
+      line-height: 1.4;
+      letter-spacing: .02em;
+      color: rgba(255,255,255,.6);
+      margin-top: 12px;
+    }
 
     .hub-body { padding: 18px 14px 8px; }
 
@@ -151,9 +173,10 @@
 <div class="hub">
   <header class="hub-header">
     <a class="back" href="/">← ICONED Home</a>
-    <span class="kicker">Club Edition</span>
+    <span class="kicker">Club Edition <span class="beta-badge">Beta</span></span>
     <h1>Pick Your Club.</h1>
     <p class="hub-tagline">Collect the iconic player stickers from your club's historic squad.</p>
+    <p class="hub-note">Beta — club albums are still being completed and tested, so you may spot gaps or rough edges.</p>
   </header>
 
   <div class="hub-body">
