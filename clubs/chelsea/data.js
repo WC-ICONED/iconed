@@ -586,7 +586,7 @@ window.CLUB_DATA = {
           "position": "Midfielder",
           "shirt_number": 8,
           "age": 24,
-          "fun_fact": "Signed from West Ham in 2001, Lampard was still growing into his Chelsea role but already displaying the relentless goalscoring and work-rate that would define his legendary Stamford Bridge career.",
+          "fun_fact": "Signed from West Ham in 2001, he was still growing into his Chelsea role but already displaying the relentless goalscoring and work-rate that would define his legendary Stamford Bridge career.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Frank_Lampard_2019.jpg/330px-Frank_Lampard_2019.jpg"
         },
         {
@@ -951,7 +951,7 @@ window.CLUB_DATA = {
           "position": "Defender",
           "shirt_number": 3,
           "age": 29,
-          "fun_fact": "Widely regarded as the best left back of his generation, Cole won four FA Cups with Chelsea and was a key part of their Double-winning 2009-10 campaign.",
+          "fun_fact": "Widely regarded as the best left back of his generation, he won four FA Cups with Chelsea and was a key part of their Double-winning 2009-10 campaign.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/ACole.JPG"
         },
         {
@@ -1356,7 +1356,7 @@ window.CLUB_DATA = {
           "position": "Midfielder",
           "shirt_number": 15,
           "age": 25,
-          "fun_fact": "Transformed by Conte into an outstanding right wing back, Moses scored 4 goals and assisted 4 more as Chelsea stormed to the Premier League title.",
+          "fun_fact": "Transformed by Conte into an outstanding right wing back, he scored 4 goals and assisted 4 more as Chelsea stormed to the Premier League title.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Victor_Moses_%28SPA-AKH%29.jpg/330px-Victor_Moses_%28SPA-AKH%29.jpg"
         },
         {

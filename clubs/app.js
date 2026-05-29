@@ -810,8 +810,6 @@
     els.albumBack.addEventListener("click", closeAlbumView);
     els.backToToday.addEventListener("click", goBackToToday);
 
-    // Spine title links to the main World Cup ICONED (use default href navigation)
-    document.getElementById("wordmarkLink").addEventListener("click", (e) => { e.preventDefault(); goBackToToday(); });
     document.getElementById("archiveToggle").addEventListener("click", openArchiveModal);
     document.getElementById("archiveClose").addEventListener("click", closeArchiveModal);
     document.getElementById("archiveOpenAlbum").addEventListener("click", () => {

@@ -56,7 +56,7 @@ window.CLUB_DATA = {
           "position": "DEF",
           "shirt_number": 5,
           "age": 30,
-          "fun_fact": "A key part of Arsenal's famous back four, Bould became renowned for his no-nonsense defending alongside Adams, Dixon and Winterburn.",
+          "fun_fact": "A key part of Arsenal's famous back four, he became renowned for his no-nonsense defending alongside Adams, Dixon and Winterburn.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Steve_Bould_2014.jpg/330px-Steve_Bould_2014.jpg"
         }
       ]
@@ -236,7 +236,7 @@ window.CLUB_DATA = {
           "position": "MID",
           "shirt_number": 4,
           "age": 20,
-          "fun_fact": "Arsène Wenger's first signing, Vieira dominated midfields across Europe and captained Arsenal to the 2003-04 Invincibles season.",
+          "fun_fact": "Arsène Wenger's first signing, he dominated midfields across Europe and captained Arsenal to the 2003-04 Invincibles season.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Patrick_Vieira_NYCFC_%28cropped%29.JPG/330px-Patrick_Vieira_NYCFC_%28cropped%29.JPG"
         },
         {

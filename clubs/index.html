@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ICONED · Club Edition</title>
+  <meta name="description" content="ICONED Club Edition — guess the player from your club's squad.">
+  <link rel="canonical" href="https://www.iconed.wtf/clubs/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>" type="image/svg+xml">
+  <meta name="theme-color" content="#1F6B3A">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,400;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --pitch: #1F6B3A;
+      --gold:  #c8a14a;
+      --ink:   #181410;
+      --ink-soft: rgba(24,20,16,.55);
+      --page:  #f6f1e6;
+      --page-edge: #e3d9c4;
+      --radius: 4px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Archivo", system-ui, sans-serif;
+      background: #d9d0be;
+      color: var(--ink);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .hub {
+      max-width: 480px;
+      margin: 0 auto;
+      min-height: 100dvh;
+      background: var(--page);
+    }
+
+    .hub-header {
+      background: var(--pitch);
+      padding: 24px 22px 22px;
+      color: #fff;
+    }
+    .hub-header a.back {
+      font-family: "Archivo", system-ui, sans-serif;
+      font-size: 10px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: rgba(255,255,255,.7);
+      text-decoration: none;
+    }
+    .hub-header a.back:hover { color: #fff; }
+    .hub-header .kicker {
+      display: block;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 10px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin: 14px 0 6px;
+    }
+    .hub-header h1 {
+      font-family: "Archivo Black", system-ui, sans-serif;
+      font-size: 32px;
+      line-height: 1;
+    }
+    .hub-tagline {
+      font-family: "Archivo", system-ui, sans-serif;
+      font-size: 13px;
+      color: rgba(255,255,255,.78);
+      margin-top: 8px;
+    }
+
+    .hub-body { padding: 18px 14px 8px; }
+
+    .clubs-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+    .club-card {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      padding: 16px 16px;
+      background: #fff;
+      border: 1px solid var(--page-edge);
+      border-left: 4px solid var(--accent, var(--gold));
+      border-radius: var(--radius);
+      text-decoration: none;
+      color: var(--ink);
+    }
+    .club-card:hover { background: #fffdf7; }
+    .club-badge {
+      width: 40px;
+      height: 40px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .club-badge img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+    .club-card div { padding-right: 18px; }
+    .club-card .name {
+      display: block;
+      font-family: "Archivo Black", system-ui, sans-serif;
+      font-size: 15px;
+      letter-spacing: .01em;
+    }
+    .club-card .sub {
+      display: block;
+      margin-top: 3px;
+      font-family: "Archivo", system-ui, sans-serif;
+      font-size: 11px;
+      line-height: 1.3;
+      color: var(--ink-soft);
+    }
+    .club-card::after {
+      content: "→";
+      position: absolute;
+      right: 14px;
+      font-size: 13px;
+      opacity: .4;
+    }
+
+    .hub-footer {
+      text-align: center;
+      padding: 22px 20px;
+      font-family: "Archivo", system-ui, sans-serif;
+      font-size: 11px;
+      color: var(--ink-soft);
+      border-top: 1px dashed var(--page-edge);
+      margin-top: 14px;
+    }
+    .hub-footer a { color: var(--ink-soft); }
+    .hub-footer a:hover { color: var(--ink); }
+  </style>
+<script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","wv2p0tvb5i");</script>
+</head>
+<body>
+<div class="hub">
+  <header class="hub-header">
+    <a class="back" href="/">← ICONED Home</a>
+    <span class="kicker">Club Edition</span>
+    <h1>Pick Your Club.</h1>
+    <p class="hub-tagline">Collect the iconic player stickers from your club's historic squad.</p>
+  </header>
+
+  <div class="hub-body">
+    <div class="clubs-grid">
+      <a class="club-card" href="/fck/"             style="--accent:#1B458F"><span class="club-badge"><img src="crests/fck.svg" alt="F.C. København crest" loading="lazy"></span><div><span class="name">F.C. København</span><span class="sub">Iconic FCK players since the club was established in 1992.</span></div></a>
+      <a class="club-card" href="/clubs/arsenal/"    style="--accent:#EF0107"><span class="club-badge"><img src="crests/arsenal.svg" alt="Arsenal FC crest" loading="lazy"></span><div><span class="name">Arsenal FC</span><span class="sub">Iconic players from the Premier League era 1992–2026</span></div></a>
+      <a class="club-card" href="/clubs/chelsea/"    style="--accent:#034694"><span class="club-badge"><img src="crests/chelsea.svg" alt="Chelsea FC crest" loading="lazy"></span><div><span class="name">Chelsea FC</span><span class="sub">Iconic players from the Premier League era 1992–2026</span></div></a>
+      <a class="club-card" href="/clubs/man-united/" style="--accent:#DA291C"><span class="club-badge"><img src="crests/man-united.svg" alt="Manchester United crest" loading="lazy"></span><div><span class="name">Manchester United</span><span class="sub">Iconic players from the Premier League era 1992–2026</span></div></a>
+    </div>
+  </div>
+
+  <footer class="hub-footer">
+    <p><a href="/">← Back to ICONED</a> · <a href="/nations/">WC2026 Nations</a> · <a href="/epl/">EPL</a></p>
+  </footer>
+</div>
+</body>
+</html>

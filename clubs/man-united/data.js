@@ -83,7 +83,7 @@ window.CLUB_DATA = {
           "position": "Defender",
           "shirt_number": 6,
           "age": 28,
-          "fun_fact": "A colossus at the heart of United's defence, Pallister formed one of English football's most formidable central defensive partnerships with Steve Bruce.",
+          "fun_fact": "A colossus at the heart of United's defence, he formed one of English football's most formidable central defensive partnerships with Steve Bruce.",
           "image_url": ""
         },
         {
@@ -128,7 +128,7 @@ window.CLUB_DATA = {
           "position": "Defender",
           "shirt_number": 2,
           "age": 19,
-          "fun_fact": "The first of the Class of 92 to become a regular starter, Neville established himself as United's first-choice right back during this transitional season.",
+          "fun_fact": "The first of the Class of 92 to become a regular starter, he established himself as United's first-choice right back during this transitional season.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Gary_Neville_2014_%28cropped%29.jpg/330px-Gary_Neville_2014_%28cropped%29.jpg"
         },
         {
@@ -138,7 +138,7 @@ window.CLUB_DATA = {
           "position": "Defender",
           "shirt_number": 23,
           "age": 17,
-          "fun_fact": "Phil made his senior debut this season, the younger Neville twin beginning a long Old Trafford career as part of the celebrated Class of 92.",
+          "fun_fact": "He made his senior debut this season, the younger twin beginning a long Old Trafford career as part of the celebrated Class of 92.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Phil_Neville_2019.jpg/330px-Phil_Neville_2019.jpg"
         },
         {
@@ -203,7 +203,7 @@ window.CLUB_DATA = {
           "position": "Midfielder",
           "shirt_number": 7,
           "age": 21,
-          "fun_fact": "Beckham's breakthrough season included a stunning debut goal from inside his own half at Wimbledon, announcing himself to the world in spectacular fashion.",
+          "fun_fact": "His breakthrough season included a stunning debut goal from inside his own half at Wimbledon, announcing himself to the world in spectacular fashion.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/David_Beckham_UNICEF_%28cropped2%29.jpg/330px-David_Beckham_UNICEF_%28cropped2%29.jpg"
         },
         {
@@ -268,7 +268,7 @@ window.CLUB_DATA = {
           "position": "Midfielder",
           "shirt_number": 14,
           "age": 22,
-          "fun_fact": "The son of Johan Cruyff brought creativity and technical quality to United's midfield after joining from Barcelona the previous summer.",
+          "fun_fact": "The son of Dutch legend Johan brought creativity and technical quality to United's midfield after joining from Barcelona the previous summer.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Cruyff%2C_Jordi.jpg"
         },
         {
@@ -293,7 +293,7 @@ window.CLUB_DATA = {
           "position": "Forward",
           "shirt_number": 10,
           "age": 31,
-          "fun_fact": "Signed to replace Eric Cantona, Sheringham's intelligent movement and link play were integral to United's style even in the disappointing runner-up season.",
+          "fun_fact": "Signed to replace Eric Cantona, his intelligent movement and link play were integral to United's style even in the disappointing runner-up season.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Teddy_Sheringham_-_53492983124_%28original%29.jpg/330px-Teddy_Sheringham_-_53492983124_%28original%29.jpg"
         },
         {
@@ -368,7 +368,7 @@ window.CLUB_DATA = {
           "position": "Striker",
           "shirt_number": 9,
           "age": 27,
-          "fun_fact": "Cole's deadly partnership with Dwight Yorke propelled United to the Treble, with the pair combining for 53 goals in all competitions that season.",
+          "fun_fact": "His deadly partnership with Dwight Yorke propelled United to the Treble, with the pair combining for 53 goals in all competitions that season.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Andy_Cole_in_2014.jpg/330px-Andy_Cole_in_2014.jpg"
         },
         {
@@ -568,7 +568,7 @@ window.CLUB_DATA = {
           "position": "Defender",
           "shirt_number": 5,
           "age": 23,
-          "fun_fact": "Signed for a British record £30 million, Ferdinand was imperious at the heart of United's defence as they clinched the Premier League title, playing with supreme elegance and pace.",
+          "fun_fact": "Signed for a British record £30 million, he was imperious at the heart of United's defence as they clinched the Premier League title, playing with supreme elegance and pace.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Web_Summit_2015_-_Dublin%2C_Ireland_-_22183056474_%28cropped%29.jpg/330px-Web_Summit_2015_-_Dublin%2C_Ireland_-_22183056474_%28cropped%29.jpg"
         },
         {
@@ -788,7 +788,7 @@ window.CLUB_DATA = {
           "position": "Midfielder",
           "shirt_number": 16,
           "age": 25,
-          "fun_fact": "Signed from Spurs for £18.6 million, Carrick's understated elegance and precise passing immediately elevated United's midfield as they clinched the Premier League title.",
+          "fun_fact": "Signed from Spurs for £18.6 million, his understated elegance and precise passing immediately elevated United's midfield as they clinched the Premier League title.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Michael_Carrick_cropped_%28cropped_smaller%29.jpg/330px-Michael_Carrick_cropped_%28cropped_smaller%29.jpg"
         },
         {
@@ -843,7 +843,7 @@ window.CLUB_DATA = {
           "position": "Winger",
           "shirt_number": 7,
           "age": 22,
-          "fun_fact": "In the greatest season of his first United stint, Ronaldo scored 42 goals in all competitions, winning the Ballon d'Or and leading United to the Premier League and Champions League double.",
+          "fun_fact": "In the greatest season of his first United stint, he scored 42 goals in all competitions, winning the Ballon d'Or and leading United to the Premier League and Champions League double.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/President_Donald_Trump_meets_with_Cristiano_Ronaldo_in_the_Oval_Office_%2854933344262%29_%28cropped_and_rotated%29.jpg/330px-President_Donald_Trump_meets_with_Cristiano_Ronaldo_in_the_Oval_Office_%2854933344262%29_%28cropped_and_rotated%29.jpg"
         },
         {
@@ -908,7 +908,7 @@ window.CLUB_DATA = {
           "position": "Defender",
           "shirt_number": 20,
           "age": 18,
-          "fun_fact": "One half of the Brazilian twins who joined United from Fluminense, Fábio made his Premier League debut this season as United retained their league crown.",
+          "fun_fact": "One half of the Brazilian twins who joined United from Fluminense, he made his Premier League debut this season as United retained their league crown.",
           "image_url": ""
         },
         {
@@ -1118,7 +1118,7 @@ window.CLUB_DATA = {
           "position": "Striker",
           "shirt_number": 20,
           "age": 29,
-          "fun_fact": "Signed from Arsenal for £24 million, van Persie's 26 league goals, including a stunning volley against Villa, were the defining factor in United's 20th and final title under Sir Alex Ferguson.",
+          "fun_fact": "Signed from Arsenal for £24 million, his 26 league goals, including a stunning volley against Villa, were the defining factor in United's 20th and final title under Sir Alex Ferguson.",
           "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Loco-Fener_%2810%29.jpg/330px-Loco-Fener_%2810%29.jpg"
         },
         {

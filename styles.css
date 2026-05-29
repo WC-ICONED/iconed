@@ -61,14 +61,47 @@ body {
   letter-spacing: .32em;
   white-space: nowrap;
 }
+.spine-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+  margin-top: 90px;
+}
 .spine-top {
   font-family: "Archivo Black", system-ui, sans-serif;
   font-size: 12px;
   color: inherit;
   text-decoration: none;
   cursor: pointer;
-  margin-top: 90px;
 }
+
+/* Section nav — deliberately lighter/gold/mono so it reads as secondary
+   navigation, not another "home" title. */
+.spine-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+.spine-nav a {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  white-space: nowrap;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .2em;
+  color: #fff;
+  text-decoration: none;
+  opacity: .85;
+  padding: 14px 0;
+  transition: opacity .15s ease, color .15s ease;
+}
+.spine-nav a:not(:first-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, .28);
+}
+.spine-nav a:hover { opacity: 1; color: var(--spine-ink); }
 .spine-bottom {
   font-family: "Archivo", system-ui, sans-serif;
   font-size: 9px;
