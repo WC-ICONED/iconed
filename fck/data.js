@@ -52,7 +52,7 @@ window.FCK_DATA = {
       "shirt_number": 14,
       "age_that_season": 21,
       "fun_fact": "FCK’s official profile credits him with 203 total appearances and 55 goals.",
-      "image_url": "https://img.sofascore.com/api/v1/player/1422047/image"
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/8/8a/Peter_M%C3%B8ller_%28cropped%29.jpg"
     },
     {
       "season": "1993-94",
