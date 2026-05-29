@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ICONED · My Album</title>
+  <meta name="description" content="Your collected ICONED stickers — players you've guessed across all 2026 World Cup nations.">
+  <link rel="canonical" href="https://www.iconed.wtf/nations/album/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>" type="image/svg+xml">
+  <meta name="theme-color" content="#1F6B3A">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,400;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --pitch: #1F6B3A;
+      --gold:  #c8a14a;
+      --ink:   #181410;
+      --ink-soft: rgba(24,20,16,.55);
+      --page:  #f6f1e6;
+      --page-edge: #e3d9c4;
+      --radius: 4px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Archivo", system-ui, sans-serif;
+      background: #d9d0be;
+      color: var(--ink);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .hub {
+      max-width: 480px;
+      margin: 0 auto;
+      min-height: 100dvh;
+      background: var(--page);
+    }
+
+    .hub-header {
+      background: var(--pitch);
+      padding: 24px 22px 20px;
+      color: #fff;
+    }
+    .hub-header a.back {
+      font-family: "Archivo", system-ui, sans-serif;
+      font-size: 10px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: rgba(255,255,255,.7);
+      text-decoration: none;
+    }
+    .hub-header a.back:hover { color: #fff; }
+    .hub-header .kicker {
+      display: block;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 10px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin: 14px 0 6px;
+    }
+    .hub-header h1 {
+      font-family: "Archivo Black", system-ui, sans-serif;
+      font-size: 32px;
+      line-height: 1;
+    }
+    .hub-tagline {
+      font-family: "Archivo", system-ui, sans-serif;
+      font-size: 13px;
+      color: rgba(255,255,255,.78);
+      margin-top: 8px;
+    }
+
+    .album-page-body { padding: 18px 14px 28px; }
+
+    .album-count {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 11px;
+      letter-spacing: .04em;
+      color: var(--ink-soft);
+      text-transform: uppercase;
+      margin-bottom: 14px;
+      text-align: center;
+    }
+    .album-count b { color: var(--pitch); }
+
+    .album-hint {
+      font-family: "Archivo", system-ui, sans-serif;
+      font-size: 11px;
+      color: var(--ink-soft);
+      text-align: center;
+      margin: -8px 0 14px;
+      transition: color .2s;
+    }
+    .album-hint.warn { color: #b5462f; font-weight: 600; }
+
+    .album-empty {
+      font-family: "Archivo", system-ui, sans-serif;
+      font-size: 13px;
+      line-height: 1.5;
+      color: var(--ink-soft);
+      text-align: center;
+      padding: 30px 12px;
+    }
+    .album-empty a { color: var(--pitch); font-weight: 600; }
+
+    .album-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+    .sticker {
+      position: relative;
+      border: 1px solid var(--page-edge);
+      border-radius: var(--radius);
+      background: #fff;
+      padding: 7px 7px 8px;
+      text-align: center;
+      text-decoration: none;
+      color: inherit;
+    }
+    .sticker-photo {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: #ece4d3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .sticker-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .sticker-photo .no-photo { font-size: 30px; opacity: .45; }
+    .sticker-flag {
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      font-size: 13px;
+      line-height: 1;
+      filter: drop-shadow(0 1px 1px rgba(0,0,0,.35));
+    }
+    .pin-btn {
+      position: absolute;
+      top: 3px;
+      right: 3px;
+      width: 24px;
+      height: 24px;
+      padding: 0;
+      border: none;
+      border-radius: 50%;
+      background: rgba(0,0,0,.45);
+      color: #fff;
+      font-size: 14px;
+      line-height: 1;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background .15s, transform .1s;
+    }
+    .pin-btn:hover { background: rgba(0,0,0,.66); }
+    .pin-btn:active { transform: scale(.88); }
+    .pin-btn.pinned { background: var(--gold); }
+    .sticker-name {
+      margin-top: 6px;
+      font-family: "Archivo Black", system-ui, sans-serif;
+      font-size: 10px;
+      line-height: 1.15;
+      letter-spacing: .01em;
+      color: var(--ink);
+    }
+    .sticker-sub {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 7.5px;
+      letter-spacing: .05em;
+      color: var(--ink-soft);
+      margin-top: 2px;
+      text-transform: uppercase;
+    }
+
+    .hub-footer {
+      text-align: center;
+      padding: 20px;
+      font-family: "Archivo", system-ui, sans-serif;
+      font-size: 11px;
+      color: var(--ink-soft);
+      border-top: 1px dashed var(--page-edge);
+    }
+    .hub-footer a { color: var(--ink-soft); }
+    .hub-footer a:hover { color: var(--ink); }
+  </style>
+<script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","wv2p0tvb5i");</script>
+</head>
+<body>
+<div class="hub">
+  <header class="hub-header">
+    <a class="back" href="/nations/">← All Nations</a>
+    <span class="kicker">2026 World Cup</span>
+    <h1>My Album</h1>
+    <p class="hub-tagline">Every icon you've collected, across all nations.</p>
+  </header>
+
+  <div class="album-page-body">
+    <p class="album-count" id="albumCount">Loading your album…</p>
+    <p class="album-hint" id="albumHint" style="display:none">Tap ☆ to feature up to 3 on your nations home.</p>
+    <div class="album-empty" id="albumEmpty" style="display:none">
+      No stickers yet — <a href="/nations/">pick a nation</a> and guess the icon to earn their sticker.
+    </div>
+    <div class="album-grid" id="albumGrid"></div>
+  </div>
+
+  <footer class="hub-footer">
+    <p><a href="/nations/">← All Nations</a> · <a href="/">ICONED Home</a></p>
+  </footer>
+</div>
+
+<script src="../album.js"></script>
+<script>
+(async function () {
+  const grid = document.getElementById("albumGrid");
+  const empty = document.getElementById("albumEmpty");
+  const count = document.getElementById("albumCount");
+  const hint = document.getElementById("albumHint");
+  const defaultHint = hint.textContent;
+
+  // The hub page is the single source of truth for the nation list (flags +
+  // names). Fetch it and extract the slug → { flag, name } map so this page
+  // doesn't duplicate that data.
+  let nationInfo = {};
+  try {
+    const res = await fetch("/nations/");
+    const doc = new DOMParser().parseFromString(await res.text(), "text/html");
+    nationInfo = Album.buildNationInfo(doc);
+  } catch {
+    nationInfo = {};
+  }
+
+  const list = Album.collect(nationInfo);
+
+  if (!list.length) {
+    count.style.display = "none";
+    hint.style.display = "none";
+    empty.style.display = "";
+    grid.style.display = "none";
+    return;
+  }
+
+  function render() {
+    count.innerHTML = `<b>${list.length}</b> ${list.length === 1 ? "sticker" : "stickers"} collected`;
+    hint.style.display = "";
+    empty.style.display = "none";
+    grid.innerHTML = list
+      .map(s => Album.stickerHTML(s, { pinnable: true, pinned: Album.isPinned(s.id) }))
+      .join("");
+  }
+
+  let hintTimer;
+  function flashHint(msg) {
+    clearTimeout(hintTimer);
+    hint.textContent = msg;
+    hint.classList.add("warn");
+    hintTimer = setTimeout(() => {
+      hint.textContent = defaultHint;
+      hint.classList.remove("warn");
+    }, 2500);
+  }
+
+  // The pin star sits inside the sticker link — intercept its click so it
+  // toggles the pin instead of navigating to the nation.
+  grid.addEventListener("click", e => {
+    const btn = e.target.closest(".pin-btn");
+    if (!btn) return;
+    e.preventDefault();
+    e.stopPropagation();
+    const res = Album.togglePin(btn.dataset.id);
+    if (!res.ok && res.reason === "max") {
+      flashHint(`You can feature ${Album.MAX_PINS} — tap a ★ to remove one first.`);
+      return;
+    }
+    render();
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>

@@ -256,6 +256,22 @@
       margin-top: 2px;
       text-transform: uppercase;
     }
+    .album-more {
+      display: block;
+      margin-top: 12px;
+      text-align: center;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: .04em;
+      color: var(--pitch);
+      text-decoration: none;
+      padding: 9px;
+      border: 1px solid var(--page-edge);
+      border-radius: var(--radius);
+      background: var(--page);
+    }
+    .album-more:hover { background: var(--page-edge); }
   </style>
 <script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","wv2p0tvb5i");</script>
 </head>
@@ -278,6 +294,7 @@
         No stickers yet — pick a nation and guess the icon to earn their sticker.
       </div>
       <div class="album-grid" id="albumGrid"></div>
+      <a class="album-more" id="albumMore" href="album/" style="display:none">View full album →</a>
     </div>
   </section>
 
@@ -368,83 +385,31 @@
   </footer>
 </div>
 
+<script src="album.js"></script>
 <script>
 (function () {
-  // Build slug → { flag, name } from the nation cards already on the page,
-  // so the album reuses the hub's own data with no duplication.
-  const nationInfo = {};
-  document.querySelectorAll(".nation-card").forEach(card => {
-    const m = card.getAttribute("href").match(/\/nations\/([^/]+)\//);
-    if (!m) return;
-    const flag = card.querySelector(".flag");
-    const name = card.querySelector(".name");
-    nationInfo[m[1]] = {
-      flag: flag ? flag.textContent : "",
-      name: name ? name.textContent : m[1]
-    };
-  });
-
-  // Scan localStorage for every finished, won game across all nations.
-  // A game's state lives in `wc26-{slug}-day-state` and `wc26-{slug}-archive-{n}`;
-  // the player's photo is cached in `wc26-{slug}-thumb-{puzzleId}`.
-  // Dedupe by slug:puzzleId so the same player counts once.
-  const stickers = {};
-  for (let i = 0; i < localStorage.length; i++) {
-    const key = localStorage.key(i);
-    const m = key && key.match(/^wc26-(.+?)-(day-state|archive-\d+)$/);
-    if (!m) continue;
-    const slug = m[1];
-    if (!nationInfo[slug]) continue;
-
-    let state;
-    try { state = JSON.parse(localStorage.getItem(key)); } catch { continue; }
-    if (!state || !state.finished || !Array.isArray(state.guesses)) continue;
-
-    const win = state.guesses.find(g => g && g.correct);
-    if (!win || !state.puzzleId) continue;
-
-    const id = slug + ":" + state.puzzleId;
-    const day = typeof state.day === "number" ? state.day : 0;
-    // Keep the earliest win we find for this player (stable identity).
-    if (stickers[id] && stickers[id].day <= day) continue;
-
-    const img = localStorage.getItem(`wc26-${slug}-thumb-${state.puzzleId}`);
-    stickers[id] = {
-      slug,
-      name: win.text || "Unknown",
-      flag: nationInfo[slug].flag,
-      nation: nationInfo[slug].name,
-      img: img && img !== "null" ? img : null,
-      day
-    };
-  }
-
-  const list = Object.values(stickers).sort((a, b) =>
-    b.day - a.day || a.name.localeCompare(b.name)
-  );
+  const PREVIEW = 3; // show only the newest few; the rest live on the full album page
+  const list = Album.collect(Album.buildNationInfo(document));
 
   const grid = document.getElementById("albumGrid");
   const empty = document.getElementById("albumEmpty");
   const progress = document.getElementById("albumProgress");
+  const more = document.getElementById("albumMore");
 
   progress.textContent = list.length === 1 ? "1 sticker" : `${list.length} stickers`;
 
   if (!list.length) {
     empty.style.display = "";
     grid.style.display = "none";
+    more.style.display = "none";
   } else {
     empty.style.display = "none";
     grid.style.display = "";
-    grid.innerHTML = list.map(s => {
-      const photo = s.img
-        ? `<img src="${s.img}" alt="${escapeHtml(s.name)}" loading="lazy" onerror="this.parentNode.innerHTML='<span class=&quot;no-photo&quot;>👤</span>'">`
-        : `<span class="no-photo">👤</span>`;
-      return `<a class="sticker" href="/nations/${s.slug}/">
-        <div class="sticker-photo"><span class="sticker-flag">${s.flag}</span>${photo}</div>
-        <div class="sticker-name">${escapeHtml(s.name)}</div>
-        <div class="sticker-sub">${escapeHtml(s.nation)}</div>
-      </a>`;
-    }).join("");
+    grid.innerHTML = Album.previewList(list, PREVIEW).map(s => Album.stickerHTML(s)).join("");
+    more.style.display = "";
+    more.textContent = list.length > PREVIEW
+      ? `View full album (${list.length}) →`
+      : "View full album →";
   }
 
   // Collapse / expand
@@ -452,12 +417,6 @@
   document.getElementById("albumHead").addEventListener("click", () => {
     section.classList.toggle("collapsed");
   });
-
-  function escapeHtml(str) {
-    return String(str).replace(/[&<>"']/g, c => ({
-      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
-    }[c]));
-  }
 })();
 </script>
 </body>
