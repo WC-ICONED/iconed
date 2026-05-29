@@ -2277,7 +2277,7 @@ window.EPL_DATA = {
           "shirt_number": 17,
           "age": 24,
           "fun_fact": "Scored 16 Premier League goals for Bournemouth, remarkable for a mid-table side, establishing himself as one of the division's most underrated strikers.",
-          "image_url": "player_images/joshua_king.jpg"
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Chelsea_0_Bournemouth_1_%28cropped%29.jpg/500px-Chelsea_0_Bournemouth_1_%28cropped%29.jpg"
         },
         {
           "name": "Tom Heaton",
@@ -2307,7 +2307,7 @@ window.EPL_DATA = {
           "shirt_number": 5,
           "age": 23,
           "fun_fact": "Was outstanding for Burnley in their successful first season back in the top flight, his commanding defending prompting England recognition and big-club interest.",
-          "image_url": "player_images/michael_keane.jpg"
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Michael_Keane_2017.jpg"
         },
         {
           "name": "Leighton Baines",
@@ -2402,7 +2402,7 @@ window.EPL_DATA = {
           "shirt_number": 22,
           "age": 29,
           "fun_fact": "The tireless Brazilian winger was Chelsea's most consistent performer in 2017-18, his pressing, direct running and creativity making him one of the Premier League's most reliable wide players.",
-          "image_url": "player_images/willian.jpg"
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Willian_2015.jpg/500px-Willian_2015.jpg"
         },
         {
           "name": "Kyle Walker",
@@ -3052,7 +3052,7 @@ window.EPL_DATA = {
           "shirt_number": 37,
           "age": 18,
           "fun_fact": "The teenage Manchester United midfielder burst onto the scene with composure beyond his years, scoring in the FA Cup final and marking himself as one of England's most exciting talents.",
-          "image_url": "player_images/kobbie_mainoo.jpg"
+          "image_url": "/epl/stickers/kobbie-mainoo.webp"
         }
       ]
     },
@@ -3087,7 +3087,7 @@ window.EPL_DATA = {
           "shirt_number": 11,
           "age": 32,
           "fun_fact": "Named in the PFA Team of the Year after an extraordinary season for Forest, his clinical finishing helping them to a stunning seventh-place finish and European qualification.",
-          "image_url": "player_images/chris_wood.jpg"
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Chris_Wood_%28cropped%29.jpg/500px-Chris_Wood_%28cropped%29.jpg"
         },
         {
           "name": "Matz Sels",
