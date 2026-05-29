@@ -237,7 +237,7 @@ window.PUZZLES = [
     caps: 1, clubCountry: "Iran", position: "Forward",
     goals: 0, age: 19, shirtNumber: null, club: "Persepolis",
     wikipediaTitle: "Amirhossein Mahmoudi",
-    imageUrl: "https://img.sofascore.com/api/v1/player/2195590/image"},
+    imageUrl: "https://img.a.transfermarkt.technology/portrait/header/1370858-1779989668.jpg?lm=1"},
   {
     id: "irn-eckert", answer: "Dennis Eckert",
     aliases: ["Eckert", "Dennis Eckert Ayensa"], nationality: "Iran",

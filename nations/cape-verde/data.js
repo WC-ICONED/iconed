@@ -50,7 +50,7 @@ window.PUZZLES = [
     caps: 40, clubCountry: "Romania", position: "Defender",
     goals: 1, age: 28, shirtNumber: null, club: "FCSB",
     wikipediaTitle: "João Paulo (Cape Verdean footballer)",
-    imageUrl: "https://img.sofascore.com/api/v1/player/1627776/image"},
+    imageUrl: "https://cdn-img.staticzz.com/img/jogadores/new/22/65/652265_joao_paulo_20241214140423.jpg"},
   {
     id: "cpv-diney", answer: "Diney",
     aliases: [], nationality: "Cape Verde",

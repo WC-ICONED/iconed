@@ -70,7 +70,7 @@ window.PUZZLES = [
     caps: 6, clubCountry: "Italy", position: "Defender",
     goals: 1, age: 28, shirtNumber: null, club: "Juventus",
     wikipediaTitle: "Gleison Bremer",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/30/Gleison_Bremer_with_Juventus_in_2024.webp"
+    imageUrl: "https://www.fichajes.net/sites/default/files/styles/epsa_detail_thumbail/public/2024-10/bremer-fichajes-rumores-juventus-sustitutos-7-opciones.jpg.webp?h=f03daff6&itok=pK5wq9Zp"
   },
   {
     id: "bra-wesley", answer: "Wesley",

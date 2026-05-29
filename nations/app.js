@@ -307,16 +307,13 @@
   function setPhotoLoading(on) {
     if (!els.photoSlot) return;
     els.photoSlot.classList.toggle("img-loading", on);
-    // Keep the placeholder visible while loading so slot isn't blank
-    if (els.photoPlaceholder) {
-      if (on) {
-        els.photoPlaceholder.dataset.orig = els.photoPlaceholder.innerHTML;
-        els.photoPlaceholder.innerHTML = '<span class="photo-loading-text">Loading…</span>';
-        els.photoPlaceholder.style.display = "";
-      } else if (els.photoPlaceholder.dataset.orig !== undefined) {
-        els.photoPlaceholder.innerHTML = els.photoPlaceholder.dataset.orig;
-        delete els.photoPlaceholder.dataset.orig;
-      }
+    // While loading, show a "Loading…" hint so the slot isn't blank. We don't
+    // restore the old text when loading ends — setPlayerImage() always writes
+    // the final content (photo or "No photo" silhouette), so restoring here
+    // would clobber that resolved state.
+    if (on && els.photoPlaceholder) {
+      els.photoPlaceholder.innerHTML = '<span class="photo-loading-text">Loading…</span>';
+      els.photoPlaceholder.style.display = "";
     }
   }
 

@@ -163,7 +163,7 @@ window.PUZZLES = [
     caps: 0, clubCountry: "Argentina", position: "Defender",
     goals: 0, age: 23, shirtNumber: null, club: "Belgrano",
     wikipediaTitle: "Alcides Benítez",
-    imageUrl: "https://img.sofascore.com/api/v1/player/912031/image"},
+    imageUrl: "https://img.a.transfermarkt.technology/portrait/big/980793-1715523597.jpg?lm=1"},
   {
     id: "par-dejesus", answer: "Ronaldo Dejesús",
     aliases: ["Ronaldo Dejesus"], nationality: "Paraguay",

@@ -160,6 +160,102 @@
     }
     .hub-footer a { color: var(--ink-soft); }
     .hub-footer a:hover { color: var(--ink); }
+
+    /* ── My Album ───────────────────────────────────────────────── */
+    .album-section {
+      margin: 0 14px 22px;
+      background: #fff;
+      border: 1px solid var(--page-edge);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .album-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 13px 14px;
+      cursor: pointer;
+      user-select: none;
+      background: var(--pitch);
+      color: #f6f1e6;
+    }
+    .album-title {
+      font-family: "Archivo Black", system-ui, sans-serif;
+      font-size: 14px;
+      letter-spacing: .02em;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+    .album-title .chev { font-size: 11px; opacity: .8; transition: transform .2s; }
+    .album-section.collapsed .album-title .chev { transform: rotate(-90deg); }
+    .album-progress {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 10px;
+      letter-spacing: .04em;
+      color: var(--gold);
+    }
+    .album-body { padding: 14px; }
+    .album-section.collapsed .album-body { display: none; }
+    .album-empty {
+      font-family: "Archivo", system-ui, sans-serif;
+      font-size: 12px;
+      line-height: 1.5;
+      color: var(--ink-soft);
+      text-align: center;
+      padding: 6px 4px;
+    }
+    .album-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+    .sticker {
+      position: relative;
+      border: 1px solid var(--page-edge);
+      border-radius: var(--radius);
+      background: var(--page);
+      padding: 7px 7px 8px;
+      text-align: center;
+    }
+    .sticker-photo {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: #ece4d3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .sticker-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .sticker-photo .no-photo { font-size: 30px; opacity: .45; }
+    .sticker-flag {
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      font-size: 13px;
+      line-height: 1;
+      filter: drop-shadow(0 1px 1px rgba(0,0,0,.35));
+    }
+    .sticker-name {
+      margin-top: 6px;
+      font-family: "Archivo Black", system-ui, sans-serif;
+      font-size: 10px;
+      line-height: 1.15;
+      letter-spacing: .01em;
+      color: var(--ink);
+    }
+    .sticker-sub {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 7.5px;
+      letter-spacing: .05em;
+      color: var(--ink-soft);
+      margin-top: 2px;
+      text-transform: uppercase;
+    }
   </style>
 <script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","wv2p0tvb5i");</script>
 </head>
@@ -169,8 +265,21 @@
     <a class="back" href="/">← ICONED Home</a>
     <span class="kicker">2026 World Cup</span>
     <h1>Pick Your Nation.</h1>
-    <p class="hub-tagline">Prove You Know Your Team.</p>
+    <p class="hub-tagline">Collect the stickers to your album.</p>
   </header>
+
+  <section class="album-section" id="albumSection">
+    <div class="album-head" id="albumHead">
+      <span class="album-title"><span class="chev">▼</span>My Album</span>
+      <span class="album-progress" id="albumProgress">0 stickers</span>
+    </div>
+    <div class="album-body" id="albumBody">
+      <div class="album-empty" id="albumEmpty">
+        No stickers yet — pick a nation and guess the icon to earn their sticker.
+      </div>
+      <div class="album-grid" id="albumGrid"></div>
+    </div>
+  </section>
 
   <div class="hub-body">
 
@@ -258,5 +367,98 @@
     <p><a href="/">← Back to ICONED</a> · <a href="mailto:trier.boaster.2f@icloud.com">hello@iconed</a></p>
   </footer>
 </div>
+
+<script>
+(function () {
+  // Build slug → { flag, name } from the nation cards already on the page,
+  // so the album reuses the hub's own data with no duplication.
+  const nationInfo = {};
+  document.querySelectorAll(".nation-card").forEach(card => {
+    const m = card.getAttribute("href").match(/\/nations\/([^/]+)\//);
+    if (!m) return;
+    const flag = card.querySelector(".flag");
+    const name = card.querySelector(".name");
+    nationInfo[m[1]] = {
+      flag: flag ? flag.textContent : "",
+      name: name ? name.textContent : m[1]
+    };
+  });
+
+  // Scan localStorage for every finished, won game across all nations.
+  // A game's state lives in `wc26-{slug}-day-state` and `wc26-{slug}-archive-{n}`;
+  // the player's photo is cached in `wc26-{slug}-thumb-{puzzleId}`.
+  // Dedupe by slug:puzzleId so the same player counts once.
+  const stickers = {};
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    const m = key && key.match(/^wc26-(.+?)-(day-state|archive-\d+)$/);
+    if (!m) continue;
+    const slug = m[1];
+    if (!nationInfo[slug]) continue;
+
+    let state;
+    try { state = JSON.parse(localStorage.getItem(key)); } catch { continue; }
+    if (!state || !state.finished || !Array.isArray(state.guesses)) continue;
+
+    const win = state.guesses.find(g => g && g.correct);
+    if (!win || !state.puzzleId) continue;
+
+    const id = slug + ":" + state.puzzleId;
+    const day = typeof state.day === "number" ? state.day : 0;
+    // Keep the earliest win we find for this player (stable identity).
+    if (stickers[id] && stickers[id].day <= day) continue;
+
+    const img = localStorage.getItem(`wc26-${slug}-thumb-${state.puzzleId}`);
+    stickers[id] = {
+      slug,
+      name: win.text || "Unknown",
+      flag: nationInfo[slug].flag,
+      nation: nationInfo[slug].name,
+      img: img && img !== "null" ? img : null,
+      day
+    };
+  }
+
+  const list = Object.values(stickers).sort((a, b) =>
+    b.day - a.day || a.name.localeCompare(b.name)
+  );
+
+  const grid = document.getElementById("albumGrid");
+  const empty = document.getElementById("albumEmpty");
+  const progress = document.getElementById("albumProgress");
+
+  progress.textContent = list.length === 1 ? "1 sticker" : `${list.length} stickers`;
+
+  if (!list.length) {
+    empty.style.display = "";
+    grid.style.display = "none";
+  } else {
+    empty.style.display = "none";
+    grid.style.display = "";
+    grid.innerHTML = list.map(s => {
+      const photo = s.img
+        ? `<img src="${s.img}" alt="${escapeHtml(s.name)}" loading="lazy" onerror="this.parentNode.innerHTML='<span class=&quot;no-photo&quot;>👤</span>'">`
+        : `<span class="no-photo">👤</span>`;
+      return `<a class="sticker" href="/nations/${s.slug}/">
+        <div class="sticker-photo"><span class="sticker-flag">${s.flag}</span>${photo}</div>
+        <div class="sticker-name">${escapeHtml(s.name)}</div>
+        <div class="sticker-sub">${escapeHtml(s.nation)}</div>
+      </a>`;
+    }).join("");
+  }
+
+  // Collapse / expand
+  const section = document.getElementById("albumSection");
+  document.getElementById("albumHead").addEventListener("click", () => {
+    section.classList.toggle("collapsed");
+  });
+
+  function escapeHtml(str) {
+    return String(str).replace(/[&<>"']/g, c => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+    }[c]));
+  }
+})();
+</script>
 </body>
 </html>

@@ -265,7 +265,7 @@ window.PUZZLES = [
     caps: 5, clubCountry: "Iraq", position: "Forward",
     goals: 0, age: 30, shirtNumber: null, club: "Al-Talaba",
     wikipediaTitle: "Ali Yousif (Iraqi footballer)",
-    imageUrl: "https://img.sofascore.com/api/v1/player/1083743/image"},
+    imageUrl: "https://img.a.transfermarkt.technology/portrait/header/576265-1689486955.jpg?lm=1"},
 ];
 
 // Preliminary 34 — stars first

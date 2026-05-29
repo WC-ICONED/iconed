@@ -40,7 +40,8 @@ window.PUZZLES = [
     aliases: ["Younis"], nationality: "Qatar",
     caps: 0, clubCountry: "Qatar", position: "Goalkeeper",
     goals: 0, age: 31, shirtNumber: null, club: "Al-Sailiya",
-    wikipediaTitle: "Fahad Younis"
+    wikipediaTitle: "Fahad Younis",
+    imageUrl: "https://images.fotmob.com/image_resources/playerimages/535615.png"
   },
 
   // ── Defenders ─────────────────────────────────────────────────

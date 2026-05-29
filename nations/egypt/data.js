@@ -67,7 +67,7 @@ window.PUZZLES = [
     caps: 38, clubCountry: "Egypt", position: "Defender",
     goals: 1, age: 28, shirtNumber: null, club: "Zamalek",
     wikipediaTitle: "Ahmed Abou El Fotouh",
-    imageUrl: "https://img.sofascore.com/api/v1/player/1129602/image"},
+    imageUrl: "https://images.fotmob.com/image_resources/playerimages/849334.png"},
   {
     id: "egy-abdelmonem", answer: "Mohamed Abdelmonem",
     aliases: ["Abdelmonem"], nationality: "Egypt",

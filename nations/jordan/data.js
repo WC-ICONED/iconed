@@ -241,7 +241,7 @@ window.PUZZLES = [
     caps: 2, clubCountry: "Saudi Arabia", position: "Forward",
     goals: 0, age: 22, shirtNumber: null, club: "Al-Shabab",
     wikipediaTitle: "Ali Azaizeh",
-    imageUrl: "https://img.sofascore.com/api/v1/player/2048169/image"},
+    imageUrl: "https://static-files.saudi-pro-league.pulselive.com/players/headshot/p613354.png"},
 ];
 
 // Preliminary 30 — stars first
