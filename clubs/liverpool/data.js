@@ -92,7 +92,7 @@ window.CLUB_DATA = {
           "shirt_number": 25,
           "age": 25,
           "fun_fact": "A combative centre-back nicknamed 'Razor' for his uncompromising style.",
-          "image_url": ""
+          "image_url": "/clubs/liverpool/stickers/neil-ruddock.webp"
         },
         {
           "name": "Julian Dicks",
@@ -157,7 +157,7 @@ window.CLUB_DATA = {
           "shirt_number": 12,
           "age": 28,
           "fun_fact": "A ball-playing defender signed from Wimbledon's 'Crazy Gang'.",
-          "image_url": ""
+          "image_url": "/clubs/liverpool/stickers/john-scales.webp"
         },
         {
           "name": "Steve Harkness",
@@ -222,7 +222,7 @@ window.CLUB_DATA = {
           "shirt_number": 22,
           "age": 21,
           "fun_fact": "A versatile defender who later captained Leeds in the Champions League.",
-          "image_url": ""
+          "image_url": "/clubs/liverpool/stickers/dominic-matteo.webp"
         }
       ]
     },
@@ -267,7 +267,7 @@ window.CLUB_DATA = {
           "shirt_number": 13,
           "age": 22,
           "fun_fact": "A back-up keeper who famously sat on the bench over 100 times without playing a league game.",
-          "image_url": ""
+          "image_url": "/clubs/liverpool/stickers/tony-warner.webp"
         },
         {
           "name": "Lee Jones",
@@ -377,7 +377,7 @@ window.CLUB_DATA = {
           "shirt_number": 19,
           "age": 26,
           "fun_fact": "A striker who failed to score in the Premier League during his single season.",
-          "image_url": ""
+          "image_url": "/clubs/liverpool/stickers/sean-dundee.jpg"
         },
         {
           "name": "Brad Friedel",
@@ -432,7 +432,7 @@ window.CLUB_DATA = {
           "shirt_number": 22,
           "age": 27,
           "fun_fact": "Famously played and scored days after his father's death, in tears at full-time.",
-          "image_url": ""
+          "image_url": "/clubs/liverpool/stickers/titi-camara.webp"
         },
         {
           "name": "Stephane Henchoz",
@@ -542,7 +542,7 @@ window.CLUB_DATA = {
           "shirt_number": 2,
           "age": 28,
           "fun_fact": "Instantly recognisable for his dyed blond hair and beard.",
-          "image_url": ""
+          "image_url": "/clubs/liverpool/stickers/abel-xavier.jpg"
         },
         {
           "name": "Gregory Vignal",
@@ -587,7 +587,7 @@ window.CLUB_DATA = {
           "shirt_number": 11,
           "age": 24,
           "fun_fact": "Once tipped as 'the new Zidane' but never lived up to the billing.",
-          "image_url": ""
+          "image_url": "/clubs/liverpool/stickers/bruno-cheyrou.webp"
         },
         {
           "name": "Chris Kirkland",
@@ -717,7 +717,7 @@ window.CLUB_DATA = {
           "shirt_number": 27,
           "age": 25,
           "fun_fact": "Arrived as part of the deal that took Michael Owen to Real Madrid.",
-          "image_url": ""
+          "image_url": "/clubs/liverpool/stickers/antonio-nunez.jpg"
         }
       ]
     },
@@ -1532,7 +1532,7 @@ window.CLUB_DATA = {
           "shirt_number": 13,
           "age": 32,
           "fun_fact": "Stepped in as emergency keeper and won the UEFA Super Cup shootout.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/2022-07-21_Fu%C3%9Fball%2C_M%C3%A4nner%2CFreundschaftsspiel%2C_RB_Leipzig_-_FC_Liverpool_1DX_2019_by_Stepro.jpg/500px-2022-07-21_Fu%C3%9Fball%2C_M%C3%A4nner%2CFreundschaftsspiel%2C_RB_Leipzig_-_FC_Liverpool_1DX_2019_by_Stepro.jpg"
         },
         {
           "name": "Curtis Jones",
@@ -1697,7 +1697,7 @@ window.CLUB_DATA = {
           "shirt_number": 22,
           "age": 19,
           "fun_fact": "A young Scottish right-back signed from Aberdeen.",
-          "image_url": ""
+          "image_url": "/clubs/liverpool/stickers/calvin-ramsay.png"
         },
         {
           "name": "Arthur Melo",
@@ -1807,7 +1807,7 @@ window.CLUB_DATA = {
           "shirt_number": 76,
           "age": 18,
           "fun_fact": "A teenage striker who scored twice in the FA Cup.",
-          "image_url": ""
+          "image_url": "/clubs/liverpool/stickers/jayden-danns.jpg"
         },
         {
           "name": "Ben Doak",

@@ -202,7 +202,7 @@ window.CLUB_DATA = {
           "shirt_number": 13,
           "age": 28,
           "fun_fact": "A sweeper-keeper whose son became a treble-winning defensive midfielder for the club.",
-          "image_url": ""
+          "image_url": "/clubs/barcelona/stickers/carles-busquets.webp"
         },
         {
           "name": "Abelardo",
@@ -487,7 +487,7 @@ window.CLUB_DATA = {
           "shirt_number": 16,
           "age": 19,
           "fun_fact": "A young Brazilian midfielder with a powerful shot.",
-          "image_url": ""
+          "image_url": "/clubs/barcelona/stickers/fabio-rochemback.jpg"
         },
         {
           "name": "Geovanni",
@@ -522,7 +522,7 @@ window.CLUB_DATA = {
           "shirt_number": 4,
           "age": 23,
           "fun_fact": "An elegant French defender whose career was hit by injuries.",
-          "image_url": ""
+          "image_url": "/clubs/barcelona/stickers/philippe-christanval.jpg"
         },
         {
           "name": "Roberto Bonano",
@@ -552,7 +552,7 @@ window.CLUB_DATA = {
           "shirt_number": 3,
           "age": 24,
           "fun_fact": "An Italian full-back on loan from AC Milan.",
-          "image_url": ""
+          "image_url": "/clubs/barcelona/stickers/francesco-coco.jpg"
         }
       ]
     },
@@ -1807,7 +1807,7 @@ window.CLUB_DATA = {
           "shirt_number": 7,
           "age": 22,
           "fun_fact": "A forward promoted from the B team.",
-          "image_url": ""
+          "image_url": "/clubs/barcelona/stickers/pau-victor.png"
         },
         {
           "name": "Marc Casado",

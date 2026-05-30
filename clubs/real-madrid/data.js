@@ -127,7 +127,7 @@ window.CLUB_DATA = {
           "shirt_number": 7,
           "age": 17,
           "fun_fact": "Real Madrid's iconic captain who became the club's all-time top scorer for many years.",
-          "image_url": ""
+          "image_url": "/clubs/real-madrid/stickers/raul.jpg"
         },
         {
           "name": "Michael Laudrup",
@@ -147,7 +147,7 @@ window.CLUB_DATA = {
           "shirt_number": 6,
           "age": 28,
           "fun_fact": "A deep-lying midfielder who came through Barcelona before joining Real.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Luis_Milla.png/500px-Luis_Milla.png"
         },
         {
           "name": "Rafael Alkorta",
@@ -192,7 +192,7 @@ window.CLUB_DATA = {
           "shirt_number": 2,
           "age": 34,
           "fun_fact": "A loyal right-back and another product of the great 1980s Real Madrid team.",
-          "image_url": ""
+          "image_url": "/clubs/real-madrid/stickers/chendo.jpg"
         },
         {
           "name": "Juan Esnaider",
@@ -202,7 +202,7 @@ window.CLUB_DATA = {
           "shirt_number": 9,
           "age": 22,
           "fun_fact": "An Argentine forward with a powerful shot.",
-          "image_url": ""
+          "image_url": "/clubs/real-madrid/stickers/juan-esnaider.png"
         },
         {
           "name": "Dani",
@@ -322,7 +322,7 @@ window.CLUB_DATA = {
           "shirt_number": 11,
           "age": 23,
           "fun_fact": "A Brazilian winger known for his pace and trickery.",
-          "image_url": ""
+          "image_url": "/clubs/real-madrid/stickers/savio.webp"
         },
         {
           "name": "Victor Sanchez",
@@ -332,7 +332,7 @@ window.CLUB_DATA = {
           "shirt_number": 16,
           "age": 21,
           "fun_fact": "A versatile midfielder from the Real Madrid academy.",
-          "image_url": ""
+          "image_url": "/clubs/real-madrid/stickers/victor-sanchez.png"
         }
       ]
     },
@@ -487,7 +487,7 @@ window.CLUB_DATA = {
           "shirt_number": 16,
           "age": 26,
           "fun_fact": "A Brazilian defensive midfielder signed from Deportivo.",
-          "image_url": ""
+          "image_url": "/clubs/real-madrid/stickers/flavio-conceicao.jpg"
         },
         {
           "name": "Pedro Munitis",
@@ -662,7 +662,7 @@ window.CLUB_DATA = {
           "shirt_number": 18,
           "age": 21,
           "fun_fact": "A young Spanish centre-back promoted from the reserves.",
-          "image_url": ""
+          "image_url": "/clubs/real-madrid/stickers/alvaro-mejia.jpg"
         }
       ]
     },
@@ -697,7 +697,7 @@ window.CLUB_DATA = {
           "shirt_number": 16,
           "age": 28,
           "fun_fact": "A combative Danish midfielder signed in January from Everton.",
-          "image_url": ""
+          "image_url": "/clubs/real-madrid/stickers/thomas-gravesen.jpg"
         },
         {
           "name": "Diego Lopez",
@@ -817,7 +817,7 @@ window.CLUB_DATA = {
           "shirt_number": 8,
           "age": 30,
           "fun_fact": "A Brazilian midfield anchor nicknamed 'Puma'.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Emerson_2005.jpg"
         },
         {
           "name": "Jose Antonio Reyes",
@@ -1367,7 +1367,7 @@ window.CLUB_DATA = {
           "shirt_number": 24,
           "age": 21,
           "fun_fact": "The eldest son of a Ballon d'Or-winning France legend who later managed the club.",
-          "image_url": ""
+          "image_url": "/clubs/real-madrid/stickers/enzo-zidane.jpg"
         },
         {
           "name": "Kiko Casilla",
@@ -1567,7 +1567,7 @@ window.CLUB_DATA = {
           "shirt_number": 32,
           "age": 20,
           "fun_fact": "A defensive midfielder promoted from Castilla.",
-          "image_url": ""
+          "image_url": "/clubs/real-madrid/stickers/antonio-blanco.webp"
         },
         {
           "name": "Victor Chust",
@@ -1577,7 +1577,7 @@ window.CLUB_DATA = {
           "shirt_number": 35,
           "age": 20,
           "fun_fact": "An academy centre-back given first-team minutes.",
-          "image_url": ""
+          "image_url": "/clubs/real-madrid/stickers/victor-chust.png"
         },
         {
           "name": "Sergio Arribas",
@@ -1632,7 +1632,7 @@ window.CLUB_DATA = {
           "shirt_number": 24,
           "age": 20,
           "fun_fact": "An academy left-back given a run in the first team.",
-          "image_url": ""
+          "image_url": "/clubs/real-madrid/stickers/miguel-gutierrez.webp"
         },
         {
           "name": "Peter Gonzalez",
@@ -1652,7 +1652,7 @@ window.CLUB_DATA = {
           "shirt_number": 36,
           "age": 19,
           "fun_fact": "A promising academy centre-back.",
-          "image_url": ""
+          "image_url": "/clubs/real-madrid/stickers/rafa-marin.webp"
         }
       ]
     },
@@ -1687,7 +1687,7 @@ window.CLUB_DATA = {
           "shirt_number": 38,
           "age": 18,
           "fun_fact": "A young striker who scored in his first El Clasico.",
-          "image_url": ""
+          "image_url": "/clubs/real-madrid/stickers/alvaro-rodriguez.png"
         },
         {
           "name": "Mario Martin",
@@ -1697,7 +1697,7 @@ window.CLUB_DATA = {
           "shirt_number": 39,
           "age": 18,
           "fun_fact": "An academy midfielder given senior minutes.",
-          "image_url": ""
+          "image_url": "/clubs/real-madrid/stickers/mario-martin.png"
         },
         {
           "name": "Alvaro Carrillo",
@@ -1707,7 +1707,7 @@ window.CLUB_DATA = {
           "shirt_number": 40,
           "age": 18,
           "fun_fact": "A young academy defender.",
-          "image_url": ""
+          "image_url": "/clubs/real-madrid/stickers/alvaro-carrillo.jpg"
         }
       ]
     },
@@ -1742,7 +1742,7 @@ window.CLUB_DATA = {
           "shirt_number": 20,
           "age": 24,
           "fun_fact": "A left-back who returned to the club from Rayo Vallecano.",
-          "image_url": ""
+          "image_url": "/clubs/real-madrid/stickers/fran-garcia.webp"
         },
         {
           "name": "Joselu",
@@ -1817,7 +1817,7 @@ window.CLUB_DATA = {
           "shirt_number": 42,
           "age": 19,
           "fun_fact": "A young academy defender given his debut.",
-          "image_url": ""
+          "image_url": "/clubs/real-madrid/stickers/jacobo-ramon.png"
         }
       ]
     }

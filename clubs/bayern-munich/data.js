@@ -82,7 +82,7 @@ window.CLUB_DATA = {
           "shirt_number": 19,
           "age": 25,
           "fun_fact": "A Colombian striker nicknamed 'El Tren' (The Train).",
-          "image_url": ""
+          "image_url": "/clubs/bayern-munich/stickers/adolfo-valencia.jpg"
         },
         {
           "name": "Alexander Zickler",
@@ -212,7 +212,7 @@ window.CLUB_DATA = {
           "shirt_number": 11,
           "age": 27,
           "fun_fact": "A German forward and former youth international.",
-          "image_url": ""
+          "image_url": "/clubs/bayern-munich/stickers/marcel-witeczek.webp"
         },
         {
           "name": "Christian Nerlinger",
@@ -312,7 +312,7 @@ window.CLUB_DATA = {
           "shirt_number": 18,
           "age": 28,
           "fun_fact": "A left-back with a thunderous left foot.",
-          "image_url": ""
+          "image_url": "/clubs/bayern-munich/stickers/michael-tarnat.webp"
         },
         {
           "name": "Thorsten Fink",
@@ -377,7 +377,7 @@ window.CLUB_DATA = {
           "shirt_number": 11,
           "age": 30,
           "fun_fact": "A charismatic, controversial midfield captain known as 'the Tiger'.",
-          "image_url": ""
+          "image_url": "/clubs/bayern-munich/stickers/stefan-effenberg.jpg"
         },
         {
           "name": "Paulo Sergio",
@@ -432,7 +432,7 @@ window.CLUB_DATA = {
           "shirt_number": 22,
           "age": 28,
           "fun_fact": "A back-up goalkeeper to Oliver Kahn.",
-          "image_url": ""
+          "image_url": "/clubs/bayern-munich/stickers/sven-scheuer.webp"
         },
         {
           "name": "Michael Wiesinger",
@@ -937,7 +937,7 @@ window.CLUB_DATA = {
           "shirt_number": 35,
           "age": 18,
           "fun_fact": "A young Brazilian defender.",
-          "image_url": ""
+          "image_url": "/clubs/bayern-munich/stickers/breno.png"
         }
       ]
     },
@@ -1487,7 +1487,7 @@ window.CLUB_DATA = {
           "shirt_number": 42,
           "age": 18,
           "fun_fact": "A young academy forward.",
-          "image_url": ""
+          "image_url": "/clubs/bayern-munich/stickers/franck-evina.jpg"
         }
       ]
     },
@@ -1577,7 +1577,7 @@ window.CLUB_DATA = {
           "shirt_number": 22,
           "age": 23,
           "fun_fact": "A Spanish midfielder signed from Espanyol.",
-          "image_url": ""
+          "image_url": "/clubs/bayern-munich/stickers/marc-roca.webp"
         },
         {
           "name": "Tanguy Nianzou",
@@ -1632,7 +1632,7 @@ window.CLUB_DATA = {
           "shirt_number": 3,
           "age": 23,
           "fun_fact": "An English left-back signed on a free from Reading.",
-          "image_url": ""
+          "image_url": "/clubs/bayern-munich/stickers/omar-richards.png"
         },
         {
           "name": "Josip Stanisic",
@@ -1762,7 +1762,7 @@ window.CLUB_DATA = {
           "shirt_number": 17,
           "age": 22,
           "fun_fact": "A Spanish winger signed from Granada.",
-          "image_url": ""
+          "image_url": "/clubs/bayern-munich/stickers/bryan-zaragoza.png"
         }
       ]
     },

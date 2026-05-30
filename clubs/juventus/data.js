@@ -202,7 +202,7 @@ window.CLUB_DATA = {
           "shirt_number": 9,
           "age": 25,
           "fun_fact": "A powerful Croatian striker.",
-          "image_url": ""
+          "image_url": "/clubs/juventus/stickers/alen-boksic.jpg"
         },
         {
           "name": "Michele Padovano",
@@ -222,7 +222,7 @@ window.CLUB_DATA = {
           "shirt_number": 13,
           "age": 26,
           "fun_fact": "An Italian defender, later at Rangers.",
-          "image_url": ""
+          "image_url": "/clubs/juventus/stickers/sergio-porrini.png"
         }
       ]
     },
@@ -277,7 +277,7 @@ window.CLUB_DATA = {
           "shirt_number": 6,
           "age": 23,
           "fun_fact": "An Italian centre-back.",
-          "image_url": ""
+          "image_url": "/clubs/juventus/stickers/mark-iuliano.jpg"
         }
       ]
     },
@@ -357,7 +357,7 @@ window.CLUB_DATA = {
           "shirt_number": 31,
           "age": 24,
           "fun_fact": "An Italian forward and squad striker.",
-          "image_url": ""
+          "image_url": "/clubs/juventus/stickers/nicola-amoruso.png"
         },
         {
           "name": "Michelangelo Rampulla",
@@ -377,7 +377,7 @@ window.CLUB_DATA = {
           "shirt_number": 15,
           "age": 30,
           "fun_fact": "An Italian defender.",
-          "image_url": ""
+          "image_url": "/clubs/juventus/stickers/michele-paramatti.webp"
         },
         {
           "name": "Daniele Fortunato",
@@ -387,7 +387,7 @@ window.CLUB_DATA = {
           "shirt_number": 14,
           "age": 31,
           "fun_fact": "A veteran Italian midfielder.",
-          "image_url": ""
+          "image_url": "/clubs/juventus/stickers/daniele-fortunato.webp"
         }
       ]
     },
@@ -432,7 +432,7 @@ window.CLUB_DATA = {
           "shirt_number": 20,
           "age": 26,
           "fun_fact": "A gifted Uruguayan playmaker.",
-          "image_url": ""
+          "image_url": "/clubs/juventus/stickers/fabian-o-neill.png"
         },
         {
           "name": "Sunday Oliseh",
@@ -442,7 +442,7 @@ window.CLUB_DATA = {
           "shirt_number": 23,
           "age": 25,
           "fun_fact": "A Nigerian defensive midfielder.",
-          "image_url": ""
+          "image_url": "/clubs/juventus/stickers/sunday-oliseh.jpg"
         }
       ]
     },
@@ -597,7 +597,7 @@ window.CLUB_DATA = {
           "shirt_number": 6,
           "age": 29,
           "fun_fact": "An Italian defender.",
-          "image_url": ""
+          "image_url": "/clubs/juventus/stickers/salvatore-fresi.png"
         },
         {
           "name": "Fabian Carini",
@@ -622,7 +622,7 @@ window.CLUB_DATA = {
           "shirt_number": 5,
           "age": 27,
           "fun_fact": "A Brazilian midfield anchor nicknamed 'Puma'.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Emerson_2005.jpg"
         },
         {
           "name": "Christian Zenoni",
@@ -707,7 +707,7 @@ window.CLUB_DATA = {
           "shirt_number": 4,
           "age": 27,
           "fun_fact": "An Italian defensive midfielder.",
-          "image_url": ""
+          "image_url": "/clubs/juventus/stickers/cristiano-zanetti.jpg"
         },
         {
           "name": "Stephen Appiah",
@@ -817,7 +817,7 @@ window.CLUB_DATA = {
           "shirt_number": 4,
           "age": 31,
           "fun_fact": "A veteran midfielder who stayed for the Serie B season.",
-          "image_url": ""
+          "image_url": "/clubs/juventus/stickers/giuliano-giannichedda.jpg"
         },
         {
           "name": "Domenico Criscito",
@@ -952,7 +952,7 @@ window.CLUB_DATA = {
           "shirt_number": 28,
           "age": 24,
           "fun_fact": "A creative Brazilian playmaker signed from Werder Bremen.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Diego_Ribas_2019_%28cropped%29.jpg"
         },
         {
           "name": "Felipe Melo",
@@ -992,7 +992,7 @@ window.CLUB_DATA = {
           "shirt_number": 7,
           "age": 26,
           "fun_fact": "A Uruguayan winger.",
-          "image_url": ""
+          "image_url": "/clubs/juventus/stickers/jorge-martinez.webp"
         }
       ]
     },
@@ -1652,7 +1652,7 @@ window.CLUB_DATA = {
           "shirt_number": 21,
           "age": 20,
           "fun_fact": "An Italian academy midfielder.",
-          "image_url": ""
+          "image_url": "/clubs/juventus/stickers/nicolo-fagioli.png"
         }
       ]
     },
@@ -1697,7 +1697,7 @@ window.CLUB_DATA = {
           "shirt_number": 20,
           "age": 19,
           "fun_fact": "An Italian academy midfielder.",
-          "image_url": ""
+          "image_url": "/clubs/juventus/stickers/fabio-miretti.png"
         },
         {
           "name": "Nicolo Rovella",
@@ -1732,7 +1732,7 @@ window.CLUB_DATA = {
           "shirt_number": 27,
           "age": 23,
           "fun_fact": "An Italian attacking full-back.",
-          "image_url": ""
+          "image_url": "/clubs/juventus/stickers/andrea-cambiaso.png"
         },
         {
           "name": "Timothy Weah",

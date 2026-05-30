@@ -92,7 +92,7 @@ window.CLUB_DATA = {
           "shirt_number": 5,
           "age": 26,
           "fun_fact": "A dependable French centre-back.",
-          "image_url": ""
+          "image_url": "/clubs/psg/stickers/alain-roche.jpg"
         },
         {
           "name": "Daniel Bravo",
@@ -157,7 +157,7 @@ window.CLUB_DATA = {
           "shirt_number": 2,
           "age": 27,
           "fun_fact": "A reliable French defender.",
-          "image_url": ""
+          "image_url": "/clubs/psg/stickers/jose-cobos.webp"
         },
         {
           "name": "Francis Llacer",
@@ -167,7 +167,7 @@ window.CLUB_DATA = {
           "shirt_number": 16,
           "age": 25,
           "fun_fact": "A hard-working French midfielder.",
-          "image_url": ""
+          "image_url": "/clubs/psg/stickers/francis-llacer.webp"
         }
       ]
     },
@@ -212,7 +212,7 @@ window.CLUB_DATA = {
           "shirt_number": 14,
           "age": 21,
           "fun_fact": "An Ivorian winger.",
-          "image_url": ""
+          "image_url": "/clubs/psg/stickers/bernard-allou.jpg"
         },
         {
           "name": "Vincent Fernandez",
@@ -222,7 +222,7 @@ window.CLUB_DATA = {
           "shirt_number": 16,
           "age": 24,
           "fun_fact": "A French back-up goalkeeper.",
-          "image_url": ""
+          "image_url": "/clubs/psg/stickers/vincent-fernandez.webp"
         }
       ]
     },
@@ -237,7 +237,7 @@ window.CLUB_DATA = {
           "shirt_number": 6,
           "age": 27,
           "fun_fact": "A French midfielder, later a success in Italy.",
-          "image_url": ""
+          "image_url": "/clubs/psg/stickers/benoit-cauet.webp"
         },
         {
           "name": "Patrick Mboma",
@@ -257,7 +257,7 @@ window.CLUB_DATA = {
           "shirt_number": 17,
           "age": 20,
           "fun_fact": "A French academy midfielder.",
-          "image_url": ""
+          "image_url": "/clubs/psg/stickers/pierre-ducrocq.webp"
         },
         {
           "name": "Jerome Leroy",
@@ -277,7 +277,7 @@ window.CLUB_DATA = {
           "shirt_number": 2,
           "age": 26,
           "fun_fact": "A French full-back.",
-          "image_url": ""
+          "image_url": "/clubs/psg/stickers/jimmy-algerino.webp"
         }
       ]
     },
@@ -322,7 +322,7 @@ window.CLUB_DATA = {
           "shirt_number": 3,
           "age": 32,
           "fun_fact": "A French left-back.",
-          "image_url": ""
+          "image_url": "/clubs/psg/stickers/patrick-colleter.webp"
         },
         {
           "name": "Eric Rabesandratana",
@@ -332,7 +332,7 @@ window.CLUB_DATA = {
           "shirt_number": 4,
           "age": 25,
           "fun_fact": "A French-Malagasy defender.",
-          "image_url": ""
+          "image_url": "/clubs/psg/stickers/eric-rabesandratana.webp"
         }
       ]
     },
@@ -367,7 +367,7 @@ window.CLUB_DATA = {
           "shirt_number": 2,
           "age": 27,
           "fun_fact": "A French defender.",
-          "image_url": ""
+          "image_url": "/clubs/psg/stickers/christophe-pignol.webp"
         },
         {
           "name": "Sylvain Distin",
@@ -402,7 +402,7 @@ window.CLUB_DATA = {
           "shirt_number": 10,
           "age": 31,
           "fun_fact": "An Algerian playmaker with superb technique.",
-          "image_url": ""
+          "image_url": "/clubs/psg/stickers/ali-benarbia.webp"
         },
         {
           "name": "Lionel Letizi",
@@ -412,7 +412,7 @@ window.CLUB_DATA = {
           "shirt_number": 1,
           "age": 26,
           "fun_fact": "A French goalkeeper signed from Metz.",
-          "image_url": ""
+          "image_url": "/clubs/psg/stickers/lionel-letizi.jpg"
         },
         {
           "name": "Laurent Leroy",
@@ -422,7 +422,7 @@ window.CLUB_DATA = {
           "shirt_number": 11,
           "age": 24,
           "fun_fact": "A French forward.",
-          "image_url": ""
+          "image_url": "/clubs/psg/stickers/laurent-leroy.webp"
         },
         {
           "name": "Peter Luccin",
@@ -487,7 +487,7 @@ window.CLUB_DATA = {
           "shirt_number": 3,
           "age": 22,
           "fun_fact": "A French left-back.",
-          "image_url": ""
+          "image_url": "/clubs/psg/stickers/didier-domi.jpg"
         },
         {
           "name": "Bartholomew Ogbeche",
@@ -552,7 +552,7 @@ window.CLUB_DATA = {
           "shirt_number": 19,
           "age": 25,
           "fun_fact": "An Argentine forward.",
-          "image_url": ""
+          "image_url": "/clubs/psg/stickers/martin-cardetti.webp"
         }
       ]
     },
@@ -567,7 +567,7 @@ window.CLUB_DATA = {
           "shirt_number": 11,
           "age": 28,
           "fun_fact": "An energetic French winger.",
-          "image_url": ""
+          "image_url": "/clubs/psg/stickers/fabrice-fiorese.webp"
         },
         {
           "name": "Bernard Mendy",
@@ -772,7 +772,7 @@ window.CLUB_DATA = {
           "shirt_number": 29,
           "age": 24,
           "fun_fact": "A Serbian striker and squad option.",
-          "image_url": ""
+          "image_url": "/clubs/psg/stickers/goran-maric.jpg"
         }
       ]
     },
@@ -1037,7 +1037,7 @@ window.CLUB_DATA = {
           "shirt_number": 28,
           "age": 20,
           "fun_fact": "A French academy full-back.",
-          "image_url": ""
+          "image_url": "/clubs/psg/stickers/tripy-makonda.jpg"
         },
         {
           "name": "Neeskens Kebano",
@@ -1667,7 +1667,7 @@ window.CLUB_DATA = {
           "shirt_number": 17,
           "age": 22,
           "fun_fact": "A Portuguese midfielder signed from Porto.",
-          "image_url": ""
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Vitinha_USMNT_v_Portugal_Mar_31_2026-50.jpg/500px-Vitinha_USMNT_v_Portugal_Mar_31_2026-50.jpg"
         },
         {
           "name": "Renato Sanches",
