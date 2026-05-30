@@ -477,7 +477,7 @@ window.CLUB_DATA = {
           "shirt_number": 7,
           "age": 27,
           "fun_fact": "A Spanish forward signed from Real Betis.",
-          "image_url": ""
+          "image_url": "https://img.sofascore.com/api/v1/player/2171390/image"
         },
         {
           "name": "Fabio Rochemback",
@@ -532,7 +532,7 @@ window.CLUB_DATA = {
           "shirt_number": 25,
           "age": 31,
           "fun_fact": "An Argentine goalkeeper signed to replace Hesp.",
-          "image_url": ""
+          "image_url": "https://img.sofascore.com/api/v1/player/5656/image"
         },
         {
           "name": "Patrik Andersson",

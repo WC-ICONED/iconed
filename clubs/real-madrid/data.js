@@ -387,7 +387,7 @@ window.CLUB_DATA = {
           "shirt_number": 5,
           "age": 24,
           "fun_fact": "A defender whose father served as a trophy-winning Real Madrid president in the late 1990s.",
-          "image_url": ""
+          "image_url": "https://img.sofascore.com/api/v1/player/2824/image"
         }
       ]
     },
@@ -1642,7 +1642,7 @@ window.CLUB_DATA = {
           "shirt_number": 41,
           "age": 20,
           "fun_fact": "A young academy forward.",
-          "image_url": ""
+          "image_url": "https://img.sofascore.com/api/v1/player/1048927/image"
         },
         {
           "name": "Rafa Marin",

@@ -322,7 +322,7 @@ window.CLUB_DATA = {
           "shirt_number": 12,
           "age": 27,
           "fun_fact": "An energetic box-to-box midfielder signed from Wimbledon.",
-          "image_url": ""
+          "image_url": "https://img.sofascore.com/api/v1/player/2281122/image"
         },
         {
           "name": "Danny Murphy",

@@ -532,7 +532,7 @@ window.CLUB_DATA = {
           "shirt_number": 8,
           "age": 21,
           "fun_fact": "A Brazilian midfielder.",
-          "image_url": ""
+          "image_url": "https://img.sofascore.com/api/v1/player/1854450/image"
         },
         {
           "name": "Jose Aloisio",
