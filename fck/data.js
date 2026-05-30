@@ -41,17 +41,17 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 5,
       "age_that_season": 21,
-      "fun_fact": "FCK’s official profile credits him with 214 total appearances and 66 goals.",
+      "fun_fact": "FCK’s official profile credits him with 214 total appearances and 66 goals; a renowned free-kick specialist, he was voted the club’s Player of the Year in 1994 before a herniated disc forced him to retire at just 29.",
       "image_url": "https://www.fck.dk/sites/default/files/styles/player_teaser_portrait/public/players/portrait/Lars%20H%C3%B8jer_portrait.jpg?h=4f321f6b&itok=AxUUQm4o"
     },
     {
-      "season": "1993-94",
+      "season": "2001-02",
       "name": "Peter Møller",
       "nationality": "Danish",
       "position": "Forward",
       "shirt_number": 14,
-      "age_that_season": 21,
-      "fun_fact": "FCK’s official profile credits him with 203 total appearances and 55 goals.",
+      "age_that_season": 29,
+      "fun_fact": "FCK’s official profile credits him with 203 total appearances and 55 goals; he arrived in 2001 from Real Oviedo having already been a two-time Superliga top scorer and a league champion with Brøndby.",
       "image_url": "https://upload.wikimedia.org/wikipedia/en/8/8a/Peter_M%C3%B8ller_%28cropped%29.jpg"
     },
     {
@@ -61,7 +61,7 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 12,
       "age_that_season": 19,
-      "fun_fact": "FCK’s official profile credits him with 203 total appearances and 22 goals.",
+      "fun_fact": "FCK’s official profile credits him with 203 total appearances and 22 goals — a fine tally for a defender who played in the club’s very first match on 1 July 1992.",
       "image_url": "https://www.fck.dk/sites/default/files/styles/hero_image/public/2020-04/morten_falch.jpg?h=c673cd1c&itok=cCneIrNx"
     },
     {
@@ -81,7 +81,7 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 15,
       "age_that_season": 24,
-      "fun_fact": "FCK’s official profile credits him with 24 goals in 68 total appearances.",
+      "fun_fact": "FCK’s official profile credits him with 24 goals in 68 total appearances before he was sold to England’s Bolton Wanderers for £1.25 million in 1996.",
       "image_url": "https://img.sofascore.com/api/v1/player/1421775/image"
     },
     {
@@ -101,7 +101,7 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 6,
       "age_that_season": 24,
-      "fun_fact": "FCK’s official profile credits him with 256 appearances and four Superliga titles.",
+      "fun_fact": "FCK’s official profile credits him with 256 appearances and four Superliga titles; an original 1992-93 gold medalist, his career also took in a spell at Italy’s Cagliari.",
       "image_url": "https://img.sofascore.com/api/v1/player/2321652/image"
     },
     {
@@ -111,7 +111,7 @@ window.FCK_DATA = {
       "position": "Goalkeeper",
       "shirt_number": 1,
       "age_that_season": 24,
-      "fun_fact": "FCK’s official profile records 55 total appearances after he joined in November 1995.",
+      "fun_fact": "FCK’s official profile records 55 total appearances after he joined in November 1995, and he later became the first goalkeeper ever substituted in an FA Cup final, for Southampton in 2003.",
       "image_url": "https://img.sofascore.com/api/v1/player/886/image"
     },
     {
@@ -131,7 +131,7 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 7,
       "age_that_season": 28,
-      "fun_fact": "FCK’s official profile credits him with 99 appearances and 22 goals.",
+      "fun_fact": "FCK’s official profile credits him with 99 appearances and 22 goals, and in 1998 he joined Chelsea in the deal that sent Brian Laudrup the other way to Copenhagen.",
       "image_url": "https://img.sofascore.com/api/v1/player/1422046/image"
     },
     {
@@ -141,7 +141,7 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 9,
       "age_that_season": 20,
-      "fun_fact": "FCK’s official profile credits him with 43 goals in 133 total appearances.",
+      "fun_fact": "FCK’s official profile credits him with 43 goals in 133 total appearances; the club’s top scorer three seasons running (1998-2000), he later became a well-known Superliga manager.",
       "image_url": "https://img.sofascore.com/api/v1/player/8458/image"
     },
     {
@@ -161,7 +161,7 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 14,
       "age_that_season": 24,
-      "fun_fact": "FCK’s official profile credits him with 134 appearances and 29 goals.",
+      "fun_fact": "FCK’s official profile credits him with 134 appearances and 29 goals, and he supplied the cross for Sibusiso Zuma’s famous bicycle kick at Brøndby in 2001.",
       "image_url": "https://www.fck.dk/sites/default/files/styles/hero_image/public/2017-06/Thomas%20Thorninger.jpg?h=c673cd1c&itok=sOlC-Xe1"
     },
     {
@@ -171,7 +171,7 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 11,
       "age_that_season": 29,
-      "fun_fact": "FCK’s official profile records 12 Superliga appearances and two goals for the club.",
+      "fun_fact": "FCK’s official profile records 12 Superliga appearances and two goals — the final months of a career in which the Euro ’92 winner was four times named Danish Footballer of the Year.",
       "image_url": "https://img.sofascore.com/api/v1/player/1421772/image"
     },
     {
@@ -181,7 +181,7 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 25,
       "age_that_season": 18,
-      "fun_fact": "FCK’s official profile credits him with 320 appearances and six Superliga titles.",
+      "fun_fact": "FCK’s official profile credits him with 320 appearances and six Superliga titles; twice the club’s Player of the Year, he later served as FCK’s interim manager in 2020.",
       "image_url": "https://img.sofascore.com/api/v1/player/1854849/image"
     },
     {
@@ -201,7 +201,7 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 11,
       "age_that_season": 33,
-      "fun_fact": "FCK’s official profile credits him with 12 goals in 37 total appearances.",
+      "fun_fact": "FCK’s official profile credits him with 12 goals in 37 total appearances, part of a career in which he scored 126 Superliga goals — among the most in the league’s history.",
       "image_url": "https://www.fck.dk/sites/default/files/styles/hero_image/public/2017-06/Heine%20Fernandez.jpg?h=c673cd1c&itok=pJ7eUHk2"
     },
     {
@@ -221,7 +221,7 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 21,
       "age_that_season": 27,
-      "fun_fact": "FCK’s official profile credits him with 98 appearances and two Superliga titles.",
+      "fun_fact": "FCK’s official profile credits him with 98 appearances and two Superliga titles before he moved to England’s Derby County in 2004.",
       "image_url": "https://img.sofascore.com/api/v1/player/10006/image"
     },
     {
@@ -231,7 +231,7 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 9,
       "age_that_season": 24,
-      "fun_fact": "FCK’s official profile credits him with 127 appearances and 26 goals.",
+      "fun_fact": "FCK’s official profile credits him with 127 appearances and 26 goals; signed from Silkeborg for a reported 7 million kroner, he won three league titles before injuries took their toll.",
       "image_url": "https://www.fck.dk/sites/default/files/styles/hero_image/public/2017-06/Thomas%20R%C2%AFll.jpg?h=c673cd1c&itok=o_DX9d_V"
     },
     {
@@ -241,7 +241,7 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 2,
       "age_that_season": 23,
-      "fun_fact": "FCK’s official profile credits him with 263 appearances and four Superliga titles.",
+      "fun_fact": "FCK’s official profile credits him with 263 appearances and four Superliga titles across two spells; the Denmark right-back also won 81 caps and played at the 2010 World Cup.",
       "image_url": "https://img.sofascore.com/api/v1/player/8508/image"
     },
     {
@@ -251,7 +251,7 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 8,
       "age_that_season": 21,
-      "fun_fact": "FCK’s official profile credits him with 195 appearances and 29 goals.",
+      "fun_fact": "FCK’s official profile credits him with 195 appearances and 29 goals; capped 25 times by Denmark, he later moved into coaching in the Bundesliga.",
       "image_url": "https://img.sofascore.com/api/v1/player/8526/image"
     },
     {
@@ -271,7 +271,7 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 23,
       "age_that_season": 19,
-      "fun_fact": "FCK’s official profile credits him with 425 appearances and eight Superliga titles.",
+      "fun_fact": "FCK’s official profile credits him with 425 appearances and eight Superliga titles; the Denmark midfielder later played for Stuttgart and Fulham before returning to finish his career at FCK.",
       "image_url": "https://img.sofascore.com/api/v1/player/8521/image"
     },
     {
@@ -281,7 +281,7 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 6,
       "age_that_season": 25,
-      "fun_fact": "FCK’s official profile credits him with 127 appearances after joining in July 2004.",
+      "fun_fact": "FCK’s official profile credits him with 127 appearances after joining in July 2004, and the Sweden midfielder captained the club to its first-ever Champions League group stage in 2006.",
       "image_url": "https://img.sofascore.com/api/v1/player/8511/image"
     },
     {
@@ -291,7 +291,7 @@ window.FCK_DATA = {
       "position": "Goalkeeper",
       "shirt_number": 1,
       "age_that_season": 27,
-      "fun_fact": "FCK’s official profile credits him with 210 appearances and four Superliga titles.",
+      "fun_fact": "FCK’s official profile credits him with 210 appearances and four Superliga titles, and he was voted Denmark’s Goalkeeper of the Year three seasons running (2005-2007).",
       "image_url": "https://img.sofascore.com/api/v1/player/8505/image"
     },
     {
@@ -301,7 +301,7 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 13,
       "age_that_season": 22,
-      "fun_fact": "FCK’s official profile credits him with 215 appearances and four Superliga titles.",
+      "fun_fact": "FCK’s official profile credits him with 215 appearances and four Superliga titles; the six-time Canadian Player of the Year later spent a decade at Beşiktaş.",
       "image_url": "https://img.sofascore.com/api/v1/player/7721/image"
     },
     {
@@ -311,7 +311,7 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 5,
       "age_that_season": 24,
-      "fun_fact": "FCK’s official profile credits him with 107 appearances after joining in January 2006.",
+      "fun_fact": "FCK’s official profile credits him with 107 appearances after joining in January 2006, and the Norway captain was later sold to Fulham, whom he helped reach the 2010 Europa League final.",
       "image_url": "https://img.sofascore.com/api/v1/player/6381/image"
     },
     {
@@ -321,7 +321,7 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 14,
       "age_that_season": 27,
-      "fun_fact": "FCK’s official profile credits him with 129 appearances and 10 goals.",
+      "fun_fact": "FCK’s official profile credits him with 129 appearances and 10 goals, his aerial power earning him the nickname ‘Copenhagen Air Force’ among the fans.",
       "image_url": "https://img.sofascore.com/api/v1/player/8503/image"
     },
     {
@@ -352,7 +352,7 @@ window.FCK_DATA = {
       "position": "Defender",
       "shirt_number": 2,
       "age_that_season": 28,
-      "fun_fact": "FCK’s official profile credits him with 151 appearances and 16 goals."
+      "fun_fact": "FCK’s official profile credits him with 151 appearances and 16 goals; the Czech right-back played at Euro 2008 and later joined Bundesliga side Mainz."
     },
     {
       "season": "2007-08",
@@ -421,7 +421,7 @@ window.FCK_DATA = {
       "position": "Forward",
       "shirt_number": 14,
       "age_that_season": 23,
-      "fun_fact": "FCK’s official profile credits him with 118 goals in 217 total appearances.",
+      "fun_fact": "FCK’s official profile credits him with 118 goals in 217 total appearances, making him the club’s all-time leading scorer and the highest-scoring foreign player in Superliga history.",
       "image_url": "https://img.sofascore.com/api/v1/player/30178/image"
     },
     {
@@ -531,7 +531,7 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 32,
       "age_that_season": 18,
-      "fun_fact": "FCK’s official profile credits him with 99 appearances and three Superliga titles.",
+      "fun_fact": "FCK’s official profile credits him with 99 appearances and three Superliga titles; tracked by Ajax and Arsenal as a teenager, he chose to stay at his boyhood club.",
       "image_url": "https://img.sofascore.com/api/v1/player/94279/image"
     },
     {
@@ -671,7 +671,7 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 33,
       "age_that_season": 24,
-      "fun_fact": "FCK’s official profile credits him with 339 appearances before his 2025 move back to OB.",
+      "fun_fact": "FCK’s official profile credits him with 339 appearances before his 2025 move back to OB; he won five league titles and, as a boy, had moved to OB alongside Christian Eriksen.",
       "image_url": "https://img.sofascore.com/api/v1/player/116660/image"
     },
     {
@@ -1051,7 +1051,7 @@ window.FCK_DATA = {
       "position": "Midfielder",
       "shirt_number": 36,
       "age_that_season": 20,
-      "fun_fact": "FCK’s official profile credits him with 119 appearances by the 2025-26 season.",
+      "fun_fact": "FCK’s official profile credits him with 119 appearances by the 2025-26 season, and he made his Champions League debut at just 18, away to Sevilla in 2022.",
       "image_url": "https://img.sofascore.com/api/v1/player/1083413/image"
     }
   ]
